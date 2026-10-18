@@ -1,0 +1,116 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand-50: #fdf2f4;
+  --color-brand-100: #fbe0e4;
+  --color-brand-200: #f6c2ca;
+  --color-brand-300: #ee97a4;
+  --color-brand-400: #e26278;
+  --color-brand-500: #d7263d;
+  --color-brand-600: #b3132c;
+  --color-brand-700: #930e24;
+  --color-brand-800: #7a0d20;
+  --color-brand-900: #690f20;
+
+  --color-gold-50: #fdf9ef;
+  --color-gold-100: #fbf3e2;
+  --color-gold-200: #f5e3bc;
+  --color-gold-300: #efd39d;
+  --color-gold-400: #e3b96b;
+  --color-gold-500: #d9a441;
+  --color-gold-600: #b8862b;
+  --color-gold-700: #936a24;
+
+  --color-ink: #221c1a;
+  --color-ink-soft: #5c534e;
+  --color-ink-faint: #8b817b;
+  --color-paper: #faf7f2;
+  --color-paper-2: #f3ede4;
+  --color-paper-3: #eae2d6;
+
+  --color-jade-50: #ecfdf5;
+  --color-jade-100: #d1fae5;
+  --color-jade-500: #0e9f6e;
+  --color-jade-600: #0b7f58;
+  --color-jade-700: #096546;
+
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, 'Helvetica Neue',
+    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+
+  --shadow-card: 0 1px 2px rgb(34 28 26 / 0.06), 0 4px 16px -4px rgb(34 28 26 / 0.08);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    background-color: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    overscroll-behavior-y: none;
+  }
+
+  button {
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+}
+
+@layer components {
+  .card {
+    background-color: #fff;
+    border-radius: 1rem;
+    border: 1px solid rgb(34 28 26 / 0.06);
+    box-shadow: var(--shadow-card);
+  }
+
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    border-radius: 999px;
+    padding: 0.125rem 0.5rem;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    white-space: nowrap;
+  }
+}
+
+@utility pb-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@utility pt-safe {
+  padding-top: env(safe-area-inset-top);
+}
+
+@utility top-safe {
+  top: env(safe-area-inset-top);
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@utility pressable {
+  transition:
+    transform 0.12s ease,
+    opacity 0.12s ease;
+  &:active {
+    transform: scale(0.975);
+    opacity: 0.9;
+  }
+}
+
+@utility zh {
+  font-family: 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+}

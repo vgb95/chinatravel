@@ -1,0 +1,27 @@
+{
+  "id": "shenzhen",
+  "name": "Shenzhen",
+  "nameZh": "深圳",
+  "pinyin": "Shēnzhèn",
+  "emoji": "🤖",
+  "type": "city",
+  "tagline": "Pendiente de investigación",
+  "intro": "Contenido pendiente de investigación.",
+  "stay": {
+    "from": "2026-10-28",
+    "to": "2026-11-01",
+    "nights": 4,
+    "base": "Nanshan"
+  },
+  "practical": {
+    "tips": []
+  },
+  "sections": {
+    "must": [],
+    "areas": [],
+    "food": [],
+    "shops": [],
+    "extra": []
+  },
+  "routes": []
+}

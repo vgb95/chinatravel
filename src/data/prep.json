@@ -1,0 +1,98 @@
+{
+  "groups": [
+    {
+      "id": "docs",
+      "name": "Documentos y reservas",
+      "emoji": "🛂",
+      "items": [
+        { "id": "passport", "text": "Pasaporte vigente (mín. 6 meses) y en buen estado", "critical": true },
+        { "id": "visa", "text": "Comprobar requisitos de entrada", "detail": "Los pasaportes españoles están exentos de visado para estancias cortas (hasta 30 días) — verificar antes de viajar en la web del consulado chino.", "critical": true },
+        { "id": "copies", "text": "Copias digitales de pasaportes, billetes y reservas de hotel (fotos en el móvil)", "critical": true },
+        { "id": "insurance", "text": "Seguro de viaje con cobertura médica y repatriación", "critical": true },
+        { "id": "hotels", "text": "Reconfirmar reservas de hotel (Guangzhou ⚠️ Canton Fair: precios altos, verificar que está pagada)", "critical": true },
+        { "id": "edenred", "text": "Guardar direcciones de los hoteles en chino (para taxis)" },
+        { "id": "emergency-contacts", "text": "Guardar contactos de emergencia: embajada/consulados y familia" },
+        { "id": "travel-insurance-card", "text": "Tarjeta/número del seguro accesible offline" }
+      ]
+    },
+    {
+      "id": "dinero",
+      "name": "Dinero y pagos",
+      "emoji": "💰",
+      "items": [
+        { "id": "alipay", "text": "Instalar y verificar Alipay con tarjeta de crédito", "detail": "Imprescindible: es el método de pago más usado. Verificación con pasaporte; mejor hacerlo desde casa.", "critical": true },
+        { "id": "wechat", "text": "Instalar y verificar WeChat Pay (alternativa a Alipay)", "critical": true },
+        { "id": "cash", "text": "Llevar algo de efectivo (300-500 CNY) por si falla el móvil", "detail": "Cambiar en el aeropuerto o sacar en cajeros de bancos grandes (Bank of China, ICBC)." },
+        { "id": "bank-notice", "text": "Avisar al banco de viaje a China (evitar bloqueos antifraude)" },
+        { "id": "card-network", "text": "Comprobar que la tarjeta es Visa/Mastercard y que funciona en el extranjero" },
+        { "id": "taxfree", "text": "Para compras grandes: pedir factura (发票) + formulario tax free", "detail": "Reembolso del IVA chino (11%) en compras >500 CNY en tiendas adheridas, en el aeropuerto al salir." }
+      ]
+    },
+    {
+      "id": "conectividad",
+      "name": "Internet y apps",
+      "emoji": "📱",
+      "items": [
+        { "id": "vpn", "text": "Instalar y probar VPN ANTES de llegar a China", "detail": "Google, WhatsApp, Instagram y Maps están bloqueados. Instalar desde casa (las webs de VPN también están bloqueadas dentro).", "critical": true },
+        { "id": "esim", "text": "Comprar eSIM para China o SIM local (Airalo, Nomad, China Unicom 中国联通)", "detail": "Muchas eSIM internacionales enrutan fuera del Great Firewall: WhatsApp y Google funcionan sin VPN.", "critical": true },
+        { "id": "amap", "text": "Instalar Amap 高德地图 (地图) — el Google Maps chino", "detail": "Tiene versión en inglés y mapas offline descargables por región. Alternativa: Apple Maps funciona bien en China.", "critical": true },
+        { "id": "didi", "text": "Instalar DiDi 滴滴 (taxis) y vincular pago" },
+        { "id": "trip", "text": "Instalar Trip.com (trenes, vuelos, hoteles) y 12306 si se usa el oficial" },
+        { "id": "translate", "text": "Traductor offline: Baidu Translate o Google Translate con paquete chino descargado" },
+        { "id": "dianping", "text": "Instalar 大众点评 (Dianping) para reseñas de restaurantes (en chino, muy útil con traductor)" },
+        { "id": "offline-maps", "text": "Descargar mapas offline de las ciudades en Amap/Apple Maps", "critical": true }
+      ]
+    },
+    {
+      "id": "pwa",
+      "name": "Esta app (offline)",
+      "emoji": "🧭",
+      "items": [
+        { "id": "install-a", "text": "Instalar la PWA en el iPhone de Valentín (Compartir → Añadir a pantalla de inicio)", "critical": true },
+        { "id": "install-b", "text": "Instalar la PWA en el iPhone de la pareja", "critical": true },
+        { "id": "preload", "text": "Abrir TODAS las secciones en cada iPhone con wifi para precargar el contenido", "critical": true },
+        { "id": "airplane-test", "text": "Probar en modo avión: todo debe funcionar sin conexión", "critical": true },
+        { "id": "backup-progress", "text": "Exportar el progreso (Ajustes → Exportar) y guardarlo en Notas/Fotos", "detail": "Los checks viven en el móvil. Si se reinstala la app, se puede importar el JSON exportado." },
+        { "id": "addresses-offline", "text": "Verificar que las direcciones en chino se ven bien (se enseñan a taxistas)" }
+      ]
+    },
+    {
+      "id": "transporte",
+      "name": "Transporte",
+      "emoji": "🚄",
+      "items": [
+        { "id": "trains-book", "text": "Reservar los AVE: 深圳北→阳朔 (1 nov) ⚠️ hay pocos directos — RESERVAR YA", "critical": true },
+        { "id": "flights-check", "text": "Reconfirmar vuelos: Guilin→Shanghai (4 nov), Shanghai→Chongqing (10 nov), Chongqing→casa", "critical": true },
+        { "id": "train-rules", "text": "En estaciones AVE: llegar 45-60 min antes, seguridad + control con pasaporte", "detail": "En China se pasa por control de seguridad como en un aeropuerto. El pasaporte es el billete: se escanea en los tornos." },
+        { "id": "metro-qr", "text": "Activar el QR de metro de Alipay (乘车码) en cada ciudad", "detail": "Cada ciudad tiene su propio código dentro de Alipay. Alternativa: tarjeta de transporte local." },
+        { "id": "hk-port", "text": "Hong Kong: revisar horarios de los pasos fronterizos", "detail": "Futian 福田 06:30-22:30 · Luohu 罗湖 06:30-24:00 · Shenzhen Bay 深圳湾 06:30-24:00 · Huanggang 皇岗 24 h." }
+      ]
+    },
+    {
+      "id": "equipaje",
+      "name": "Equipaje y salud",
+      "emoji": "🎒",
+      "items": [
+        { "id": "plugs", "text": "Adaptador de enchufe tipo A/I (China) — el europeo no encaja", "critical": true },
+        { "id": "powerbank", "text": "Power bank ≤100 Wh y SIEMPRE en cabina (nunca facturado)" },
+        { "id": "medicine", "text": "Botiquín: ibuprofeno, antidiarreico, sales de rehidratación, tiritas, mascarillas (contaminación en nov)" },
+        { "id": "clothes", "text": "Ropa por capas: en nov hace fresco (Guilin/Shanghai 10-20 °C), paraguas fino", "detail": "Shanghai y Hangzhou pueden estar fríos y húmedos a principios de noviembre. Shenzhen y Guangzhou más suaves." },
+        { "id": "shoes", "text": "Zapatillas cómodas: se camina MUCHO (10-15 km/día)" },
+        { "id": "water", "text": "No beber agua del grifo; embotellada o hervida (en hoteles hay hervidor)" },
+        { "id": "airquality", "text": "Comprobar AQI en días de mucho tráfico (app: 在意空气 o Apple Tiempo)" }
+      ]
+    },
+    {
+      "id": "robotica",
+      "name": "Robótica y compras tech",
+      "emoji": "🤖",
+      "items": [
+        { "id": "photo-policy", "text": "En tiendas de robótica/drones: preguntar antes de grabar vídeos dentro" },
+        { "id": "huaqiangbei-cash", "text": "Huaqiangbei: llevar efectivo de reserva, el regateo es normal (empezar por ~50-60% del precio)" },
+        { "id": "drone-rules", "text": "Si compras un dron (DJI): en China hay que registrarlo y hay zonas de no vuelo", "detail": "Para volar en China (incluso como turista) se necesita registro con el número de serie en el sistema UOM 民航局. En ciudades está prohibido en la mayoría de zonas." },
+        { "id": "taxfree-tech", "text": "Compras tech grandes: pedir tax free en tiendas oficiales (DJI Store, Apple)" },
+        { "id": "parts-check", "text": "Piezas de robótica en Huaqiangbei: probar SIEMPRE en la tienda antes de pagar" }
+      ]
+    }
+  ]
+}

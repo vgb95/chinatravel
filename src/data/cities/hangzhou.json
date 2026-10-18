@@ -1,0 +1,27 @@
+{
+  "id": "hangzhou",
+  "name": "Hangzhou",
+  "nameZh": "杭州",
+  "pinyin": "Hángzhōu",
+  "emoji": "🍵",
+  "type": "daytrip",
+  "tagline": "Pendiente de investigación",
+  "intro": "Contenido pendiente de investigación.",
+  "stay": {
+    "from": "2026-11-09",
+    "to": "2026-11-09",
+    "nights": 0,
+    "base": "Excursión desde Shanghai"
+  },
+  "practical": {
+    "tips": []
+  },
+  "sections": {
+    "must": [],
+    "areas": [],
+    "food": [],
+    "shops": [],
+    "extra": []
+  },
+  "routes": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "shanghai",
+  "name": "Shanghai",
+  "nameZh": "上海",
+  "pinyin": "Shànghǎi",
+  "emoji": "🌃",
+  "type": "city",
+  "tagline": "Pendiente de investigación",
+  "intro": "Contenido pendiente de investigación.",
+  "stay": {
+    "from": "2026-11-04",
+    "to": "2026-11-10",
+    "nights": 6,
+    "base": "Shanghai"
+  },
+  "practical": {
+    "tips": []
+  },
+  "sections": {
+    "must": [],
+    "areas": [],
+    "food": [],
+    "shops": [],
+    "extra": []
+  },
+  "routes": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "yangshuo",
+  "name": "Yangshuo",
+  "nameZh": "阳朔",
+  "pinyin": "Yángshuò",
+  "emoji": "⛰️",
+  "type": "city",
+  "tagline": "Pendiente de investigación",
+  "intro": "Contenido pendiente de investigación.",
+  "stay": {
+    "from": "2026-11-01",
+    "to": "2026-11-03",
+    "nights": 2,
+    "base": "Yangshuo"
+  },
+  "practical": {
+    "tips": []
+  },
+  "sections": {
+    "must": [],
+    "areas": [],
+    "food": [],
+    "shops": [],
+    "extra": []
+  },
+  "routes": []
+}

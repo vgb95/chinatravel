@@ -1,0 +1,27 @@
+{
+  "id": "guilin",
+  "name": "Guilin",
+  "nameZh": "桂林",
+  "pinyin": "Guìlín",
+  "emoji": "🐘",
+  "type": "city",
+  "tagline": "Pendiente de investigación",
+  "intro": "Contenido pendiente de investigación.",
+  "stay": {
+    "from": "2026-11-03",
+    "to": "2026-11-04",
+    "nights": 1,
+    "base": "Guilin"
+  },
+  "practical": {
+    "tips": []
+  },
+  "sections": {
+    "must": [],
+    "areas": [],
+    "food": [],
+    "shops": [],
+    "extra": []
+  },
+  "routes": []
+}

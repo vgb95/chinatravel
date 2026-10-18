@@ -1,0 +1,142 @@
+{
+  "categories": [
+    {
+      "id": "basico",
+      "name": "Básicos",
+      "emoji": "👋",
+      "phrases": [
+        { "zh": "你好", "pinyin": "nǐ hǎo", "es": "Hola" },
+        { "zh": "早上好", "pinyin": "zǎoshang hǎo", "es": "Buenos días" },
+        { "zh": "谢谢", "pinyin": "xièxie", "es": "Gracias" },
+        { "zh": "不客气", "pinyin": "bú kèqi", "es": "De nada" },
+        { "zh": "对不起", "pinyin": "duìbuqǐ", "es": "Perdón / Lo siento" },
+        { "zh": "不好意思", "pinyin": "bù hǎoyìsi", "es": "Disculpe (para llamar la atención)" },
+        { "zh": "请问", "pinyin": "qǐngwèn", "es": "Disculpe, ¿puedo preguntar?" },
+        { "zh": "是 / 不是", "pinyin": "shì / bú shì", "es": "Sí / No" },
+        { "zh": "可以", "pinyin": "kěyǐ", "es": "Se puede / Vale" },
+        { "zh": "没有问题", "pinyin": "méiyǒu wèntí", "es": "No hay problema" },
+        { "zh": "我不会说中文", "pinyin": "wǒ bú huì shuō zhōngwén", "es": "No hablo chino" },
+        { "zh": "你会说英语吗？", "pinyin": "nǐ huì shuō yīngyǔ ma?", "es": "¿Hablas inglés?" },
+        { "zh": "我听不懂", "pinyin": "wǒ tīngbudǒng", "es": "No entiendo" },
+        { "zh": "请慢一点", "pinyin": "qǐng màn yìdiǎn", "es": "Más despacio, por favor" },
+        { "zh": "再见", "pinyin": "zàijiàn", "es": "Adiós" }
+      ]
+    },
+    {
+      "id": "transporte",
+      "name": "Transporte y direcciones",
+      "emoji": "🚕",
+      "phrases": [
+        { "zh": "去这里", "pinyin": "qù zhèlǐ", "es": "A este sitio, por favor", "tip": "Enseña la dirección en chino en el móvil" },
+        { "zh": "请打表", "pinyin": "qǐng dǎbiǎo", "es": "Ponga el taxímetro, por favor" },
+        { "zh": "我在这里下车", "pinyin": "wǒ zài zhèlǐ xiàchē", "es": "Me bajo aquí" },
+        { "zh": "地铁站在哪里？", "pinyin": "dìtiě zhàn zài nǎlǐ?", "es": "¿Dónde está la estación de metro?" },
+        { "zh": "火车站", "pinyin": "huǒchēzhàn", "es": "Estación de tren" },
+        { "zh": "机场", "pinyin": "jīchǎng", "es": "Aeropuerto" },
+        { "zh": "高铁", "pinyin": "gāotiě", "es": "Tren de alta velocidad" },
+        { "zh": "需要多长时间？", "pinyin": "xūyào duō cháng shíjiān?", "es": "¿Cuánto tiempo se tarda?" },
+        { "zh": "请在这里等我", "pinyin": "qǐng zài zhèlǐ děng wǒ", "es": "Espéreme aquí, por favor" },
+        { "zh": "出口 / 入口", "pinyin": "chūkǒu / rùkǒu", "es": "Salida / Entrada" },
+        { "zh": "左边 / 右边", "pinyin": "zuǒbiān / yòubiān", "es": "Izquierda / Derecha" },
+        { "zh": "一直走", "pinyin": "yìzhí zǒu", "es": "Todo recto" }
+      ]
+    },
+    {
+      "id": "comida",
+      "name": "Comida y restaurante",
+      "emoji": "🥢",
+      "phrases": [
+        { "zh": "我要这个", "pinyin": "wǒ yào zhège", "es": "Quiero esto", "tip": "Señala el plato o la foto" },
+        { "zh": "不要辣", "pinyin": "bú yào là", "es": "Sin picante" },
+        { "zh": "微辣", "pinyin": "wēi là", "es": "Poco picante" },
+        { "zh": "太辣了", "pinyin": "tài là le", "es": "Demasiado picante" },
+        { "zh": "好吃！", "pinyin": "hǎochī!", "es": "¡Está buenísimo!" },
+        { "zh": "我不吃肉", "pinyin": "wǒ bù chī ròu", "es": "No como carne" },
+        { "zh": "我吃素", "pinyin": "wǒ chī sù", "es": "Soy vegetariano/a" },
+        { "zh": "有英文菜单吗？", "pinyin": "yǒu yīngwén càidān ma?", "es": "¿Hay menú en inglés?" },
+        { "zh": "买单 / 结账", "pinyin": "mǎidān / jiézhàng", "es": "La cuenta, por favor" },
+        { "zh": "热水", "pinyin": "rè shuǐ", "es": "Agua caliente", "tip": "En China el agua se bebe caliente; en restaurantes es gratis" },
+        { "zh": "不要冰块", "pinyin": "bú yào bīngkuài", "es": "Sin hielo" },
+        { "zh": "打包", "pinyin": "dǎbāo", "es": "Para llevar" },
+        { "zh": "服务员！", "pinyin": "fúwùyuán!", "es": "¡Camarero/a!" }
+      ]
+    },
+    {
+      "id": "compras",
+      "name": "Compras y pagos",
+      "emoji": "💳",
+      "phrases": [
+        { "zh": "多少钱？", "pinyin": "duōshao qián?", "es": "¿Cuánto cuesta?" },
+        { "zh": "太贵了", "pinyin": "tài guì le", "es": "Es muy caro" },
+        { "zh": "可以便宜一点吗？", "pinyin": "kěyǐ piányi yìdiǎn ma?", "es": "¿Puede ser más barato?" },
+        { "zh": "支付宝 / 微信支付", "pinyin": "zhīfùbǎo / wēixìn zhīfù", "es": "Alipay / WeChat Pay", "tip": "Los dos métodos de pago dominantes en China" },
+        { "zh": "可以刷卡吗？", "pinyin": "kěyǐ shuākǎ ma?", "es": "¿Puedo pagar con tarjeta?" },
+        { "zh": "扫码", "pinyin": "sǎomǎ", "es": "Escanear el código QR" },
+        { "zh": "发票", "pinyin": "fāpiào", "es": "Factura oficial", "tip": "Necesaria para el reembolso de IVA (tax free) al salir de China" },
+        { "zh": "刷卡还是现金？", "pinyin": "shuākǎ háishi xiànjīn?", "es": "¿Tarjeta o efectivo?" },
+        { "zh": "有新的吗？", "pinyin": "yǒu xīn de ma?", "es": "¿Tiene uno nuevo?" }
+      ]
+    },
+    {
+      "id": "robotica",
+      "name": "Robótica y tecnología",
+      "emoji": "🤖",
+      "phrases": [
+        { "zh": "机器人", "pinyin": "jīqìrén", "es": "Robot" },
+        { "zh": "无人机", "pinyin": "wúrénjī", "es": "Dron" },
+        { "zh": "科技", "pinyin": "kējì", "es": "Tecnología" },
+        { "zh": "零件", "pinyin": "língjiàn", "es": "Piezas / componentes" },
+        { "zh": "电池", "pinyin": "diànchí", "es": "Batería" },
+        { "zh": "充电器", "pinyin": "chōngdiànqì", "es": "Cargador" },
+        { "zh": "可以演示一下吗？", "pinyin": "kěyǐ yǎnshì yíxià ma?", "es": "¿Puede hacer una demostración?" },
+        { "zh": "我想试一下", "pinyin": "wǒ xiǎng shì yíxià", "es": "Me gustaría probarlo" },
+        { "zh": "保修", "pinyin": "bǎoxiū", "es": "Garantía" },
+        { "zh": "这是正品吗？", "pinyin": "zhè shì zhèngpǐn ma?", "es": "¿Es original?" },
+        { "zh": "批发价", "pinyin": "pīfā jià", "es": "Precio al por mayor", "tip": "En Huaqiangbei, preguntar por precio mayorista si compras varias unidades" }
+      ]
+    },
+    {
+      "id": "hotel",
+      "name": "Hotel",
+      "emoji": "🏨",
+      "phrases": [
+        { "zh": "我订了房间", "pinyin": "wǒ dìng le fángjiān", "es": "Tengo una reserva" },
+        { "zh": "退房", "pinyin": "tuìfáng", "es": "Check-out (dejar la habitación)" },
+        { "zh": "可以寄存行李吗？", "pinyin": "kěyǐ jìcún xíngli ma?", "es": "¿Puedo dejar el equipaje?" },
+        { "zh": "WiFi密码是什么？", "pinyin": "WiFi mìmǎ shì shénme?", "es": "¿Cuál es la contraseña del WiFi?" },
+        { "zh": "空调", "pinyin": "kōngtiáo", "es": "Aire acondicionado" },
+        { "zh": "热水", "pinyin": "rè shuǐ", "es": "Agua caliente" },
+        { "zh": "我的护照", "pinyin": "wǒ de hùzhào", "es": "Mi pasaporte" }
+      ]
+    },
+    {
+      "id": "frontera",
+      "name": "Frontera y Hong Kong",
+      "emoji": "🛂",
+      "phrases": [
+        { "zh": "去香港", "pinyin": "qù Xiānggǎng", "es": "A Hong Kong" },
+        { "zh": "过关", "pinyin": "guòguān", "es": "Cruzar la frontera" },
+        { "zh": "护照", "pinyin": "hùzhào", "es": "Pasaporte" },
+        { "zh": "迪士尼乐园", "pinyin": "Díshìní lèyuán", "es": "Disneyland" },
+        { "zh": "海关", "pinyin": "hǎiguān", "es": "Aduana" },
+        { "zh": "入境 / 出境", "pinyin": "rùjìng / chūjìng", "es": "Entrada / Salida" }
+      ]
+    },
+    {
+      "id": "emergencia",
+      "name": "Emergencias y salud",
+      "emoji": "🚨",
+      "phrases": [
+        { "zh": "救命！", "pinyin": "jiùmìng!", "es": "¡Socorro!" },
+        { "zh": "我需要帮助", "pinyin": "wǒ xūyào bāngzhù", "es": "Necesito ayuda" },
+        { "zh": "医院在哪里？", "pinyin": "yīyuàn zài nǎlǐ?", "es": "¿Dónde está el hospital?" },
+        { "zh": "药店", "pinyin": "yàodiàn", "es": "Farmacia" },
+        { "zh": "警察", "pinyin": "jǐngchá", "es": "Policía" },
+        { "zh": "我的护照丢了", "pinyin": "wǒ de hùzhào diū le", "es": "He perdido el pasaporte" },
+        { "zh": "我迷路了", "pinyin": "wǒ mílù le", "es": "Estoy perdido/a" },
+        { "zh": "我不舒服", "pinyin": "wǒ bù shūfu", "es": "No me siento bien" },
+        { "zh": "我对……过敏", "pinyin": "wǒ duì…… guòmǐn", "es": "Soy alérgico/a a…", "tip": "Añade el alérgeno, p. ej. 花生 cacahuete" }
+      ]
+    }
+  ]
+}

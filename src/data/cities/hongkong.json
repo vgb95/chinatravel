@@ -1,0 +1,27 @@
+{
+  "id": "hongkong",
+  "name": "Hong Kong",
+  "nameZh": "香港",
+  "pinyin": "Xiānggǎng",
+  "emoji": "🏰",
+  "type": "daytrip",
+  "tagline": "Pendiente de investigación",
+  "intro": "Contenido pendiente de investigación.",
+  "stay": {
+    "from": "2026-10-29",
+    "to": "2026-10-29",
+    "nights": 0,
+    "base": "Excursión desde Shenzhen"
+  },
+  "practical": {
+    "tips": []
+  },
+  "sections": {
+    "must": [],
+    "areas": [],
+    "food": [],
+    "shops": [],
+    "extra": []
+  },
+  "routes": []
+}

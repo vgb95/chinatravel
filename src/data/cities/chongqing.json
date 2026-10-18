@@ -1,0 +1,27 @@
+{
+  "id": "chongqing",
+  "name": "Chongqing",
+  "nameZh": "重庆",
+  "pinyin": "Chóngqìng",
+  "emoji": "🌉",
+  "type": "layover",
+  "tagline": "Pendiente de investigación",
+  "intro": "Contenido pendiente de investigación.",
+  "stay": {
+    "from": "2026-11-10",
+    "to": "2026-11-10",
+    "nights": 0,
+    "base": "Escala aeropuerto CKG (8 h)"
+  },
+  "practical": {
+    "tips": []
+  },
+  "sections": {
+    "must": [],
+    "areas": [],
+    "food": [],
+    "shops": [],
+    "extra": []
+  },
+  "routes": []
+}

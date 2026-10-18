@@ -1,0 +1,27 @@
+{
+  "id": "suzhou",
+  "name": "Suzhou",
+  "nameZh": "苏州",
+  "pinyin": "Sūzhōu",
+  "emoji": "🎋",
+  "type": "daytrip",
+  "tagline": "Pendiente de investigación",
+  "intro": "Contenido pendiente de investigación.",
+  "stay": {
+    "from": "2026-11-06",
+    "to": "2026-11-06",
+    "nights": 0,
+    "base": "Excursión desde Shanghai"
+  },
+  "practical": {
+    "tips": []
+  },
+  "sections": {
+    "must": [],
+    "areas": [],
+    "food": [],
+    "shops": [],
+    "extra": []
+  },
+  "routes": []
+}

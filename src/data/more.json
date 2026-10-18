@@ -1,0 +1,186 @@
+{
+  "sections": [
+    {
+      "id": "pagos",
+      "name": "Pagos en China",
+      "emoji": "💰",
+      "blocks": [
+        {
+          "h": "Alipay y WeChat Pay lo son todo",
+          "p": "En China casi nadie usa efectivo ni tarjeta física: se paga con QR (Alipay 支付宝 o WeChat Pay 微信支付). Los dos aceptan tarjetas extranjeras (Visa/Mastercard) vinculadas. Configurarlos y verificarlos ANTES de salir de casa."
+        },
+        {
+          "h": "Cómo funciona en la práctica",
+          "list": [
+            "Tú escaneas el QR del comercio → escribes el importe → confirmas",
+            "O el comercio escanea TU código (Alipay → 付款/Pay → mostrar código)",
+            "Alipay avisa de comisiones (~3%) en pagos con tarjeta extranjera por encima de cierto importe",
+            "Efectivo: aceptado pero incómodo; llevar 300-500 CNY de reserva",
+            "Propinas: no se dejan en China (tampoco en restaurantes)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "internet",
+      "name": "Internet y VPN",
+      "emoji": "🌐",
+      "blocks": [
+        {
+          "h": "El Gran Cortafuegos",
+          "p": "Google (Maps, Gmail, Drive), WhatsApp, Instagram, Facebook y X están bloqueados en China continental. En Hong Kong NO hay bloqueo."
+        },
+        {
+          "h": "Dos estrategias",
+          "list": [
+            "VPN instalada desde casa (probar antes): se conecta y desbloquea todo",
+            "eSIM internacional de viaje (Airalo/Nomad): enruta por fuera de China y evita el cortafuegos ",
+            "Apple Maps y Mapas de Apple funcionan bien en China (usan datos de AutoNavi) — buen plan B sin VPN",
+            "iMessage y FaceTime suelen funcionar sin VPN; WhatsApp NO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trenes",
+      "name": "Trenes (AVE) y estaciones",
+      "emoji": "🚄",
+      "blocks": [
+        {
+          "h": "Lo básico",
+          "list": [
+            "El pasaporte ES el billete: se escanea en los tornos de entrada",
+            "Llegar 45-60 min antes: hay control de seguridad (como aeropuerto)",
+            "Comprar con antelación en Trip.com (en inglés, acepta tarjetas extranjeras) o 12306 (oficial)",
+            "2ª clase (二等座) está muy bien; 1ª clase (一等座) es más ancha",
+            "En el tren hay carrito de comida pero mejor llevar snacks"
+          ]
+        },
+        {
+          "h": "Nombres de estación en chino (útiles para taxis)",
+          "list": [
+            "广州南站 — Estación Sur de Guangzhou (AVE a Shenzhen/Hong Kong)",
+            "深圳北站 — Estación Norte de Shenzhen (AVE a Yangshuo/Guilin)",
+            "阳朔站 — Estación de Yangshuo (¡ojo! está en 兴坪 Xingping, a ~40 min del pueblo)",
+            "桂林北站 — Estación Norte de Guilin",
+            "上海虹桥站 — Estación Hongqiao de Shanghai (la más usada para Suzhou/Hangzhou)",
+            "杭州东站 — Estación Este de Hangzhou",
+            "苏州站/苏州北站 — Estación de Suzhou / Norte"
+          ]
+        },
+        {
+          "h": "Nuestros trayectos",
+          "list": [
+            "28 oct · 广州南→深圳北: AVE cada 15-20 min, ~40 min",
+            "1 nov · 深圳北→阳朔: AVE directo ~2h40-4h (pocos al día, PRIMERO ~09:25) — RESERVAR YA. Alternativa vía 桂林北",
+            "3 nov · 阳朔→桂林: bus ~1h30 o AVE ~30 min",
+            "9-10 nov · 上海虹桥→杭州东 ~45 min (excursión) · 上海→重庆 vuelo ~2h45",
+            "⚠️ Desde 阳朔站 al pueblo de Yangshuo: bus/taxi ~40 min — calcular al volver"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "robotaxi",
+      "name": "Robotaxis y experiencias tech",
+      "emoji": "🤖",
+      "blocks": [
+        {
+          "h": "Shenzhen (Nanshan)",
+          "p": "Baidu Apollo Go (萝卜快跑) y Pony.ai operan robotaxis sin conductor en Nanshan. Se piden desde su app o mini-programa; las zonas de recogida están limitadas (buscar '萝卜快跑' en Amap y ver puntos cercanos). Alternativa: WeRide en Guangzhou (también en el distrito de Huangpu/Bio-Island)."
+        },
+        {
+          "h": "Experiencias con drones",
+          "list": [
+            "Reparto con drones de 美团 (Meituan): en Shenzhen湾 y zonas seleccionadas; hay puntos de entrega con display QR",
+            "Show de drones: 深圳人才公园 y 欢乐港湾 suelen hacer espectáculos (fines de semana, comprobar en 大众点评)",
+            "Tiendas DJI: probar gimbals y drones en la mano (no hace falta volar)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "comer",
+      "name": "Comer como un local",
+      "emoji": "🥢",
+      "blocks": [
+        {
+          "h": "Horarios y costumbres",
+          "list": [
+            "Comida 11:30-13:30 y cena 18:00-20:30; a las 12h los restaurantes buenos tienen cola: ir antes o reservar",
+            "Dim sum (早茶) se toma por la mañana — experiencia imprescindible en Guangzhou",
+            "El té y el agua caliente son gratis; no cobran cubierto",
+            "Se comparte todo en el centro de la mesa, con palillos y cuchara",
+            "Si te gusta un plato, se pide con el dedo señalando la reseña/foto del móvil"
+          ]
+        },
+        {
+          "h": "Especialidades a probar",
+          "list": [
+            "Guangzhou: dim sum, 烧鹅 (pato asado), 肠粉 (rollos de arroz), 虾饺 (gyozas de gamba)",
+            "Shenzhen: 潮汕牛肉火锅 (hotpot de ternera Chaoshan), 椰子鸡 (pollo en coco)",
+            "Yangshuo/Guilin: 啤酒鱼 (pescado a la cerveza), 桂林米粉 (fideos de Guilin)",
+            "Shanghai: 小笼包 (xiao long bao), 生煎 (empanadillas fritas), 红烧肉 (cerdo braseado)",
+            "Hangzhou: 西湖醋鱼 (pescado del Lago del Oeste), té Longjing",
+            "Chongqing: 重庆火锅 — el hotpot más picante (ordenar 微辣 poco picante si no estáis seguros)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emergencias",
+      "name": "Emergencias y salud",
+      "emoji": "🚨",
+      "blocks": [
+        {
+          "h": "Números de emergencia",
+          "list": [
+            "China continental: 110 policía · 120 ambulancia · 119 bomberos · 122 tráfico",
+            "Hong Kong: 999 (policía/ambulancia)",
+            "Embajada de España en Pekín: +86 10 6532 3629",
+            "Consulado General en Shanghai: +86 21 6321 3543",
+            "Consulado General en Cantón (Guangzhou): +86 20 3892 7185",
+            "Consulado General en Hong Kong: +852 2525 3041 · emergencias +852 9031 7246"
+          ]
+        },
+        {
+          "h": "Salud",
+          "list": [
+            "Guardar la tarjeta del seguro y su teléfono de asistencia offline",
+            "Farmacias (药店) por todas partes; para cosas serias, hospitales internacionales en Shenzhen/Shanghai/HK",
+            "Llevar los medicamentos habituales en su envase original",
+            "No beber agua del grifo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "etiqueta",
+      "name": "Etiqueta y costumbres",
+      "emoji": "🙏",
+      "blocks": [
+        {
+          "list": [
+            "En templos: hombros/torso cubiertos, no apuntar con el dedo a Budas, no interrumpir rezos",
+            "El regateo es normal en mercadillos y Huaqiangbei (no en tiendas de marcas)",
+            "En escaleras mecánicas de metro: de pie a la derecha (en Shanghai a veces se mantiene la izquierda para andar)",
+            "No se tira de la cadena con el pie ni se dejan cosas raras en el inodoro (papel al cubo si lo hay)",
+            "Bolsas para el paraguas mojado en días de lluvia",
+            "Hacer cola y esperar el turno en ventanillas: los extranjeros también recibimos 'empujoncitos' amistosos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canton",
+      "name": "Aviso: Canton Fair",
+      "emoji": "🏛️",
+      "blocks": [
+        {
+          "h": "140ª Feria de Cantón (15 oct – 4 nov 2026)",
+          "p": "La feria de importación/exportación más grande del mundo cae justo durante nuestra estancia en Guangzhou (Fase 2: 23-27 oct). Efectos prácticos: hoteles y taxis más caros y escasos, tráfico denso cerca de Pazhou (琶洲). Reserve con antelación todo lo reservable."
+        }
+      ]
+    }
+  ]
+}
