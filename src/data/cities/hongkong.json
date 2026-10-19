@@ -1,12 +1,12 @@
 {
   "id": "hongkong",
-  "name": "Hong Kong",
-  "nameZh": "香港",
-  "pinyin": "Xiānggǎng",
+  "name": "Hong Kong Disneyland",
+  "nameZh": "香港迪士尼乐园",
+  "pinyin": "Xiānggǎng Díshìní Lèyuán",
   "emoji": "🏰",
   "type": "daytrip",
-  "tagline": "Pendiente de investigación",
-  "intro": "Contenido pendiente de investigación.",
+  "tagline": "Un día completo en el parque, con ida y vuelta desde Shenzhen",
+  "intro": "Excursión de un día (jueves 29 oct 2026) desde Shenzhen (Nanshan) al parque Hong Kong Disneyland, en plena temporada Disney Halloween Time. El parque abre ese día (nivel Tier 1, la entrada más barata) con horario 10:30–20:30 (verificar) y el cierre de la jornada es el espectáculo nocturno «Momentous». La clave logística es la frontera: ida por el paso de Shenzhen Bay (深圳湾口岸, 06:30–24:00) y vuelta con margen: el último bus B3X desde Tuen Mun hacia el puerto sale a las 22:50 (verificar). Si se pierde, el nuevo paso de Huanggang (新皇岗口岸) está abierto 24 h.",
   "stay": {
     "from": "2026-10-29",
     "to": "2026-10-29",
@@ -14,14 +14,785 @@
     "base": "Excursión desde Shenzhen"
   },
   "practical": {
-    "tips": []
+    "summary": "El parque abre el jue 29 oct 2026 (Tier 1, sin cierre) con horario 10:30–20:30 (verificar en la app). Es temporada Disney Halloween Time (18 sep – 1 nov), incluida en la entrada. Ruta: Nanshan → 深圳湾口岸 (cruce a pie) → bus B3X → 屯门 → MTR (屯马线 + 东涌线 + 迪士尼线) → parque. Vuelta: salir tras «Momentous», MTR hasta 屯门 y B3X antes de las 22:50. Presupuesto orientativo por persona: entrada HK$669 + transporte HK$150–250 (ida y vuelta).",
+    "metro": "Hasta el parque: 屯马线 屯门 → 南昌, 东涌线 南昌 → 欣澳, 迪士尼线 欣澳 → 迪士尼 (tarifa fija HK$7 adulto, verificar). Total ~50–60 min con cambios. La estación 迪士尼 está a 3–5 min a pie de la entrada. De vuelta hay trenes después del cierre del parque (comprobar última conexión en la app MTR Mobile).",
+    "transport": "Bus B3X: 深圳湾口岸 ↔ 屯门市中心/屯门站 (HK$16.5, ~20 min; última salida hacia el puerto 22:50, desde el puerto hasta ~00:20, verificar). Autobús matinal directo KMB R33: 屯门站 → 迪士尼乐园 (HK$21.1, 06:30–13:30, verificar frecuencia). Plan B nocturno: nuevo 新皇岗口岸 (24 h) con minibuses 44B/44B1/N44B desde 屯门 (verificar horarios). La frontera se cruza a pie: ambos controles están en el mismo edificio del puerto.",
+    "tips": [
+      "Pasaporte obligatorio en los dos controles; para volver a Shenzhen hace falta visado chino de reentrada (o visado de múltiples entradas)",
+      "Shenzhen Bay: paso de personas 06:30–24:00 (el puente cierra ~23:30). En hora punta nocturna (23:00–24:00) puede haber 20–30 min de cola",
+      "⚠️ Última conexión realista de vuelta: B3X de 屯门市中心/屯门站 a las 22:50 (estar en la parada antes de ~22:35). El paso de 福田口岸/落马洲 (06:30–22:30) NO sirve para la vuelta nocturna",
+      "Plan B 24 h: nuevo 新皇岗口岸, con minibús 44B/44B1/N44B desde 屯门 (~HK$15.7; noche ~HK$21.7) y metro L7 皇岗口岸 en el lado Shenzhen (verificar horarios)",
+      "Disney Halloween Time (18 sep–1 nov 2026): villanos, truco o trato y decoración incluidos en la entrada. Las noches ampliadas son 23, 24, 25, 30 y 31 oct; el 29 oct es un día normal",
+      "Reservar con antelación: entrada con fecha + «Park Visit Reservation» (obligatoria). Premier Access más barato comprándolo en la web oficial al menos 1 día antes",
+      "En Hong Kong internet funciona sin VPN (Google, WhatsApp, mapas); pagar con Octopus, tarjeta contactless (Visa/Mastercard/UnionPay) o QR (AlipayHK, Alipay, WeChat Pay) — verificar",
+      "Final de octubre: 24–29 °C con posibles chaparrones; llevar chubasquero y calzado cómodo. Durante Halloween se anima a ir disfrazado (también los adultos)"
+    ]
   },
   "sections": {
-    "must": [],
-    "areas": [],
-    "food": [],
-    "shops": [],
-    "extra": []
+    "must": [
+      {
+        "id": "hk-disneyland",
+        "name": "Hong Kong Disneyland (parque)",
+        "nameZh": "香港迪士尼乐园",
+        "pinyin": "Xiānggǎng Díshìní Lèyuán",
+        "emoji": "🏰",
+        "must": true,
+        "tags": ["parque", "familia", "imprescindible", "espectaculo"],
+        "desc": "El parque Disney más compacto de Asia, con 8 zonas temáticas alrededor del Castillo de los Sueños Mágicos (奇妙梦想城堡). Destacan la zona nueva 魔雪奇缘世界 (World of Frozen, 2023), la original 迷离大宅 (Mystic Manor) y la montaña rusa 灰熊山极速矿车. En un día bien ordenado se cubre casi todo.",
+        "tips": [
+          "El jue 29 oct 2026 abre (Tier 1) con horario 10:30–20:30 (verificar en la app oficial)",
+          "Llegar 20–30 min antes de la apertura: la primera hora es la mejor para 魔雪奇缘世界 y 迷离庄园",
+          "Hay cola «single rider» en 灰熊山极速矿车 y 迷离大宅: ahorra mucho tiempo",
+          "Halloween Time: el parque se llena por la tarde; consultar horarios de shows al entrar"
+        ],
+        "hours": "10:30–20:30 (jue 29 oct 2026; verificar en la app)",
+        "price": "Tier 1: adulto HK$669 · niño/senior HK$499",
+        "metro": "迪士尼 (Disneyland Resort line, enlace en 欣澳 Sunny Bay)",
+        "addressZh": "香港新界离岛区竹篙湾 香港迪士尼乐园度假区",
+        "lat": 22.3133,
+        "lng": 114.04,
+        "durationMin": 570,
+        "bestTime": "Día completo (apertura → cierre)",
+        "web": "https://www.hongkongdisneyland.com/"
+      },
+      {
+        "id": "hk-tickets",
+        "name": "Entradas + reserva de visita (Park Visit Reservation)",
+        "nameZh": "乐园门票",
+        "pinyin": "Lèyuán Ménpiào",
+        "emoji": "🎟️",
+        "must": true,
+        "tags": ["reserva-recomendada", "familia"],
+        "desc": "Entrada con fecha; el precio depende del día. El 29 oct 2026 es Tier 1 (la tarifa más baja del calendario). Desde 2025 es obligatorio además reservar la fecha de visita (Park Visit Reservation), incluso llevando la entrada comprada.",
+        "tips": [
+          "Tier 1: HK$669 adulto · HK$499 niños (3–11)/seniors; los días más caros (Tier 4) llegan a HK$939 adulto (verificar)",
+          "Promoción oficial: la entrada de 1 día incluye un snack temático (valor hasta HK$75) hasta el 15 dic 2026 (verificar)",
+          "Comprar en la web oficial o en Klook/Trip.com; después vincular la reserva de visita",
+          "Guardar billete y reserva en el móvil en modo offline (en el parque no siempre hay wifi útil)"
+        ],
+        "price": "HK$669 adulto (Tier 1, 29 oct) · HK$499 niño/senior · pase 2 días desde HK$769",
+        "booking": "Web oficial hongkongdisneyland.com · Klook · Trip.com",
+        "addressZh": "香港迪士尼乐园入口售票处（新界离岛区竹篙湾）",
+        "web": "https://www.hongkongdisneyland.com/"
+      },
+      {
+        "id": "hk-shenzhen-bay",
+        "name": "Ida por el paso de Shenzhen Bay (深圳湾口岸)",
+        "nameZh": "深圳湾口岸",
+        "pinyin": "Shēnzhèn Wān Kǒu'àn",
+        "emoji": "🛂",
+        "must": true,
+        "tags": ["gratis"],
+        "desc": "El paso fronterizo terrestre más cercano a Nanshan y el más cómodo para el parque: salida de China continental y entrada a Hong Kong en el mismo edificio, cruzando a pie en 10–25 min. Junto al lado HK está la parada del bus B3X hacia 屯门.",
+        "tips": [
+          "Paso de personas: 06:30–24:00 (el puente cierra ~23:30)",
+          "Llevar pasaporte y, a la vuelta, visado chino de reentrada: al volver a entrar en China hay otro control",
+          "Los carriles «sin enseñar documentos» (reconocimiento facial) son solo para viajeros registrados de China (verificar); los pasaportes extranjeros van a carriles manuales/automáticos",
+          "En el lado Shenzhen: metro L13 深圳湾口岸站 (salidas B/C, ~2–3 min a pie) o taxi/DiDi a Nanshan (~25 min)"
+        ],
+        "hours": "06:30–24:00 (paso de personas; verificar)",
+        "price": "Cruce a pie gratuito",
+        "metro": "深圳湾口岸 (L13)",
+        "addressZh": "深圳市南山区 深圳湾口岸（东滨路）",
+        "lat": 22.50166,
+        "lng": 113.94519
+      },
+      {
+        "id": "hk-b3x",
+        "name": "Bus B3X: 屯门 ↔ 深圳湾口岸",
+        "nameZh": "城巴B3X线",
+        "pinyin": "Chéngbā B3X Xiàn",
+        "emoji": "🚌",
+        "must": true,
+        "tags": [],
+        "desc": "Bus urbano exprés (Citybus) que une el centro de 屯门 con el paso de Shenzhen Bay en ~20 min. Es la conexión clave del día: la última salida hacia el puerto es a las 22:50 desde 屯门市中心/屯门站 (verificar), y desde el lado HK del puerto salen buses hasta ~00:20.",
+        "tips": [
+          "Parada de referencia: 屯门市中心 (junto a 屯门公园, ~5–8 min a pie de la estación MTR 屯门)",
+          "Tarifa HK$16.5 adulto (Octopus, tarjeta contactless o efectivo con importe exacto; verificar)",
+          "⚠️ Para la vuelta: estar en la parada antes de ~22:35; el último bus es a las 22:50",
+          "Si se pierde: minibús 44B/44B1/N44B al nuevo 皇岗口岸 24 h (verificar), o taxi al lado HK del puerto de Shenzhen Bay para cruzar a pie antes de las 24:00"
+        ],
+        "hours": "06:15–22:50 hacia el puerto (desde 屯门) · última desde el puerto a 屯门 ~00:20 (verificar)",
+        "price": "HK$16.5 adulto (verificar)",
+        "metro": "屯门 (屯马线) — parada 屯门市中心 a pie",
+        "addressZh": "新界屯门市中心公共运输交汇处（近屯门站）",
+        "lat": 22.39236,
+        "lng": 113.97514
+      },
+      {
+        "id": "hk-momentous",
+        "name": "«Momentous» (espectáculo nocturno)",
+        "emoji": "🎆",
+        "must": true,
+        "tags": ["espectaculo", "nocturno", "familia"],
+        "desc": "El gran espectáculo nocturno del 奇妙梦想城堡: ~18–20 min de proyecciones, fuentes, fuegos artificiales y casi 150 personajes Disney repartidos en seis capítulos. Es el cierre natural del día en el parque.",
+        "tips": [
+          "Hora habitual: ~20:00–20:30, según el calendario del día (verificar en la app)",
+          "Buscar sitio junto al castillo 30–45 min antes: la plaza y 美国小镇大街 se llenan",
+          "Existe zona de visionado con Disney Premier Access (desde HK$99; pack con 8 atracciones y 2 shows HK$659)",
+          "Al terminar, caminar rápido a la estación 迪士尼 (3–5 min) para adelantar a la multitud y no perder margen para el B3X"
+        ],
+        "hours": "~20:00–20:30 (jue 29 oct 2026; verificar)",
+        "price": "Incluido en la entrada (visionado preferente desde HK$99)",
+        "durationMin": 20,
+        "addressZh": "香港迪士尼乐园 奇妙梦想城堡前（新界离岛区竹篙湾）",
+        "web": "https://www.hongkongdisneyland.com/entertainment/momentous-nighttime-spectacular/"
+      },
+      {
+        "id": "hk-halloween",
+        "name": "«Party Like a Villain» — Disney Halloween Time",
+        "emoji": "👻",
+        "must": true,
+        "tags": ["espectaculo", "familia", "fotografia"],
+        "desc": "Del 18 sep al 1 nov 2026 el parque celebra Halloween con los villanos Disney: el pasacalles/fiesta «Uninvited! A Villains Takeover Party» (Maléfica y ~10 villanos, con recorrido ampliado hasta el castillo), el musical «Let's Get Wicked», la «Villain Hour» de personajes, el nuevo «Mickey's Happy Halloween Adventure» y puestos de truco o trato. Todo incluido en la entrada.",
+        "tips": [
+          "Muchos visitantes (también adultos) van disfrazados: es parte de la fiesta (verificar normas del parque sobre máscaras y objetos)",
+          "Consultar horarios del día en la app: los pases de villanos tienen 2–3 salidas",
+          "Visionado preferente de «Uninvited» con Premier Access desde HK$99 (verificar)",
+          "Comida temática de Halloween, p. ej. la cena de Jack Skellington en 河景餐厅 (hasta el 30 oct; reservar)"
+        ],
+        "hours": "Temporada 18 sep – 1 nov 2026; noches ampliadas: 23, 24, 25, 30 y 31 oct (el 29 oct es día normal)",
+        "price": "Incluido en la entrada",
+        "addressZh": "香港迪士尼乐园 美国小镇大街（新界离岛区竹篙湾）"
+      }
+    ],
+    "areas": [
+      {
+        "id": "hk-main-street",
+        "name": "Main Street U.S.A. y el Castillo de los Sueños Mágicos",
+        "nameZh": "美国小镇大街 与 奇妙梦想城堡",
+        "pinyin": "Měiguó Xiǎozhèn Dàjiē",
+        "emoji": "🎩",
+        "tags": ["fotografia", "compras", "familia"],
+        "desc": "La calle de entrada, de arquitectura victoriana, con tiendas, carritos de comida y el tranvía, conduce al 奇妙梦想城堡 (Castle of Magical Dreams), centro simbólico del parque y escenario de «Momentous» y de los espectáculos de Halloween.",
+        "tips": [
+          "El castillo luce torres con los 13 héroes Disney: mejores fotos al atardecer desde la plaza",
+          "Las tiendas de la calle suelen seguir abiertas tras el cierre del parque (verificar): dejar ahí las compras",
+          "La calle se llena 45–60 min antes de «Momentous»: elegir sitio pronto"
+        ],
+        "addressZh": "香港迪士尼乐园 美国小镇大街（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-tomorrowland",
+        "name": "Tomorrowland (明日世界)",
+        "nameZh": "明日世界",
+        "pinyin": "Míngrì Shìjiè",
+        "emoji": "🚀",
+        "tags": ["tecnologia", "parque", "familia"],
+        "desc": "La zona más tecnológica y friki del parque: Iron Man Experience (铁甲奇侠飞行之旅, simulador 3D de Marvel), Ant-Man and The Wasp: Nano Battle! (蚁人与黄蜂女：击战特攻, disparos interactivos), Hyperspace Mountain (星战极速穿梭, montaña rusa a oscuras) y Orbitron.",
+        "tips": [
+          "Al abrir (10:30) las colas de Iron Man y Ant-Man son cortas (~10–20 min); también baja al anochecer",
+          "Hyperspace Mountain tiene inversiones y oscuridad total: dejar mochilas en taquilla si molestan",
+          "Tienda Marvel en el pabellón de S.H.I.E.L.D. (Pavilion Gifts)"
+        ],
+        "addressZh": "香港迪士尼乐园 明日世界（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-fantasyland",
+        "name": "Fantasyland (幻想世界)",
+        "nameZh": "幻想世界",
+        "pinyin": "Huànxiǎng Shìjiè",
+        "emoji": "✨",
+        "tags": ["familia", "parque"],
+        "desc": "La zona clásica y familiar: «it's a small world» (小小世界), Mickey's PhilharMagic (米奇幻想曲, cine 4D con música Disney), The Many Adventures of Winnie the Pooh (小熊维尼历险之旅), Mad Hatter Tea Cups (疯帽子旋转杯), Dumbo (小飞象旋转世界) y el carrusel.",
+        "tips": [
+          "Con niños es fácil pasar aquí 2–3 horas: priorizar 小小世界 y 米奇幻想曲",
+          "A media tarde, cuando 探险世界 y 明日世界 están llenos, aquí hay menos cola",
+          "Pooh Corner: tienda de peluches y souvenirs dentro de la zona"
+        ],
+        "addressZh": "香港迪士尼乐园 幻想世界（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-adventureland",
+        "name": "Adventureland (探险世界)",
+        "nameZh": "探险世界",
+        "pinyin": "Tànxiǎn Shìjiè",
+        "emoji": "🌴",
+        "tags": ["familia", "espectaculo", "naturaleza"],
+        "desc": "Selva tropical con el crucero Jungle River Cruise (森林河流之旅, barca con animadores y sorpresas), el gran espectáculo de acrobacias «Festival of the Lion King» (狮子王庆典) y el show al aire libre de Vaiana. Zona de restaurantes de referencia.",
+        "tips": [
+          "«Festival of the Lion King» es de los mejores shows del parque: entrar 15 min antes",
+          "El Jungle River Cruise tiene versiones en cantonés, mandarín e inglés: pedir en la cola el idioma deseado",
+          "Comida en la zona: 河景餐厅 (River View Café) y Wayfinders' Table (menú halal; verificar ubicación exacta)"
+        ],
+        "addressZh": "香港迪士尼乐园 探险世界（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-grizzly-gulch",
+        "name": "Grizzly Gulch (灰熊山谷)",
+        "nameZh": "灰熊山谷",
+        "pinyin": "Huīxióng Shāngǔ",
+        "emoji": "🐻",
+        "tags": ["parque", "familia"],
+        "desc": "Pueblo minero del Lejano Oeste con 灰熊山极速矿车 (Big Grizzly Mountain Runaway Mine Cars): montaña rusa que sale disparada hacia delante y hacia atrás entre osos grizzly animatrónicos. Para muchos, la mejor atracción del parque.",
+        "tips": [
+          "Usar la cola «single rider» para ahorrar tiempo",
+          "Buen momento: a primera hora o después de la comida (baja la cola)",
+          "Lucky Nugget Saloon: snacks y bebidas de la zona (verificar horario)"
+        ],
+        "addressZh": "香港迪士尼乐园 灰熊山谷（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-mystic-point",
+        "name": "Mystic Point (迷离庄园)",
+        "nameZh": "迷离庄园",
+        "pinyin": "Mílí Zhuāngyuán",
+        "emoji": "🏛️",
+        "tags": ["parque", "familia"],
+        "desc": "Zona única de HKDL: 迷离大宅 (Mystic Manor) es una «dark ride» sin raíles con efectos sorprendentes, la mascota Albert y la colección del señor Mystic; una de las atracciones más originales y premiadas de Disney. Incluye el Jardín de las Maravillas.",
+        "tips": [
+          "Hay cola «single rider»: útil si no importa separarse unos minutos",
+          "Ir a primera hora: es una de las que peor se pone a mediodía",
+          "El restaurante 探险家俱乐部 (Explorer's Club, 4 salas temáticas) está aquí mismo"
+        ],
+        "addressZh": "香港迪士尼乐园 迷离庄园（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-toy-story-land",
+        "name": "Toy Story Land (反斗奇兵大本营)",
+        "nameZh": "反斗奇兵大本营",
+        "pinyin": "Fǎndòu Qíbīng Dàběnyíng",
+        "emoji": "🤠",
+        "tags": ["parque", "familia"],
+        "desc": "Zona a escala gigante de juguetes: 冲天遥控车 (RC Racer, medio looping en U), 玩具兵团跳降伞 (Toy Soldier Parachute Drop, caída controlada) y 弹簧狗 (Slinky Dog Spin). Las atracciones más «intensas» para los adultos y divertidas para niños mayores.",
+        "tips": [
+          "RC Racer es el más fuerte del trío: con estómago sensible, mejor ver desde fuera",
+          "Zona compacta: se resuelve en 40–60 min con colas medias",
+          "Jessie's Snack Roundup: snacks rápidos de la zona (verificar horario)"
+        ],
+        "addressZh": "香港迪士尼乐园 反斗奇兵大本营（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-world-of-frozen",
+        "name": "World of Frozen (魔雪奇缘世界)",
+        "nameZh": "魔雪奇缘世界",
+        "pinyin": "Móxuě Qíyuán Shìjiè",
+        "emoji": "❄️",
+        "must": true,
+        "tags": ["parque", "familia", "imprescindible", "fotografia"],
+        "desc": "Arendelle recreada: 魔雪奇幻之旅 (Frozen Ever After, paseo en barca con la música de la película), 雪岭滑雪橇 (Wandering Oaken's Sliding Sleighs, montaña familiar), teatro interactivo con Anna y Elsa, aldea con tiendas y comida temática. Es la zona que antes se llena del parque.",
+        "tips": [
+          "Ir a la apertura (10:30): a los 60–90 min las colas de Frozen Ever After superan los 60 min",
+          "Mientras uno espera Frozen Ever After, el otro aprovecha 雪岭滑雪橇 con la cola más corta (o usar la app para vigilar tiempos)",
+          "Muy fotogénica: castillo de Arendelle y plaza del reloj, mejor luz por la tarde",
+          "Las tiendas (Tick Tock Toys) y puestos de Arendelle abren con el parque"
+        ],
+        "addressZh": "香港迪士尼乐园 魔雪奇缘世界（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-tuen-mun",
+        "name": "Intercambio de Tuen Mun (屯门站 / 屯门市中心)",
+        "nameZh": "屯门站 与 屯门市中心",
+        "pinyin": "Túnmén Zhàn",
+        "emoji": "🚏",
+        "tags": [],
+        "desc": "Nudo clave de la ruta: aquí llega el bus B3X desde el paso de Shenzhen Bay y está la estación de metro 屯门 (屯马线). Desde 屯门市中心 salen también el bus matinal R33 al parque y los minibuses nocturnos al paso de Huanggang.",
+        "tips": [
+          "El B3X para junto a 屯门站/V City y en 屯门市中心: 5–8 min a pie hasta los andenes",
+          "Alternativa matinal directa: KMB R33 屯门站 → 迪士尼乐园 (HK$21.1, 06:30–13:30, verificar frecuencia)",
+          "De noche: minibuses 44B (desde 屯门站) y 44B1 (desde 屯门码头, pasa por 屯门市中心) al nuevo 皇岗口岸 24 h (verificar horarios)"
+        ],
+        "metro": "屯门 (屯马线 Tuen Ma Line)",
+        "addressZh": "新界屯门 屯门市中心公共运输交汇处（近屯门站）",
+        "lat": 22.39236,
+        "lng": 113.97514
+      },
+      {
+        "id": "hk-disneyland-station",
+        "name": "Estación MTR 迪士尼 (Disneyland Resort)",
+        "nameZh": "迪士尼站",
+        "pinyin": "Díshìní Zhàn",
+        "emoji": "🚉",
+        "tags": ["tren"],
+        "desc": "Terminal de la línea 迪士尼线 (Disneyland Resort line), que enlaza en 欣澳 (Sunny Bay) con la línea 东涌: la forma fiable de llegar y volver del parque. La estación, de estilo victoriano, está a 3–5 min a pie de la entrada y opera hasta bien entrada la noche.",
+        "tips": [
+          "La línea 迪士尼 tiene tarifa fija (HK$7 adulto) y tornos propios en 欣澳: al transbordar se paga como trayecto nuevo (verificar)",
+          "Tras el cierre del parque salen trenes adicionales: espera máxima de 5–10 min",
+          "Con Octopus o tarjeta contactless se pasa directo; el billete sencillo de la 迪士尼线 solo vale para esta línea"
+        ],
+        "metro": "迪士尼 (迪士尼线 Disneyland Resort line)",
+        "addressZh": "新界大屿山竹篙湾 迪士尼站",
+        "lat": 22.3155,
+        "lng": 114.0451
+      }
+    ],
+    "food": [
+      {
+        "id": "hk-river-view-cafe",
+        "name": "河景餐厅 (River View Café) — cena de Jack Skellington",
+        "nameZh": "河景餐厅",
+        "pinyin": "Héjǐng Cāntīng",
+        "emoji": "🎃",
+        "tags": ["gastronomia", "espectaculo", "reserva-recomendada", "nocturno"],
+        "desc": "Restaurante de 探险世界. En Halloween Time (hasta el 30 oct 2026) acoge «The Nightmare Before Dinner», cena temática con anfitrión Jack Skellington y ambiente de «Pesadilla antes de Navidad». El resto del día/año sirve cocina asiática con vistas a la selva.",
+        "tips": [
+          "Precio de la experiencia: HK$498 adultos / HK$398 niños (HK$598/498 en noches pico; verificar)",
+          "Aforo limitado: reservar online con días de antelación",
+          "También sirve menús normales a mediodía, con menos cola que otros restaurantes de la zona",
+          "Wayfinders' Table (en la misma zona) es la opción con menú halal (verificar)"
+        ],
+        "hours": "Comidas y cenas; experiencia Halloween hasta el 30 oct 2026 (verificar)",
+        "price": "Cena temática: HK$498/398 (verificar)",
+        "booking": "Reserva en la web oficial de HKDL",
+        "addressZh": "香港迪士尼乐园 探险世界 河景餐厅（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-plaza-inn",
+        "name": "广场饭店 (Plaza Inn)",
+        "nameZh": "广场饭店",
+        "pinyin": "Guǎngchǎng Fàndiàn",
+        "emoji": "🥟",
+        "tags": ["gastronomia", "reserva-recomendada"],
+        "desc": "Restaurante de servicio de mesa en 美国小镇大街, con cocina china y ambiente victoriano: la opción tranquila para comer sentado en un día largo de parque.",
+        "tips": [
+          "Reservar en la web oficial o en la app en días de mucha afluencia",
+          "Menos cola en comida tardía (14:00–15:00) que a mediodía",
+          "Si se quiere rapidez, los self-service de 皇室宴会厅 y 火箭餐厅 son más ágiles"
+        ],
+        "addressZh": "香港迪士尼乐园 美国小镇大街 广场饭店（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-explorers-club",
+        "name": "探险家俱乐部 (Explorer's Club Restaurant)",
+        "nameZh": "探险家俱乐部餐厅",
+        "pinyin": "Tànxiǎnjiā Jùlèbù Cāntīng",
+        "emoji": "🧭",
+        "tags": ["gastronomia"],
+        "desc": "Restaurante ambientado en el club de viajes del señor Mystic (迷离庄园), con varias salas temáticas de expediciones y cocina internacional/asiática. Uno de los espacios con más encanto del parque.",
+        "tips": [
+          "Precio medio: ~HK$170–220 por persona (verificar)",
+          "Combinarlo con 迷离大宅 antes o después de comer (está al lado)",
+          "Fotos en la entrada del club y en las salas temáticas"
+        ],
+        "price": "~HK$170–220 (verificar)",
+        "addressZh": "香港迪士尼乐园 迷离庄园 探险家俱乐部餐厅（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-royal-banquet",
+        "name": "皇室宴会厅 (Royal Banquet Hall)",
+        "nameZh": "皇室宴会厅",
+        "pinyin": "Huángshì Yànhuìtīng",
+        "emoji": "👑",
+        "tags": ["gastronomia", "familia"],
+        "desc": "Gran comedor temático de 幻想世界 con cocinas china, japonesa y occidental, en formato self-service con precios moderados. Es una de las mejores relaciones calidad-precio del parque.",
+        "tips": [
+          "Plato principal: ~HK$150–185 (verificar)",
+          "Hora punta 12:30–13:30: ir antes de las 12:30 o después de las 14:00",
+          "Sala interior con aire acondicionado: buen refugio si llueve o aprieta el calor"
+        ],
+        "price": "~HK$150–185 (verificar)",
+        "addressZh": "香港迪士尼乐园 幻想世界 皇室宴会厅（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-comet-cafe",
+        "name": "彗星餐厅 (Comet Café)",
+        "nameZh": "彗星餐厅",
+        "pinyin": "Huìxīng Cāntīng",
+        "emoji": "☄️",
+        "tags": ["gastronomia"],
+        "desc": "Cafetería self-service de 明日世界 para comer rápido entre atracciones, con platos de estilo asiático-occidental (verificar menú y precios del día).",
+        "tips": [
+          "A 2 min de Iron Man y Ant-Man: reponer fuerzas sin salir de Tomorrowland",
+          "Si está a tope, probar 火箭餐厅 al lado",
+          "Precios de self-service del parque: ~HK$150–220 (verificar)"
+        ],
+        "addressZh": "香港迪士尼乐园 明日世界 彗星餐厅（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-starliner-diner",
+        "name": "火箭餐厅 (Starliner Diner)",
+        "nameZh": "火箭餐厅",
+        "pinyin": "Huǒjiàn Cāntīng",
+        "emoji": "🍔",
+        "tags": ["gastronomia"],
+        "desc": "El otro gran self-service de 明日世界, con ambiente de cantina espacial y menús tipo diner (hamburguesas y clásicos; verificar menú). Sala amplia, útil en hora punta.",
+        "tips": [
+          "Buena alternativa si 彗星餐厅 está lleno (y viceversa): están a un paso",
+          "Pedir el menú combinado (plato + bebida) para ahorrar",
+          "Última hora de la tarde suele estar más tranquilo que a mediodía"
+        ],
+        "addressZh": "香港迪士尼乐园 明日世界 火箭餐厅（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-frozen-dining",
+        "name": "Comer en 魔雪奇缘世界 (Golden Crocus Inn y puestos)",
+        "emoji": "🥨",
+        "tags": ["gastronomia", "postres", "familia"],
+        "desc": "Dentro de 魔雪奇缘世界: Golden Crocus Inn (platos principales inspirados en Arendelle), Northern Delights (dulces y snacks) y otros puestos temáticos. Práctico para no salir de la zona en la primera hora del día.",
+        "tips": [
+          "Los puestos abren con el parque: comer temprano aquí evita la cola del mediodía",
+          "Probar los dulces de Arendelle (chocolate caliente, pasteles) (verificar disponibilidad)",
+          "Precios similares al resto del parque: ~HK$150–200 (verificar)"
+        ],
+        "addressZh": "香港迪士尼乐园 魔雪奇缘世界（新界离岛区竹篙湾）"
+      },
+      {
+        "id": "hk-park-snacks",
+        "name": "Snacks del parque (carritos y kioscos)",
+        "nameZh": "小食亭",
+        "pinyin": "Xiǎoshí Tíng",
+        "emoji": "🍿",
+        "tags": ["gastronomia", "postres"],
+        "desc": "Los clásicos de los carritos de HKDL: palomitas de sabores, gofres con forma de personajes, muslo de pavo (turkey leg) y calamares coreanos; además de helados Mickey y bebidas temáticas según temporada (en Halloween, edición villanos).",
+        "tips": [
+          "Precio: ~HK$30–90 por snack (verificar)",
+          "Carritos junto al castillo y en 美国小镇大街: menos cola al abrir o durante desfiles",
+          "En Halloween hay snacks y bebidas especiales (verificar oferta del día)"
+        ],
+        "price": "~HK$30–90 (verificar)",
+        "addressZh": "香港迪士尼乐园 各区域小食亭（新界离岛区竹篙湾）"
+      }
+    ],
+    "shops": [
+      {
+        "id": "hk-emporium",
+        "name": "Emporium (la tienda más grande del parque)",
+        "nameZh": "大街百货店",
+        "pinyin": "Dàjiē Bǎihuòdiàn",
+        "emoji": "🛍️",
+        "tags": ["compras", "familia"],
+        "desc": "La tienda más grande de HKDL, en 美国小镇大街: selección completa de merchandising (peluches, ropa, pines), souvenirs exclusivos, joyería en colaboración con Chow Tai Fook y personalización «My Disney Tee».",
+        "tips": [
+          "Dejar las compras para el final y hacerlas aquí (está junto a la salida): así no se carga con bolsas todo el día",
+          "La personalización de camisetas puede tardar 20–30 min (verificar): preguntar antes de pagar",
+          "Pines y artículos de Halloween: solo en temporada (18 sep–1 nov)"
+        ],
+        "hours": "Horario del parque (suele cerrar ~1 h más tarde que el parque; verificar)",
+        "addressZh": "香港迪士尼乐园 美国小镇大街 大街百货店（新界离岛区竹篙湾）",
+        "web": "https://www.hongkongdisneyland.com/zh-cn/shops/emporium/"
+      },
+      {
+        "id": "hk-ms-collectibles",
+        "name": "Main Street Collectibles",
+        "nameZh": "大街精品店",
+        "pinyin": "Dàjiē Jīngpǐndiàn",
+        "emoji": "🧳",
+        "tags": ["compras"],
+        "desc": "Pequeña tienda de 美国小镇大街 con «recuerdos del mundo» elegidos por una viajera imaginaria: objetos curiosos de viaje y un taller donde personalizan la compra al momento.",
+        "tips": [
+          "Buena para regalos originales que no son el típico peluche",
+          "El servicio de grabado/personalización puede tardar: preguntar plazos antes de pagar",
+          "Está en la calle principal: parada rápida camino de la salida"
+        ],
+        "addressZh": "香港迪士尼乐园 美国小镇大街 大街精品店（新界离岛区竹篙湾）",
+        "web": "https://www.hongkongdisneyland.com/zh-cn/shops/main-street-collectibles/"
+      },
+      {
+        "id": "hk-ms-opera",
+        "name": "Main Street Opera House",
+        "nameZh": "大街剧院",
+        "pinyin": "Dàjiē Jùyuàn",
+        "emoji": "🎭",
+        "tags": ["compras"],
+        "desc": "Antiguo teatro victoriano al norte de Town Square convertido en tienda: accesorios de escena, abalorios y espejos de bolsillo exclusivos con el 奇妙梦想城堡 grabado, con experiencia de personalización artesanal.",
+        "tips": [
+          "Los artículos grabados con el castillo son un buen souvenir «oficial» de HKDL",
+          "Al estar junto a la entrada, ideal para una parada rápida al final del día (verificar horario de cierre)",
+          "Menos concurrida que las tiendas grandes de la calle"
+        ],
+        "addressZh": "香港迪士尼乐园 Town Square 大街剧院（新界离岛区竹篙湾）",
+        "web": "https://www.hongkongdisneyland.com/zh-cn/shops/main-street-opera-house/"
+      },
+      {
+        "id": "hk-ticktock",
+        "name": "Tick Tock Toys & Collectibles (World of Frozen)",
+        "emoji": "🧸",
+        "tags": ["compras", "familia"],
+        "desc": "La gran tienda de 魔雪奇缘世界, en un edificio rojo con veleta de caballito: juguetes «fabricados por el relojero del reino», peluches de Olaf y Sven, ropa y merchandising exclusivo de Arendelle.",
+        "tips": [
+          "Mucho producto exclusivo de la zona: si algo gusta, comprarlo aquí (no se repite en el resto del parque)",
+          "Se llena tras la apertura y tras los shows: mejor a media tarde",
+          "Compra los dulces/snacks de Arendelle en Northern Delights (zona de comida)"
+        ],
+        "addressZh": "香港迪士尼乐园 魔雪奇缘世界 Tick Tock Toys（新界离岛区竹篙湾）",
+        "web": "https://www.hongkongdisneyland.com/shops/tick-tock-toys-and-collectibles/"
+      },
+      {
+        "id": "hk-town-square-sundries",
+        "name": "Town Square Sundries (Duffy y amigos)",
+        "emoji": "🐻❄️",
+        "tags": ["compras", "familia"],
+        "desc": "Tienda junto a Town Square con la colección más completa de Duffy and Friends (Duffy, ShellieMay y compañía): la familia de peluches más popular de HKDL y objeto de coleccionismo en Asia.",
+        "tips": [
+          "Duffy & Friends es el souvenir estrella de Hong Kong Disneyland: hay ediciones limitadas (verificar stock del día)",
+          "Si se busca un Duffy concreto, preguntar al personal",
+          "Está camino de la salida: última compra fácil antes de ir al MTR"
+        ],
+        "addressZh": "香港迪士尼乐园 Town Square Sundries（新界离岛区竹篙湾）",
+        "web": "https://www.hongkongdisneyland.com/zh-cn/shops/town-square-sundries/"
+      },
+      {
+        "id": "hk-pavilion-gifts",
+        "name": "Pavilion Gifts (Marvel)",
+        "emoji": "🦸",
+        "tags": ["compras", "tecnologia"],
+        "desc": "Tienda en el ala norte del pabellón de ciencia y tecnología de S.H.I.E.L.D., en 明日世界: merchandising de Iron Man, Ant-Man y Marvel en general, con artículos «de misión» al estilo del universo S.H.I.E.L.D.",
+        "tips": [
+          "La mejor tienda para fans de Marvel del parque",
+          "Combinar con Iron Man Experience y Ant-Man: comprar justo después de las atracciones",
+          "Hay figuras y ediciones especiales según temporada (verificar)"
+        ],
+        "addressZh": "香港迪士尼乐园 明日世界 Pavilion Gifts（新界离岛区竹篙湾）",
+        "web": "https://www.hongkongdisneyland.com/shops/pavilion-gifts/"
+      }
+    ],
+    "extra": [
+      {
+        "id": "hk-premier-access",
+        "name": "Disney Premier Access (cola rápida de pago)",
+        "emoji": "⏱️",
+        "tags": ["reserva-recomendada", "familia"],
+        "desc": "Sistema de pago de HKDL para evitar la cola estándar en una lista de atracciones estrella (Frozen Ever After, 灰熊山极速矿车, 迷离大宅, Iron Man, Ant-Man, Hyperspace Mountain, 小小世界…). Se compra por días en la app/web; no es reembolsable.",
+        "tips": [
+          "Precios orientativos: 3 atracciones desde HK$199 · 8 atracciones HK$429 · pack «Momentous» + 8 atracciones + 2 shows HK$659 (verificar)",
+          "Visionado preferente de shows («Uninvited» o «Momentous») desde HK$99 (verificar)",
+          "Comprar en la web oficial al menos 1 día antes: es la opción más barata y no reembolsable",
+          "Alternativa gratuita: colas «single rider» de 灰熊山极速矿车 y 迷离大宅"
+        ],
+        "price": "3 atracciones desde HK$199 · 8 atracciones HK$429 · shows desde HK$99 (verificar)",
+        "booking": "App/web oficial de HKDL"
+      },
+      {
+        "id": "hk-shows",
+        "name": "Espectáculos diarios incluidos en la entrada",
+        "emoji": "🎪",
+        "tags": ["espectaculo", "familia"],
+        "desc": "Además de «Momentous» y del programa de Halloween, el parque mantiene sus grandes producciones incluidas: «Festival of the Lion King» (acrobacias, 探险世界), «Mickey and the Wondrous Book» (revista musical Disney), «Moana: A Homecoming Celebration» (al aire libre) y «Playhouse in the Woods» (teatro interactivo con Anna y Elsa).",
+        "tips": [
+          "Consultar horarios en la app al llegar y montar el día alrededor de 2–3 shows",
+          "Entrar 15 min antes de la función; las sesiones de mediodía son las más llenas",
+          "Las sesiones combinan cantonés, mandarín e inglés: buscar la del idioma preferido (verificar)",
+          "Con lluvia, los teatros cubiertos son el mejor plan B mientras escampa"
+        ]
+      },
+      {
+        "id": "hk-huanggang",
+        "name": "Plan B (24 h): nuevo paso de Huanggang",
+        "nameZh": "新皇岗口岸",
+        "pinyin": "Xīn Huánggǎng Kǒu'àn",
+        "emoji": "🌃",
+        "tags": ["nocturno"],
+        "desc": "Desde el 12 oct 2026 el nuevo 新皇岗口岸 funciona 24 h con «dos controles en un solo lugar» (一地两检): es la salida de emergencia si se pierde el B3X de Shenzhen Bay. Se llega desde 屯门 en minibús verde o en autobuses nocturnos; al lado Shenzhen está el metro 皇岗口岸 (L7).",
+        "tips": [
+          "Minibuses desde 屯门: 44B (desde 屯门站), 44B1 (desde 屯门码头, pasa por 屯门市中心) y N44B nocturno; tarifa ~HK$15.7 (noche ~HK$21.7) (horarios y tarifas: verificar)",
+          "El autocar «樂園快線» (directo 迪士尼 ↔ 皇岗, ~HK$100) solo opera de día: NO sirve para la vuelta nocturna",
+          "También hay autocares transfronterizos 24 h desde Mong Kok, Tsim Sha Tsui, Kwun Tong o Wan Chai (verificar)",
+          "En el lado Shenzhen: metro L7 皇岗口岸 y taxis/Didi en el mismo edificio"
+        ],
+        "hours": "24 h (desde el 12 oct 2026)",
+        "price": "Minibús ~HK$15.7 · noche ~HK$21.7 (verificar)",
+        "metro": "皇岗口岸 (L7, lado Shenzhen)",
+        "addressZh": "深圳市福田区 新皇岗口岸",
+        "lat": 22.5363,
+        "lng": 114.07
+      },
+      {
+        "id": "hk-payments",
+        "name": "Pagos en Hong Kong (Octopus, contactless, QR)",
+        "emoji": "💳",
+        "tags": ["tecnologia"],
+        "desc": "Cómo pagar transporte y compras: tarjeta Octopus (hay versión turística por HK$170 con HK$128 de saldo y HK$42 no reembolsables; verificar), tarjetas bancarias contactless (Visa/Mastercard/UnionPay) aceptadas en los tornos del MTR, y pago por QR con AlipayHK (EasyGo), Alipay, WeChat Pay o la app de UnionPay (verificar).",
+        "tips": [
+          "Con una tarjeta contactless ya se puede usar el MTR sin comprar Octopus",
+          "El B3X acepta Octopus y efectivo (importe exacto; verificar si acepta tarjeta)",
+          "En el parque: tarjeta o pago móvil sin problema; en HK funcionan también las carteras chinas de Alipay/WeChat en muchos comercios",
+          "Llevar algo de efectivo (HK$) para minibuses nocturnos y emergencias"
+        ],
+        "price": "Octopus turística ~HK$170 (verificar)"
+      }
+    ]
   },
-  "routes": []
+  "routes": [
+    {
+      "id": "hk-ruta-ida",
+      "name": "Ida: Nanshan → Disneyland (mañana)",
+      "date": "2026-10-29",
+      "dayLabel": "Jue 29 oct",
+      "summary": "Ruta puerta a puerta: taxi o metro a 深圳湾口岸, cruce a pie, B3X a 屯门 y MTR hasta 迪士尼. Objetivo: entrar al parque hacia su apertura (10:30).",
+      "stops": [
+        {
+          "itemId": "hk-tickets",
+          "time": "06:45",
+          "transport": "—",
+          "note": "Checklist antes de salir: billete con fecha (29 oct) + reserva de visita vinculada, pasaporte y visado chino de reentrada. Descargar la app de HKDL y capturas offline."
+        },
+        {
+          "itemId": "hk-shenzhen-bay",
+          "time": "～08:00",
+          "durationMin": 30,
+          "transport": "Taxi/DiDi desde Nanshan (~25 min, ～CNY 35–45) o metro L13 hasta 深圳湾口岸 (salidas B/C)",
+          "note": "Cruce a pie: salida de China + entrada a HK en el mismo edificio (10–25 min). Encaja con el trayecto «leg-sz-disney» (08:00)."
+        },
+        {
+          "itemId": "hk-b3x",
+          "time": "～08:35",
+          "durationMin": 20,
+          "transport": "B3X desde el lado HK del puerto (HK$16.5)",
+          "note": "Frecuencia 6–20 min; pago con Octopus o efectivo exacto."
+        },
+        {
+          "itemId": "hk-tuen-mun",
+          "time": "～09:00",
+          "durationMin": 15,
+          "transport": "Bajar en 屯门市中心; caminar 5–8 min a la estación 屯门",
+          "note": "Alternativa si aún es temprano: R33 directo 屯门站 → 迪士尼乐园 (solo mañanas 06:30–13:30, HK$21.1, verificar)."
+        },
+        {
+          "itemId": "hk-disneyland-station",
+          "time": "～09:15",
+          "durationMin": 50,
+          "transport": "MTR: 屯门 → 南昌 (屯马线) → 欣澳 (东涌线) → 迪士尼 (迪士尼线; tarifa fija HK$7)",
+          "note": "Llegada ~10:05; 3–5 min a pie hasta el control de entrada."
+        },
+        {
+          "itemId": "hk-disneyland",
+          "time": "～10:10",
+          "transport": "A pie",
+          "note": "Apertura 10:30 (verificar): estirar el rope drop hacia 魔雪奇缘世界."
+        }
+      ]
+    },
+    {
+      "id": "hk-ruta-parque",
+      "name": "Disneyland en un día (orden óptimo de atracciones)",
+      "date": "2026-10-29",
+      "dayLabel": "Jue 29 oct",
+      "summary": "Orden pensado para minimizar colas: zonas nuevas y atracciones estrella por la mañana, comida a mediodía, Tomorrowland por la tarde y villanos + «Momentous» al anochecer. Ajustar con los tiempos en vivo de la app.",
+      "stops": [
+        {
+          "itemId": "hk-world-of-frozen",
+          "time": "10:30",
+          "durationMin": 75,
+          "transport": "A pie desde la entrada",
+          "note": "Rope drop: Frozen Ever After y 雪岭滑雪橇 con las colas mínimas del día."
+        },
+        {
+          "itemId": "hk-mystic-point",
+          "time": "11:50",
+          "durationMin": 40,
+          "transport": "A pie (~10 min)",
+          "note": "迷离大宅 con cola single rider; si ya supera 30 min, volver a última hora."
+        },
+        {
+          "itemId": "hk-toy-story-land",
+          "time": "12:35",
+          "durationMin": 40,
+          "transport": "A pie (~5 min)",
+          "note": "冲天遥控车 y 玩具兵团跳降伞; a esta hora, colas medias."
+        },
+        {
+          "itemId": "hk-explorers-club",
+          "time": "13:25",
+          "durationMin": 50,
+          "transport": "A pie (~12 min)",
+          "note": "Comida con servicio de mesa (HK$170–220) esquivando la hora punta de las 12:30."
+        },
+        {
+          "itemId": "hk-grizzly-gulch",
+          "time": "14:20",
+          "durationMin": 40,
+          "transport": "A pie (~5 min)",
+          "note": "灰熊山极速矿车 con single rider; zona rápida de cubrir."
+        },
+        {
+          "itemId": "hk-adventureland",
+          "time": "15:05",
+          "durationMin": 70,
+          "transport": "A pie (~3 min)",
+          "note": "Jungle River Cruise en inglés + «Festival of the Lion King» (entrar 15 min antes)."
+        },
+        {
+          "itemId": "hk-tomorrowland",
+          "time": "16:30",
+          "durationMin": 90,
+          "transport": "A pie (~10 min)",
+          "note": "Iron Man, Ant-Man Nano Battle y Hyperspace Mountain; usar single rider si la app marca más de 30 min."
+        },
+        {
+          "itemId": "hk-fantasyland",
+          "time": "18:05",
+          "durationMin": 65,
+          "transport": "A pie (~5 min)",
+          "note": "小小世界, 米奇幻想曲 y Winnie the Pooh: colas cortas mientras el resto cena."
+        },
+        {
+          "itemId": "hk-halloween",
+          "time": "19:15",
+          "durationMin": 45,
+          "transport": "A pie a 美国小镇大街",
+          "note": "Fiesta de villanos, truco o trato y personajes; consultar los pases del día en la app."
+        },
+        {
+          "itemId": "hk-main-street",
+          "time": "19:55",
+          "durationMin": 15,
+          "transport": "A pie",
+          "note": "Elegir sitio para «Momentous» junto al castillo o en la plaza central."
+        },
+        {
+          "itemId": "hk-momentous",
+          "time": "～20:00",
+          "durationMin": 25,
+          "transport": "—",
+          "note": "Si el show empieza a las 20:30 (cierre), salir en cuanto acabe: el margen del B3X es ajustado."
+        },
+        {
+          "itemId": "hk-emporium",
+          "time": "20:30",
+          "durationMin": 30,
+          "transport": "A pie",
+          "note": "Compras de última hora (suele seguir abierta); después, ruta de vuelta."
+        }
+      ]
+    },
+    {
+      "id": "hk-ruta-vuelta",
+      "name": "Vuelta: Disneyland → Nanshan (noche)",
+      "date": "2026-10-29",
+      "dayLabel": "Jue 29 oct",
+      "summary": "Vuelta con reloj: del espectáculo nocturno al hotel en Nanshan pasando por 屯门 y el B3X. Deadline clave: estar en la parada del B3X (屯门市中心) antes de ~22:35; último bus 22:50. Plan B: nuevo 皇岗口岸 24 h.",
+      "stops": [
+        {
+          "itemId": "hk-disneyland",
+          "time": "20:30",
+          "transport": "—",
+          "note": "Salir del parque en cuanto acabe «Momentous» (~20:20–20:50 según la hora del show; verificar). No entretenerse: las compras ya están hechas."
+        },
+        {
+          "itemId": "hk-disneyland-station",
+          "time": "20:40",
+          "durationMin": 6,
+          "transport": "A pie (3–5 min)",
+          "note": "Trenes cada ~4–10 min tras el cierre; comprobar la última conexión en la app MTR Mobile."
+        },
+        {
+          "itemId": "hk-tuen-mun",
+          "time": "21:40",
+          "durationMin": 15,
+          "transport": "MTR: 迪士尼 → 欣澳 (6 min) → 东涌线 → 南昌 → 屯马线 → 屯门 (~45 min más cambios)",
+          "note": "⚠️ Deadline: estar en la parada del B3X (屯门市中心) antes de ~22:35."
+        },
+        {
+          "itemId": "hk-b3x",
+          "time": "21:50",
+          "durationMin": 20,
+          "transport": "B3X desde 屯门市中心 (HK$16.5)",
+          "note": "Último bus hacia el puerto: 22:50 (verificar). Si se pierde → PLAN B: minibús 44B/44B1/N44B al nuevo 皇岗口岸 24 h (verificar horarios) o taxi al lado HK del puerto de Shenzhen Bay (~20 min; tarifa a verificar)."
+        },
+        {
+          "itemId": "hk-shenzhen-bay",
+          "time": "22:15",
+          "durationMin": 40,
+          "transport": "Cruce a pie (ambos controles en el mismo edificio)",
+          "note": "El paso de personas cierra a las 24:00 (puente ~23:30). Después: taxi/DiDi a Nanshan (~25 min, ～CNY 35–45) o metro L13 深圳湾口岸. Llegada al hotel ~23:15–23:30."
+        },
+        {
+          "itemId": "hk-huanggang",
+          "time": "—",
+          "transport": "PLAN B (solo si se pierde el B3X): minibús 44B/44B1/N44B desde 屯门 o taxi al puerto",
+          "note": "El nuevo 新皇岗口岸 abre 24 h con 一地两检 (~5 min de control); en el lado Shenzhen hay metro L7 皇岗口岸 y taxis. Es la red de seguridad de la noche."
+        }
+      ]
+    }
+  ]
 }
