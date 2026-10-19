@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import QRCode from 'react-qr-code'
 import { SubPageHeader } from '../components/Layout'
 import { Chip, CopyButton, Segmented } from '../components/ui'
@@ -11,7 +12,12 @@ export function SettingsPage() {
   const [exported, setExported] = useState('')
   const [importText, setImportText] = useState('')
   const [message, setMessage] = useState<{ ok: boolean; text: string } | null>(null)
+  const [installMsg, setInstallMsg] = useState('')
+  const [exportMsg, setExportMsg] = useState('')
   const [persisted, setPersisted] = useState<boolean | null>(null)
+  const exportRef = useRef<HTMLDivElement>(null)
+  const importRef = useRef<HTMLElement>(null)
+  const [searchParams, setSearchParams] = useSearchParams()
 
   const appUrl = `${window.location.origin}${import.meta.env.BASE_URL}`
   const standalone = isStandalone()
@@ -23,6 +29,20 @@ export function SettingsPage() {
       .catch(() => setPersisted(null))
   }, [])
 
+  // QR: la app se abre con #/ajustes?import=<código> y lo deja pegado, listo para importar.
+  useEffect(() => {
+    const incoming = searchParams.get('import')
+    if (!incoming) return
+    setImportText(incoming)
+    setMessage({ ok: true, text: 'Código leído del QR ✓. Revisa y pulsa «Importar».' })
+    setSearchParams({}, { replace: true })
+    requestAnimationFrame(() => importRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }))
+  }, [searchParams, setSearchParams])
+
+  useEffect(() => {
+    if (exported) exportRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  }, [exported])
+
   function doExport() {
     const text = exportProgress({
       names: state.names,
@@ -32,20 +52,21 @@ export function SettingsPage() {
       prep: state.prep,
     })
     setExported(text)
+    setExportMsg('')
     setMessage(null)
   }
 
-  async function shareText(text: string, title: string) {
+  async function shareText(text: string, title: string): Promise<string> {
     try {
       if (navigator.share) {
         await navigator.share({ title, text })
-        return
+        return ''
       }
     } catch {
       // usuario canceló o no soportado: copiamos
     }
     const ok = await copyText(text)
-    setMessage({ ok, text: ok ? 'Copiado al portapapeles.' : 'No se pudo compartir. Copia manualmente.' })
+    return ok ? 'Copiado al portapapeles.' : 'No se pudo compartir. Copia manualmente.'
   }
 
   function doImport() {
@@ -59,7 +80,10 @@ export function SettingsPage() {
       (n, map) => n + Object.values(map).filter((v) => v === 'done').length,
       0,
     )
-    setMessage({ ok: true, text: `Importado ✓ (${done} sitios marcados como vistos).` })
+    setMessage({
+      ok: true,
+      text: `Importado ✓ (${done} ${done === 1 ? 'sitio marcado' : 'sitios marcados'} como visto${done === 1 ? '' : 's'}).`,
+    })
     setImportText('')
   }
 
@@ -123,13 +147,14 @@ export function SettingsPage() {
             <CopyButton text={appUrl} label="Copiar enlace" />
             <button
               type="button"
-              onClick={() => shareText(appUrl, 'China Trip 2026')}
+              onClick={async () => setInstallMsg(await shareText(appUrl, 'China Trip 2026'))}
               className="pressable rounded-lg bg-brand-50 px-2.5 py-1.5 text-xs font-semibold text-brand-600"
             >
               📤 Compartir enlace
             </button>
           </div>
           <p className="text-[11px] break-all text-ink-faint">{appUrl}</p>
+          {installMsg && <p className="text-[11px] font-semibold text-ink-soft">{installMsg}</p>}
         </section>
 
         <section className="card space-y-2.5 p-3.5">
@@ -147,7 +172,7 @@ export function SettingsPage() {
             Generar código de progreso
           </button>
           {exported && (
-            <div className="space-y-2">
+            <div ref={exportRef} className="space-y-2">
               <textarea
                 readOnly
                 value={exported}
@@ -158,23 +183,36 @@ export function SettingsPage() {
                 <CopyButton text={exported} label="Copiar" />
                 <button
                   type="button"
-                  onClick={() => shareText(exported, 'China Trip · progreso')}
+                  onClick={async () => setExportMsg(await shareText(exported, 'China Trip · progreso'))}
                   className="pressable rounded-lg bg-brand-50 px-2.5 py-1.5 text-xs font-semibold text-brand-600"
                 >
                   📤 Compartir
                 </button>
                 <span className="self-center text-[11px] text-ink-faint">{exported.length} caracteres</span>
               </div>
-              {exported.length <= 2200 && (
-                <div className="mx-auto w-fit rounded-2xl bg-white p-3 shadow-sm">
-                  <QRCode value={exported} size={168} bgColor="#FFFFFF" fgColor="#221C1A" />
+              {exportMsg && <p className="text-[11px] font-semibold text-ink-soft">{exportMsg}</p>}
+              {exported.length <= 2000 && (
+                <div className="space-y-2">
+                  <div className="mx-auto w-fit rounded-2xl bg-white p-3 shadow-sm">
+                    <QRCode
+                      value={`${appUrl}#/ajustes?import=${encodeURIComponent(exported)}`}
+                      size={168}
+                      bgColor="#FFFFFF"
+                      fgColor="#221C1A"
+                    />
+                  </div>
+                  <p className="text-center text-[11px] leading-relaxed text-ink-faint">
+                    Escanéalo con la cámara del otro iPhone: abre la guía con el código ya pegado. Si la app está
+                    instalada, comparte el texto y pégalo dentro de la app (Safari y la app guardan progresos
+                    separados).
+                  </p>
                 </div>
               )}
             </div>
           )}
         </section>
 
-        <section className="card space-y-2.5 p-3.5">
+        <section ref={importRef} className="card space-y-2.5 p-3.5">
           <h2 className="text-[15px] font-bold">📥 Importar progreso</h2>
           <textarea
             value={importText}
