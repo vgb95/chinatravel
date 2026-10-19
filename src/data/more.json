@@ -128,6 +128,40 @@
       ]
     },
     {
+      "id": "carta",
+      "name": "Entender una carta",
+      "emoji": "🍽️",
+      "blocks": [
+        {
+          "h": "Traductores que funcionan en China",
+          "list": [
+            "Pleco + pack offline: la mejor para menús — OCR en el propio móvil y diccionario culinario; descargar el pack antes (~600 MB)",
+            "Traducir de Apple: el texto funciona offline tras descargar el chino; probar la cámara en modo avión antes de salir",
+            "WeChat → 扫一扫 → 翻译: con datos traduce la carta entera por foto, sin VPN",
+            "Google Translate: bloqueado en China continental — no contar con él"
+          ]
+        },
+        {
+          "h": "Cómo descifrar un plato",
+          "list": [
+            "Casi todos los nombres siguen el patrón método + ingrediente + salsa: 红烧 (estofado en soja) + 肉 (carne) + 甜 (dulzón)",
+            "Métodos frecuentes: 炒 salteado · 蒸 al vapor · 炸 frito · 烤 asado · 卤 en salsa maestra · 炖/煲 estofado lento",
+            "Ingredientes clave: 牛 ternera · 猪 cerdo · 鸡 pollo · 鱼 pescado · 虾 gambas · 豆腐 tofu · 面 fideos · 饭 arroz",
+            "Sabores y salsas: 麻辣 picante y entumecedor (Sichuan) · 糖醋 agridulce · 蒜蓉 con ajo · 清蒸 al vapor con jengibre"
+          ]
+        },
+        {
+          "h": "Trucos sin traductor",
+          "list": [
+            "Carta con fotos: señalar la foto o el número del plato (这个 — «este»)",
+            "Ante la duda: 微辣 (poco picante) o 不辣 (sin picante); en Chongqing empezar por 微辣",
+            "Si varios locales vecinos repiten el mismo plato, suele ser la especialidad de la zona",
+            "Peso en mercados: 斤 = 500 g · 两 = 50 g"
+          ]
+        }
+      ]
+    },
+    {
       "id": "emergencias",
       "name": "Emergencias y salud",
       "emoji": "🚨",

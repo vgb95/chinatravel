@@ -38,7 +38,7 @@
         { "id": "amap", "text": "Instalar Amap 高德地图 (地图) — el Google Maps chino", "detail": "Tiene versión en inglés y mapas offline descargables por región. Alternativa: Apple Maps funciona bien en China.", "critical": true },
         { "id": "didi", "text": "Instalar DiDi 滴滴 (taxis) y vincular pago" },
         { "id": "trip", "text": "Instalar Trip.com (trenes, vuelos, hoteles) y 12306 si se usa el oficial" },
-        { "id": "translate", "text": "Traductor offline: Baidu Translate o Google Translate con paquete chino descargado" },
+        { "id": "translate", "text": "Preparar traductores: Pleco (offline) y Traducir de Apple con chino", "detail": "Para cartas y menús: Pleco con pack de diccionario + OCR funciona sin conexión (descargar antes, ~600 MB). Traducir de Apple: descargar el chino y probar la cámara en modo avión. Con datos, 扫一扫 → 翻译 de WeChat traduce cartas enteras sin VPN. Google Translate necesita VPN: no contar con él." },
         { "id": "dianping", "text": "Instalar 大众点评 (Dianping) para reseñas de restaurantes (en chino, muy útil con traductor)" },
         { "id": "offline-maps", "text": "Descargar mapas offline de las ciudades en Amap/Apple Maps", "critical": true }
       ]
@@ -53,7 +53,7 @@
         { "id": "preload", "text": "Abrir TODAS las secciones en cada iPhone con wifi para precargar el contenido", "critical": true },
         { "id": "airplane-test", "text": "Probar en modo avión: todo debe funcionar sin conexión", "critical": true },
         { "id": "backup-progress", "text": "Exportar el progreso (Ajustes → Exportar) y guardarlo en Notas/Fotos", "detail": "Los checks viven en el móvil. Si se reinstala la app, se puede importar el JSON exportado." },
-        { "id": "addresses-offline", "text": "Verificar que las direcciones en chino se ven bien (se enseñan a taxistas)" }
+        { "id": "addresses-offline", "text": "Probar «Direcciones»: copiar una dirección en chino y pegarla en DiDi" }
       ]
     },
     {
