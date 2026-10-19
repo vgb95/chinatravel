@@ -5,23 +5,1219 @@
   "pinyin": "Shēnzhèn",
   "emoji": "🤖",
   "type": "city",
-  "tagline": "Pendiente de investigación",
-  "intro": "Contenido pendiente de investigación.",
+  "tagline": "La fábrica del futuro: drones, robots y hardware… con playa urbana",
+  "intro": "Cuatro noches de base en 南山 para exprimir la capital mundial del hardware. La ruta robótica va de 天空之城 (la sede de DJI firmada por Foster + Partners) a la flagship de 欢乐海岸, con robotaxis sin conductor, reparto de comida por dron y el mercado infinito de 华强北. El resto: la costa de 深圳湾, comida cantonesa y un día entero en Disneyland Hong Kong. 深圳 no es 'bonita' a la manera clásica — es la ciudad-laboratorio de China, y ahí está su encanto.",
   "stay": {
     "from": "2026-10-28",
     "to": "2026-11-01",
     "nights": 4,
-    "base": "Nanshan"
+    "base": "Nanshan (后海/海岸城/深圳湾)",
+    "note": "Ideal alojarse en 后海/海岸城/深圳湾: junto a las líneas L2 y L11 (directas a 福田, 华强北 y al 深圳北), a 15 min del centro cívico y con la costa a pie. Con maletas, del 深圳北 al hotel mejor DiDi (～30 min) que metro con transbordo. Si vuestro hotel queda en otra zona, avisad y ajustamos la logística."
   },
   "practical": {
-    "tips": []
+    "summary": "4 noches (28 oct–1 nov). Plan: 28 llegada + costa de 深圳湾; 29 día completo en Disneyland Hong Kong; 30 ruta robótica por 南山 (大疆, robotaxi, 欢乐海岸); 31 华强北 + centro cívico de 福田 + 灯光秀; 1 nov salida en AVE desde 深圳北. Si os quedáis sin tiempo, recortad lo turístico (世界之窗, 大芬) antes que la ruta tecnológica.",
+    "metro": "深圳地铁: 17+ líneas modernas y baratas (2-14 CNY; QR de 深圳通 o desde 微信/支付宝). Útiles: L2 (directa 后海–世界之窗–市民中心–华强北, sin transbordo), L11 exprés (后海–车公庙–福田–机场), L5 (深圳北–留仙洞–前海湾), L1 (高新园, 世界之窗, 罗湖), L9 (深圳湾公园/欢乐海岸), L6 (光明). Horario aprox. 06:30–23:30. ⚠️ 华强北 (L2/L7) y 华强路 (L1) son estaciones distintas: no las confundáis.",
+    "transport": "Aeropuerto 宝安 (SZX): L11 exprés hasta 后海 ～30 min (～8 CNY); taxi a 南山 ～25-35 min (～70-90 CNY). AVE 广州南 → 深圳北: ～30-40 min, cada 15-20 min (se compra con pasaporte en 12306/Trip.com). Del 深圳北 a 南山: L5 hasta 前海湾 + L11 hasta 后海 (～45 min) o DiDi ～30 min (～45-60 CNY). Salida del 1 nov a 阳朔: AVE directo desde 深圳北 (primero de la mañana, hora provisional 09:25) — entrad 45-60 min antes, el pasaporte es el billete. Hong Kong: 福田口岸/落马洲 (L4 福田口岸; 06:30-22:30), 罗湖 (L1; 06:30-24:00), 深圳湾口岸 (06:30-24:00; bus B3X a 屯门) y 皇岗 (24 h). Alternativa rápida: AVE 深圳北→西九龙 ～15-18 min (～75 CNY) y MTR. Taxis/DiDi baratos: bajada ～12 CNY, 南山→福田 ～35-45 CNY.",
+    "tips": [
+      "Clima a finales de octubre: 22-28 °C y húmedo, cola de temporada de tifones. Paraguas siempre; plan B de lluvia: museos (深圳博物馆, 华强北博物馆, 科学技术馆) y malls (万象天地, 深圳湾万象城).",
+      "Pagos: Alipay/WeChat con tarjeta extranjera funciona en casi todo (metro, taxis, tiendas, hasta puestos de 华强北). Llevad algo de efectivo solo para puestos muy pequeños.",
+      "Drones: comprar es fácil, volar no. En China todo dron debe registrarse (app UOM/实名登记) y buena parte de 南山/福田 está en zona restringida (aeropuerto, 深圳湾, zonas militares). No planifiquéis volar aquí: probad drones en la flagship de DJI y dejad el vuelo para otro país.",
+      "Los 华强北 markets cierran pronto (～18:00-18:30) y los domingos cierran muchos puestos: por eso el plan lo pone en sábado 31 por la mañana. Id después de las 10:00, cuando están todos abiertos.",
+      "Museos: 深圳博物馆 y 当代艺术与城市规划馆 (MOCAUP) cierran los LUNES (en vuestras fechas no cae ninguno) y piden reserva por WeChat con pasaporte. 华强北博物馆 también cierra lunes.",
+      "Bicis compartidas (美团/哈啰): suelen exigir verificación china; si falla, alquiler manual en tiendas del parque (～20-30 CNY/día). El paseo de 深圳湾公园 es llano y perfecto para ello.",
+      "Halloween (31 oct): habrá fiestas en 欢乐谷 y eventos en malls; el ambiente del centro estará animado pero no bloquea nada del plan. Disney HK ese finde irá lleno (nosotros vamos el jueves 29, mejor).",
+      "水: el agua del grifo no es potable; comprad botellas (2-5 CNY) o usad el hervidor del hotel. En restaurantes os darán té o agua caliente por defecto.",
+      "Compras con devolución de IVA (离境退税): en comercios adheridos (mín. ～500 CNY en el mismo día) piden el formulario al pagar y se reclama al salir de China (aeropuerto, en ～20-30 days en la tarjeta). En la flagship de DJI preguntad en caja si aplica."
+    ]
   },
   "sections": {
-    "must": [],
-    "areas": [],
-    "food": [],
-    "shops": [],
-    "extra": []
+    "must": [
+      {
+        "id": "sz-dji-flagship",
+        "name": "DJI: tienda insignia (欢乐海岸)",
+        "nameZh": "大疆旗舰店（欢乐海岸）",
+        "pinyin": "Dàjiāng Qíjiàndiàn",
+        "emoji": "🚁",
+        "must": true,
+        "tags": [
+          "robotica",
+          "drones",
+          "tecnologia",
+          "tienda"
+        ],
+        "desc": "La tienda insignia mundial de DJI, en el paseo marítimo de 欢乐海岸: cuatro plantas de drones, cámaras, gimbals, acción y robótica, con zona de demos donde te dejan 'volar' drones en una jaula de seguridad y suele haber exhibición del robot educativo RoboMaster. Es LA parada de vuestro viaje: aquí se toca todo lo que en 华强北 solo se mira desde fuera, con personal acostumbrado a curiosos y precios oficiales.",
+        "tips": [
+          "Entrada libre; quedaos ～1 h. La zona de 'vuelo' de demos es lo mejor: preguntad por las demostraciones.",
+          "Horario 10:00-22:00 (viernes y sábado ～hasta 22:30). Hay servicio técnico de drones por si algo necesitáis.",
+          "Metro 深圳湾公园 (L9), salida E: ～150 m. El paseo de 欢乐海岸 y 深圳湾公园 están pegados, es el plan redondo de tarde.",
+          "Si compráis algo y queréis el 离境退税: preguntad en caja por el formulario (mín. ～500 CNY por día y comercio, se reclama al salir de China).",
+          "Tel. de la tienda: 0755-8666 5246 (por si queréis confirmar demos o reservar taller)."
+        ],
+        "hours": "10:00-22:00 (vie-sáb ～hasta 22:30)",
+        "price": "Entrada gratis",
+        "metro": "深圳湾公园 (L9) — salida E, ～150 m",
+        "addressZh": "深圳市南山区白石路东8号 欢乐海岸 大疆旗舰店",
+        "lat": 22.52198,
+        "lng": 113.99193,
+        "durationMin": 60,
+        "bestTime": "Tarde, antes del atardecer en 欢乐海岸",
+        "web": "https://www.dji.com/cn/where-to-buy/flagship"
+      },
+      {
+        "id": "sz-dji-sky-city",
+        "name": "天空之城: la sede mundial de DJI",
+        "nameZh": "大疆天空之城",
+        "pinyin": "Dàjiāng Tiānkōng Zhī Chéng",
+        "emoji": "🛸",
+        "must": true,
+        "tags": [
+          "robotica",
+          "arquitectura",
+          "fotografia"
+        ],
+        "desc": "Las dos torres gemelas (207 m) de Foster + Partners que DJI usa como sede mundial, en el nuevo barrio de 留仙洞总部基地. Los bloques de oficinas 'flotan' colgados de núcleos de hormigón, unidos por puentes y con un parque público entre medias: pura ciencia-ficción. No está abierta al público general (solo visitas de grupos con reserva/研学), así que se visita por fuera — pero merece los 30 min de desvío para fotos y para ver el campus desde el exterior.",
+        "tips": [
+          "Solo exterior: no hay entradas ni visita individual. Las visitas 参观 son para grupos concertados (empresas/研学).",
+          "Metro 留仙洞 (L5): ～10 min a pie; las torres se ven ya desde la salida. Combinadlo con 西丽/留仙洞 (cafés del barrio).",
+          "Si venís de 后海: L11 hasta 前海湾 + L5 hasta 留仙洞 (～40 min), o DiDi ～25-30 min.",
+          "Plan realista: 20-30 min de fotos aquí y el grueso del día DJI en la flagship de 欢乐海岸, que sí se visita entera."
+        ],
+        "hours": "Exterior 24 h",
+        "price": "Gratis (exterior)",
+        "metro": "留仙洞 (L5) — ～10 min a pie",
+        "addressZh": "深圳市南山区西丽街道仙元路53号 大疆天空之城",
+        "lat": 22.577473,
+        "lng": 113.942888,
+        "durationMin": 30,
+        "bestTime": "Mañana o última hora de la tarde"
+      },
+      {
+        "id": "sz-robotaxi",
+        "name": "Taxi sin conductor (萝卜快跑 / Apollo Go)",
+        "nameZh": "萝卜快跑",
+        "pinyin": "Luóbo Kuàipǎo",
+        "emoji": "🚕",
+        "must": true,
+        "tags": [
+          "robotica",
+          "transporte",
+          "tech"
+        ],
+        "desc": "El robotaxi de Baidu (Apollo Go): un coche sin nadie al volante que se pide desde el mini-programa de WeChat 萝卜快跑 o su app. En 深圳 opera en 南山, 宝安 y 坪山, con paradas fijas de subida y bajada — entre ellas 深圳湾公园, 海上世界 y 前海, justo vuestras zonas. Funciona ～07:00-23:00, el precio es de taxi normal (trayectos cortos ～10-30 CNY) y el proceso es: elegir parada de salida y destino en la app → esperar en el punto → el coche se desbloquea con el código y os sentáis detrás.",
+        "tips": [
+          "El registro pide un número de móvil: con móvil extranjero a veces no llega el SMS. Probadlo en el mini-programa de WeChat y, si falla, pedid en recepción del hotel que os hagan la reserva (basta con que alguien pida el coche).",
+          "Las paradas son fijas: comprobad en el mapa de la app que vuestra zona está cubierta antes de pedir. Las de 深圳湾公园/海上世界/前海 os vienen de camino.",
+          "El trayecto 'bonito': 深圳湾公园 → 海上世界 por la costa (～15-20 min). Perfecto para el día de robótica.",
+          "Alternativas si no hay coche libre: 小马智行 (Pony.ai) en 前海/宝安, o el bus autónomo de 前海 (深圳巴士); si nada sale, tirad de DiDi y probad al día siguiente.",
+          "A los locales les encanta el tema: si vais con alguien del hotel, os lo explicará todo. Dento del coche hay pantallas con la 'visión' del vehículo."
+        ],
+        "hours": "～07:00-23:00 (confirmar en la app el mismo día)",
+        "price": "Tarifa tipo taxi: ～10-30 CNY por trayecto corto",
+        "durationMin": 30,
+        "bestTime": "Media tarde o noche (menos cola que en hora punta)"
+      },
+      {
+        "id": "sz-talent-park",
+        "name": "人才公园: paseo, skyline y comida a… dron",
+        "nameZh": "深圳人才公园",
+        "pinyin": "Réncái Gōngyuán",
+        "emoji": "🌃",
+        "must": true,
+        "tags": [
+          "parque",
+          "drones",
+          "nocturno",
+          "gratis"
+        ],
+        "desc": "El parque de los 'talentos', pegado al agua en 后海, con el skyline del nuevo 深圳湾超级总部 delante. Aquí opera una de las rutas de reparto con dron de Meituan: pedís comida en la app desde el parque y minutos después la recogéis en el 空投柜 (casillero inteligente) de 潮汐广场, viendo aterrizar al dron. De noche, el skyline iluminado y — algunos fines de semana y festivos — espectáculos de luces sobre la bahía.",
+        "tips": [
+          "Para pedir con dron: abrid Meituan en el parque, poned como dirección la zona de 人才公园 y buscad la opción de 无人机配送; si no aparece, escanead el QR del propio 空投柜 y seguid desde ahí.",
+          "El 空投柜 está en 潮汐广场 (zona sur, junto al agua; 科苑南路2834号). Pedid al llegar: tardan ～20-40 min entre cocina y vuelo, y con lluvia o viento fuerte no vuelan (plan B: puestos del parque).",
+          "Metro: 登良 (L2) ～10 min a pie, o 后海 (L2/L11) ～15 min. Para llevar comida, un DiDi corto es más cómodo.",
+          "Los espectáculos de luces de 人才公园 en 2026 no son todos los fines de semana (aparecen sobre todo en festivos); confirmad el mismo día. El plan infalible de luces es el 灯光秀 del 市民中心 (ver ficha).",
+          "El atardecer desde el malecón, con Hong Kong al fondo, es de los mejores de la ciudad: llegad ～17:30."
+        ],
+        "hours": "Parque 24 h; reparto con dron ～10:30-20:30",
+        "price": "Gratis (la comida, lo que pidáis)",
+        "metro": "登良 (L2) — ～10 min a pie; 后海 (L2/L11) — ～15 min a pie",
+        "addressZh": "深圳市南山区科苑南路2834号（潮汐广场）深圳人才公园",
+        "durationMin": 90,
+        "bestTime": "Atardecer y primera noche"
+      },
+      {
+        "id": "sz-huaqiangbei",
+        "name": "华强北: el mercado de electrónica más grande del mundo",
+        "nameZh": "华强北商圈",
+        "pinyin": "Huáqiángběi",
+        "emoji": "📱",
+        "must": true,
+        "tags": [
+          "tecnologia",
+          "compras",
+          "mercado"
+        ],
+        "desc": "El barrio de electrónica más denso del planeta: una veintena de edificios-macromercado con miles de puestos de componentes, móviles, drones, robótica y gadgets, capitaneados por el mítico 赛格广场 (SEG Plaza). Aquí se abastece medio mundo: chips al peso, placas, pantallas, piezas, robots de juguete y accesorios de todo tipo. No es un mercado para turistas — es mercado real, ruidoso y fascinante. Vuestra parada 'hardware' del viaje.",
+        "tips": [
+          "Edificios clave: 赛格广场 (SEG: móviles, componentes, accesorios), 华强电子世界 (一店/二店: componentes, drones, herramientas), 远望数码城 (móviles), 明通数码城 (electrónica/cosmética mezcladas). Empezad por planta baja e id subiendo según lo que busquéis.",
+          "Metro: 华强北 (L2/L7) salida E2, o 华强路 (L1) salida A. ⚠️ Son estaciones distintas, no las confundáis.",
+          "Horario real: abren ～09:30-10:00 y cierran ～18:00-18:30 (algunos puestos antes). El mejor momento es 10:30-17:00; los domingos cierra mucho puesto (por eso el plan lo pone en sábado).",
+          "Reglas de oro: comparad en 2-3 puestos, pedid probar el producto delante de vosotros, verificad número de serie/IMEI y desconfiad de marcas 'oficiales' sin caja: hay imitaciones de todo.",
+          "Pago con Alipay/WeChat (casi todos aceptan); para regatear, calculadora en mano y sonrisa. No hay devolución de IVA aquí.",
+          "Drones comprados aquí necesitan registro (app UOM) para volar en China y muchas zonas de 深圳 son restringidas: comprad con la idea de estrenarlos en casa.",
+          "Hay food courts y puestos de noodles dentro de los propios edificios: perfecto para comer sin salir del barrio."
+        ],
+        "hours": "～09:30-18:30 (calles y algunos centros hasta más tarde)",
+        "price": "Entrada libre",
+        "metro": "华强北 (L2, L7) — E2; 华强路 (L1) — A",
+        "addressZh": "深圳市福田区华强北路 华强北商圈",
+        "durationMin": 180,
+        "bestTime": "10:30-17:00, mejor entre semana o sábado"
+      },
+      {
+        "id": "sz-sz-museum",
+        "name": "Museo de Shenzhen (市民中心)",
+        "nameZh": "深圳博物馆（市民中心馆）",
+        "pinyin": "Shēnzhèn Bówùguǎn",
+        "emoji": "🏛️",
+        "must": true,
+        "tags": [
+          "museo",
+          "historia",
+          "gratis"
+        ],
+        "desc": "El museo que explica cómo una aldea de pescadores se convirtió en una de las mayores metrópolis del planeta: salas de 古代深圳 y 近代深圳, la exposición 深圳改革开放史 (la historia de la reforma desde 1978, con la zona económica especial) y 民俗 (vida tradicional 岭南). Entrada gratis con reserva; 1,5-2 h bien invertidas para entender todo lo que estáis viendo.",
+        "tips": [
+          "Reserva en el 微信服务号 「深圳博物馆」 o en shenzhenmuseum.com; llevaos el pasaporte (cada reserva pide ID). Sin cita a veces hay cola.",
+          "Cerrado los lunes (en vuestras fechas cae en sábado 31: perfecto).",
+          "Está en el 市民中心 A区, al lado del 当代艺术与城市规划馆 (MOCAUP) y del 深圳书城: haced el bloque completo museo + museo + librería.",
+          "Las exposiciones temporales de arte y diseño de 深圳 suelen estar en el MOCAUP de al lado (ver ficha aparte).",
+          "Subid al piso de la 改革开放: los dioramas de la 'serpiente' de la reforma y la maqueta de la ciudad valen la visita."
+        ],
+        "hours": "10:00-18:00 (última entrada 17:30). CERRADO LUNES",
+        "price": "Gratis (con reserva)",
+        "metro": "市民中心 (L2, L4) — salida B",
+        "addressZh": "深圳市福田区福中路市民中心A区 深圳博物馆",
+        "durationMin": 90,
+        "bestTime": "Mañana o primera tarde",
+        "booking": "微信服务号「深圳博物馆」/ shenzhenmuseum.com",
+        "web": "https://www.shenzhenmuseum.com"
+      },
+      {
+        "id": "sz-light-show",
+        "name": "Espectáculo de luces del CBD (福田)",
+        "nameZh": "深圳中心区灯光秀",
+        "pinyin": "Zhōngxīnqū Dēngguāngxiù",
+        "emoji": "🎆",
+        "must": true,
+        "tags": [
+          "nocturno",
+          "espectaculo",
+          "gratis"
+        ],
+        "desc": "Cuando cae la noche, los rascacielos del 福田CBD (平安金融中心 y compañía) se convierten en una pantalla gigante: decenas de edificios sincronizados de ～19:00 a ～21:30, con varias pasadas de ～10-15 min. Se ve desde la explanada del 市民中心 (frontal) o desde la cima del 莲花山公园 (panorámica). Funciona los fines de semana y festivos — el sábado 31 de octubre es vuestro día.",
+        "tips": [
+          "Calendario: viernes y sábados + vísperas de festivos, ～19:00-21:30 con varios pases; confirmad el mismo día (微信/小红书 buscad 深圳灯光秀 horario).",
+          "Mejores vistas: explanada del 市民中心 (toda la línea de edificios) o cima del 莲花山 (20-25 min de subida).",
+          "Llegad 20-30 min antes si queréis primer plano: se llena de familias con mantas.",
+          "Si al final no hay pase ese día: 人才公园, 欢乐海岸 y 世界之窗 tienen iluminación nocturna fija igualmente vistosa.",
+          "Cena fácil cerca: 购物公园 (COCO Park, L1/L3) está a 1-2 paradas y tiene de todo, de noodles a parrillas."
+        ],
+        "hours": "Vie/Sáb y festivos ～19:00-21:30 (varios pases; verificar)",
+        "price": "Gratis",
+        "metro": "市民中心 (L2, L4) / 少年宫 (L3, L4)",
+        "addressZh": "深圳市福田区福中三路 市民中心广场",
+        "durationMin": 60,
+        "bestTime": "Noche del sábado 31 oct"
+      },
+      {
+        "id": "sz-science-museum",
+        "name": "Museo de Ciencia y Tecnología de Shenzhen",
+        "nameZh": "深圳科学技术馆",
+        "pinyin": "Shēnzhèn Kēxué Jìshù Guǎn",
+        "emoji": "🧑‍🔬",
+        "must": true,
+        "tags": [
+          "museo",
+          "robotica",
+          "ciencia",
+          "interactivo"
+        ],
+        "desc": "El museo de ciencia más nuevo y grande de 深圳 (abrió en mayo de 2025 en el 光明科学城): ～950 experimentos interactivos en cuatro salas permanentes (universo, vida, materiales, tecnología), un cine IMAX con pantalla de 30 m, cine 4D de pago y hasta un robot que prepara café en la 3ª planta. Si os mola la robótica, aquí se tocan robots de servicio, brazos, IA y astronáutica.",
+        "tips": [
+          "⚠️ Está en 光明区, lejos de 南山: contad ～50-60 min por trayecto (L6 hasta 光明站 + paseo). Es medio día completo.",
+          "Entrada general gratis pero SOLO con reserva en el mini-programa de WeChat 「深圳科学技术馆」; liberan entradas del día ～20:00 para los 6 días siguientes y se agotan rápido. Llevad pasaporte (cada reserva pide ID).",
+          "Cine IMAX y 4D: de pago aparte (～30-50 CNY). Si vais justos, priorizad las salas interactivas.",
+          "Plan redondo: comer 光明乳鸽 (pichón asado, la especialidad local) antes o después de la visita.",
+          "Cerrado los lunes (en vuestras fechas no cae ninguno: 30 oct es viernes y 31 sábado)."
+        ],
+        "hours": "～09:30-17:30 (verificar). CERRADO LUNES",
+        "price": "Gratis con reserva (4D/IMAX aparte)",
+        "metro": "光明 (L6) — salida D, ～10 min a pie",
+        "addressZh": "深圳市光明区光侨路 深圳科学技术馆",
+        "durationMin": 240,
+        "bestTime": "A primera hora; es plan de medio día",
+        "booking": "Mini-programa WeChat 「深圳科学技术馆」"
+      }
+    ],
+    "areas": [
+      {
+        "id": "sz-szbay-park",
+        "name": "深圳湾公园 (paseo marítimo)",
+        "nameZh": "深圳湾公园",
+        "pinyin": "Shēnzhènwān Gōngyuán",
+        "emoji": "🌊",
+        "must": false,
+        "tags": [
+          "parque",
+          "costa",
+          "bici",
+          "gratis"
+        ],
+        "desc": "Paseo marítimo continuo de más de 15 km, de 红树林 a 蛇口: carril bici, manglares y vistas a Hong Kong (元朗, 天水围) al otro lado de la bahía. Es el pulmón de 南山 y el plan perfecto de primera tarde: enlaza con el 人才公园 sin interrupciones y a lo largo hay áreas de descanso, puestos y miradores.",
+        "tips": [
+          "Metro 深圳湾公园 (L9) — salida D2; o 红树湾南 (L9/L11).",
+          "Bicis compartidas: las apps suelen pedir verificación china; si falla, hay alquiler manual en tiendas del parque (～20-30 CNY/día).",
+          "El tramo 人才公园 ↔ 欢乐海岸 es llano y con baldosa perfecta: hacedlo a pie al atardecer.",
+          "Llevad agua y protección solar: hay sombra intermitente.",
+          "Aviso: en días de tifón o mar gruesa cierran tramos; comprobad el pronóstico."
+        ],
+        "hours": "24 h",
+        "price": "Gratis",
+        "metro": "深圳湾公园 (L9) — D2; 红树湾南 (L9, L11)",
+        "addressZh": "深圳市南山区滨河大道 深圳湾公园",
+        "durationMin": 90,
+        "bestTime": "Atardecer (17:00-19:00)"
+      },
+      {
+        "id": "sz-oct-harbour",
+        "name": "欢乐海岸 (paseo y ambiente)",
+        "nameZh": "欢乐海岸",
+        "pinyin": "Huānlè Hǎi'àn",
+        "emoji": "🎡",
+        "must": false,
+        "tags": [
+          "paseo",
+          "nocturno",
+          "comer",
+          "gratis"
+        ],
+        "desc": "Complejo a orillas de la bahía con paseo de madera, restaurantes (de cantonesa a tofu), tiendas, cines y algún espectáculo de agua según temporada. Es donde está la flagship de DJI y el acceso natural al 深圳湾公园. De noche, el juego de luces y las terrazas lo hacen un buen cierre de tarde.",
+        "tips": [
+          "Metro 深圳湾公园 (L9) — salida E: la flagship y el paseo quedan a 5-15 min a pie.",
+          "El 'espectáculo de agua' (欢乐海岸水秀) es de pago y no se celebra todas las noches: comprobad cartelera; si no, paseo + cena.",
+          "Buen sitio para cenar tras la tienda DJI, viendo el skyline de la bahía.",
+          "Con la flagship + paseo + cena, calculad 2-3 h tranquilas.",
+          "Hay zonas de juegos y música por la tarde-noche: ambiente familiar, no de marcha."
+        ],
+        "hours": "Zonas públicas 24 h; tiendas ～10:00-22:00",
+        "price": "Gratis (espectáculos de pago aparte)",
+        "metro": "深圳湾公园 (L9) — salida E",
+        "addressZh": "深圳市南山区白石路东8号 欢乐海岸",
+        "lat": 22.522,
+        "lng": 113.992,
+        "durationMin": 90,
+        "bestTime": "Tarde-noche"
+      },
+      {
+        "id": "sz-mixc-world",
+        "name": "万象天地 (MixC World)",
+        "nameZh": "万象天地",
+        "pinyin": "Wànxiàng Tiāndì",
+        "emoji": "🐘",
+        "must": false,
+        "tags": [
+          "shopping",
+          "moderno",
+          "comer",
+          "fotografia"
+        ],
+        "desc": "El mall a cielo abierto más 'instagrameable' de 深圳: callejones (里巷) con tiendas de diseño, cafés y restaurantes, el icónico elefante gigante asomando por una fachada y HAUS NOWHERE, el espacio con los famosos 巨人 — esculturas hiperrealistas de varios metros, entrada gratis. Aquí está también la flagship de 华为. Puro 深圳 moderno en versión paseo.",
+        "tips": [
+          "Metro 高新园 (L1) — salida A, directa al complejo.",
+          "El espacio de los 巨人 abre ～10:00-22:00 y a veces tiene cola en fin de semana: mejor a primera hora o entre semana.",
+          "Comed en 里巷: de 牛肉火锅 a ramen, tacos o hotpot; hay food court y terrazas.",
+          "Combinadlo con la flagship de 华为 (misma manzana) y con 海岸城/后海 a 2 paradas.",
+          "Buen refugio si llueve: aunque es 'abierto', hay pasajes cubiertos por todas partes."
+        ],
+        "hours": "10:00-22:00",
+        "price": "Entrada libre",
+        "metro": "高新园 (L1) — salida A",
+        "addressZh": "深圳市南山区深南大道9668号 万象天地",
+        "durationMin": 120,
+        "bestTime": "Tarde-noche"
+      },
+      {
+        "id": "sz-nantou",
+        "name": "南头古城 (casco antiguo)",
+        "nameZh": "南头古城",
+        "pinyin": "Nántóu Gǔchéng",
+        "emoji": "🏘️",
+        "must": false,
+        "tags": [
+          "barrio",
+          "historia",
+          "diseno",
+          "nocturno"
+        ],
+        "desc": "El 'casco antiguo' de 深圳: un recinto amurallado con 1.700 años de historia (fue sede del condado 新安), rehabilitado en 2020 como barrio creativo — tiendas de diseño chino, cafeterías, galerías, el pequeño museo del 南头 y callejones con arte urbano. Genuinamente agradable al caer la tarde y todavía poco turístico para lo que ofrece.",
+        "tips": [
+          "Metro 南头古城 (L12) — salida directa; o 桃园 (L1) + ～10 min a pie.",
+          "Id con hambre: hay izakayas, cocina fusión y una buena escena de café y helados.",
+          "El 南头古城博物馆 (dentro) es pequeño y gratis; el propio paseo es la atracción.",
+          "Plan redondo: 万象天地 (L1) → 桃园 → 南头古城 para el atardecer y cena.",
+          "Está pegado a 中山公园, por si os apetece alargar el paseo verde."
+        ],
+        "hours": "Barrio 24 h; tiendas ～11:00-22:00",
+        "price": "Gratis",
+        "metro": "南头古城 (L12) / 桃园 (L1)",
+        "addressZh": "深圳市南山区南山大道与深南大道交汇处 南头古城",
+        "durationMin": 90,
+        "bestTime": "Tarde-noche"
+      },
+      {
+        "id": "sz-oct-loft",
+        "name": "华侨城创意园 (OCT Loft)",
+        "nameZh": "华侨城创意文化园",
+        "pinyin": "Huáqiáochéng Chuàngyì Yuán",
+        "emoji": "🎨",
+        "must": false,
+        "tags": [
+          "arte",
+          "diseno",
+          "cafeterias"
+        ],
+        "desc": "Antiguo complejo industrial convertido en el barrio artístico de referencia de 深圳: galerías, tiendas de diseño, murales, la librería-café 旧天堂书店 (mítica) y terrazas. Un respiro tranquilo entre tanta torre, y a un paso del 华侨城.",
+        "tips": [
+          "Metro 侨城东 (L1) — salida A, ～10 min a pie; también 侨城北 (L2).",
+          "La librería 旧天堂书店 y los fines de semana con mercadillo de diseño son lo mejor.",
+          "De noche quedan terrazas y bares de cerveza artesanal: buen plan de cierre.",
+          "Combinadlo con 世界之窗 (al lado) si os apetece el contraste kitsch.",
+          "Aviso: los lunes algunas galerías cierran."
+        ],
+        "hours": "～10:00-22:00 (varía por local)",
+        "price": "Gratis",
+        "metro": "侨城东 (L1) — salida A / 侨城北 (L2)",
+        "addressZh": "深圳市南山区锦绣北街 华侨城创意文化园",
+        "durationMin": 75,
+        "bestTime": "Tarde o noche"
+      },
+      {
+        "id": "sz-sea-world",
+        "name": "海上世界 (Shekou)",
+        "nameZh": "海上世界",
+        "pinyin": "Hǎishàng Shìjiè",
+        "emoji": "⚓",
+        "must": false,
+        "tags": [
+          "paseo",
+          "nocturno",
+          "comer",
+          "barrio"
+        ],
+        "desc": "La plaza de 蛇口 construida alrededor del buque-museo 明华轮 (un transatlántico reconvertido, bautizado 海上世界 por 邓小平 en 1984), con fuentes danzantes, restaurantes de medio mundo y ambiente de expats. Es el arranque del paseo de 蛇口 y un buen final de día tras el robotaxi desde la costa.",
+        "tips": [
+          "Metro 海上世界 (L2, L12) — salida directa a la plaza.",
+          "Los fines de semana hay espectáculo de fuentes por la noche (～19:30-20:30; confirmad).",
+          "Para cenar hay de todo: cantonesa, occidental, española — buena variedad frente a la oferta clásica china.",
+          "Vuelta a 后海: L2 directa ～15 min (o robotaxi, si la suerte acompaña).",
+          "Combinadlo con el mercado de marisco de 蛇口 si queréis plan más local."
+        ],
+        "hours": "Plaza 24 h; locales y fuentes por la noche",
+        "price": "Gratis",
+        "metro": "海上世界 (L2, L12)",
+        "addressZh": "深圳市南山区蛇口 望海路 海上世界",
+        "durationMin": 90,
+        "bestTime": "Noche"
+      },
+      {
+        "id": "sz-lianhua-hill",
+        "name": "莲花山公园 (mirador del CBD)",
+        "nameZh": "莲花山公园",
+        "pinyin": "Liánhuāshān Gōngyuán",
+        "emoji": "🌿",
+        "must": false,
+        "tags": [
+          "parque",
+          "vistas",
+          "atardecer",
+          "gratis"
+        ],
+        "desc": "La colina verde del centro (106 m) con el mejor mirador del 福田CBD: desde la plaza de la estatua de 邓小平 se ve todo el skyline, y se sube en 20-25 min sin esfuerzo. Los fines de semana está lleno de familias con cometas — es el pulmón de la ciudad y antesala perfecta del 灯光秀.",
+        "tips": [
+          "Subida: metro 少年宫 (L3/L4), entrada sur, ～20-25 min hasta la cima; también 莲花北 (L4).",
+          "Id 1 h antes del atardecer: veis cambiar la luz, el CBD encenderse y podéis quedaros para el 灯光秀.",
+          "Llevad agua; arriba hay puestos de helados y bebidas.",
+          "La bajada sur enlaza a pie con el 市民中心, la 书城 y los museos.",
+          "Al atardecer hay mucha gente con trípodes: buscad sitio en la explanada superior."
+        ],
+        "hours": "06:00-23:00",
+        "price": "Gratis",
+        "metro": "少年宫 (L3, L4) — entrada sur",
+        "addressZh": "深圳市福田区红荔路6030号 莲花山公园",
+        "durationMin": 75,
+        "bestTime": "Atardecer (～17:00-18:30 en octubre)"
+      },
+      {
+        "id": "sz-mocaup",
+        "name": "当代艺术与城市规划馆 (MOCAUP)",
+        "nameZh": "深圳当代艺术与城市规划馆",
+        "pinyin": "MOCAUP",
+        "emoji": "🏗️",
+        "must": false,
+        "tags": [
+          "museo",
+          "arquitectura",
+          "arte",
+          "gratis"
+        ],
+        "desc": "El edificio más espectacular de 福田: firmado por Coop Himmelb(l)au, con fachadas de cristal curvado y una estructura interior que parece una nave espacial. Dentro conviven las salas de arte contemporáneo, las maquetas de la 城市规划 y el 深圳改革开放展览馆 (gratis): 40 años de reforma contados con dioramas y vídeos que se ven solos.",
+        "tips": [
+          "Gratis con reserva (pasaporte); cerrado los lunes. A veces la entrada al 改革开放展览馆 se pide in situ.",
+          "El propio edificio es la atracción: fijaos en las geometrías y reflejos desde la plaza.",
+          "La muestra 大潮起珠江 (historia de la reforma) está muy bien montada: ～45 min.",
+          "A 3 min del 深圳博物馆: haced los dos seguidos.",
+          "Combinadlo con 莲花山 (a 10 min) y el 灯光秀 de la noche."
+        ],
+        "hours": "10:00-18:00 (17:30 última entrada). CERRADO LUNES",
+        "price": "Gratis (reserva)",
+        "metro": "市民中心 (L2, L4) / 少年宫 (L3, L4)",
+        "addressZh": "深圳市福田区福中路184号 当代艺术与城市规划馆",
+        "durationMin": 60,
+        "bestTime": "Media tarde"
+      },
+      {
+        "id": "sz-huaqiangbei-museum",
+        "name": "Museo de 华强北",
+        "nameZh": "华强北博物馆",
+        "pinyin": "Huáqiángběi Bówùguǎn",
+        "emoji": "🖥️",
+        "must": false,
+        "tags": [
+          "museo",
+          "tecnologia",
+          "gratis"
+        ],
+        "desc": "El museo que cuenta cómo 华强北 pasó de fábrica de componentes a símbolo del hardware chino: los 'reyes del chip', maquetas, ordenadores vintage y la cultura de los mercados que abastecen al mundo. Pequeño (～1 h), gratis y con visitas guiadas a 10:30 y 15:30; está en la 5ª planta de un edificio comercial en plena 华强北路.",
+        "tips": [
+          "Entrada gratis pero con reserva en el 微信服务号 「华强北博物馆」; llevaos el pasaporte.",
+          "Cerrado los lunes (el 31 oct es sábado: perfecto). Visitas guiadas a 10:30 y 15:30 (punto de encuentro: 印象大厅).",
+          "Metro 华强北 (L2/L7) — salida E2. Tel. 0755-8320 2020.",
+          "Si vais justos, 40 min bastan; después, comida en los food courts del barrio."
+        ],
+        "hours": "10:00-18:00 (17:30 última entrada). CERRADO LUNES",
+        "price": "Gratis (reserva)",
+        "metro": "华强北 (L2, L7) — salida E2",
+        "addressZh": "深圳市福田区华强北路1058号广博现代之窗大厦5楼（A座）",
+        "durationMin": 45,
+        "bestTime": "Mañana o primera tarde",
+        "booking": "微信服务号「华强北博物馆」"
+      }
+    ],
+    "food": [
+      {
+        "id": "sz-beef-hotpot",
+        "name": "Fondue de ternera 潮汕 (八合里海记)",
+        "nameZh": "八合里海记牛肉火锅",
+        "pinyin": "Bāhélǐ Hǎijì Niúròu Huǒguō",
+        "emoji": "🥩",
+        "must": true,
+        "tags": [
+          "carne",
+          "hotpot",
+          "tipico"
+        ],
+        "desc": "El plato-bandera del sur: 牛肉火锅 al estilo 潮汕. Caldo claro, carne cortada finísima — 吊龙, 匙柄, 五花趾, 嫩肉 — que se escalda 8-10 segundos, y salsa 沙茶 montada a vuestro gusto. La cadena 八合里海记 (nacida en 汕头, omnipresente en 深圳) es apuesta segura: barata, rápida y siempre llena. No os vayáis sin pedir 手打牛肉丸 (albóndigas de carne golpeadas a mano) y 炸腐竹.",
+        "tips": [
+          "Id antes de 18:30 o pedid número: a las 19:30 hay cola hasta un martes.",
+          "Truco: pedid varios cortes en media ración para probarlo todo (吊龙, 匙柄, 五花趾).",
+          "La barra de salsas es self-service: 沙茶酱 + ajo + cilantro + un poco de chile.",
+          "～80-120 CNY/persona; hay sucursales por todo 南山 (海岸城, 科技园…).",
+          "Para beber, la cerveza local 青岛 o el 王老吉 van bien con el calor del caldo."
+        ],
+        "hours": "～10:30-22:00 (algunas sedes hasta 00:00)",
+        "price": "～80-120 CNY/persona",
+        "metro": "后海 (L2/L11) — en 海岸城 y alrededores",
+        "addressZh": "深圳市南山区海岸城购物中心（东区）八合里海记牛肉火锅",
+        "durationMin": 75,
+        "bestTime": "Comida o cena temprana"
+      },
+      {
+        "id": "sz-coconut-chicken",
+        "name": "Pollo al coco 椰子鸡 (润园四季)",
+        "nameZh": "润园四季椰子鸡",
+        "pinyin": "Rùnyuán Sìjì Yēziji",
+        "emoji": "🥥",
+        "must": false,
+        "tags": [
+          "pollo",
+          "hotpot",
+          "suave"
+        ],
+        "desc": "El invento más 深圳 de todos: fondue de agua de coco con pollo 文昌. El caldo (agua de coco pura, coco fresco, 竹荪) hierve, se mete el pollo 3-4 min y sale dulce y suave; se moja en salsa de soja + lima 小青柠 + 沙姜 + chile. 润园四季 es la cadena clásica, con sedes en 海岸城, 万象天地 y medio 深圳. Ligero, raro y adictivo.",
+        "tips": [
+          "Pedid el pollo entero o medio según hambre; añadid 竹荪 (hongo) y 青笋 (lecha).",
+          "El pollo no más de 4 min: se seca y pierde la gracia.",
+          "De postre o extra: 椰子冻 (gelatina de coco).",
+          "～90-130 CNY/persona; las sedes de 后海/海岸城 os cuadran de camino.",
+          "Es el plan perfecto para una noche suave tras un día largo."
+        ],
+        "hours": "～11:00-22:30",
+        "price": "～90-130 CNY/persona",
+        "metro": "后海 (L2/L11)",
+        "addressZh": "深圳市南山区海岸城购物中心 润园四季椰子鸡",
+        "durationMin": 75,
+        "bestTime": "Cena"
+      },
+      {
+        "id": "sz-lacesar",
+        "name": "Pizza de durian (乐凯撒)",
+        "nameZh": "乐凯撒比萨",
+        "pinyin": "Lèkǎisà Bǐsà",
+        "emoji": "🍕",
+        "must": false,
+        "tags": [
+          "pizza",
+          "fusion",
+          "durian"
+        ],
+        "desc": "Cadena de pizza nacida en 深圳 y famosa por su atrevida 榴莲披萨 (pizza de durian): masa fina, queso fundido y pulpa de durian — o la amas o la odias, y es un clásico local. También tienen pizzas 'normales' muy decentes y alitas. Buen plan fusión cuando ya habéis comido mucho arroz.",
+        "tips": [
+          "Plan de 2: una 榴莲披萨 pequeña (猫山王) + una clásica, para decidir bando.",
+          "Sedes por todo 南山 (海岸城, 万象天地…) y muchos centros comerciales.",
+          "A mediodía hay 套餐 con ensalada a buen precio.",
+          "～60-100 CNY/persona.",
+          "Si el durian os da miedo: probad solo un trozo; la textura sorprende."
+        ],
+        "hours": "～10:30-22:00",
+        "price": "～60-100 CNY/persona",
+        "metro": "后海 / 高新园 según sede",
+        "addressZh": "深圳市南山区 海岸城/万象天地 乐凯撒比萨",
+        "durationMin": 60,
+        "bestTime": "Comida o cena"
+      },
+      {
+        "id": "sz-tanyu",
+        "name": "Pescado a la brasa (探鱼)",
+        "nameZh": "探鱼",
+        "pinyin": "Tànyú",
+        "emoji": "🐟",
+        "must": false,
+        "tags": [
+          "pescado",
+          "picante",
+          "informal"
+        ],
+        "desc": "烤鱼 a la brasa estilo 深圳: cadena nacida aquí, con pescado entero a la parrilla sobre bandeja, salsa y verduras, 12+ sabores (de 麻辣 a tomate o ajo). Debajo va un hornillo y se come sin prisa, con 串串 y cerveza. Informal, barato y muy chino: perfecto para una cena animada.",
+        "tips": [
+          "Elegid pescado y sabor en la tablet; el 麻辣 va fuerte de verdad: principiantes, tirad de 蒜香 (ajo) o 番茄.",
+          "Un pescado + 1-2 acompañamientos para dos personas sobra.",
+          "Las raciones de 配菜 son grandes: no pidáis de más.",
+          "～70-100 CNY/persona.",
+          "Hay sedes en 万象天地 y en casi todos los malls grandes."
+        ],
+        "hours": "～11:00-22:00",
+        "price": "～70-100 CNY/persona",
+        "metro": "万象天地 (L1) y otras sedes",
+        "addressZh": "深圳市南山区 万象天地 探鱼",
+        "durationMin": 75,
+        "bestTime": "Cena"
+      },
+      {
+        "id": "sz-nayuki",
+        "name": "Nueva ola de té (奈雪/喜茶)",
+        "nameZh": "奈雪の茶 / 喜茶",
+        "pinyin": "Nàixuě zhī Chá / Xǐchá",
+        "emoji": "🧋",
+        "must": false,
+        "tags": [
+          "bebidas",
+          "te",
+          "dulce"
+        ],
+        "desc": "La nueva ola del té nació aquí: 深圳 es cuna de cadenas como 奈雪の茶 (fundada en 深圳 en 2015) y campo de batalla de 喜茶, además de docenas de marcas de 柠檬茶. El plan: un tea de fruta con 奶盖 (espuma de queso salada) y pan suave, entre compras. Los locales lo viven como cultura, con colas a las 15:00 en fin de semana.",
+        "tips": [
+          "Pedid 少冰 (menos hielo) y 少糖 (menos azúcar): el 'medio azúcar' chino sigue siendo dulce para nosotros.",
+          "Especialidad: tés de fruta (水果茶) y el 奶盖 de 奈雪; también pruebas los 杨枝甘露.",
+          "Se pide con QR/小程序 o en caja; aceptan Alipay/WeChat.",
+          "～20-35 CNY por bebida.",
+          "Sedes en 海岸城, 万象天地 y prácticamente cada mall de 南山."
+        ],
+        "hours": "～10:00-22:00",
+        "price": "～20-35 CNY",
+        "metro": "万象天地 / 海岸城 (varias sedes)",
+        "addressZh": "深圳市南山区 万象天地 奈雪の茶",
+        "durationMin": 20,
+        "bestTime": "Media tarde"
+      },
+      {
+        "id": "sz-zaocan",
+        "name": "Desayuno de barrio: 肠粉 y gachas",
+        "nameZh": "肠粉 / 粥",
+        "pinyin": "Chángfěn / Zhōu",
+        "emoji": "🥟",
+        "must": false,
+        "tags": [
+          "desayuno",
+          "barato",
+          "tipico"
+        ],
+        "desc": "El desayuno cantones cuesta ～15-25 CNY y es una gozada: 肠粉 (rollitos de arroz al vapor con huevo, cerdo o gambas), 粥 (gachas de 及弟, cerdo y huevo centenario), 油条 (buñuelo frito) y 豆浆 (leche de soja). En 深圳 hay cadenas de 肠粉 (红荔村 y similares) y salas de dim sum (点都德) con menús por QR; de 07:30 a 09:30 está lleno de locales.",
+        "tips": [
+          "Buscad 肠粉 o 点都德 alrededor del hotel en Amap/Meituan; pedid el 套餐 por la app: más barato y sin líos de idioma.",
+          "Pedid 蛋肉肠 (huevo y cerdo) y 虾米肠 (gambas); el 及第粥 lleva vísceras — preguntad si no os va.",
+          "点都德 funciona para dim sum completo (虾饺, 凤爪, 叉烧包) y abre desde temprano.",
+          "Ideal el día de la salida (1 nov): desayunad cerca del hotel o en el 深圳北.",
+          "Recordad el 茶位费 (～2-5 CNY por persona de servicio de té) en las salas de dim sum."
+        ],
+        "hours": "06:30-10:30 (madrugada china)",
+        "price": "～15-40 CNY",
+        "metro": "Cualquier barrio (buscar alrededor del hotel)",
+        "durationMin": 40,
+        "bestTime": "07:30-09:00"
+      },
+      {
+        "id": "sz-guangming-pigeon",
+        "name": "Pichón asado de 光明 (光明乳鸽)",
+        "nameZh": "光明乳鸽",
+        "pinyin": "Guāngmíng Rǔgē",
+        "emoji": "🕊️",
+        "must": false,
+        "tags": [
+          "carne",
+          "especialidad",
+          "local"
+        ],
+        "desc": "La especialidad de 光明区 (donde está el nuevo museo de ciencia): 红烧乳鸽 — pichón joven adobado y frito/asado, crujiente por fuera y jugoso por dentro, se come con guantes. Los locales hacen peregrinación a 光明 solo por esto; precio ～40-60 CNY por pichón. Si vais al 科学技术馆, el combo museo + pichón es redondo.",
+        "tips": [
+          "Las sedes clásicas están en el propio 光明: buscad 光明乳鸽 en Amap al salir del museo (L6 光明站).",
+          "Pedid 红烧 (crujiente) y 卤水 (braseado) para comparar.",
+          "Se come con las manos (hay guantes); de acompañamiento, arroz o 粥 y una verdura.",
+          "Hay también sedes en el centro de 深圳 (光明乳鸽 sucursales), por si no subís a 光明.",
+          "～40-60 CNY por pichón; con 2-3 platos coméis dos personas."
+        ],
+        "hours": "～11:00-21:00",
+        "price": "～40-60 CNY/pichón",
+        "metro": "光明 (L6)",
+        "addressZh": "深圳市光明区 光明乳鸽（sede de 光明）",
+        "durationMin": 60,
+        "bestTime": "Comida, combinado con el museo"
+      }
+    ],
+    "shops": [
+      {
+        "id": "sz-huawei-flagship",
+        "name": "旗舰店 de 华为 (万象天地)",
+        "nameZh": "华为全球旗舰店",
+        "pinyin": "Huáwéi Quánqiú Qíjiàndiàn",
+        "emoji": "📶",
+        "must": false,
+        "tags": [
+          "tecnologia",
+          "tienda",
+          "gadgets"
+        ],
+        "desc": "La tienda insignia mundial de 华为 en 万象天地: tres plantas de diseño futurista donde tocar todo — móviles plegables, tablets, audio, hogar conectado y coches eléctricos 问界 (AITO) expuestos. Aunque no compréis, es un paseo tecnológico gratuito y el contrapunto 'oficial' al caos de 华强北.",
+        "tips": [
+          "Planta baja: móviles; plantas altas: ecosistema (relojes, portátiles, hogar) y el espacio de coches.",
+          "Los plegables (Mate X) y el ecosistema 鸿蒙 son lo más curioso de probar.",
+          "Horario ～10:00-22:00; está en la misma manzana que el elefante de 万象天地.",
+          "Antes de comprar, comparad con los precios 'de importación' de 华强北: a veces la tienda oficial gana.",
+          "Preguntad por la 退税 (devolución de IVA) si compráis: aplica en compras de ～500 CNY+ del día en comercios adheridos."
+        ],
+        "hours": "10:00-22:00",
+        "price": "Entrada libre",
+        "metro": "高新园 (L1) — salida A",
+        "addressZh": "深圳市南山区深南大道9668号 万象天地 华为全球旗舰店",
+        "durationMin": 45,
+        "bestTime": "Tarde"
+      },
+      {
+        "id": "sz-coastal-city",
+        "name": "海岸城购物中心",
+        "nameZh": "海岸城购物中心",
+        "pinyin": "Hǎi'ànchéng Gòuwù Zhōngxīn",
+        "emoji": "🛍️",
+        "must": false,
+        "tags": [
+          "shopping",
+          "comer",
+          "cine"
+        ],
+        "desc": "El mall clásico de 南山 (后海), vuestro centro de operaciones de cenas: moda, electrónica (小米, OPPO, DJI a veces), cines, food court arriba y restaurantes en planta baja (八合里, 润园四季…). Conectado al 保利文化广场 por pasarela. A un paso del 人才公园 y de 深圳湾公园.",
+        "tips": [
+          "Metro 后海 (L2/L11) — salida D, ～5 min a pie.",
+          "El food court de la planta alta es la opción rápida y barata (～30-50 CNY).",
+          "Para ver las cadenas de té (奈雪, 喜茶) y tiendas de móviles: aquí están todas.",
+          "Buen plan post-atardecer: cena aquí y paseo hasta 深圳湾.",
+          "Los fines de semana el parking se llena; en metro es trivial."
+        ],
+        "hours": "10:00-22:00",
+        "price": "Entrada libre",
+        "metro": "后海 (L2, L11)",
+        "addressZh": "深圳市南山区文心五路33号 海岸城购物中心",
+        "durationMin": 90,
+        "bestTime": "Tarde-noche"
+      },
+      {
+        "id": "sz-mixc-bay",
+        "name": "深圳湾万象城 (lujo junto al mar)",
+        "nameZh": "深圳湾万象城",
+        "pinyin": "Shēnzhènwān Wànxiàngchéng",
+        "emoji": "🌟",
+        "must": false,
+        "tags": [
+          "shopping",
+          "luxury",
+          "lluvia"
+        ],
+        "desc": "El mall de lujo del 深圳湾 (grupo 华润, los mismos de 万象天地): firmas internacionales, restaurantes de autor y un interior amplio y tranquilo — el contrapunto 'premium' a 华强北. Buen refugio si llueve y buen sitio para ver cómo consume el 深圳 que se ha hecho rico.",
+        "tips": [
+          "Metro 后海 (L2/L11) + ～10-12 min a pie, o taxi corto (～10 CNY).",
+          "En las plantas altas hay terrazas con vistas al 深圳湾体育中心 (la 'concha'/春茧).",
+          "Para 手信 de diseño: varias marcas chinas de hogar y ropa tienen tienda aquí.",
+          "Si vais cargados, pedid DiDi para la vuelta.",
+          "Está a un paso del paseo de 深圳湾: combinad compras y atardecer."
+        ],
+        "hours": "10:00-22:00",
+        "price": "Entrada libre",
+        "metro": "后海 (L2, L11) — ～12 min a pie",
+        "addressZh": "深圳市南山区科苑南路2888号 深圳湾万象城",
+        "durationMin": 90,
+        "bestTime": "Tarde o día de lluvia"
+      },
+      {
+        "id": "sz-bookcity",
+        "name": "深圳书城 (Center City)",
+        "nameZh": "深圳书城·中心城",
+        "pinyin": "Shēnzhèn Shūchéng",
+        "emoji": "📚",
+        "must": false,
+        "tags": [
+          "libros",
+          "diseno",
+          "lluvia"
+        ],
+        "desc": "Uno de los complejos culturales más grandes de China: varias plantas de libros (también de diseño y algo en inglés), papelería, juguetes educativos y cafés, justo al lado del 市民中心 y del 莲花山. Perfecta parada entre museos si llueve, o para 手信 bonitos (cuadernos, separadores, diseño local) antes del 灯光秀.",
+        "tips": [
+          "Metro 少年宫 (L3/L4) — conexión directa; o 市民中心 a 5 min a pie.",
+          "Buscad la zona de diseño y fotografía china: hay libros que no veréis en casa.",
+          "Arriba hay food court y una cafetería con vistas al 莲花山.",
+          "Abierta hasta tarde (～22:00): ideal antes del espectáculo de luces.",
+          "Si vais con prisa, 30-45 min bastan para el bloque de 手信."
+        ],
+        "hours": "09:30-22:00",
+        "price": "Entrada libre",
+        "metro": "少年宫 (L3, L4)",
+        "addressZh": "深圳市福田区福中一路2014号 深圳书城中心城",
+        "durationMin": 45,
+        "bestTime": "Tarde- noche"
+      }
+    ],
+    "extra": [
+      {
+        "id": "sz-hk-border",
+        "name": "Cruzar a Hong Kong (ida y vuelta)",
+        "nameZh": "深圳→香港 口岸",
+        "pinyin": "Kǒu'àn",
+        "emoji": "🚦",
+        "must": false,
+        "tags": [
+          "transporte",
+          "frontera",
+          "hongkong"
+        ],
+        "desc": "Guía de pasos para el día de Disney (29 oct). La ida desde 南山: taxi/DiDi al 深圳湾口岸 (～25 min, ～35-45 CNY) o metro L13 (salida B/C); cruz a pie, bus B3X (HK$16.5) a 屯门市中心 y MTR (屯马线→南昌, 东涌线→欣澳, 迪士尼线; tarifa fija HK$7): ～2 h 15 puerta a puerta. Alternativas: 福田口岸/落马洲 (L4; 06:30-22:30) o 罗湖 (L1; 06:30-24:00) con el 东铁线. La vuelta, por 深圳湾 (B3X, último ～22:50 desde 屯门) o, si falla, 皇岗口岸 (24 h).",
+        "tips": [
+          "Llevad pasaporte en mano; a la ida (～08:00) la cola en 深圳湾 es corta (10-20 min), a la vuelta (22:15) puede ser de 30-60 min.",
+          "En HK: Octopus o pago contactless; el MTR también acepta QR de Alipay (región HK). El bus B3X se paga con Octopus/contactless (HK$16.5).",
+          "Último B3X desde 屯门市中心 ～22:50: estad en la parada a las ～22:30. Plan B si lo perdéis: minibús 44B/44B1/N44B a 皇岗口岸 (24 h).",
+          "Antes de cruzar, comprad agua y snacks en 深圳: dentro de Disney todo es caro.",
+          "El 29 oct en HK: 24-28 °C, llevad chubasquero fino (cola de tifones) y calzado cómodo.",
+          "Todos los detalles del parque (entradas, reserva obligatoria, orden de zonas, deadlines de vuelta) están en la ficha de Hong Kong."
+        ],
+        "hours": "福田口岸 06:30-22:30 · 罗湖 06:30-24:00 · 深圳湾 06:30-24:00 · 皇岗 24 h",
+        "price": "Metro + MTR: ～60-90 HKD por trayecto",
+        "metro": "深圳湾口岸 (L13 — salidas B/C); bus B3X conecta con 屯门",
+        "addressZh": "深圳市南山区 深圳湾口岸（地铁13号线 深圳湾口岸站）",
+        "durationMin": 120,
+        "bestTime": "Salir ～07:00 para llegar a la apertura"
+      },
+      {
+        "id": "sz-north-station",
+        "name": "深圳北站 (salida en AVE)",
+        "nameZh": "深圳北站",
+        "pinyin": "Shēnzhènběi Zhàn",
+        "emoji": "🚄",
+        "must": false,
+        "tags": [
+          "transporte",
+          "tren",
+          "logistica"
+        ],
+        "desc": "El 1 de noviembre salís de aquí en AVE directo a 阳朔 (primero de la mañana; hora provisional 09:25, pendiente de vuestros billetes reales). 深圳北 es enorme: entrad con 45-60 min de margen entre seguridad y control con pasaporte.",
+        "tips": [
+          "Desde 后海/南山: DiDi ～30 min (～45-60 CNY) recomendado con maletas; en metro, L11 hasta 前海湾 + L5 hasta 深圳北 (～45-50 min).",
+          "El pasaporte es el billete: entrad por el control de 人工 con él en mano (el QR requiere ID chino).",
+          "Desayuno: hay cadenas y tienda de conveniencia en la planta alta; comprad también agua para el tren.",
+          "No confundir 深圳北 (AVE del norte) con 深圳站 (罗湖) ni 福田站 (el 'AVE urbano' del centro).",
+          "Llegada a 阳朔: la estación está a ～40-50 min del pueblo; los buses 景区专线 salen al lado (ver ficha de 阳朔)."
+        ],
+        "hours": "～05:30-24:00",
+        "price": "—",
+        "metro": "深圳北 (L4, L5, L6)",
+        "addressZh": "深圳市龙华区致远中路28号 深圳北站",
+        "durationMin": 60,
+        "bestTime": "Llegar 45-60 min antes de la salida"
+      },
+      {
+        "id": "sz-ubtech",
+        "name": "优必选: cuna de humanoides (solo fachada)",
+        "nameZh": "优必选科技（总部）",
+        "pinyin": "Yōubìxuǎn",
+        "emoji": "🦾",
+        "must": false,
+        "tags": [
+          "robotica",
+          "humanoides",
+          "curiosidad"
+        ],
+        "desc": "La empresa de robots humanoides más conocida de 深圳 (sus Walker han bailado hasta en la gala del Año Nuevo chino). Tiene la sede en 南山智园, pero no ofrece visitas al público: es una parada 'de peregrinaje' para fans de la robótica — foto de fachada y poco más. Para ver humanoides de verdad, mejor el 深圳科学技术馆 y las ferias tecnológicas.",
+        "tips": [
+          "Dirección: 南山智园 (学苑大道1001号), en 西丽 — cerca del 大疆天空之城.",
+          "No hay showroom público: no le dediquéis viaje exclusivo; combinadlo con 大疆天空之城 (misma zona).",
+          "Metro 塘朗 (L5) + ～15 min a pie/bus.",
+          "Si os interesa el sector: la 高交会 (feria de alta tecnología, noviembre) llena 深圳 de robots y drones expuestos.",
+          "Los humanoides de 优必选 también aparecen a veces en la flagship de DJI y en malls con demos."
+        ],
+        "hours": "— (no visitable)",
+        "price": "—",
+        "metro": "塘朗 (L5) — ～15 min a pie/bus",
+        "addressZh": "深圳市南山区学苑大道1001号 南山智园 优必选",
+        "durationMin": 15,
+        "bestTime": "De paso hacia 大疆天空之城"
+      },
+      {
+        "id": "sz-pony-ai",
+        "name": "小马智行 (Pony.ai): el otro robotaxi",
+        "nameZh": "小马智行",
+        "pinyin": "Xiǎomǎ Zhìxíng",
+        "emoji": "🐎",
+        "must": false,
+        "tags": [
+          "robotica",
+          "transporte",
+          "tech"
+        ],
+        "desc": "Robotaxi de Pony.ai: en 深圳 opera en zonas de 前海/宝安 (además de 广州 y otras ciudades). Si en la app de 萝卜快跑 no encontráis trayecto que os cuadre, probad aquí: mismo concepto, app propia (小马智行). El trayecto simpático es dar una vuelta por el skyline nuevo de 前海.",
+        "tips": [
+          "Comprobad la zona en la app el mismo día; para 南山 centro, 萝卜快跑 suele cubrir mejor.",
+          "El registro pide teléfono: si el SMS extranjero falla, pedid ayuda en el hotel.",
+          "Duración típica ～10-20 min por trayecto corto.",
+          "Si tampoco sale, siempre queda 高德/DiDi normal y el capricho queda pendiente para 广州 (WeRide).",
+          "Vestid con ropa ligera: los coches autónomos van con clima controlado y ventanas grandes."
+        ],
+        "hours": "～08:00-22:00 (verificar en la app)",
+        "price": "Tarifa tipo taxi (～10-30 CNY corto)",
+        "durationMin": 20,
+        "bestTime": "Media tarde",
+        "addressZh": "深圳市 前海/宝安（paradas de la app 小马智行）"
+      },
+      {
+        "id": "sz-window-world",
+        "name": "世界之窗 (réplicas del mundo)",
+        "nameZh": "世界之窗",
+        "pinyin": "Shìjiè zhī Chuāng",
+        "emoji": "🗼",
+        "must": false,
+        "tags": [
+          "parque",
+          "kitsch",
+          "turismo"
+        ],
+        "desc": "El parque de réplicas más famoso de China: Torre Eiffel en miniatura, pirámides, Taj Mahal, Coliseo… Kitsch, querido y muy 'China de los 90'. Entrada cara (～220 CNY) para lo que es; para un viaje centrado en robótica es prescindible, pero si queréis el contraste cultural, ahí está. De noche hay espectáculos y el recinto se ilumina.",
+        "tips": [
+          "Metro 世界之窗 (L1/L2) — salida directa al parque.",
+          "Si solo queréis el clásico: desde fuera ya se ve la Torre Eiffel y la fachada.",
+          "Por presupuesto similar, mejor el 科学技术馆 (gratis) o 欢乐谷 si os van las montañas rusas.",
+          "～220 CNY adulto, ～110 CNY niño; medio día completo.",
+          "En verano/halloween hacen eventos nocturnos especiales."
+        ],
+        "hours": "～09:30-21:30 (verificar)",
+        "price": "～220 CNY",
+        "metro": "世界之窗 (L1, L2)",
+        "addressZh": "深圳市南山区深南大道9037号 世界之窗",
+        "durationMin": 240,
+        "bestTime": "Mañana a tarde (o noche de espectáculos)"
+      },
+      {
+        "id": "sz-dafen",
+        "name": "大芬油画村 (aldea de la pintura)",
+        "nameZh": "大芬油画村",
+        "pinyin": "Dàfēn Yóuhuà Cūn",
+        "emoji": "🖼️",
+        "must": false,
+        "tags": [
+          "arte",
+          "curiosidad",
+          "compras"
+        ],
+        "desc": "El pueblo donde se pintan (copias de) obras maestras al por mayor: cientos de estudios y galerías que producen Van Goghs en serie para el mundo entero. Curioso, fotogénico y buen sitio para llevarse un lienzo barato o encargar un retrato. Está en 龙岗, a ～30 min de metro del centro.",
+        "tips": [
+          "Metro 大芬 (L3) — salida A; el pueblo está nada más salir.",
+          "Precios negociables: una copia al óleo sale por ～100-300 CNY según tamaño y calidad.",
+          "Con solo 2 días escasos en 深圳, es prescindible; id si os sobra medio día o llueve y queréis plan cubierto.",
+          "Los talleres trabajan de ～09:30-18:00; entre semana hay más artistas en directo.",
+          "Combinad con la galería 大芬美术馆 (gratis) si vais."
+        ],
+        "hours": "～09:30-18:00",
+        "price": "Gratis (compras aparte)",
+        "metro": "大芬 (L3) — salida A",
+        "addressZh": "深圳市龙岗区布吉街道 大芬油画村",
+        "durationMin": 90,
+        "bestTime": "Mañana o tarde"
+      },
+      {
+        "id": "sz-dapeng",
+        "name": "大鹏半岛: playa y fuerte (excursión de día)",
+        "nameZh": "大鹏半岛 / 较场尾 / 大鹏所城",
+        "pinyin": "Dàpéng Bàndǎo",
+        "emoji": "🏖️",
+        "must": false,
+        "tags": [
+          "playa",
+          "historia",
+          "excursion"
+        ],
+        "desc": "La 'escapada de playa' de 深圳: 较场尾, un callejón de guesthouses frente al mar, y 大鹏所城, el fuerte-aldea del siglo XIV mejor conservado de la zona. Agua y arena decentes, ambiente relajado y cero rascacielos; requiere día completo y queda a ～1,5-2 h de 南山.",
+        "tips": [
+          "Plan solo si necesitáis un día de descanso verde: con vuestro itinerario, es el primero que sacrificar.",
+          "Se va en metro L8 (a 盐田) + bus local, o en DiDi/打车 directo (～120-180 CNY).",
+          "Los fines de semana está muy lleno: id entre semana si podéis.",
+          "Si dormís allí, reservad guesthouse con antelación (zona 较场尾).",
+          "Ojo con el sol y las mareas; el agua no es Caribe pero se está bien."
+        ],
+        "hours": "—",
+        "price": "Transporte ～20-40 CNY ida en bus",
+        "metro": "L8 hasta 盐田 + bus (～1,5-2 h total)",
+        "addressZh": "深圳市龙岗区大鹏新区 较场尾 / 大鹏所城",
+        "durationMin": 480,
+        "bestTime": "Día completo, entre semana"
+      }
+    ]
   },
-  "routes": []
+  "routes": [
+    {
+      "id": "sz-d1-llegada",
+      "name": "Día 1 (28 oct): llegada, costa de 深圳湾 y cena cantonesa",
+      "date": "2026-10-28",
+      "dayLabel": "Mié 28 oct",
+      "summary": "AVE desde 广州南 (placeholder 09:00) hasta 深圳北 y traslado a 南山. Tarde suave de adaptación: comida cantonesa, paseo por la costa, atardecer en 人才公园 con pedido a dron y, si queda energía, el elefante de 万象天地. Mañana toca Disney: no os quedéis hasta muy tarde.",
+      "stops": [
+        {
+          "itemId": "sz-coastal-city",
+          "time": "12:30",
+          "durationMin": 60,
+          "transport": "Del 深圳北 a 南山: DiDi ～30 min (con maletas) o L5+L11 ～45 min. Check-in en el hotel (后海/海岸城).",
+          "note": "Comed aquí (food court) o directamente en la parada siguiente. Comprad agua y snacks para mañana."
+        },
+        {
+          "itemId": "sz-beef-hotpot",
+          "time": "13:30",
+          "durationMin": 75,
+          "transport": "En 海岸城 o alrededores de 后海 (según vuestro hotel).",
+          "note": "Llegad antes de las 14:00 para evitar cola. Pedid 吊龙/匙柄 y 手打牛肉丸."
+        },
+        {
+          "itemId": "sz-szbay-park",
+          "time": "15:30",
+          "durationMin": 90,
+          "transport": "A pie desde 后海 (～15 min) o DiDi 5 min hasta la entrada de 深圳湾公园.",
+          "note": "Paseo dirección este hacia 人才公园. Si hace bochorno, alternad tramos con cafés."
+        },
+        {
+          "itemId": "sz-talent-park",
+          "time": "17:15",
+          "durationMin": 90,
+          "transport": "Pegado al paseo anterior; entrad por 科苑南路.",
+          "note": "Atardecer sobre la bahía. Pedid algo en Meituan al llegar para recoger en el 空投柜 de 潮汐广场 (～20-40 min)."
+        },
+        {
+          "itemId": "sz-coconut-chicken",
+          "time": "19:30",
+          "durationMin": 75,
+          "transport": "DiDi ～10 min de vuelta a 后海/海岸城.",
+          "note": "Cena suave para el primer día (pollo al coco). Si preferís algo más ligero, 肠粉/面 en 海岸城."
+        },
+        {
+          "itemId": "sz-mixc-world",
+          "time": "21:00",
+          "durationMin": 60,
+          "transport": "DiDi ～15 min, o L11+L1 (serie de 2 + 6 paradas).",
+          "note": "Opcional si queda energía: elefante + HAUS NOWHERE (cierra 22:00). Si estáis fundidos, dormid: mañana es Disney."
+        }
+      ]
+    },
+    {
+      "id": "sz-d2-disney",
+      "name": "Día 2 (29 oct): Disneyland Hong Kong (día completo)",
+      "date": "2026-10-29",
+      "dayLabel": "Jue 29 oct",
+      "summary": "Día entero en el parque (abre ～10:30; jueves 29 = Tier 1 y SÍ abre — calendario verificado; confirmad horario final en la app oficial). Salid de 南山 a las ～07:00-07:15 hacia 深圳湾口岸; B3X + MTR (～2 h 15 puerta a puerta). Vuelta por el mismo 深圳湾 (B3X, último ～22:50) o plan B por 皇岗 (24 h). Todos los detalles del parque están en la ficha de Hong Kong → Ciudades → Hong Kong.",
+      "stops": [
+        {
+          "itemId": "sz-hk-border",
+          "time": "07:00",
+          "durationMin": 120,
+          "transport": "Taxi/DiDi desde 南山 al 深圳湾口岸 (～25 min, ～35-45 CNY) o metro L13 al puerto (salidas B/C). Cruzad y coged el B3X (HK$16.5) a 屯门 + MTR (屯马线→南昌→东涌线→欣澳→迪士尼线, tarifa fija HK$7).",
+          "note": "Ida por 深圳湾: desde 南山 es la vía más directa (no hace falta ir a 福田). Comprad agua antes de cruzar."
+        },
+        {
+          "itemId": "sz-hk-border",
+          "time": "22:15",
+          "durationMin": 90,
+          "transport": "Vuelta: MTR hasta 屯门 + B3X al 深圳湾口岸 (último ～22:50 desde 屯门市中心; estad en la parada a las ～22:30).",
+          "note": "Plan B 24 h: minibús 44B/44B1/N44B desde 屯门 a 皇岗口岸. Desde 深圳湾, DiDi ～30 min a 南山."
+        }
+      ]
+    },
+    {
+      "id": "sz-d3-robotica",
+      "name": "Día 3 (30 oct): ruta robótica por 南山",
+      "date": "2026-10-30",
+      "dayLabel": "Vie 30 oct",
+      "summary": "El día grande: sede de DJI por fuera, cuartel de 优必选, flagship de DJI con demos, robotaxi sin conductor por la costa y cena en 蛇口. Todos los desplazamientos son cortos (20-40 min) para saborear cada parada.",
+      "stops": [
+        {
+          "itemId": "sz-dji-sky-city",
+          "time": "09:30",
+          "durationMin": 30,
+          "transport": "Desde 后海: L11 hasta 前海湾 + L5 hasta 留仙洞 (～40 min) o DiDi ～25 min.",
+          "note": "Solo fotos por fuera (no hay visitas individuales). Las torres se ven desde la salida del metro."
+        },
+        {
+          "itemId": "sz-ubtech",
+          "time": "10:30",
+          "durationMin": 20,
+          "transport": "L5 留仙洞 → 塘朗 (3 paradas) + ～15 min a pie/bus.",
+          "note": "Cuna de humanoides: fotos de fachada y poco más. Combinadlo con 大疆天空之城 (misma zona)."
+        },
+        {
+          "itemId": "sz-mixc-world",
+          "time": "12:00",
+          "durationMin": 120,
+          "transport": "DiDi ～15 min desde 西丽 (los metros cruzan mal hacia 高新园).",
+          "note": "Comida en 里巷 + elefante + HAUS NOWHERE (巨人, gratis). Un respiro de malls antes de la tarde tech."
+        },
+        {
+          "itemId": "sz-huawei-flagship",
+          "time": "14:00",
+          "durationMin": 45,
+          "transport": "El mismo complejo (万象天地).",
+          "note": "Plegables, ecosistema 鸿蒙 y coches 问界. Comparad precios con 华强北."
+        },
+        {
+          "itemId": "sz-dji-flagship",
+          "time": "15:15",
+          "durationMin": 75,
+          "transport": "DiDi ～15 min a 欢乐海岸 (el metro cruza mal); o L1+L9 con transbordo.",
+          "note": "La parada estrella: zona de demos de drones, RoboMaster, accesorios. Preguntad por las demostraciones."
+        },
+        {
+          "itemId": "sz-oct-harbour",
+          "time": "16:45",
+          "durationMin": 45,
+          "transport": "A pie (mismo recinto); el paseo conecta con 深圳湾公园.",
+          "note": "Paseo junto al agua al atardecer. Café o helado antes de seguir."
+        },
+        {
+          "itemId": "sz-robotaxi",
+          "time": "17:45",
+          "durationMin": 30,
+          "transport": "Pedid en la app con parada de salida en la zona de 深圳湾公园 y destino 海上世界.",
+          "note": "Trayecto sin conductor por la costa (～15-20 min, ～15-30 CNY). Si no hay coche libre, hacedlo en DiDi y probad al día siguiente."
+        },
+        {
+          "itemId": "sz-sea-world",
+          "time": "19:00",
+          "durationMin": 120,
+          "transport": "El robotaxi os deja en la plaza (L2/L12 海上世界).",
+          "note": "Cena variada + fuentes. Vuelta a 后海 en L2 (～15 min) o DiDi."
+        }
+      ]
+    },
+    {
+      "id": "sz-d4-futian",
+      "name": "Día 4 (31 oct): 华强北 + centro cívico + 灯光秀",
+      "date": "2026-10-31",
+      "dayLabel": "Sáb 31 oct",
+      "summary": "Sábado completo en 福田: mercado de electrónica, museo del 华强北, el museo de la ciudad, arte y arquitectura, atardecer desde 莲花山, librería gigante y, para cerrar el viaje, el espectáculo de luces del CBD (sábado = pase seguro, ～19:00-21:30).",
+      "stops": [
+        {
+          "itemId": "sz-huaqiangbei",
+          "time": "09:30",
+          "durationMin": 150,
+          "transport": "L2 directa 后海 → 华强北 (～40 min, sin transbordo) o DiDi ～25 min.",
+          "note": "Empezad por 赛格广场 (móviles/componentes) y 华强电子世界 (drones, gadgets). Alipay listo y calculadora para regatear."
+        },
+        {
+          "itemId": "sz-huaqiangbei-museum",
+          "time": "12:15",
+          "durationMin": 45,
+          "transport": "A ～10 min a pie por 华强北路 (广博现代之窗大厦 5F; metro 华强北 E2).",
+          "note": "Gratis con reserva (WeChat); cuenta la historia del barrio. Comed luego en los food courts de 华强北."
+        },
+        {
+          "itemId": "sz-sz-museum",
+          "time": "14:00",
+          "durationMin": 90,
+          "transport": "L2 华强北 → 市民中心 (2 paradas) o taxi ～10 min.",
+          "note": "Sala 改革开放 + 民俗. Si venís justos, saltad esta y haced solo el MOCAUP."
+        },
+        {
+          "itemId": "sz-mocaup",
+          "time": "15:45",
+          "durationMin": 45,
+          "transport": "A 3 min a pie (mismo barrio cívico).",
+          "note": "El edificio de Coop Himmelb(l)au + 大潮起珠江. Vale la pena aunque sea rápido."
+        },
+        {
+          "itemId": "sz-lianhua-hill",
+          "time": "16:45",
+          "durationMin": 75,
+          "transport": "A pie ～15 min desde 市民中心 (entrada sur) o taxi 5 min.",
+          "note": "Subida ～20-25 min; atardecer sobre el CBD (～17:45). Quedaos arriba hasta que empiecen a encenderse las luces."
+        },
+        {
+          "itemId": "sz-bookcity",
+          "time": "18:30",
+          "durationMin": 45,
+          "transport": "Bajada sur + ～10 min a pie (o L4 少年宫).",
+          "note": "Librería gigante para 手信 y calor antes del espectáculo. Hay cafés."
+        },
+        {
+          "itemId": "sz-light-show",
+          "time": "19:30",
+          "durationMin": 60,
+          "transport": "A pie ～15 min hasta la explanada del 市民中心, o L4 少年宫 → 市民中心.",
+          "note": "Espectáculo de luces del CBD (sábado, varios pases ～19:00-21:30). Para cenar: 购物公园 (COCO Park, L1/L3) a 1 parada."
+        }
+      ]
+    },
+    {
+      "id": "sz-d5-salida",
+      "name": "Día 5 (1 nov): salida 深圳北 → 阳朔",
+      "date": "2026-11-01",
+      "dayLabel": "Dom 1 nov",
+      "summary": "Mañana temprana: desayuno, maletas y AVE directo a 阳朔 desde 深圳北 (primero de la mañana; hora provisional 09:25 hasta que confirméis billetes). 45-60 min de margen en la estación.",
+      "stops": [
+        {
+          "itemId": "sz-north-station",
+          "time": "07:15",
+          "durationMin": 60,
+          "transport": "DiDi ～30 min desde 南山 (con maletas, lo más cómodo) o L11+L5 ～45-50 min.",
+          "note": "Desayunad en el hotel o en la estación. Pasaporte = billete. Próxima parada: 阳朔 (ver ficha de 阳朔)."
+        }
+      ]
+    }
+  ]
 }
