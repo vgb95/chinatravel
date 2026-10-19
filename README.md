@@ -17,7 +17,8 @@ Shanghai · Suzhou · Hangzhou · Chongqing (escala)** — con especial cariño 
   enseñar al taxista**, audio, horario, precio, metro y enlaces a Amap / Mapas.
 - **Frases en chino** con audio, **checklist de preparativos**, **información
   práctica** (Alipay/WeChat, VPN, trenes, robotaxis, emergencias…) y
-  **export/import del progreso** entre los dos móviles (texto + QR).
+  **export/import del progreso** entre los dos móviles (texto compartible + QR:
+  el QR abre la guía con el código ya pegado, listo para importar).
 - **100% offline**: todo el contenido se precarga al instalar. Sin Google Fonts,
   sin CDNs, sin servicios bloqueados en China.
 

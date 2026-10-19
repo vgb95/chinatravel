@@ -1,3 +1,4 @@
+import { fileURLToPath } from 'node:url'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { defineConfig, type PluginOption } from 'vite'
@@ -57,6 +58,12 @@ export default defineConfig(({ command, mode, isPreview }) => {
   return {
     // En preview mantenemos el base de producción para poder probar la PWA tal cual se despliega.
     base: singlefile ? './' : command === 'build' || isPreview ? '/chinatravel/' : '/',
+    resolve: singlefile
+      ? {
+          // Sin plugin PWA en modo singlefile: resolvemos el import virtual a un stub.
+          alias: { 'virtual:pwa-register': fileURLToPath(new URL('./src/lib/pwa-register-stub.ts', import.meta.url)) },
+        }
+      : undefined,
     define: {
       __BUILD_TIME__: JSON.stringify(new Date().toISOString()),
     },
