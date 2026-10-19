@@ -63,7 +63,7 @@
         "pinyin": "Chén Jiā Cí",
         "emoji": "🏛️",
         "must": true,
-        "tags": ["museo", "historia", "arte", "arquitectura"],
+        "tags": ["museo", "historia", "arte", "tipico"],
         "desc": "Antiguo colegio y templo familiar de 1894, hoy Museo de Artesanía Popular de Guangdong. Es la mejor obra de arquitectura 岭南 de la ciudad: techos con crestas de cerámica 石湾 y un festival de tallas en madera, ladrillo, piedra y hueso. Se ve bien en una hora y está al lado del barrio de 上下九.",
         "tips": [
           "⚠️ CIERRA LOS MARTES: el 27 oct 2026 (martes) no abre → visitadlo el lunes 26, que sí abre.",
@@ -302,7 +302,7 @@
         "nameZh": "石室圣心大教堂",
         "pinyin": "Shíshì Shèngxīn Dàjiàotáng",
         "emoji": "⛪",
-        "tags": ["religioso", "historia", "arquitectura", "gratis"],
+        "tags": ["religioso", "historia", "arte", "gratis"],
         "desc": "Catedral neogótica construida entre 1863 y 1888 enteramente en granito, de ahí el apodo 石室 ('casa de piedra'). Es uno de los pocos templos góticos completos de China y un contraste absoluto con las calles de 一德路, donde está rodeada de puestos de juguetes y de frutos secos.",
         "tips": [
           "⚠️ Horario limitado y CERRADA LOS LUNES: martes a viernes 09:00-11:00 y 15:00-17:00; sábado 09:00-14:30; domingo 13:00-14:30 (por las misas). Verificadlo antes de ir.",
@@ -366,9 +366,469 @@
         "bestTime": "Primera hora de la mañana"
       }
     ],
-    "food": [],
-    "shops": [],
-    "extra": []
+    "food": [
+      {
+        "id": "gz-dim-sum-diandoude",
+        "name": "点都德 — el 早茶 más fácil de acertar",
+        "nameZh": "点都德",
+        "pinyin": "Diǎndōudé",
+        "emoji": "🥟",
+        "must": true,
+        "tags": ["dim-sum", "gastronomia", "tipico", "imprescindible"],
+        "desc": "Cadena de 早茶 (dim sum) de Guangzhou, con varias sedes y calidad muy constante: es la opción más segura para un primer desayuno cantanés sin jugarse el tiro. Menú por fotos, precios claros y todo recién hecho. La sede de 文昌南路 está a 3 min del metro 文化公园, entre 上下九 y 永庆坊.",
+        "tips": [
+          "Horario ideal: 07:30-09:00. A partir de las 10:00 hay cola, sobre todo en fin de semana y con la Canton Fair.",
+          "Pedid 虾饺 (ha gow), 干蒸烧卖, 凤爪 (patas de pollo), 红米肠 (rollo de arroz rojo) y 叉烧包. De postre, 蛋挞.",
+          "El 茶位费 (cubierto de té) es ～5-8 CNY por persona: pedir 普洱 o 菊普 y os van rellenando la tetera.",
+          "Muchas sedes en la ciudad: buscad la más cercana al hotel en Alipay/高德 y evitad cruzar media ciudad para desayunar."
+        ],
+        "hours": "～07:00-22:00 (varía por sede)",
+        "price": "～60-90 CNY por persona",
+        "metro": "文化公园 (L6) — 3 min a pie hasta la sede de 文昌南路; hay sedes por toda la ciudad",
+        "addressZh": "广州市荔湾区文昌南路（文化公园地铁站A口步行约3分钟）点都德",
+        "durationMin": 60,
+        "bestTime": "07:30-09:00"
+      },
+      {
+        "id": "gz-taotaoju",
+        "name": "陶陶居 — 老字号 de 1880 en Xiguan",
+        "nameZh": "陶陶居酒家（第十甫路总店）",
+        "pinyin": "Táotáojū Jiǔjiā",
+        "emoji": "🍵",
+        "tags": ["dim-sum", "gastronomia", "historia", "reserva-recomendada"],
+        "desc": "El restaurante de 早茶 más famoso del barrio de 西关, abierto en 1880 y con el 大虾饺 como insignia. El edificio de la 第十甫路 es una casa 骑楼 de techo alto, espejos y madera oscura: el sitio más bonito para desayunar dim sum. Está al inicio de 上下九.",
+        "tips": [
+          "Comer antes de 11:00 tiene descuento en algunas sedes (～78折): preguntad al entrar.",
+          "El 陶陶居大虾饺 y el 干蒸 son los imprescindibles; también hacen 粤菜 en la carta de noche.",
+          "Reservad o id muy pronto: es el favorito de los locales para el 早茶 del fin de semana.",
+          "Metro 长寿路 (L1) y ～8 min andando por 第十甫路."
+        ],
+        "hours": "08:00-16:30 y 17:00-21:30",
+        "price": "～80-120 CNY por persona",
+        "metro": "长寿路 (L1) — 8 min a pie",
+        "addressZh": "广州市荔湾区第十甫路20号 陶陶居酒家（第十甫路总店）",
+        "durationMin": 75,
+        "bestTime": "Antes de las 11:00",
+        "booking": "Reserva por la app de 陶陶居 o llegar antes de las 09:00"
+      },
+      {
+        "id": "gz-guangzhou-restaurant",
+        "name": "广州酒家 — cocina cantanesa de toda la vida",
+        "nameZh": "广州酒家（文昌总店）",
+        "pinyin": "Guǎngzhōu Jiǔjiā",
+        "emoji": "🍽️",
+        "tags": ["dim-sum", "gastronomia", "tipico"],
+        "desc": "La casa clásica de Guangzhou (1935) para 粤菜 de verdad, no solo dim sum: 白切鸡 (pollo cocido al vapor), 烧味, 灌汤饺 y 萝卜糕. La sede 文昌总店 es la histórica, con manteles blancos y carritos de dim sum. Si queréis una comida cantanesa formal, es aquí.",
+        "tips": [
+          "Buena opción a mediodía entre 上下九 y 永庆坊: el 早茶 dura hasta ～14:00.",
+          "Menú en inglés en las sedes grandes y fotos en la carta: fácil de pedir.",
+          "También sirve como cena de 粤菜 con 烧味 y 煲汤 (sopas de cocción lenta).",
+          "Metro 长寿路 (L1) o 文化公园 (L6), ～8 min andando."
+        ],
+        "hours": "～07:30-14:30 y 17:00-21:30",
+        "price": "～100-150 CNY por persona",
+        "metro": "长寿路 (L1) / 文化公园 (L6) — 8 min a pie",
+        "addressZh": "广州市荔湾区文昌南路2号 广州酒家（文昌总店）",
+        "durationMin": 75,
+        "bestTime": "Mediodía"
+      },
+      {
+        "id": "gz-yinji-changfen",
+        "name": "银记肠粉 — el 肠粉 de referencia",
+        "nameZh": "银记肠粉店",
+        "pinyin": "Yínjì Chángfěn",
+        "emoji": "🍥",
+        "tags": ["gastronomia", "tipico", "mercado"],
+        "desc": "Cadena fundada en 1958 especializada en una sola cosa: 肠粉, la lámina de arroz al vapor rellena de gamba, ternera o cerdo y regada con salsa de soja dulce. Nacieron en 文昌北路 y siguen usando el método tradicional 布拉 (tela tensada), que da una textura más fina que la máquina.",
+        "tips": [
+          "Pedid 鲜虾肠粉 (gamba) o 牛肉肠粉 (ternera); la ración cuesta ～10-20 CNY.",
+          "Se come a cualquier hora y es la mejor parada entre 上下九 y 永庆坊 cuando no queréis sentaros a comer.",
+          "Hay muchas sedes: la de 文昌北路 es la histórica, y también hay cerca de 北京路 (惠福东路).",
+          "No esperéis mantel: es bareto rápido, se pide en el mostrador y se comparte mesa."
+        ],
+        "hours": "～07:00-22:00",
+        "price": "～15-30 CNY",
+        "metro": "长寿路 (L1) — 8 min a pie",
+        "addressZh": "广州市荔湾区文昌北路167号 银记肠粉店（近上下九步行街；多处有分店）",
+        "durationMin": 30,
+        "bestTime": "Desayuno o merienda"
+      },
+      {
+        "id": "gz-nanxin-dessert",
+        "name": "南信牛奶甜品专家 — 双皮奶 y 糖水",
+        "nameZh": "南信牛奶甜品专家",
+        "pinyin": "Nánxìn Niúnǎi Tiánpǐn",
+        "emoji": "🍮",
+        "tags": ["postres", "gastronomia", "tipico"],
+        "desc": "Dulcería de 1934 en la 第十甫路, la catedral del 双皮奶: leche de vaca del delta cocida dos veces hasta formar dos capas de nata, servida fría o caliente. También hacen 姜撞奶 (leche cuajada con jengibre) y toda la familia de 糖水 (postres líquidos cantaneses).",
+        "tips": [
+          "Pedid 双皮奶 (doble piel) y, si os atrevéis, 姜撞奶: el jengibre pica pero sienta de maravilla.",
+          "Es la parada perfecta para cerrar el paseo de 上下九/永庆坊 antes de ir al crucero.",
+          "Raciones pequeñas y baratas: ～20-30 CNY y salís contentos.",
+          "Está a 3 min a pie de 陶陶居, en la misma calle: se pueden combinar la misma noche."
+        ],
+        "hours": "～09:00-22:30",
+        "price": "～20-30 CNY",
+        "metro": "长寿路 (L1) — 8 min a pie",
+        "addressZh": "广州市荔湾区第十甫路47号 南信牛奶甜品专家",
+        "durationMin": 30,
+        "bestTime": "Merienda o postre de noche"
+      },
+      {
+        "id": "gz-roast-goose",
+        "name": "烧鹅 — pato asado cantanés",
+        "nameZh": "烧鹅（深井烧鹅）",
+        "pinyin": "Shāo é",
+        "emoji": "🍗",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "El plato estrella de los 烧腊: pato entero asado con la piel crujiente y brillante, servido con salsa de ciruela y arroz o fideos. La versión más célebre es la 深井烧鹅, asada con leña en horno de barro. En Guangzhou se come en 烧腊 shops de barrio y en restaurantes 粤菜 de precio medio.",
+        "tips": [
+          "Para una comida completa: 名荟海韵·30年深井烧鹅 (sede 北京路, ～80 CNY/persona) o 简·东山小厨 (海珠广场, ～98 CNY/persona).",
+          "Pedid 烧鹅例牌 (media pieza) para dos y acompañad con 白饭 o 河粉.",
+          "Si vais con hambre y poco tiempo, cualquier 烧腊 shop de 上下九 os venderá una caja para llevar por ～30-50 CNY.",
+          "Mejor a mediodía o a primera hora de la noche: cuando se acaba, se acaba."
+        ],
+        "hours": "～11:00-14:00 y 17:00-21:00",
+        "price": "～80-100 CNY por persona en restaurante; ～30-50 CNY la caja para llevar",
+        "metro": "北京路 (L6) / 公园前 (L1, L2) para la sede de 北京路",
+        "addressZh": "广州市越秀区北京路步行街 名荟海韵·30年深井烧鹅（北京路店）",
+        "durationMin": 60,
+        "bestTime": "Comida o cena temprana"
+      },
+      {
+        "id": "gz-wonton-noodles",
+        "name": "云吞面 — fideos con wantones",
+        "nameZh": "云吞面",
+        "pinyin": "Yúntūn Miàn",
+        "emoji": "🍜",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "El plato humilde y perfecto de Guangzhou: fideos finos de huevo (竹升面, amasados a presión con una pértiga de bambú) en caldo de huesos y gambas secas, con wantones de gamba y cerdo. Se come a cualquier hora y cuesta cuatro perras.",
+        "tips": [
+          "La casa clásica de 上下九 es 欧成记 (上汤鲜虾云吞面), en la misma calle; pedid 鲜虾云吞面.",
+          "Ojo con el tamaño: las raciones 细蓉 son pequeñas, los locales piden dos cosas.",
+          "Añadid 一碟 菜心 (verdura al vapor con salsa de ostras) para completar.",
+          "Muy útil como cena rápida antes del crucero por el río."
+        ],
+        "hours": "～07:00-22:00",
+        "price": "～20-35 CNY",
+        "metro": "长寿路 (L1) — 8 min a pie",
+        "addressZh": "广州市荔湾区第十甫路（上下九步行街；老字号 欧成记上汤鲜虾云吞面）",
+        "durationMin": 30,
+        "bestTime": "Cualquier hora"
+      },
+      {
+        "id": "gz-congee",
+        "name": "及第粥 / 艇仔粥 — gachas de arroz cantanesas",
+        "nameZh": "及第粥 / 艇仔粥",
+        "pinyin": "Jídì zhōu / Tǐngzǎi zhōu",
+        "emoji": "🥣",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "El desayuno o el almuerzo ligero de la vieja Guangzhou. El 及第粥 lleva hígado, intestino y albóndigas de cerdo (y su nombre viene de un examen imperial aprobado), y el 艇仔粥 es la sopa de arroz de los barqueros del 珠江, con pescado, cacahuetes, cebollino y 油条 crujiente por encima.",
+        "tips": [
+          "En 上下九 el clásico es 伍湛记, con 及第粥 y 鱼皮粥 (con piel de pescado) en la misma mesa.",
+          "Pedid también 油条 (barritas fritas) para mojar en la sopa: es como se come aquí.",
+          "Cuesta ～10-20 CNY: la cena más barata y más local que vais a encontrar.",
+          "Buen plan si os ha sentado pesado el dim sum del mediodía."
+        ],
+        "hours": "～07:00-21:00",
+        "price": "～10-20 CNY",
+        "metro": "长寿路 (L1) — 8 min a pie",
+        "addressZh": "广州市荔湾区第十甫路一带（上下九步行街；老字号 伍湛记）",
+        "durationMin": 30,
+        "bestTime": "Desayuno"
+      }
+    ],
+    "shops": [
+      {
+        "id": "gz-wanling-plaza",
+        "name": "万菱广场 — juguetes, modelismo y figuras al por mayor",
+        "nameZh": "万菱广场（一德路玩具精品批发市场）",
+        "pinyin": "Wànlíng Guǎngchǎng",
+        "emoji": "🧸",
+        "tags": ["compras", "tecnologia-shopping", "regateo", "mercado"],
+        "desc": "El gran mercado de juguetes, maquetas, figuras y artículos de hogar de Guangzhou: 400+ puestos repartidos en varias plantas dentro de un edificio de 138 m, más todo el mercado callejero de 一德路 alrededor. Aquí se encuentran réplicas, kits de montaje, drones de juguete, luces y adornos a precios de mayorista. Es la parada perfecta si os gustan las maquetas y la robótica de juguete.",
+        "tips": [
+          "Muchos puestos son solo mayorista: preguntad 「可以零售吗?」 (¿se puede al detalle?) antes de rebuscar.",
+          "En muchos locales NO dejan hacer fotos: si os regañan, guardad el móvil.",
+          "Precios negociables a partir de varias unidades; efectivo o WeChat/Alipay (a veces no aceptan tarjeta extranjera).",
+          "Metro 一德路 (L6) salida A y ～5 min andando; está al lado de la catedral de 石室圣心."
+        ],
+        "hours": "～09:00-18:00 (varía por planta; algunas plantas cierran antes)",
+        "price": "Desde ～10 CNY; mejor precio comprando 3-5 unidades",
+        "metro": "一德路 (L6) — salida A; 海珠广场 (L2, L6) — 8 min a pie",
+        "addressZh": "广州市越秀区解放南路39号 万菱广场（一德路玩具精品批发市场）",
+        "durationMin": 60,
+        "bestTime": "Mañana o primera hora de la tarde"
+      },
+      {
+        "id": "gz-thirteen-hongs",
+        "name": "十三行 — ropa al por mayor (experiencia)",
+        "nameZh": "十三行服装批发市场（新中国大厦）",
+        "pinyin": "Shísānháng",
+        "emoji": "👕",
+        "tags": ["compras", "mercado", "regateo"],
+        "desc": "El mayor mercado de ropa al por mayor del sur de China, en torno a 十三行路 y centrado en 新中国大厦. Aquí se surten las tiendas del país: pasillos estrechos, carretillas, montañas de ropa y precios de fábrica. Como 'experiencia' es fascinante, pero no es una zona turística: hay que madrugar y tener paciencia.",
+        "tips": [
+          "Funciona por la mañana: las plantas bajas abren ～06:30-15:00 y las de arriba ～08:30-14:30. Por la tarde está muerto.",
+          "Algunos puestos exigen cantidad mínima (3-6 piezas por modelo) y no hay probadores: medid bien la talla.",
+          "Se paga con WeChat/Alipay o efectivo; casi nadie acepta tarjeta internacional.",
+          "Si solo queréis comprar ropa 'normal', mejor 北京路 o 上下九: 十三行 es para ver el circo del comercio, no para comprar una camiseta suelta."
+        ],
+        "hours": "～06:30-15:00 (plantas bajas); ～08:30-14:30 (plantas altas)",
+        "price": "～30-80 CNY por pieza; mínimo de 3-6 unidades en muchos puestos",
+        "metro": "文化公园 (L6) — 8 min a pie",
+        "addressZh": "广州市荔湾区十三行路 新中国大厦服装批发市场",
+        "durationMin": 60,
+        "bestTime": "07:30-10:30"
+      },
+      {
+        "id": "gz-lianxianglou",
+        "name": "莲香楼 — 手信 (dulces para llevar)",
+        "nameZh": "莲香楼",
+        "pinyin": "Liánxiānglóu",
+        "emoji": "🥮",
+        "tags": ["compras", "gastronomia", "postres", "tipico"],
+        "desc": "Casa fundada en 1889 y conocida como 'el primer té de 莲蓉' por su pasta de semilla de loto. Es la tienda de referencia para comprar 手信 (regalos comestibles) que aguantan el viaje: 鸡仔饼 (galletas de pollito, dulces y saladas), 老婆饼, 杏仁饼 y las 月饼 de 莲蓉.",
+        "tips": [
+          "Comprad 鸡仔饼 para la familia: son pequeñas, no se estropean y saben a Guangzhou antiguo.",
+          "Las cajas van bien embaladas y caben en la maleta sin problema.",
+          "Está al principio de 第十甫路, en el mismo paseo que 陶陶居 y 南信.",
+          "Buena última compra el día 28 antes de coger el AVE si el hotel está por 荔湾."
+        ],
+        "hours": "～08:00-21:00",
+        "price": "～15-60 CNY por caja",
+        "metro": "长寿路 (L1) — 6 min a pie",
+        "addressZh": "广州市荔湾区第十甫路67号 莲香楼",
+        "durationMin": 20,
+        "bestTime": "Cualquier hora"
+      }
+    ],
+    "extra": [
+      {
+        "id": "gz-weride-robotaxi",
+        "name": "Robotaxi de WeRide (¡pedid un taxi sin conductor!)",
+        "nameZh": "文远知行 Robotaxi（文远出行小程序）",
+        "pinyin": "Wényuǎn Zhīxíng",
+        "emoji": "🤖",
+        "tags": ["robotica", "tecnologia", "imprescindible"],
+        "desc": "WeRide (文远知行) es la empresa china de conducción autónoma fundada en Guangzhou y fue la primera del país en abrir un servicio comercial de robotaxi al público (2019, en 黄埔区). En 2025 amplió su servicio 24 h por el centro: 广州塔, 珠江新城, 花园酒店, el recinto de la Canton Fair (广交会展馆) y trayectos al 白云机场 y 广州南站, además de todo 黄埔区. Se pide desde el mini-programa de WeChat 「文远出行」; el coche llega sin nadie al volante y te lleva solo.",
+        "tips": [
+          "Cómo pedir: WeChat → buscar el mini-programa 「文远出行」→ registrar el teléfono → fijar origen y destino en el mapa de la app → os asignan un punto de recogida concreto. También se puede llamar desde 「腾讯出行服务」 dentro de WeChat.",
+          "El registro con número extranjero puede fallar (verificar): si no os deja, pedidle a alguien del hotel que os ayude o probad con la app WeRide Go.",
+          "Zonas donde engancharlo con más probabilidad siendo turistas: 珠江新城 / 广州塔 / 花园酒店 / 黄埔区. Elegid un trayecto corto de 10-15 min para probarlo sin arriesgar la agenda.",
+          "La tarifa es parecida a un DiDi (10-40 CNY en trayectos cortos) y se paga en la app. Llevad el pasaporte encima por si acaso.",
+          "Requiere teléfono chino para el SMS en muchos casos → miradlo como 'experimento', no como transporte garantizado."
+        ],
+        "hours": "24 h en las zonas habilitadas",
+        "price": "～10-40 CNY en trayectos cortos (tarifa tipo DiDi)",
+        "addressZh": "广州市 珠江新城 / 广州塔 / 黄埔区（el punto de recogida lo fija la app 文远出行）",
+        "durationMin": 20,
+        "bestTime": "Cualquier hora; hacedlo de día para ver la conducción",
+        "booking": "WeChat: mini-programa「文远出行」/ app WeRide Go"
+      },
+      {
+        "id": "gz-pony-ai",
+        "name": "Pony.ai (小马智行) — robotaxi en Nansha",
+        "nameZh": "小马智行（南沙 Robotaxi）",
+        "pinyin": "Xiǎomǎ Zhīxíng",
+        "emoji": "🚕",
+        "tags": ["robotica", "tecnologia"],
+        "desc": "La otra gran empresa de conducción autónoma con base china en Guangzhou (su cuartel general está en 南沙区). Fue la primera en obtener permiso para robotaxi comercial sin conductor de seguridad en 南沙 en 2022 y también hace pruebas en 广州南站 y el 白云机场. Su zona de operación turística realista es 南沙, a más de una hora del centro.",
+        "tips": [
+          "Es prescindible en esta escala: queda a ～1 h 15 min del centro (L4/城际 hasta 南沙) y consumiría media jornada.",
+          "Si os alojáis o pasáis por 南沙, se pide con su propia app (PonyPilot / 小马智行) y el registro también pide número chino (verificar).",
+          "Del coche, lo más llamativo: no hay volante, solo dos asientos delanteros enfrentados y pantallas.",
+          "Como plan B del robotaxi, WeRide es mucho más accesible desde el centro: priorizad esa."
+        ],
+        "hours": "～07:00-23:00 en la zona de 南沙 (verificar)",
+        "price": "Tarifa tipo taxi/DiDi",
+        "addressZh": "广州市南沙区（服务区：南沙城区；中国总部 小马智行）",
+        "durationMin": 60,
+        "bestTime": "Solo si tenéis medio día libre"
+      },
+      {
+        "id": "gz-xag",
+        "name": "Sede de XAG / 极飞科技 (drones agrícolas) — solo visita exterior",
+        "nameZh": "极飞科技（广州总部）",
+        "pinyin": "Jífēi Kējì",
+        "emoji": "🚁",
+        "tags": ["drones", "robotica", "tecnologia"],
+        "desc": "极飞 (XAG) nació en Guangzhou en 2007 como equipo de aeromodelismo y hoy es la mayor empresa mundial de robots agrícolas: drones de fumigación y siembra, vehículos terrestres autónomos y estaciones meteorológicas de finca, con más de 4.200 patentes y presencia en 60+ países. Su sede central está en 黄埔区, en el parque PCI佳都·未来社区.",
+        "tips": [
+          "⚠️ NO hay programa público de visitas guiadas confirmado (verificar). Es un edificio de oficinas: se puede ir a ver el exterior, pero no entrar sin cita.",
+          "Si os interesa de verdad, escribid antes a media@xa.com o al teléfono 020-39218499 (verificar idioma y respuesta).",
+          "La experiencia de drones 'de verdad' la tendréis en Shenzhen (DJI Sky City y las tiendas de 华强北): aquí, si vais justos, no merece el desplazamiento.",
+          "Está en 黄埔区开泰大道, a ～40 min del centro en metro + taxi."
+        ],
+        "hours": "Sin visitas públicas confirmadas (verificar)",
+        "price": "—",
+        "addressZh": "广州市黄埔区开泰大道32号 PCI佳都·未来社区二期T16/T17栋 极飞科技",
+        "durationMin": 45,
+        "bestTime": "Solo si os pilla de camino a 黄埔"
+      },
+      {
+        "id": "gz-gac-aion",
+        "name": "Fábrica de GAC Aion (广汽埃安) — 'fábrica faro'",
+        "nameZh": "广汽埃安智能生态工厂",
+        "pinyin": "Guǎngqì Āi'ān",
+        "emoji": "🏭",
+        "tags": ["robotica", "tecnologia"],
+        "desc": "La planta de coches eléctricos de 广汽埃安 (GAC Aion) en 番禺 es una 'lighthouse factory' del WEF: la primera fábrica del mundo con aprovechamiento integral de energía, con la línea de montaje muy robotizada y visitas guiadas de tipo industrial. Forma parte del programa de turismo industrial del distrito de 番禺, que abre las plantas de GAC a grupos.",
+        "tips": [
+          "⚠️ Las visitas son para grupos con cita previa (colegios, empresas, touroperadores): para dos particulares hay que pedir cita desde la web de GAC y no garantizan plaza (verificar).",
+          "Si no hay suerte, plan B: los concesionarios/体验中心 de 埃安 (por ejemplo en 天河) se puede ver y tocar la gama, incluidos los eléctricos con conducción asistida.",
+          "Está en 番禺区化龙镇: a ～50 min en metro + taxi del centro, nada cerca del circuito turístico.",
+          "Solo tiene sentido si sois muy 'car guys': con dos noches en Guangzhou es difícil que quepa."
+        ],
+        "hours": "Solo con cita previa de grupo (verificar)",
+        "price": "～gratis con cita (verificar)",
+        "addressZh": "广州市番禺区化龙镇 广汽埃安智能生态工厂（参观需提前预约）",
+        "durationMin": 120,
+        "bestTime": "Con reserva previa",
+        "booking": "Formulario de reserva de GAC (gacgroup.com)"
+      },
+      {
+        "id": "gz-canton-fair",
+        "name": "Feria de Cantón (广交会) — Fase 2",
+        "nameZh": "广交会第二期（中国进出口商品交易会）",
+        "pinyin": "Guǎngjiāohuì",
+        "emoji": "🏗️",
+        "tags": ["mercado", "compras", "tecnologia"],
+        "desc": "La mayor feria comercial del mundo, en el recinto de 琶洲 (广交会展馆), con más de 200.000 compradores de todo el planeta. La Fase 2 (23-27 oct 2026, verificar programa oficial) se centra en artículos para el hogar, decoración, regalos, cerámica y juguetes. Es la razón por la que hay hoteles imposibles y tráfico denso justo en vuestras fechas: incluso sin entrar, condiciona el viaje.",
+        "tips": [
+          "⚠️ NO se puede entrar sin registro previo de comprador (Buyer badge) con pasaporte y datos de empresa, y el registro tarda días: si no lo habéis hecho antes de viajar, no podréis acceder.",
+          "Aun sin entrar, el recinto impresiona desde fuera: metro 琶洲 (L8) deja en la puerta y hay puestos de información.",
+          "Afecta al tráfico y a los restaurantes: de 08:30-10:00 y 17:30-19:30 hay atascos y los sitios del centro se llenan de expositores por la noche.",
+          "Reservad hotel y los restaurantes que os importen con semanas de antelación; y contad con precios un 30-50 % más altos de lo normal."
+        ],
+        "hours": "23-27 oct 2026, ～09:30-18:00 (verificar programa oficial)",
+        "price": "Registro de comprador (gratis o según tipo de badge)",
+        "metro": "琶洲 (L8) / 新港东 (L8)",
+        "addressZh": "广州市海珠区阅江中路 广交会展馆（琶洲）",
+        "durationMin": 120,
+        "bestTime": "Solo con registro previo",
+        "booking": "cantonfair.org.cn"
+      }
+    ]
   },
-  "routes": []
+  "routes": [
+    {
+      "id": "gz-day1",
+      "name": "Día 1 (26 oct): llegada, Xiguan y río de las Perlas",
+      "date": "2026-10-26",
+      "dayLabel": "Lun 26 oct",
+      "summary": "Llegada a mediodía, check-in y tarde completa en el Guangzhou viejo (荔湾 / 西关), todo a pie entre paradas. IMPORTANTE: 陈家祠 cierra los martes, así que se visita HOY, que es lunes. Cena ligera en 永庆坊 y crucero nocturno por el 珠江.",
+      "stops": [
+        {
+          "itemId": "gz-chen-clan",
+          "time": "14:30",
+          "durationMin": 75,
+          "transport": "Del hotel, metro L1 o L8 hasta 陈家祠, salida D (2 min a pie)",
+          "note": "Lunes: ABIERTO. (Cierra los martes → no dejarlo para mañana.) Última entrada 17:00, hay tiempo de sobra."
+        },
+        {
+          "itemId": "gz-shamian",
+          "time": "16:15",
+          "durationMin": 75,
+          "transport": "L1 陈家祠 → 黄沙 (3 paradas, ～8 min) + 8 min a pie por el puente. Salida F.",
+          "note": "Luz de tarde ideal para las fotos. Si vais justos, el café de la casa colonial es la parada perfecta."
+        },
+        {
+          "itemId": "gz-shangxiajiu",
+          "time": "17:45",
+          "durationMin": 60,
+          "transport": "A pie ～15 min desde 沙面, o L1 黄沙 → 长寿路 (1 parada)",
+          "note": "Snacks: 银记肠粉, 南信双皮奶, 伍湛记及第粥. No cenéis fuerte aquí: guardad hueco para 永庆坊."
+        },
+        {
+          "itemId": "gz-yongqingfang",
+          "time": "19:00",
+          "durationMin": 90,
+          "transport": "A pie ～10 min por 恩宁路",
+          "note": "El 月亮桥 se ilumina ～19:00. ⚠️ El 粤剧艺术博物馆 cierra los lunes: hoy solo se pasea el recinto. Cena en 陶陶居 o 广州酒家 (a 10 min a pie)."
+        },
+        {
+          "itemId": "gz-pearl-river-cruise",
+          "time": "21:20",
+          "durationMin": 80,
+          "transport": "L6 黄沙 → 海珠广场 (3 paradas) + 10 min a pie hasta 天字码头 (沿江中路200号)",
+          "note": "Salir de 永庆坊 a las ～20:30. Últimas salidas ～21:20-22:00: comprad el billete al llegar. Si estáis fundidos del viaje, moved el crucero al 27 (hay embarcaderos junto a 广州塔)."
+        }
+      ]
+    },
+    {
+      "id": "gz-day2",
+      "name": "Día 2 (27 oct): eje histórico y Torre de Cantón de noche",
+      "date": "2026-10-27",
+      "dayLabel": "Mar 27 oct",
+      "summary": "Ruta de norte a sur por el Guangzhou histórico (越秀) y bajada al río, cerrando en el skyline de 珠江新城 y la Torre de Cantón iluminada. ⚠️ Hoy es MARTES: 陈家祠 está CERRADO (por eso se hizo ayer). 南越王博物院 y 石室圣心 sí abren.",
+      "stops": [
+        {
+          "itemId": "gz-yuexiu-park",
+          "time": "09:00",
+          "durationMin": 75,
+          "transport": "L2 越秀公园, salida B1",
+          "note": "Subida a las 五羊石像 andando ～15 min. Buena hora: los locales haciendo tai chi."
+        },
+        {
+          "itemId": "gz-nanyue-museum",
+          "time": "10:30",
+          "durationMin": 90,
+          "transport": "A pie ～5 min desde la salida E del metro",
+          "note": "Hoy (martes) abre. Reserva previa en el 微信服务号; el 金缕玉衣 y la cámara funeraria son lo mejor."
+        },
+        {
+          "itemId": "gz-guangxiao-temple",
+          "time": "13:15",
+          "durationMin": 45,
+          "transport": "L2 越秀公园 → 公园前 + L1 → 西门口, salida C (5 min a pie)",
+          "note": "Comed algo rápido por 西门口 antes o después: hay 面家 y 茶餐厅 a punta de pala."
+        },
+        {
+          "itemId": "gz-liurong-temple",
+          "time": "14:15",
+          "durationMin": 40,
+          "transport": "A pie ～10 min desde 光孝寺",
+          "note": "El más tranquilo de los dos. Si vais con el tiempo justo, este es el que se puede saltar."
+        },
+        {
+          "itemId": "gz-sacred-heart-cathedral",
+          "time": "15:15",
+          "durationMin": 45,
+          "transport": "Taxi ～10 min (～15 CNY) o L1 西门口 → 公园前 + L2 → 海珠广场 + 8 min a pie. También L6 a 一德路.",
+          "note": "Franja de tarde 15:00-17:00 (martes). Aprovechad para asomaros al mercado de 一德路."
+        },
+        {
+          "itemId": "gz-beijing-road",
+          "time": "16:30",
+          "durationMin": 120,
+          "transport": "A pie ～12 min por 一德路 / 泰康路",
+          "note": "Cena aquí: 名荟海韵 (深井烧鹅) o 广州酒家, y 莲香楼 para 手信. Buscad el suelo de cristal del 千年古道 y el 大佛寺."
+        },
+        {
+          "itemId": "gz-canton-tower",
+          "time": "19:00",
+          "durationMin": 120,
+          "transport": "L6 北京路 → 区庄, L5 → 珠江新城, APM → 广州塔 (～35 min); o taxi ～20 min (～25 CNY)",
+          "note": "Entrada con franja horaria reservada online. Antes o después de subir, un paseo por 花城广场 para la foto completa y gratis de la torre."
+        }
+      ]
+    },
+    {
+      "id": "gz-day3-morning",
+      "name": "Mañana del 28 oct: 早茶 y AVE a Shenzhen",
+      "date": "2026-10-28",
+      "dayLabel": "Mié 28 oct",
+      "summary": "Último 早茶 a las 07:00 y salida hacia 广州南站 para el AVE de ～09:00 a 深圳北. Contad 45 min de margen en la estación (seguridad + pasaporte) y ～35-45 min de viaje en metro desde 越秀/荔湾.",
+      "stops": [
+        {
+          "itemId": "gz-dim-sum-diandoude",
+          "time": "07:00",
+          "durationMin": 50,
+          "transport": "A pie, en metro o en taxi desde el hotel: elegid la sede de 点都德 o 广州酒家 más cercana a vuestro alojamiento",
+          "note": "Abren a las 07:00 y a esa hora no hay cola. Pedir 虾饺, 红米肠, 凤爪 y 叉烧包. A las 08:00, de vuelta al hotel a por las maletas: desde 公园前 (L2) el 广州南站 está a ～35 min."
+        }
+      ]
+    }
+  ]
 }

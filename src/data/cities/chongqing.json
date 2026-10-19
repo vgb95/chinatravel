@@ -5,8 +5,8 @@
   "pinyin": "Chóngqìng",
   "emoji": "🌉",
   "type": "layover",
-  "tagline": "Pendiente de investigación",
-  "intro": "Contenido pendiente de investigación.",
+  "tagline": "Escala exprés: 洪崖洞, hotpot y trenes que atraviesan edificios",
+  "intro": "Escala de ～8 h camino a casa: aterrizáis en 重庆江北国际机场 (CKG) T3 a las 16:00 y el vuelo sale de madrugada (～00:30). Hay tiempo para lo esencial del 渝中: el 洪崖洞 iluminado, el 解放碑, un hotpot de verdad y las vistas desde el 千厮门大桥. La clave: guardar el equipaje en el aeropuerto, moverse en la L10+L6 (50 min) o en taxi y vigilar la hora de vuelta, porque la última conexión de metro es ～23:00.",
   "stay": {
     "from": "2026-11-10",
     "to": "2026-11-10",
@@ -14,14 +14,620 @@
     "base": "Escala aeropuerto CKG (8 h)"
   },
   "practical": {
-    "tips": []
+    "summary": "Escala de ～8 h (16:00 → 00:30). Sin hotel: todo se juega en 渝中 (解放碑 + 洪崖洞), a ～50 min del aeropuerto. Guardad las mochilas en el T3 nada más llegar y salid al centro a las 17:15 para estar de vuelta en el aeropuerto a las 22:00-22:30.",
+    "metro": "重庆轨道交通: L10 (江北机场T3航站楼 ↔ 红土地 ↔ 小什字) y L6 (红土地 ↔ 小什字) son vuestro eje. L10: 06:30-23:00 · L6: 06:00-23:00 · L2: 06:30-22:30 · L1: 06:30-22:30. Billete 2-7 CNY; se paga con 乘车码 (Alipay/WeChat) o en máquina (acepta efectivo). Aeropuerto → 小什字: L10 hasta 红土地 + transbordo a L6, ～50 min.",
+    "transport": "Del aeropuerto al centro: L10+L6 ～50 min / ～7 CNY; taxi o DiDi ～40 min / ～80-100 CNY; 机场快线 K01 (解放碑 ↔ CKG, 15 CNY, desde 解放碑 05:30-21:00). De vuelta al aeropuerto: 50 min en metro o 40 min en taxi, más colas. ⚠️ La facturación internacional CIERRA 60 min antes del vuelo, pero estad en el aeropuerto 2 h 30 antes para check-in, inmigración y seguridad.",
+    "tips": [
+      "Consigna de equipaje en el T3: hay servicio de 行李寄存 en la zona de llegadas (小件 ～20 CNY / 中件 ～30 / 大件 ～40 por 6 h; también operan apps tipo 存知己 desde ～10 CNY/día). Preguntad en el mostrador de información del nivel de llegadas al salir (verificar ubicación exacta, cambia de sitio).",
+      "⚠️ Presupuesto de tiempos real: salir del T3 a las 17:15 (recoger equipaje + consigna ～1 h desde el aterrizaje) → centro 18:15 → volver a 小什字 a las 21:30 → aeropuerto ～22:30. Si el vuelo es internacional, apuntad a estar de vuelta a las 22:00 (no a las 22:30) y tened el taxi como plan B.",
+      "Las luces: 洪崖洞 se ilumina ～19:30 (del 1 oct al 30 abr) y apaga ～23:00; el 千厮门大桥 enciende a la misma hora y apaga no antes de ～21:30. Si vais a las 18:15 veréis el edificio en penumbra y las luces cuando volváis por el puente a las 21:00.",
+      "Último metro desde 小什字: L6 ～23:00 y L10 ～23:00. Con la agenda de esta escala os sobra metro, pero si os entretenéis, el taxi/DiDi (～40 min, ～80-100 CNY) es el plan B desde 解放碑.",
+      "⚠️ El hotpot de Chongqing es MUY picante: pedid 微辣 (poco picante) o 鸳鸯锅 (olla dividida, mitad suave), y decid 不要花椒 si no queréis el adormecimiento de la pimienta de Sichuan.",
+      "Noviembre: anochece ～18:10, temperatura ～12-18 °C y hay posibilidad de lluvia fina; chaqueta fina y paraguas. La ciudad está en cuesta: zapatillas sí o sí.",
+      "Si facturasteis el equipaje en 上海 para todo el trayecto, confirmad en el check-in si va directo hasta casa (through-check): así en Chongqing solo lleváis mochila de mano y se simplifica todo."
+    ]
   },
   "sections": {
-    "must": [],
-    "areas": [],
-    "food": [],
-    "shops": [],
-    "extra": []
+    "must": [
+      {
+        "id": "cq-hongyadong",
+        "name": "Hongyadong (el castillo iluminado)",
+        "nameZh": "洪崖洞",
+        "pinyin": "Hóngyá Dòng",
+        "emoji": "🏮",
+        "must": true,
+        "tags": ["nocturno", "fotografia", "barrio", "vistas"],
+        "desc": "Conjunto de 吊脚楼 (casas sobre pilotes) de 11 pisos encajado en el acantilado sobre el 嘉陵江, en el borde del 解放碑. De día parece un mercadillo vertical de tiendas y restaurantes; de noche, con las luces encendidas, se convierte en la imagen más famosa de Chongqing y en un puesto de fotos masivo. Se entra gratis y se recorre por escaleras y ascensores.",
+        "tips": [
+          "⚠️ El alumbrado se enciende ～19:30 (horario del 1 oct al 30 abr) y apaga ～23:00. La 'foto buena' es desde el 千厮门大桥, que está justo al lado.",
+          "Truco local: desde el piso 11 del 洪崖洞 se sale directamente al nivel de la calle 沧白路 y a la pasarela del puente, sin bajar escaleras.",
+          "En festivos hay control de acceso y aforo (y a veces reserva en el mini-programa oficial): es martes 10 de noviembre, debería estar asequible (verificar).",
+          "Las escaleras mecánicas y ascensores están escondidos: si os perdéis, seguid a la gente que sube con comida para llevar."
+        ],
+        "hours": "Recinto abierto 24 h; luces ～19:30-23:00",
+        "price": "Gratis (tiendas y comida aparte)",
+        "metro": "小什字 (L1, L6) — salida 9, ～8 min a pie",
+        "addressZh": "重庆市渝中区嘉陵江滨江路88号 洪崖洞民俗风貌区",
+        "lat": 29.5621,
+        "lng": 106.57768,
+        "durationMin": 60,
+        "bestTime": "Al anochecer (19:30-21:30)"
+      },
+      {
+        "id": "cq-jiefangbei",
+        "name": "Monumento de la Liberación y su peatonal",
+        "nameZh": "解放碑步行街",
+        "pinyin": "Jiěfàngbēi",
+        "emoji": "🏙️",
+        "must": true,
+        "tags": ["barrio", "compras", "nocturno", "gratis"],
+        "desc": "El kilómetro cero de Chongqing: la torre de 27 m del 抗战胜利纪功碑 (1947) rodeada de rascacielos, centros comerciales y la 八一好吃街. Es la plaza donde todo el mundo se cita, y a 8 min a pie del 洪崖洞. De noche el contraste entre el monumento, los neones y las colinas es muy fotogénico.",
+        "tips": [
+          "Se ve en 20 min, pero es la referencia para orientarse: desde aquí se va andando al 洪崖洞 (8 min) y al 千厮门大桥 (12 min).",
+          "La 八一好吃街 está pegada: 好又来酸辣粉 y decenas de puestos de 串串 para picar.",
+          "Hay muchos hotpots alrededor: si 珮姐 está a tope, cualquiera de la zona funciona.",
+          "Metro 小什字 (L1/L6) o 临江门 (L2) — 5-10 min a pie."
+        ],
+        "hours": "24 h; tiendas ～10:00-22:00",
+        "price": "Gratis",
+        "metro": "小什字 (L1, L6) — 8 min a pie; 临江门 (L2) — 5 min a pie",
+        "addressZh": "重庆市渝中区民族路与邹容路交汇处 解放碑步行街",
+        "lat": 29.55772,
+        "lng": 106.57695,
+        "durationMin": 25,
+        "bestTime": "Noche"
+      },
+      {
+        "id": "cq-qiansimen-bridge",
+        "name": "Puente de Qiansimen (el mejor mirador del 洪崖洞)",
+        "nameZh": "千厮门大桥",
+        "pinyin": "Qiānsīmén Dàqiáo",
+        "emoji": "🌉",
+        "must": true,
+        "tags": ["mirador", "nocturno", "fotografia", "gratis"],
+        "desc": "Puente atirantado que cruza el 嘉陵江 y une 渝中 con 江北, con acera peatonal y una vista frontal perfecta del 洪崖洞 iluminado y del skyline. Es la postal clásica de Chongqing de noche y se recorre en 15 min. Cruzarlo hasta 江北嘴 da además la panorámica de la orilla iluminada.",
+        "tips": [
+          "Se sube directamente desde el piso 11 del 洪崖洞 o desde la pasarela junto al 沧白路: 3-8 min andando, no hace falta taxi.",
+          "El puente enciende a las ～19:30 y apaga no antes de ～21:30 (del 1 oct al 30 abr): justo la hora de vuestra vuelta.",
+          "Para la foto del 洪崖洞 completo, colocaros a mitad del puente mirando hacia 渝中; al atardecer sale además el reflejo en el agua.",
+          "⚠️ Las noches del 洪崖洞 son masivas: no hagáis fotos parados en el carril de las motos."
+        ],
+        "hours": "Acceso 24 h; luces ～19:30-21:30/22:30",
+        "price": "Gratis",
+        "metro": "小什字 (L1, L6) — 10 min a pie",
+        "addressZh": "重庆市渝中区 千厮门嘉陵江大桥（洪崖洞旁，沧白路）",
+        "lat": 29.5645,
+        "lng": 106.5787,
+        "durationMin": 25,
+        "bestTime": "19:30-21:30"
+      },
+      {
+        "id": "cq-liziba",
+        "name": "Liziba: el tren que atraviesa un edificio",
+        "nameZh": "李子坝轻轨穿楼（观景平台）",
+        "pinyin": "Lǐzǐbà",
+        "emoji": "🚝",
+        "must": true,
+        "tags": ["tecnologia", "fotografia", "barrio", "gratis"],
+        "desc": "El 单轨 (monorraíl) de la L2 entra literalmente por el piso 7 de un edificio residencial de 19 plantas, con la estación integrada en el bloque (站桥分离). Es el fenómeno urbano más viral de Chongqing y ahora hay una plataforma de observación oficial de 1.367 m² construida en 2024 para verlo desde fuera.",
+        "tips": [
+          "Los trenes pasan cada ～5-8 min en hora punta y hasta ～22:30: no hace falta esperar mucho para la foto.",
+          "Truco de vídeo: subíos al propio monorraíl y grabar desde la cabecera mirando por el cristal frontal: parece una montaña rusa sobre la ciudad.",
+          "La plataforma de observación está pegada a la salida de la estación 李子坝 (L2); la mejor hora de luz es 17:00-19:00, pero de noche el edificio está iluminado.",
+          "Desde 李子坝, la L2 hasta 较场口 son 5 paradas: encadena muy bien con el 解放碑."
+        ],
+        "hours": "Plataforma 24 h; monorraíl L2 06:30-22:30",
+        "price": "Gratis (billete de metro ～3 CNY)",
+        "metro": "李子坝 (L2) — salida directa a la plataforma de observación",
+        "addressZh": "重庆市渝中区李子坝正街 李子坝观景平台（轻轨2号线李子坝站旁）",
+        "lat": 29.5533,
+        "lng": 106.53,
+        "durationMin": 30,
+        "bestTime": "17:00-22:00"
+      },
+      {
+        "id": "cq-yangtze-cableway",
+        "name": "Teleférico del Yangtsé (长江索道)",
+        "nameZh": "长江索道",
+        "pinyin": "Chángjiāng Suǒdào",
+        "emoji": "🚡",
+        "must": true,
+        "tags": ["tecnologia", "vistas", "rio", "fotografia"],
+        "desc": "Teleférico de 1.166 m que cruza el 长江 entre 渝中 (新华路) y 南岸, en servicio desde 1987 y hoy reconvertido en atracción turística. El trayecto dura ～5 min y da una panorámica única del río, de los rascacielos y de las laderas: es la forma más rápida de entender que Chongqing es una ciudad de colinas y agua.",
+        "tips": [
+          "Horario 08:00-22:00; entradas 单程 30 CNY / 往返 50 CNY. Hay que coger número (取号) en la máquina o en la app antes de la cola.",
+          "Con solo una ida basta: volved en taxi o metro. Las colas de la tarde-noche pueden ser de 30-60 min.",
+          "El punto de salida en 渝中 es 新华路151号, a ～10 min a pie del 小什字 y muy cerca del 解放碑.",
+          "Si vais muy justos de tiempo, esto es lo primero que se puede sacrificar (el 李子坝 da el efecto 'wow' con menos cola)."
+        ],
+        "hours": "08:00-22:00 (cerrar antes si hay viento fuerte)",
+        "price": "30 CNY ida · 50 CNY ida y vuelta",
+        "metro": "小什字 (L1, L6) — 10 min a pie",
+        "addressZh": "重庆市渝中区新华路151号 长江索道（渝中站）",
+        "lat": 29.5606,
+        "lng": 106.5819,
+        "durationMin": 45,
+        "bestTime": "Atardecer (hay más cola)"
+      }
+    ],
+    "areas": [
+      {
+        "id": "cq-shibati",
+        "name": "Shibati (escaleras y casas de la colina)",
+        "nameZh": "十八梯传统风貌区",
+        "pinyin": "Shíbātī",
+        "emoji": "🪜",
+        "tags": ["barrio", "historia", "fotografia", "gratis"],
+        "desc": "Barrio rehabilitado que baja por 18 tramos de escalera desde el 解放碑 hasta el río, con casas de madera, patios, teterías y tiendas de artesanía. Reproduce la vida del viejo Chongqing de las colinas y de día se recorre fácil; de noche se ilumina entero. Está a 10 min a pie del 解放碑, así que es una parada de 20 min muy bien situada.",
+        "tips": [
+          "Se baja y se sube en ～20-30 min: contadlo como paseo corto antes o después de cenar.",
+          "Hay escaleras mecánicas y rampas si no queréis hacer 200 escalones.",
+          "Buen momento: al atardecer, cuando se encienden las farolas y baja el gentío.",
+          "Metro 较场口 (L1, L2) — 5 min a pie."
+        ],
+        "hours": "24 h (tiendas ～10:00-22:00)",
+        "price": "Gratis",
+        "metro": "较场口 (L1, L2) — 5 min a pie",
+        "addressZh": "重庆市渝中区较场口 十八梯传统风貌区",
+        "lat": 29.5532,
+        "lng": 106.5758,
+        "durationMin": 30,
+        "bestTime": "Atardecer"
+      },
+      {
+        "id": "cq-chaotianmen",
+        "name": "Chaotianmen y el rascacielos Raffles",
+        "nameZh": "朝天门 / 重庆来福士",
+        "pinyin": "Cháotiānmén",
+        "emoji": "🏢",
+        "tags": ["mirador", "vistas", "rio", "barrio"],
+        "desc": "La punta donde el 嘉陵江 se junta con el 长江, el punto histórico por donde entraban las mercancías a Chongqing. Hoy está dominada por 来福士 (Raffles City), un rascacielos de 8 torres con un 'sky bridge' horizontal en la planta ～24 desde el que se ve la confluencia de los dos ríos de distinto color. Es también donde sale el crucero de los dos ríos.",
+        "tips": [
+          "El mirador 来福士探索舱 (planta 47) es de pago (～100+ CNY): si vais con el tiempo justo, la terraza pública y el paseo del río son gratis.",
+          "Aquí atracan los cruceros nocturnos de 两江游 (～100 CNY, 45-60 min).",
+          "Metro 朝天门 (L1/L6) o 小什字 + 10 min a pie.",
+          "⚠️ Desde aquí al aeropuerto hay ～45 min en taxi: no lo pongáis como última parada si el vuelo es internacional."
+        ],
+        "hours": "Paseo 24 h; 来福士 ～10:00-22:00",
+        "price": "Paseo gratis; mirador 来福士 ～100+ CNY",
+        "metro": "朝天门 (L1, L6)",
+        "addressZh": "重庆市渝中区朝天门 来福士广场（长江与嘉陵江交汇处）",
+        "lat": 29.566,
+        "lng": 106.588,
+        "durationMin": 40,
+        "bestTime": "Atardecer"
+      },
+      {
+        "id": "cq-jiangbeizui",
+        "name": "Parque ribereño de Jiangbeizui (mirador)",
+        "nameZh": "江北嘴江滩公园",
+        "pinyin": "Jiāngběizuǐ Jiāngtān Gōngyuán",
+        "emoji": "🌃",
+        "tags": ["mirador", "vistas", "nocturno", "fotografia"],
+        "desc": "Parque en la orilla de 江北, justo enfrente del 洪崖洞, con escaleras que bajan al nivel del agua. Es el otro gran punto para fotografiar el 洪崖洞 iluminado y las dos orillas de noche, con menos aglomeración que el puente. Se cruza andando desde el 千厮门大桥 en ～15 min.",
+        "tips": [
+          "Ideal si queréis la foto del 洪崖洞 sin masas: el ángulo desde el agua es distinto y hay más sitio.",
+          "Se llega andando cruzando el 千厮门大桥 desde 洪崖洞 (～15 min) o en taxi.",
+          "Volver requiere cruzar el puente otra vez: contad ～30 min de ida y vuelta.",
+          "En noches frías y húmedas de noviembre, llevad chaqueta: junto al río baja más la temperatura."
+        ],
+        "hours": "24 h",
+        "price": "Gratis",
+        "metro": "大剧院 (L6) — 12 min a pie hasta el parque",
+        "addressZh": "重庆市江北区江北嘴江滩公园（千厮门大桥北岸桥下）",
+        "lat": 29.5715,
+        "lng": 106.576,
+        "durationMin": 40,
+        "bestTime": "19:30-22:00"
+      },
+      {
+        "id": "cq-sanxia-museum",
+        "name": "Museo de las Tres Gargantas",
+        "nameZh": "重庆中国三峡博物馆",
+        "pinyin": "Chóngqìng Zhōngguó Sānxiá Bówùguǎn",
+        "emoji": "🏛️",
+        "tags": ["museo", "historia", "arte", "gratis"],
+        "desc": "El gran museo de la ciudad, frente al 人民大礼堂, con colecciones de arqueología del 巴渝, objetos de la presa de las Tres Gargantas, porcelana y una sección etnográfica de las minorías del suroeste. Entrada gratuita y muy buen nivel; si el tiempo aprieta, es la alternativa de plan B cuando llueve.",
+        "tips": [
+          "Gratis, pero requiere reserva previa con documento (微信公众号); cerrado los lunes (el 10 nov 2026 es martes, así que abre).",
+          "Está en 渝中 pero al norte, a ～20 min en metro del 解放碑: no encaja en la escala de 8 h.",
+          "El edificio de enfrente, 人民大礼堂, es la postal clásica de la ciudad.",
+          "Metro 曾家岩 (L2) o 大礼堂 (L10) — 5 min a pie."
+        ],
+        "hours": "09:00-17:00 (última entrada 16:00). CERRADO LUNES",
+        "price": "Gratis con reserva",
+        "metro": "大礼堂 (L10) / 曾家岩 (L2)",
+        "addressZh": "重庆市渝中区人民路236号 重庆中国三峡博物馆",
+        "lat": 29.5633,
+        "lng": 106.5517,
+        "durationMin": 120,
+        "bestTime": "Solo con medio día"
+      },
+      {
+        "id": "cq-ciqikou",
+        "name": "Ciqi Kou (pueblo de la cerámica)",
+        "nameZh": "磁器口古镇",
+        "pinyin": "Cíqìkǒu Gǔzhèn",
+        "emoji": "🏘️",
+        "tags": ["barrio", "historia", "compras", "tipico"],
+        "desc": "Pueblo histórico del siglo XIV a orillas del 嘉陵江, con callejones de piedra, templos, teterías y puestos de 陈麻花 (galletas retorcidas), 火锅底料 y artesanía. Es el sitio 'antiguo' más conocido de Chongqing, muy turístico pero bonito si os gusta el ambiente de mercado.",
+        "tips": [
+          "⚠️ Está a ～45-60 min en metro del 解放碑 (L1 hasta 磁器口): NO cabe en una escala de 8 h. Es un plan para una visita con más días.",
+          "Si algún día volvéis: ir temprano (a las 10:00), entre semana y evitando festivos, cuando se puede andar.",
+          "Los 陈麻花 se compran al peso y aguantan el viaje: buen souvenir si venís por aquí.",
+          "Metro 磁器口 (L1) — 10 min a pie de la entrada."
+        ],
+        "hours": "24 h (tiendas ～09:00-21:00)",
+        "price": "Gratis (compras aparte)",
+        "metro": "磁器口 (L1)",
+        "addressZh": "重庆市沙坪坝区磁器口正街 磁器口古镇",
+        "lat": 29.5847,
+        "lng": 106.4531,
+        "durationMin": 180,
+        "bestTime": "Mañana entre semana (no cabe en la escala)"
+      },
+      {
+        "id": "cq-guanyinqiao",
+        "name": "Guanyinqiao (la otra gran zona comercial)",
+        "nameZh": "观音桥商圈",
+        "pinyin": "Guānyīnqiáo",
+        "emoji": "🛒",
+        "tags": ["compras", "barrio", "nocturno"],
+        "desc": "El centro comercial del distrito de 江北, con la peatonal 北城天街, centros comerciales enormes, cines y comida a todas horas. Es donde compra la gente de la ciudad (menos turístico que 解放碑) y está a dos paradas de metro del 洪崖洞 cruzando el río.",
+        "tips": [
+          "Buena opción si queréis cenar hotpot en un sitio grande y con menos cola que en 解放碑 (hay cadenas conocidas de hotpot y de 重庆小面).",
+          "L6 大剧院 → 红旗河沟 + L3, o taxi directo desde 解放碑 (～15 min).",
+          "Los supermercados de aquí son el mejor sitio para comprar 火锅底料 barato.",
+          "No es imprescindible en la escala: solo si os sobra tiempo o buscáis un centro comercial con aire acondicionado y aseos."
+        ],
+        "hours": "Comercios ～10:00-22:00",
+        "price": "Gratis (compras aparte)",
+        "metro": "观音桥 (L3)",
+        "addressZh": "重庆市江北区观音桥步行街（北城天街）",
+        "lat": 29.5751,
+        "lng": 106.5326,
+        "durationMin": 60,
+        "bestTime": "Tarde-noche"
+      }
+    ],
+    "food": [
+      {
+        "id": "cq-peijie-hotpot",
+        "name": "珮姐老火锅 (sucursal del 洪崖洞)",
+        "nameZh": "珮姐老火锅（洪崖洞店）",
+        "pinyin": "Pèijiě Lǎo Huǒguō",
+        "emoji": "🍲",
+        "must": true,
+        "tags": ["hotpot", "picante", "gastronomia", "reserva-recomendada"],
+        "desc": "Uno de los hotpots más populares de Chongqing, con la sede histórica del 较场口 y esta sucursal del 洪崖洞 en 民族路, a 5 min a pie. Es 老火锅 de verdad: caldo con 牛油 (grasa de vaca), 九宫格 o olla dividida, y una carta clásica de 毛肚 (callos de ternera), 鸭肠 (intestino de pato), 黄喉 y 酥肉. Ambiente ruidoso, mesas de madera y cola.",
+        "tips": [
+          "Coged número al llegar (取号) y esperad: en hora punta puede ser 30-60 min. A las 19:30 la espera suele ser menor que a las 20:30.",
+          "Para principiantes: pedir 鸳鸯锅 (olla dividida, mitad suave) o 微辣, y 油碟 (salsa de aceite de sésamo y ajo) para rebajar el picante.",
+          "Imprescindibles: 毛肚 y 鸭肠 (7-8 segundos en el caldo), 虾滑, 老肉片 y 酥肉. De beber, 唯怡豆奶 (leche de soja) apaga el fuego mejor que el agua.",
+          "Cuenta orientativa ～90-130 CNY por persona con bebidas. Se paga con Alipay/WeChat o efectivo."
+        ],
+        "hours": "～10:30-02:30 (la cocina sirve hasta tarde)",
+        "price": "～90-130 CNY por persona",
+        "metro": "小什字 (L1, L6) — 5 min a pie; 较场口 (L1, L2) — la otra sede",
+        "addressZh": "重庆市渝中区民族路26号 新重庆公寓广场二楼 珮姐老火锅（洪崖洞店）",
+        "durationMin": 80,
+        "bestTime": "19:30-20:00 (antes de la hora punta)",
+        "booking": "No reservan en fin de semana: coger número en la puerta"
+      },
+      {
+        "id": "cq-hotpot",
+        "name": "火锅 — el hotpot de Chongqing",
+        "nameZh": "重庆火锅",
+        "pinyin": "Chóngqìng Huǒguō",
+        "emoji": "🔥",
+        "tags": ["hotpot", "picante", "gastronomia", "tipico"],
+        "desc": "El plato nacional de la ciudad: una olla de caldo rojo con 牛油, guindilla y 花椒 (pimienta de Sichuan, que adormece) en la que se cuecen los ingredientes en la mesa. La versión tradicional es 九宫格 (olla con nueve cuadros para cocer cosas distintas a distintos ritmos) y las 'vacas sagradas' de la casa son 毛肚, 鸭肠, 黄喉 y 脑花 (sesos).",
+        "tips": [
+          "El 花椒 adormece: si no lo habéis probado nunca, decid 「不要花椒」(sin pimienta de Sichuan) o pedid 鸳鸯锅 para tener una mitad suave.",
+          "Las cadenas grandes y céntricas son la opción segura; también hay 洞子火锅 (hotpots en túneles antiaéreos) en 解放碑, con menús más baratos (～50-70 CNY, verificar el local al llegar).",
+          "⚠️ Antes de la escala en el aeropuerto: NO pidáis el caldo más picante si luego tenéis 10 h de vuelo.",
+          "Se come rápido: contad 60-80 min con la olla y pedid de menos a más, que se puede añadir."
+        ],
+        "hours": "Los buenos abren ～11:00-02:00",
+        "price": "～60-130 CNY por persona",
+        "metro": "解放碑 / 较场口 / 小什字 — hay hotpots en todas las calles",
+        "addressZh": "重庆市渝中区解放碑、较场口一带（cualquier 老火锅 céntrico）",
+        "durationMin": 80,
+        "bestTime": "Cena"
+      },
+      {
+        "id": "cq-xiaomian",
+        "name": "重庆小面 — los fideos del desayuno",
+        "nameZh": "重庆小面",
+        "pinyin": "Chóngqìng Xiǎomiàn",
+        "emoji": "🍜",
+        "tags": ["gastronomia", "picante", "tipico"],
+        "desc": "Fideos finos de trigo servidos en un bol con caldo rojo, 辣椒油, ajo, cacahuetes y 榨菜. El nombre genérico es 小面 (fideos pequeños), y las versiones con topping son 豌杂面 (guisantes y carne picada), 牛肉面 (ternera) o 肥肠面 (intestino). Es el desayuno de Chongqing y cuesta dos duros.",
+        "tips": [
+          "Pedid 「微辣」 si no estáis acostumbrados: aquí el 'poco picante' sigue picando.",
+          "El 豌杂面 (guisantes + carne) es el más popular: la casa clásica es 花市豌杂面 en 民生路, cerca del 解放碑.",
+          "También vale como cena rápida y barata si el hotpot os parece demasiado para una escala.",
+          "Las raciones son 二两 (pequeña) y 三两 (grande); con 二两 más un huevo frito vais servidos."
+        ],
+        "hours": "～07:00-21:00",
+        "price": "～15-25 CNY",
+        "metro": "较场口 (L1, L2) / 临江门 (L2)",
+        "addressZh": "重庆市渝中区民生路一带（解放碑/较场口；花市豌杂面 民生路店）",
+        "durationMin": 30,
+        "bestTime": "Desayuno o cena rápida"
+      },
+      {
+        "id": "cq-huashi-wanza-mian",
+        "name": "花市豌杂面 (sucursal de 民生路)",
+        "nameZh": "花市豌杂面（民生路店）",
+        "pinyin": "Huāshì Wānzá Miàn",
+        "emoji": "🥢",
+        "tags": ["gastronomia", "picante", "tipico"],
+        "desc": "Casa de 小面 con años de fama en 民生路, a un paso del 解放碑. Su 豌杂面 (fideos con guisantes estofados y carne picada) es de los más citados de la ciudad: los guisantes se deshacen y se mezclan con el 杂酱, formando una salsa espesa que lo envuelve todo.",
+        "tips": [
+          "Es un local pequeño y de rotación rápida: se comparte mesa y no se tarda más de 20 min.",
+          "Pedir 豌杂面加肥肠 si queréis añadir intestino, o 煎蛋 (huevo frito) por encima.",
+          "Buena parada si el tiempo aprieta: está a 5 min a pie del 解放碑 y del 小什字.",
+          "Pagad en el mostrador al entrar y luego buscad sitio."
+        ],
+        "hours": "～07:00-21:00",
+        "price": "～15-20 CNY",
+        "metro": "较场口 (L1, L2) — 5 min a pie",
+        "addressZh": "重庆市渝中区民生路（解放碑/较场口附近）花市豌杂面",
+        "durationMin": 25,
+        "bestTime": "Desayuno o almuerzo"
+      },
+      {
+        "id": "cq-suandifen",
+        "name": "酸辣粉 — fideos de batata ácidos y picantes",
+        "nameZh": "酸辣粉",
+        "pinyin": "Suānlà fěn",
+        "emoji": "🥡",
+        "tags": ["gastronomia", "picante", "tipico", "mercado"],
+        "desc": "Fideos gruesos de batata (红薯粉) servidos en un caldo agrio y picante con vinagre negro de la región, 辣椒油, cacahuetes triturados y cebollino. Es el snack callejero rey de Chongqing y se come de pie, en un vaso de papel, en 5 minutos.",
+        "tips": [
+          "El sitio más famoso y céntrico es 好又来酸辣粉, en 八一好吃街 (junto al 解放碑): 8-10 CNY el vaso.",
+          "Pedid 「微辣」 si no queréis llorar; el vinagre es lo que lo hace adictivo.",
+          "Perfecto como entrante 'de calle' antes del hotpot.",
+          "Muchos puestos solo aceptan WeChat/Alipay: tened el móvil listo."
+        ],
+        "hours": "～10:00-23:00",
+        "price": "～8-12 CNY",
+        "metro": "小什字 (L1, L6) — 5 min a pie",
+        "addressZh": "重庆市渝中区八一路好吃街（解放碑）好又来酸辣粉",
+        "durationMin": 15,
+        "bestTime": "Snack de tarde"
+      },
+      {
+        "id": "cq-douhua",
+        "name": "豆花饭 — arroz con tofu suave",
+        "nameZh": "豆花饭",
+        "pinyin": "Dòuhuā fàn",
+        "emoji": "🍚",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "El menú de trabajo clásico de Chongqing: un bol de arroz blanco, tofu fresco muy suave (豆花) recién hecho y un cuenco de salsa picante con 辣椒油, ajo y cebollino para mojarlo. Barato, rápido y reconfortante, y si os está destrozando el picante del hotpot, es una tregua perfecta.",
+        "tips": [
+          "Se pide por partes: arroz + 豆花 + salsa. Cuesta ～10-15 CNY en total.",
+          "Hay locales de 豆花饭 por todo 渝中 (sobre todo cerca de mercados y oficinas); preguntad en el hotel el más cercano.",
+          "Buena opción si necesitáis algo suave antes de volar.",
+          "También hay 豆花面 (fideos con la misma salsa) si preferís fideos."
+        ],
+        "hours": "～07:00-20:00 (muchos cierran al acabar el mediodía)",
+        "price": "～10-15 CNY",
+        "metro": "较场口 (L1, L2) — varios locales en los alrededores",
+        "addressZh": "重庆市渝中区较场口/解放碑一带（豆花饭 小店，问酒店推荐最近的一家）",
+        "durationMin": 25,
+        "bestTime": "Comida"
+      }
+    ],
+    "shops": [
+      {
+        "id": "cq-bayilu-food-street",
+        "name": "八一路好吃街 — calle de snacks del 解放碑",
+        "nameZh": "八一好吃街",
+        "pinyin": "Bāyī Hǎochī Jiē",
+        "emoji": "🍢",
+        "tags": ["mercado", "gastronomia", "picante", "tipico"],
+        "desc": "La calle de comida callejera pegada al 解放碑: puestos de 酸辣粉, 串串, 烤肠, 冰粉 y todo tipo de brochetas, con luz y olor a guindilla. Es donde se compra un vaso de algo y se sigue paseando; a 8 min a pie del 洪崖洞.",
+        "tips": [
+          "El clásico es un vaso de 酸辣粉 de 好又来: ～8-10 CNY y se come de pie.",
+          "Buen sitio para probar el 冰粉 (postre frío con azúcar moreno), que apaga el picante mejor que el agua.",
+          "Se llena a partir de las 18:30: mejor pasar a las 18:00 o después de las 21:00.",
+          "Casi todo se paga con Alipay/WeChat; llevad un poco de efectivo para los puestos pequeños."
+        ],
+        "hours": "～10:00-23:00",
+        "price": "～8-30 CNY por cosa",
+        "metro": "小什字 (L1, L6) — 5 min a pie; 临江门 (L2) — 5 min a pie",
+        "addressZh": "重庆市渝中区八一路 好吃街（解放碑步行街旁）",
+        "durationMin": 30,
+        "bestTime": "Antes de las 18:30"
+      },
+      {
+        "id": "cq-hotpot-base",
+        "name": "火锅底料 y 特产 — souvenirs comestibles",
+        "nameZh": "火锅底料 / 重庆特产（超市）",
+        "pinyin": "Huǒguō dǐliào",
+        "emoji": "🛍️",
+        "tags": ["compras", "gastronomia", "picante", "tipico"],
+        "desc": "El mejor souvenir de Chongqing es un paquete de 火锅底料: la base de caldo concentrada para hacer hotpot en casa. Las marcas clásicas (秋霞, 桥头, 德庄, 小天鹅) se venden en cualquier supermercado de la ciudad por 10-30 CNY y aguantan perfectamente en la maleta facturada. Junto a ellas: 陈麻花, 涪陵榨菜 y 怪味胡豆.",
+        "tips": [
+          "Comprar en supermercado (永辉, 新世纪百货, 重百) sale mucho más barato que en las tiendas turísticas del 洪崖洞.",
+          "Mirad la fecha de caducidad y que el envase no tenga fugas: es aceite solidificado.",
+          "⚠️ En equipaje de MANO los líquidos y pastas van restringidos; metedlo en la maleta facturada.",
+          "Si vais directos al aeropuerto, muchos supermercados del centro abren hasta ～22:00 (alguno 24 h)."
+        ],
+        "hours": "Supermercados ～08:00-22:00 (algunos 24 h)",
+        "price": "～10-30 CNY por paquete de 火锅底料",
+        "metro": "小什字 (L1, L6) / 较场口 (L1, L2) — supermercados en la zona",
+        "addressZh": "重庆市渝中区解放碑一带（永辉超市 / 新世纪百货 / 重百；问酒店 cuál está abierto)",
+        "durationMin": 25,
+        "bestTime": "Antes de volver al aeropuerto"
+      },
+      {
+        "id": "cq-chenmahua",
+        "name": "陈麻花 — las galletas retorcidas de Ciqikou",
+        "nameZh": "陈麻花（磁器口）",
+        "pinyin": "Chén Máhuā",
+        "emoji": "🥨",
+        "tags": ["compras", "gastronomia", "tipico", "postres"],
+        "desc": "El dulce-snack más famoso de 磁器口: tiras de masa retorcidas y fritas, en versiones dulce, salada y picante. La casa 陈麻花 lleva generaciones vendiéndolas recién hechas y hay varias sucursales en el pueblo; fuera de 磁器口 también se encuentran envasadas en supermercados.",
+        "tips": [
+          "En 磁器口 se compran al peso y calientes: mejor que las envasadas, pero hay que comerlas en el día.",
+          "⚠️ 磁器口 queda a ～45-60 min del centro: no cabe en una escala de 8 h. Comprad las envasadas en un supermercado si os apetece el souvenir.",
+          "Las versiones 椒盐 (sal y pimienta de Sichuan) son las más originales.",
+          "Aguantan bien el viaje si van en bolsa cerrada."
+        ],
+        "hours": "～09:00-21:00 (en 磁器口)",
+        "price": "～15-40 CNY por bolsa",
+        "metro": "磁器口 (L1)",
+        "addressZh": "重庆市沙坪坝区磁器口古镇 陈麻花（varias tiendas en la calle principal）",
+        "durationMin": 20,
+        "bestTime": "Solo si vais a 磁器口"
+      }
+    ],
+    "extra": [
+      {
+        "id": "cq-luggage-t3",
+        "name": "Consigna de equipaje en el aeropuerto (T3)",
+        "nameZh": "重庆江北国际机场 T3 行李寄存",
+        "pinyin": "Xínglǐ jìcún",
+        "emoji": "🎒",
+        "tags": ["imprescindible"],
+        "desc": "Paso 1 imprescindible de la escala: dejar todo lo que no necesitéis en el aeropuerto antes de salir a la ciudad. El T3 tiene servicio de 行李寄存 en la zona de llegadas (también operan apps tipo 存知己 con taquillas). Con las mochilas en la consigna se va al centro ligero y se vuelve directo a facturar.",
+        "tips": [
+          "Precios orientativos: 小件 (bolsa) ～20 CNY, 中件 ～30 CNY, 大件 (maleta) ～40 CNY por 6 h; algunas taquillas cobran ～10 CNY/día (verificar tarifas y ubicación exacta en el mostrador de información del T3, cambia de sitio).",
+          "Confirmad la hora de recogida: el servicio suele cerrar de madrugada (～23:00-4:30, verificar). Si vuestro vuelo es a las 00:30, recoged las mochilas antes de las 22:30.",
+          "Alternativa: taquillas automáticas o apps como 存知己, con puntos dentro y cerca del aeropuerto (～10 CNY/día).",
+          "Hacedlo justo al aterrizar (16:00-17:00): así salís a las 17:15 hacia la ciudad sin volver atrás."
+        ],
+        "hours": "～04:30-23:00 (verificar)",
+        "price": "～20-40 CNY según tamaño (6 h) · ～10 CNY/día en apps",
+        "addressZh": "重庆市渝北区 重庆江北国际机场 T3航站楼 到达层（行李寄存处 / 存知己柜点）",
+        "lat": 29.7195,
+        "lng": 106.6402,
+        "durationMin": 30,
+        "bestTime": "Justo al aterrizar"
+      },
+      {
+        "id": "cq-line2-ride",
+        "name": "Subir a la L2 por delante (montaña rusa urbana)",
+        "nameZh": "轨道交通2号线（较场口—李子坝）",
+        "pinyin": "Guǐdào jiāotōng 2 hào xiàn",
+        "emoji": "🎢",
+        "tags": ["tecnologia", "tren", "vistas", "familia"],
+        "desc": "La L2 es un 单轨 (monorraíl) elevado que circula pegado a la ladera del 嘉陵江, entre edificios y a la altura de los pisos séptimos. Sentarse en el primer coche y mirar por el cristal frontal es gratis y da una sensación de atracción de feria: curvas sobre el río, pasos por encima de casas y la entrada al edificio de 李子坝.",
+        "tips": [
+          "Tramo ideal: 较场口 → 李子坝 (5 paradas, ～3 CNY). Poneos en la cabecera del tren y mirad hacia delante.",
+          "La L2 funciona 06:30-22:30: id antes de las 21:30 para poder volver.",
+          "Si lo combináis con la visita a la plataforma de 李子坝, tenéis la experiencia completa (dentro y fuera).",
+          "De noche las vistas sobre el río y las luces de la ciudad son mejores que de día."
+        ],
+        "hours": "06:30-22:30",
+        "price": "～3 CNY el trayecto",
+        "metro": "较场口 (L1, L2) — principio del tramo",
+        "addressZh": "重庆市渝中区 轨道交通2号线（较场口站 → 李子坝站）",
+        "durationMin": 30,
+        "bestTime": "Noche"
+      },
+      {
+        "id": "cq-liangjiang-cruise",
+        "name": "Crucero nocturno por los dos ríos (两江游)",
+        "nameZh": "两江游船（朝天门）",
+        "pinyin": "Liǎngjiāng yóu",
+        "emoji": "⛴️",
+        "tags": ["barco", "nocturno", "vistas", "rio"],
+        "desc": "Paseo en barco de 45-60 min por la confluencia del 长江 y el 嘉陵江, con el skyline de 渝中, 江北 y 南岸 iluminado. Es la forma más cómoda de ver los dos ríos a la vez y de fotografiar el frente de rascacielos desde el agua. Salidas desde los embarcaderos del 朝天门.",
+        "tips": [
+          "⚠️ No cabe bien en la escala de 8 h: hay que llegar al 朝天门, hacer cola y volver. Solo si el vuelo se retrasa o volvéis en taxi desde el muelle (～40 min al aeropuerto).",
+          "Precio orientativo ～100-150 CNY según barco y cubierta (verificar y comprar en Trip.com/Klook o en taquilla).",
+          "Salidas típicas ～19:00-21:30; la última puede ser antes de las 22:00.",
+          "Si solo queréis la foto del skyline, el 千厮门大桥 y el parque de 江北嘴 son gratis y están más cerca."
+        ],
+        "hours": "Salidas ～19:00-21:30",
+        "price": "～100-150 CNY",
+        "metro": "朝天门 (L1, L6) — 10 min a pie a los muelles",
+        "addressZh": "重庆市渝中区朝天门 两江游码头（来福士旁）",
+        "lat": 29.566,
+        "lng": 106.588,
+        "durationMin": 60,
+        "bestTime": "Solo con tiempo extra"
+      }
+    ]
   },
-  "routes": []
+  "routes": [
+    {
+      "id": "cq-express",
+      "name": "Escala express Chongqing (16:00 → 00:30)",
+      "date": "2026-11-10",
+      "dayLabel": "Mar 10 nov",
+      "summary": "Mini-ruta realista de 8 h: consigna en el T3, metro al centro, 洪崖洞 al anochecer, 解放碑, hotpot y el 千厮门大桥 iluminado antes de volver al aeropuerto. ⚠️ Tiempos calculados con datos reales: metro ～50 min por trayecto (L10 + L6), taxi ～40 min. Las luces del 洪崖洞 se encienden ～19:30 (noviembre).",
+      "stops": [
+        {
+          "itemId": "cq-luggage-t3",
+          "time": "16:15",
+          "durationMin": 30,
+          "transport": "Aterrizaje en T3 a las 16:00: salida de aduana + recogida de equipaje",
+          "note": "Dejar TODO en la consigna del T3. Objetivo: estar fuera del aeropuerto a las 17:15. Si el vuelo llega con retraso, saltarse la parada del 解放碑 y hacer solo 洪崖洞 + hotpot + puente."
+        },
+        {
+          "itemId": "cq-hongyadong",
+          "time": "18:15",
+          "durationMin": 60,
+          "transport": "L10 desde 江北机场T3航站楼 hasta 红土地 + transbordo a L6 hasta 小什字 (～50 min, ～7 CNY); o taxi ～40 min (～90 CNY)",
+          "note": "A las 18:15 todavía hay luz y veréis la estructura de 吊脚楼 en silueta: el momento 'postal' con las luces es a la vuelta. Subir al piso 11 para salir a 沧白路."
+        },
+        {
+          "itemId": "cq-jiefangbei",
+          "time": "19:25",
+          "durationMin": 20,
+          "transport": "A pie ～8 min desde 洪崖洞, subiendo por 沧白路 hacia 民族路",
+          "note": "Foto del monumento y paseo rápido por la peatonal. Está oscurecido desde ～18:10, así que ya está todo iluminado."
+        },
+        {
+          "itemId": "cq-peijie-hotpot",
+          "time": "19:50",
+          "durationMin": 80,
+          "transport": "A pie ～6 min por 民族路",
+          "note": "Cenar aquí: pedir 鸳鸯锅 o 微辣 y 油碟. Coger número al llegar. ⚠️ No pedir el caldo más picante si después hay 10 h de vuelo. Cuenta ～90-130 CNY/persona."
+        },
+        {
+          "itemId": "cq-qiansimen-bridge",
+          "time": "21:15",
+          "durationMin": 20,
+          "transport": "A pie ～3-8 min: desde el piso 11 del 洪崖洞 se sale directo a la pasarela del puente",
+          "note": "⚠️ AHORA sí: luces del 洪崖洞 encendidas desde ～19:30 y puente iluminado (apaga no antes de ～21:30). Es la mejor foto del viaje. Vuelta: 21:35 a 小什字 (L6, 10 min a pie) → 红土地 → L10 → 江北机场T3航站楼 (～50 min) = aeropuerto ～22:30. Plan B: taxi desde 解放碑 (～40 min, ～90 CNY). Alternativa si el vuelo es internacional y queréis 3 h de margen: salir del puente a las 21:10 para estar en el T3 a las 22:00."
+        }
+      ]
+    },
+    {
+      "id": "cq-plan-b",
+      "name": "Plan B: 李子坝 y 长江索道 (solo si el vuelo se retrasa)",
+      "date": "2026-11-10",
+      "dayLabel": "Mar 10 nov (variante)",
+      "summary": "Variante para usar solo si el vuelo sale más tarde de las 02:00 o si ya conocéis el 洪崖洞. Cambia el 千厮门大桥 por la plataforma del tren que atraviesa el edificio (李子坝) y el teleférico del 长江. Ojo: cada parada extra son ～30-45 min y una vuelta en taxi al aeropuerto.",
+      "stops": [
+        {
+          "itemId": "cq-liziba",
+          "time": "19:00",
+          "durationMin": 30,
+          "transport": "L2 desde 较场口 hasta 李子坝 (5 paradas, ～10 min); o taxi 15 min desde 解放碑",
+          "note": "En noviembre ya es de noche a las 19:00: la plataforma está iluminada y los trenes siguen pasando hasta ～22:30. Truco: ir dentro del monorraíl y mirar por el cristal frontal."
+        },
+        {
+          "itemId": "cq-yangtze-cableway",
+          "time": "20:00",
+          "durationMin": 45,
+          "transport": "L2 李子坝 → 较场口 (5 paradas) + 10 min a pie hasta 新华路151号; o taxi ～15 min",
+          "note": "Coger número (取号) antes de la cola. Solo ida (30 CNY). De 20:00 en adelante la espera puede ser de 30-60 min: si veis mucha cola, saltároslo."
+        },
+        {
+          "itemId": "cq-hotpot",
+          "time": "21:15",
+          "durationMin": 60,
+          "transport": "A pie ～10 min hacia 解放碑",
+          "note": "Cena tardía en cualquier 老火锅 céntrico. ⚠️ Volver al aeropuerto obligatoriamente en taxi/DiDi (～40 min, ～90-100 CNY): el metro cierra ～23:00. Contad estar en el T3 a las 22:30 como muy tarde."
+        }
+      ]
+    }
+  ]
 }
