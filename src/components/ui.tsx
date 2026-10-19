@@ -144,6 +144,29 @@ export function CopyButton({ text, label = 'Copiar', className = '' }: { text: s
   )
 }
 
+/** Botón compacto (solo icono) para copiar sin abrir la tarjeta. */
+export function IconCopyButton({ text, label = 'Copiar', className = '' }: { text: string; label?: string; className?: string }) {
+  const [copied, setCopied] = useState(false)
+  return (
+    <button
+      type="button"
+      aria-label={label}
+      title={label}
+      onClick={async (e) => {
+        e.stopPropagation()
+        const ok = await copyText(text)
+        if (ok) {
+          setCopied(true)
+          setTimeout(() => setCopied(false), 1400)
+        }
+      }}
+      className={`pressable flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-paper-2 text-sm font-semibold text-ink-faint ${className}`}
+    >
+      {copied ? '✓' : '⧉'}
+    </button>
+  )
+}
+
 export function MapButtons({ item }: { item: Item }) {
   const amap = amapLink(item.lat, item.lng, item.name, item.nameZh)
   const apple = appleMapsLink(item.lat, item.lng, item.nameZh || item.name)

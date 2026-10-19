@@ -11,6 +11,8 @@ import { MorePage } from './pages/MorePage'
 import { PrepPage } from './pages/PrepPage'
 import { InfoPage } from './pages/InfoPage'
 import { SettingsPage } from './pages/SettingsPage'
+import { ConverterPage } from './pages/ConverterPage'
+import { AddressesPage } from './pages/AddressesPage'
 
 type UpdateFn = (reload?: boolean) => Promise<void>
 
@@ -88,6 +90,8 @@ export default function App() {
           <Route path="/mas" element={<MorePage />} />
           <Route path="/prep" element={<PrepPage />} />
           <Route path="/info" element={<InfoPage />} />
+          <Route path="/conversor" element={<ConverterPage />} />
+          <Route path="/direcciones" element={<AddressesPage />} />
           <Route path="/ajustes" element={<SettingsPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Route>

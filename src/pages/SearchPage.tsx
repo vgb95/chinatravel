@@ -4,20 +4,14 @@ import { cities, cityItems, phrases, prep } from '../data'
 import { SubPageHeader } from '../components/Layout'
 import { Chip, EmptyState } from '../components/ui'
 import { useStore } from '../store'
-
-function normalize(text: string): string {
-  return text
-    .toLowerCase()
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-}
+import { normalizeText } from '../lib/util'
 
 const SUGGESTED = ['robotica', 'drones', 'dim-sum', 'templo', 'naturaleza', 'mirador', 'mercado', 'hotpot']
 
 export function SearchPage() {
   const [query, setQuery] = useState('')
   const statusMap = useStore((s) => s.status[s.activeProfile])
-  const q = normalize(query.trim())
+  const q = normalizeText(query.trim())
 
   const items = useMemo(
     () => cities.flatMap((city) => cityItems(city).map((ci) => ({ city, ...ci }))),
@@ -32,20 +26,20 @@ export function SearchPage() {
       .filter(({ item }) =>
         [item.name, item.nameZh, item.pinyin, item.desc, item.tags.join(' '), item.addressZh]
           .filter(Boolean)
-          .some((field) => normalize(String(field)).includes(q)),
+          .some((field) => normalizeText(String(field)).includes(q)),
       )
       .slice(0, 40)
     const inRoutes = routes
-      .filter(({ route }) => normalize(`${route.name} ${route.summary}`).includes(q))
+      .filter(({ route }) => normalizeText(`${route.name} ${route.summary}`).includes(q))
       .slice(0, 10)
     const inCities = cities
-      .filter((c) => normalize(`${c.name} ${c.nameZh} ${c.pinyin} ${c.tagline}`).includes(q))
+      .filter((c) => normalizeText(`${c.name} ${c.nameZh} ${c.pinyin} ${c.tagline}`).includes(q))
       .slice(0, 6)
     const inPhrases = phrases.categories
       .flatMap((c) => c.phrases)
-      .filter((p) => normalize(`${p.zh} ${p.pinyin} ${p.es}`).includes(q))
+      .filter((p) => normalizeText(`${p.zh} ${p.pinyin} ${p.es}`).includes(q))
       .slice(0, 15)
-    const inPrep = prepItems.filter(({ item }) => normalize(`${item.text} ${item.detail ?? ''}`).includes(q)).slice(0, 10)
+    const inPrep = prepItems.filter(({ item }) => normalizeText(`${item.text} ${item.detail ?? ''}`).includes(q)).slice(0, 10)
     return { inItems, inRoutes, inCities, inPhrases, inPrep }
   }, [q, items, routes, prepItems])
 

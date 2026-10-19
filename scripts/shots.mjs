@@ -20,6 +20,8 @@ const routes = [
   ['/mas', 'mas'],
   ['/prep', 'prep'],
   ['/info', 'info'],
+  ['/conversor', 'conversor'],
+  ['/direcciones', 'direcciones'],
   ['/ajustes', 'ajustes'],
 ]
 

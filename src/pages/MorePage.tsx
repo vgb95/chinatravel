@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { cities, prep } from '../data'
+import { cities, cityItems, prep } from '../data'
 import { SubPageHeader } from '../components/Layout'
 import { Chip, ProgressBar } from '../components/ui'
 import { PREP_IDS } from '../lib/transfer'
@@ -16,6 +16,8 @@ export function MorePage() {
     v: Object.values(status.v).filter((s) => s === 'done').length,
     p: Object.values(status.p).filter((s) => s === 'done').length,
   }
+
+  const addressCount = cities.flatMap((city) => cityItems(city)).filter(({ item }) => item.addressZh).length
 
   return (
     <div>
@@ -52,6 +54,24 @@ export function MorePage() {
           <div className="mt-2">
             <ProgressBar pct={prepProgress.pct} />
           </div>
+        </Link>
+
+        <Link to="/conversor" className="card pressable flex items-center justify-between p-3.5">
+          <div>
+            <div className="text-[15px] font-bold">💱 Conversor de moneda</div>
+            <div className="mt-0.5 text-[12px] text-ink-faint">Yuanes ⇄ euros sin conexión, con tasa editable</div>
+          </div>
+          <span className="text-lg text-ink-faint">›</span>
+        </Link>
+
+        <Link to="/direcciones" className="card pressable flex items-center justify-between p-3.5">
+          <div>
+            <div className="text-[15px] font-bold">📋 Direcciones para el taxi</div>
+            <div className="mt-0.5 text-[12px] text-ink-faint">
+              {addressCount} direcciones en chino, listas para copiar en DiDi
+            </div>
+          </div>
+          <span className="text-lg text-ink-faint">›</span>
         </Link>
 
         <Link to="/info" className="card pressable flex items-center justify-between p-3.5">

@@ -5,7 +5,7 @@
  */
 import { cities, prep } from '../data'
 import { itemKey } from '../data'
-import type { PersistedShape, ProfileId, StatusValue } from '../store'
+import { normalizeRate, type PersistedShape, type ProfileId, type StatusValue } from '../store'
 
 export const ITEM_KEYS: string[] = cities.flatMap((city) =>
   (['must', 'areas', 'food', 'shops', 'extra'] as const).flatMap((section) =>
@@ -37,6 +37,8 @@ interface ExportPayload {
   f: Record<ProfileId, number[]>
   t: Record<string, string>
   q: number[]
+  /** tasa yuanes por euro (opcional en versiones antiguas) */
+  r: number
 }
 
 export function exportProgress(state: PersistedShape): string {
@@ -68,6 +70,7 @@ export function exportProgress(state: PersistedShape): string {
       .filter(([, v]) => v)
       .map(([k]) => PREP_INDEX.get(k))
       .filter((i): i is number => i !== undefined),
+    r: normalizeRate(state.rate),
   }
   return JSON.stringify(payload)
 }
@@ -93,6 +96,7 @@ export function importProgress(text: string): ImportResult {
     stars?: Record<ProfileId, Record<string, boolean>>
     notes?: Record<ProfileId, Record<string, string>>
     prep?: Record<string, boolean>
+    rate?: unknown
   }
 
   // Formato completo (ids) — aceptado como alternativa.
@@ -105,6 +109,7 @@ export function importProgress(text: string): ImportResult {
         stars: obj.stars ?? { v: {}, p: {} },
         notes: obj.notes ?? { v: {}, p: {} },
         prep: obj.prep ?? {},
+        rate: normalizeRate(obj.rate),
       },
     }
   }
@@ -147,6 +152,7 @@ export function importProgress(text: string): ImportResult {
       stars,
       notes,
       prep: prepOut,
+      rate: normalizeRate(obj.r),
     },
   }
 }

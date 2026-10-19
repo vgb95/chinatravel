@@ -19,6 +19,9 @@ Shanghai · Suzhou · Hangzhou · Chongqing (escala)** — con especial cariño 
   práctica** (Alipay/WeChat, VPN, trenes, robotaxis, emergencias…) y
   **export/import del progreso** entre los dos móviles (texto compartible + QR:
   el QR abre la guía con el código ya pegado, listo para importar).
+- **Herramientas de viaje**: **conversor yuanes ⇄ euros** offline con tasa
+  editable, y **direcciones en chino** de todos los sitios listas para copiar y
+  pegar en DiDi (además del botón ⧉ en cada tarjeta).
 - **100% offline**: todo el contenido se precarga al instalar. Sin Google Fonts,
   sin CDNs, sin servicios bloqueados en China.
 

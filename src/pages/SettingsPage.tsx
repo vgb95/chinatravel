@@ -50,6 +50,7 @@ export function SettingsPage() {
       stars: state.stars,
       notes: state.notes,
       prep: state.prep,
+      rate: state.rate,
     })
     setExported(text)
     setExportMsg('')

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { Item } from '../data'
 import { itemKey } from '../data'
-import { CheckCircle, Chip, CopyButton, MapButtons, Segmented } from './ui'
+import { CheckCircle, Chip, CopyButton, IconCopyButton, MapButtons, Segmented } from './ui'
 import { useItemNote, useItemStar, useItemStatus, useStore, type StatusValue } from '../store'
 import { speakChinese } from '../lib/util'
 
@@ -78,6 +78,7 @@ export function ItemCard({ cityId, item, open, onToggle, cityName }: Props) {
             </div>
           )}
         </div>
+        {item.addressZh && <IconCopyButton text={item.addressZh} label="Copiar dirección" />}
         <CheckCircle
           state={status}
           onClick={() => {

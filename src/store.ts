@@ -12,6 +12,8 @@ export interface PersistedShape {
   stars: Record<ProfileId, Record<string, boolean>>
   notes: Record<ProfileId, Record<string, string>>
   prep: Record<string, boolean>
+  /** Yuanes por euro para el conversor (preferencia, viaja en el export/import). */
+  rate: number
 }
 
 interface StoreState extends PersistedShape {
@@ -23,6 +25,7 @@ interface StoreState extends PersistedShape {
   toggleStar: (key: string) => void
   setNote: (key: string, value: string) => void
   togglePrep: (id: string) => void
+  setRate: (rate: number) => void
   replaceData: (data: PersistedShape) => void
   resetAll: () => void
 }
@@ -35,6 +38,13 @@ function withValue<T>(map: Record<string, T>, key: string, value: T | null): Rec
 }
 
 const DEFAULT_NAMES: Record<ProfileId, string> = { v: 'vg', p: 'n' }
+
+/** Tasa de cambio inicial (yuanes por euro): orientativa, editable en la app. */
+export const DEFAULT_RATE = 7.8
+
+export function normalizeRate(value: unknown): number {
+  return typeof value === 'number' && Number.isFinite(value) && value > 0 ? value : DEFAULT_RATE
+}
 
 /** Nombres heredados de la primera versión de la app: se renombran al migrar. */
 const LEGACY_NAMES: Record<string, string> = {
@@ -55,6 +65,7 @@ export const useStore = create<StoreState>()(
       stars: { v: {}, p: {} },
       notes: { v: {}, p: {} },
       prep: {},
+      rate: DEFAULT_RATE,
 
       setActiveProfile: (id) => set({ activeProfile: id }),
 
@@ -86,6 +97,10 @@ export const useStore = create<StoreState>()(
 
       togglePrep: (id) => set((s) => ({ prep: withValue(s.prep, id, s.prep[id] ? null : true) })),
 
+      setRate: (rate) => {
+        if (Number.isFinite(rate) && rate > 0) set({ rate })
+      },
+
       replaceData: (data) =>
         set({
           names: { ...DEFAULT_NAMES, ...data.names },
@@ -93,6 +108,7 @@ export const useStore = create<StoreState>()(
           stars: { v: { ...data.stars.v }, p: { ...data.stars.p } },
           notes: { v: { ...data.notes.v }, p: { ...data.notes.p } },
           prep: { ...data.prep },
+          rate: normalizeRate(data.rate),
         }),
 
       resetAll: () =>

@@ -79,3 +79,11 @@ export function isStandalone(): boolean {
 export function isIos(): boolean {
   return /iPad|iPhone|iPod/.test(navigator.userAgent) && !('MSStream' in window)
 }
+
+/** Minúsculas y sin acentos, para buscar sin preocuparse por tildes. */
+export function normalizeText(text: string): string {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+}
