@@ -5,8 +5,8 @@
   "pinyin": "Hángzhōu",
   "emoji": "🍵",
   "type": "daytrip",
-  "tagline": "Pendiente de investigación",
-  "intro": "Contenido pendiente de investigación.",
+  "tagline": "Lago, té y templos: el clásico paisajístico de China",
+  "intro": "Excursión de un día (lun 9 nov) desde Shanghái: AVE de ~45 min hasta 杭州东 y un día entre el 灵隐 (gratis desde 2025), el 西湖 y la ciudad antigua. Con opción de robots en 萧山 si se cambia el plan.",
   "stay": {
     "from": "2026-11-09",
     "to": "2026-11-09",
@@ -14,14 +14,538 @@
     "base": "Excursión desde Shanghai"
   },
   "practical": {
-    "tips": []
+    "summary": "Un día completo (lun 9 nov): 灵隐 a primera hora, comida en 楼外楼, tarde de 西湖 y 雷峰塔, y noche en 河坊街. Vuelta en AVE la misma noche.",
+    "metro": "Metro de Hangzhou (2-8 CNY); L1 conecta 杭州东 con 龙翔桥/定安路 (centro y lago, ~25 min). Pago con Alipay/WeChat.",
+    "transport": "AVE 上海虹桥 → 杭州东 ~45 min, salidas cada 10-20 min (reservar en 12306). Último de vuelta ~22:30 (verificar). Sin metro directo a 灵隐: bus 7 desde el lago o taxi (~25 min).",
+    "tips": [
+      "灵隐飞来峰 (incluye 灵隐寺) es gratis desde dic 2025, pero la reserva es obligatoria: mini-program 杭州灵隐飞来峰, sin reserva el mismo día, aforo limitado (~35.000 entre semana).",
+      "Reservar también 雷峰塔 (WeChat 西湖旅游) y el tren de vuelta; el 印象西湖 acaba a las 20:30 y el último tren sale ~21:30-22:30 (verificar).",
+      "Realidad: 西湖 + 灵隐 + los robots de 萧山 NO caben en un día — el 机器人博展中心 está en el lado opuesto de la ciudad (~40-60 min); elegir o volver otro día.",
+      "Barca a 三潭印月 ~55 CNY (08:00-17:00); autobús eléctrico del lago ~40 CNY. El lago en sí es gratis.",
+      "Noviembre: 灵隐 07:30-17:30 (última entrada 17:00); 雷峰塔 08:00-17:30 (hasta 15-mar)."
+    ]
   },
   "sections": {
-    "must": [],
-    "areas": [],
-    "food": [],
-    "shops": [],
-    "extra": []
+    "must": [
+      {
+        "id": "hz-west-lake",
+        "name": "Lago del Oeste (西湖)",
+        "nameZh": "西湖",
+        "pinyin": "Xī Hú",
+        "emoji": "🏞️",
+        "must": true,
+        "tags": ["imprescindible", "lago", "naturaleza", "fotografia"],
+        "desc": "El lago que definió el ideal paisajístico chino (UNESCO): 断桥, 白堤, 苏堤 y las islas con la pagoda 三潭印月 en los billetes de 1 CNY.",
+        "tips": [
+          "El paseo del lago es gratis; el barco a 三潭印月 cuesta ~55 CNY (08:00-17:00).",
+          "Con poco tiempo: barco desde 湖滨 + paseo por 白堤; con más, autobús eléctrico del lago (~40 CNY).",
+          "Metro L1 a 龙翔桥: sale junto al lago."
+        ],
+        "hours": "24 h (barcos ~08:00-17:00)",
+        "price": "Gratis (barco ~55 CNY)",
+        "metro": "龙翔桥 (L1) / 定安路 (L1)",
+        "addressZh": "杭州市西湖区西湖风景名胜区（湖滨/断桥入口）",
+        "lat": 31.2453,
+        "lng": 120.144,
+        "durationMin": 180,
+        "bestTime": "Mañana y atardecer"
+      },
+      {
+        "id": "hz-lingyin",
+        "name": "Templo Lingyin y Pico Volador",
+        "nameZh": "灵隐飞来峰",
+        "pinyin": "Língyǐn Fēiláifēng",
+        "emoji": "🛕",
+        "must": true,
+        "tags": ["imprescindible", "templo", "religioso", "naturaleza"],
+        "desc": "Uno de los templos budistas más importantes de China (s. IV), entre grutas con más de 300 esculturas talladas y bosque de té. Entrada gratis desde diciembre de 2025.",
+        "tips": [
+          "Reserva obligatoria (mini-program 杭州灵隐飞来峰; abre a las 08:00, hasta 7 días antes; sin reserva el mismo día).",
+          "Horario 07:30-17:30, última entrada 17:00.",
+          "Llegar a la apertura: a media mañana se llena.",
+          "Sin metro directo: bus 7 desde 湖滨 o taxi ~25 min."
+        ],
+        "hours": "07:30-17:30 (última entrada 17:00)",
+        "price": "Gratis (reserva obligatoria)",
+        "metro": "Sin metro: bus 7 / taxi ~25 min desde el lago",
+        "addressZh": "杭州市西湖区法云弄1号（灵隐寺）",
+        "lat": 30.2407,
+        "lng": 120.1023,
+        "durationMin": 150,
+        "bestTime": "Primera hora",
+        "booking": "Obligatoria: mini-program 杭州灵隐飞来峰"
+      },
+      {
+        "id": "hz-leifeng-pagoda",
+        "name": "Pagoda Leifeng",
+        "nameZh": "雷峰塔",
+        "pinyin": "Léifēng Tǎ",
+        "emoji": "🗼",
+        "must": true,
+        "tags": ["imprescindible", "mirador", "historia", "vistas"],
+        "desc": "La pagoda reconstruida sobre las ruinas de la original (1924): vistas de todo el 西湖 desde arriba y la leyenda de la Serpiente Blanca en el sótano.",
+        "tips": [
+          "~40 CNY; nov-15 mar: 08:00-17:30.",
+          "Reservar en el WeChat 西湖旅游 (aforo limitado).",
+          "Subir ~16:00-16:30 para ver el lago con la luz dorada."
+        ],
+        "hours": "08:00-17:30 (nov-15 mar)",
+        "price": "~40 CNY",
+        "metro": "龙翔桥 (L1) + bus o taxi ~10 min",
+        "addressZh": "杭州市西湖区南山路15号",
+        "lat": 30.23151,
+        "lng": 120.14929,
+        "durationMin": 60,
+        "bestTime": "Final de tarde",
+        "booking": "WeChat 西湖旅游 (recomendada)"
+      },
+      {
+        "id": "hz-longjing-tea",
+        "name": "Té Longjing (龙井村/梅家坞)",
+        "nameZh": "龙井茶",
+        "pinyin": "Lóngjǐng Chá",
+        "emoji": "🍃",
+        "must": true,
+        "tags": ["imprescindible", "gastronomia", "naturaleza", "compras"],
+        "desc": "El té verde más famoso de China, cultivado en las colinas al oeste del lago. Pasear entre terrazas de té en 龙井村 o 梅家坞 y catar en una casa de campo.",
+        "tips": [
+          "Noviembre no es temporada de recogida (es en primavera), pero las vistas y las catas valen igual.",
+          "Una cata con 2-3 tés cuesta ~50-150 CNY; comprar solo si el precio es razonable (el 明前 de primavera es carísimo).",
+          "Bus 27 desde 龙翔桥 o taxi ~20 min; combinar con 灵隐 en la misma mañana si hay energía."
+        ],
+        "hours": "Casas de té ~09:00-18:00",
+        "price": "Cata ~50-150 CNY (té aparte)",
+        "metro": "Sin metro: bus 27 / taxi ~20 min",
+        "addressZh": "杭州市西湖区龙井村（o 梅家坞）",
+        "lat": 30.2219,
+        "lng": 120.1178,
+        "durationMin": 90,
+        "bestTime": "Mañana"
+      },
+      {
+        "id": "hz-hefang-street",
+        "name": "Calle Hefang y colina Wushan",
+        "nameZh": "河坊街",
+        "pinyin": "Héfāng Jiē",
+        "emoji": "🏮",
+        "must": true,
+        "tags": ["imprescindible", "compras", "gastronomia", "nocturno"],
+        "desc": "Calle peatonal de casas Qing restauradas, con farmacias centenarias, tiendas de abanicos y cuchillos, y puestos de comida. La postal nocturna de Hangzhou.",
+        "tips": [
+          "Tiendas ~09:00-22:00; mejor al anochecer.",
+          "Aquí están 王星记 (abanicos), 张小泉 (cuchillos) y 胡庆余堂 (medicina tradicional).",
+          "Metro L1 定安路 + 10 min a pie."
+        ],
+        "hours": "24 h (tiendas ~09:00-22:00)",
+        "price": "Gratis",
+        "metro": "定安路 (L1) + 10 min a pie",
+        "addressZh": "杭州市上城区河坊街",
+        "lat": 30.2406,
+        "lng": 120.1678,
+        "durationMin": 90,
+        "bestTime": "Noche"
+      }
+    ],
+    "areas": [
+      {
+        "id": "hz-xixi-wetland",
+        "name": "Humedal de Xixi",
+        "nameZh": "西溪湿地",
+        "pinyin": "Xīxī Shīdì",
+        "emoji": "🦆",
+        "tags": ["naturaleza", "barco", "parque"],
+        "desc": "Gran humedal entre canales, arrozales y bosques a 15 min del lago; parte del catálogo Ramsar. Paseo en barco entre juncos, muy tranquilo entre semana.",
+        "tips": [
+          "Entrada ~80 CNY + barco aparte (verificar precios actuales).",
+          "Horario ~08:00-17:30 (verificar).",
+          "Solo si hay medio día extra: compite con 灵隐/西湖 en un día corto.",
+          "Taxi ~20 min desde el lago; también tours en barca desde 周家村."
+        ],
+        "hours": "~08:00-17:30 (verificar)",
+        "price": "~80 CNY + barco (verificar)",
+        "metro": "Taxi ~20 min desde 西湖",
+        "addressZh": "杭州市西湖区天目山路518号（西溪湿地）",
+        "lat": 30.2642,
+        "lng": 120.0728,
+        "durationMin": 180
+      },
+      {
+        "id": "hz-gongchen-bridge",
+        "name": "Puente Gongchen y Gran Canal",
+        "nameZh": "拱宸桥·京杭大运河",
+        "pinyin": "Gǒngchén Qiáo",
+        "emoji": "🌉",
+        "tags": ["historia", "barco", "barrio"],
+        "desc": "Extremo sur del Gran Canal (UNESCO): puente de piedra de 1631 y el barrio 桥西 con museos de cuchillos, abanicos y sombrillas en casas de madera.",
+        "tips": [
+          "Barrio gratis; los museos pequeños también (varios cierran lunes).",
+          "El barco-omnibus del canal cuesta ~3-5 CNY y es la forma más local de llegar.",
+          "Si se visita, encajarlo con 河坊街 por la tarde-noche."
+        ],
+        "hours": "Barrio 24 h; museos ~09:00-16:30 (verificar; lunes cerrado)",
+        "price": "Gratis (barco ~3-5 CNY)",
+        "metro": "Taxi/bus ~30 min desde el centro",
+        "addressZh": "杭州市拱墅区桥西直街（拱宸桥）",
+        "lat": 30.3196,
+        "lng": 120.1421,
+        "durationMin": 120
+      },
+      {
+        "id": "hz-baoshi-hill",
+        "name": "Colina Baoshi",
+        "nameZh": "宝石山",
+        "pinyin": "Bǎoshí Shān",
+        "emoji": "⛰️",
+        "tags": ["senderismo", "mirador", "vistas", "fotografia"],
+        "desc": "Colina al norte del lago con la roca 保俶塔: subida corta (~40 min) y la mejor vista panorámica de 西湖 junto con 雷峰塔. Gratis y poco turística.",
+        "tips": [
+          "Entrada por 北山街 o 曙光路; calzado con agarre (roca resbaladiza).",
+          "Mejor a primera hora o al atardecer.",
+          "Se enlaza a pie con 断桥 en ~25 min por 北山街."
+        ],
+        "hours": "24 h",
+        "price": "Gratis",
+        "metro": "龙翔桥 (L1) + taxi ~10 min al inicio",
+        "addressZh": "杭州市西湖区北山街（宝石山）",
+        "lat": 30.2565,
+        "lng": 120.147,
+        "durationMin": 90,
+        "bestTime": "Atardecer"
+      },
+      {
+        "id": "hz-yuewang-temple",
+        "name": "Templo del Rey Yue",
+        "nameZh": "岳王庙",
+        "pinyin": "Yuè Wáng Miào",
+        "emoji": "⚔️",
+        "tags": ["historia", "templo", "museo"],
+        "desc": "Mausoleo y templo del general Yue Fei (s. XII), héroe nacional traicionado y ejecutado; sus estatuas y las de los traidores siguen siendo lugar de peregrinación patriótica.",
+        "tips": [
+          "Entrada ~25 CNY; horario ~07:30-17:30 (verificar).",
+          "En 北山街, camino entre el lago y 宝石山.",
+          "30-45 min bastan; combinar con el paseo del lago."
+        ],
+        "hours": "~07:30-17:30 (verificar)",
+        "price": "~25 CNY (verificar)",
+        "metro": "龙翔桥 (L1) + taxi ~10 min",
+        "addressZh": "杭州市西湖区北山街80号",
+        "lat": 30.2519,
+        "lng": 120.1422,
+        "durationMin": 45
+      }
+    ],
+    "food": [
+      {
+        "id": "hz-louwailou",
+        "name": "楼外楼 (Louwailou)",
+        "nameZh": "楼外楼",
+        "pinyin": "Lóuwàilóu",
+        "emoji": "🍽️",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "El restaurante más legendario de Hangzhou (1848), en una isla junto al 白堤: desde 西湖醋鱼 hasta 叫花鸡, con vistas al lago desde las mesas.",
+        "tips": [
+          "10:30-20:30; ir a las 11:00 o reservar, sobre todo fin de semana.",
+          "~100-200 CNY/persona; 西湖醋鱼 ~108 CNY.",
+          "Es turístico y caro, pero la ubicación y la historia lo justifican una vez."
+        ],
+        "hours": "10:30-20:30",
+        "price": "~100-200 CNY/persona",
+        "metro": "龙翔桥 (L1) + taxi ~10 min",
+        "addressZh": "杭州市西湖区孤山路30号",
+        "lat": 30.2549,
+        "lng": 120.1423,
+        "durationMin": 90
+      },
+      {
+        "id": "hz-xihu-cuyu",
+        "name": "Pescado agridulce del lago (西湖醋鱼)",
+        "nameZh": "西湖醋鱼",
+        "pinyin": "Xīhú Cùyú",
+        "emoji": "🐟",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "El plato emblema de Hangzhou: lubina del lago cocida al vapor y cubierta de salsa de vinagre y azúcar. Sutil y polémico: a algunos les encanta, a otros no.",
+        "tips": [
+          "Pedirlo en 楼外楼 (孤山路30号) o en 知味观.",
+          "~100-130 CNY la pieza para compartir; se sirve entero.",
+          "Si no convence, la alternativa segura es el 龙井虾仁."
+        ],
+        "price": "~100-130 CNY",
+        "metro": "龙翔桥 (L1) + taxi",
+        "addressZh": "杭州市西湖区孤山路30号（楼外楼）",
+        "lat": 30.2549,
+        "lng": 120.1423,
+        "durationMin": 60
+      },
+      {
+        "id": "hz-dongpo-pork",
+        "name": "Cerdo Dongpo (东坡肉)",
+        "nameZh": "东坡肉",
+        "pinyin": "Dōngpō Ròu",
+        "emoji": "🍖",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Dados de panceta estofados con soja y vino de arroz hasta deshacerse, atribuidos al poeta y gobernador Su Dongpo. El plato más reconfortante de la cocina 杭帮.",
+        "tips": [
+          "Probar en 知味观 (仁和路83号) o 楼外楼.",
+          "~40-60 CNY la ración; muy contundente, compartir.",
+          "Se conserva en frasco en tiendas de souvenirs (calidad variable)."
+        ],
+        "price": "~40-60 CNY",
+        "metro": "龙翔桥 (L1)",
+        "addressZh": "杭州市上城区仁和路83号（知味观总店）",
+        "lat": 30.248,
+        "lng": 120.1652,
+        "durationMin": 60
+      },
+      {
+        "id": "hz-longjing-shrimp",
+        "name": "Gambas con té Longjing (龙井虾仁)",
+        "nameZh": "龙井虾仁",
+        "pinyin": "Lóngjǐng Xiārén",
+        "emoji": "🍤",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Gambas de río salteadas con hojas del té local: el plato culto de Hangzhou, delicado y aromático.",
+        "tips": [
+          "En 楼外楼 es el clásico del menú (~128-158 CNY, verificar).",
+          "Pedirlo en primavera-otoño; en invierno el té usado es el de guarda.",
+          "Compartir con el 西湖醋鱼 para probar los dos iconos."
+        ],
+        "price": "~128-158 CNY (verificar)",
+        "metro": "龙翔桥 (L1) + taxi",
+        "addressZh": "杭州市西湖区孤山路30号（楼外楼）",
+        "lat": 30.2549,
+        "lng": 120.1423,
+        "durationMin": 60
+      },
+      {
+        "id": "hz-pianerchuan",
+        "name": "片儿川 (fideos) en 奎元馆",
+        "nameZh": "奎元馆",
+        "pinyin": "Kuíyuánguǎn",
+        "emoji": "🍜",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Casa de fideos de 1867, famosa por el 片儿川: fideos con brotes de bambú, verduras encurtidas y cerdo. Comida local barata y contundente.",
+        "tips": [
+          "09:30-20:30; 片儿川 ~30-50 CNY.",
+          "Delante del templo 吴山 y cerca de 河坊街: encaja en la ruta de la tarde.",
+          "También probar el 虾爆鳝面 (gamba + anguila, más caro)."
+        ],
+        "hours": "09:30-20:30",
+        "price": "~30-50 CNY",
+        "metro": "定安路 (L1) + 10 min a pie",
+        "addressZh": "杭州市上城区解放路154号",
+        "lat": 30.25,
+        "lng": 120.167,
+        "durationMin": 45
+      },
+      {
+        "id": "hz-zhiweiguan",
+        "name": "知味观 (Zhiweiguan)",
+        "nameZh": "知味观",
+        "pinyin": "Zhīwèiguān",
+        "emoji": "🥟",
+        "tags": ["gastronomia", "dim-sum", "tipico"],
+        "desc": "Institución de 1913: dim sum 杭帮 (小笼, 猫耳朵, 定胜糕) y clásicos de mesa sin precio de restaurante de lujo. Varias plantas: snacks abajo, carta arriba.",
+        "tips": [
+          "07:00-21:00; el salón de abajo para picar, el de arriba para el menú.",
+          "~60-120 CNY/persona en el restaurante; ~20-40 en el autoservicio de dim sum.",
+          "Cerca del lago (仁和路): perfecto para el almuerzo o la cena de la ruta."
+        ],
+        "hours": "07:00-21:00",
+        "price": "~60-120 CNY/persona",
+        "metro": "龙翔桥 (L1)",
+        "addressZh": "杭州市上城区仁和路83号",
+        "lat": 30.248,
+        "lng": 120.1652,
+        "durationMin": 75
+      },
+      {
+        "id": "hz-waipojia",
+        "name": "外婆家 (Grandma's)",
+        "nameZh": "外婆家",
+        "pinyin": "Wàipójiā",
+        "emoji": "🍚",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Cadena nacida en Hangzhou con cocina 杭帮 casera a precios sorprendentes; las esperas son legendarias. Pedir por el móvil y pasear mientras llega el turno.",
+        "tips": [
+          "~60-80 CNY/persona; coger número en recepción y volver cuando avisen.",
+          "El local del 杭州大厦 (武林广场) es el más grande (8ª planta).",
+          "Platos fijos: 绿茶饼, 茶香鸡, 东坡肉."
+        ],
+        "hours": "~10:30-21:30 (verificar)",
+        "price": "~60-80 CNY/persona",
+        "metro": "武林广场 (L1, L3)",
+        "addressZh": "杭州市拱墅区武林广场 杭州大厦B座8楼（外婆家）",
+        "lat": 30.272,
+        "lng": 120.1629,
+        "durationMin": 90
+      }
+    ],
+    "shops": [
+      {
+        "id": "hz-wangxingji",
+        "name": "王星记扇庄 (abanicos)",
+        "nameZh": "王星记",
+        "pinyin": "Wángxīngjì",
+        "emoji": "🪭",
+        "tags": ["compras", "tipico"],
+        "desc": "Fábrica-tienda de abanicos desde 1875: de papel, seda y sándalo negro, con pintura a mano. El souvenir clásico de Hangzhou junto al té.",
+        "tips": [
+          "En 河坊街; número exacto verificar. ~09:00-21:00.",
+          "Abanicos decorativos desde ~30 CNY; los de sándalo tallado, más caros.",
+          "Hay museo-taller del abanico en 拱宸桥 (桥西), cerrado lunes (verificar)."
+        ],
+        "hours": "~09:00-21:00 (verificar)",
+        "price": "Gratis (abanicos ~30-300 CNY)",
+        "metro": "定安路 (L1) + 10 min a pie",
+        "addressZh": "杭州市上城区河坊街（王星记；número verificar）",
+        "lat": 30.2408,
+        "lng": 120.1682,
+        "durationMin": 30
+      },
+      {
+        "id": "hz-zhangxiaoquan",
+        "name": "张小泉 (cuchillos)",
+        "nameZh": "张小泉",
+        "pinyin": "Zhāngxiǎoqián",
+        "emoji": "🔪",
+        "tags": ["compras", "tipico"],
+        "desc": "La cuchillería más antigua de China (1628), nacida en Hangzhou. Tijeras, cuchillos y útiles de cocina que se pueden facturar en el equipaje.",
+        "tips": [
+          "En 河坊街; número exacto verificar. ~09:00-21:00.",
+          "Ojo con el avión: cuchillos y tijeras van en maleta facturada, nunca en cabina.",
+          "Buen regalo práctico; precios desde ~50 CNY."
+        ],
+        "hours": "~09:00-21:00 (verificar)",
+        "price": "Gratis (útiles ~50-300 CNY)",
+        "metro": "定安路 (L1) + 10 min a pie",
+        "addressZh": "杭州市上城区河坊街（张小泉；número verificar）",
+        "lat": 30.2409,
+        "lng": 120.1685,
+        "durationMin": 20
+      },
+      {
+        "id": "hz-huqingyutang",
+        "name": "胡庆余堂 (farmacia histórica)",
+        "nameZh": "胡庆余堂",
+        "pinyin": "Húqìngyútáng",
+        "emoji": "🌿",
+        "tags": ["compras", "historia", "museo"],
+        "desc": "Farmacia de medicina tradicional china fundada en 1874, todavía activa: su museo (大井巷95号) explica el oficio. Tés medicinales y suplementos como recuerdo.",
+        "tips": [
+          "Museo ~08:30-17:00 (~20 CNY, verificar); la botica de 河坊街 es gratis.",
+          "Comprar solo productos con etiqueta clara; consultar antes de tomar nada.",
+          "Artefactos históricos bonitos: cajoneros, balanzas, recetas caligrafiadas."
+        ],
+        "hours": "Botica ~08:30-21:00; museo ~08:30-17:00 (verificar)",
+        "price": "Botica gratis / museo ~20 CNY (verificar)",
+        "metro": "定安路 (L1) + 10 min a pie",
+        "addressZh": "杭州市上城区河坊街大井巷95号（胡庆余堂）",
+        "lat": 30.2418,
+        "lng": 120.167,
+        "durationMin": 45
+      }
+    ],
+    "extra": [
+      {
+        "id": "hz-robot-center",
+        "name": "Centro de exposiciones de robots de 萧山",
+        "nameZh": "萧山机器人博展中心",
+        "pinyin": "Xiāoshān Jīqìrén Bózhǎn Zhōngxīn",
+        "emoji": "🤖",
+        "tags": ["robotica", "tecnologia", "familia", "gratis"],
+        "desc": "Showroom permanente del cluster robótico de 萧山: brazos industriales, robots de servicio y demos interactivas. Gratis y poco conocido — la sorpresa tech del viaje.",
+        "tips": [
+          "Horario: lun-vie 09:00-11:30 y 13:00-16:30; sáb 09:00-16:30; domingo cerrado (el lun 9 nov está abierto).",
+          "Reserva en el WeChat 机器人博展中心 en días punta; tel. 0571-83738685.",
+          "Está en el lado opuesto de la ciudad respecto a 西湖 (~40-60 min en metro/taxi): NO se puede combinar con un día normal de lago + 灵隐."
+        ],
+        "hours": "Lun-vie 09:00-11:30 / 13:00-16:30; sáb 09:00-16:30; dom cerrado",
+        "price": "Gratis",
+        "metro": "Taxi ~40-60 min desde 西湖 (zona 萧山)",
+        "addressZh": "杭州市萧山区鸿兴路389号",
+        "durationMin": 120,
+        "booking": "WeChat 机器人博展中心 (recomendada en días punta)"
+      },
+      {
+        "id": "hz-unitree-tour",
+        "name": "Tour Unitree + Alibaba (medio día)",
+        "nameZh": "宇树科技·阿里巴巴 半日游",
+        "pinyin": "Yǔshù Kējì Bànyì",
+        "emoji": "🐕",
+        "tags": ["robotica", "tecnologia", "drones"],
+        "desc": "Tour de medio día (Klook, ~838 CNY) que visita el showroom de robots de 宇树科技 (Unitree) y el parque de 阿里巴巴, con demos de robots y drones. Recogida en Hangzhou.",
+        "tips": [
+          "Reservar online (klook.com, actividad 218300); plazas limitadas y fechas concretas.",
+          "Duración ~10:00-16:00: consume el día entero, incompatible con 西湖 + 灵隐.",
+          "Si no hay plazas: el 机器人博展中心 de 萧山 es la alternativa gratuita."
+        ],
+        "hours": "Según tour (~10:00-16:00)",
+        "price": "~838 CNY",
+        "metro": "Recogida en punto acordado (según operador)",
+        "addressZh": "杭州市滨江区（宇树科技总部；recogida y detalles según operador, verificar）",
+        "durationMin": 360,
+        "booking": "Obligatoria online (Klook u operador)",
+        "web": "https://www.klook.com/activity/218300"
+      },
+      {
+        "id": "hz-alibaba-park",
+        "name": "Parque de Alibaba (西溪园区)",
+        "nameZh": "阿里巴巴西溪园区",
+        "pinyin": "Ālǐbābā Xīxī Yuánqū",
+        "emoji": "🏢",
+        "tags": ["tecnologia"],
+        "desc": "La sede central del gigante del comercio electrónico, junto al humedal de Xixi. El recinto no está abierto a visitas individuales: solo se entra con tours/eventos oficiales.",
+        "tips": [
+          "NO intentar ir por libre: la entrada está restringida (verificar visitas oficiales).",
+          "La opción práctica es el tour de medio día de Unitree + Alibaba (Klook).",
+          "Foto exterior posible desde 文一西路, pero sin acceso al campus."
+        ],
+        "hours": "No abierto a visitas individuales",
+        "price": "—",
+        "metro": "Taxi ~30 min desde 西湖 (余杭区)",
+        "addressZh": "杭州市余杭区文一西路969号",
+        "durationMin": 30
+      },
+      {
+        "id": "hz-impression-show",
+        "name": "印象西湖 (espectáculo nocturno)",
+        "nameZh": "印象西湖",
+        "pinyin": "Yìnxiàng Xīhú",
+        "emoji": "🎆",
+        "tags": ["espectaculo", "nocturno", "lago"],
+        "desc": "Espectáculo de Zhang Yimou sobre el propio lago: bailarinas 'caminando' sobre el agua, luz y música. En noviembre, función única 19:30-20:30.",
+        "tips": [
+          "Entradas ~360/420/980 CNY según zona; comprar online con antelación.",
+          "Si se hace, el tren de vuelta debe ser el de ~21:30-22:30 (verificar) — el espectáculo acaba a las 20:30 y 杭州东 está a ~30 min.",
+          "Alternativa gratis: quedarse en el lago viendo la ciudad de noche."
+        ],
+        "hours": "19:30-20:30 (función única en noviembre; verificar calendario)",
+        "price": "~360-980 CNY",
+        "metro": "龙翔桥 (L1) + taxi ~10 min (岳湖景区)",
+        "addressZh": "杭州市西湖区北山街 岳湖景区（印象西湖剧场）",
+        "lat": 30.252,
+        "lng": 120.142,
+        "durationMin": 90,
+        "booking": "Online recomendada (se agota en fin de semana)"
+      }
+    ]
   },
-  "routes": []
+  "routes": [
+    {
+      "id": "hz-day",
+      "name": "Hangzhou en un día: Lingyin, West Lake y ciudad antigua",
+      "date": "2026-11-09",
+      "dayLabel": "Lun 9 nov",
+      "summary": "灵隐 a primera hora (reserva previa), comida en 楼外楼, tarde de lago con 雷峰塔, cena 杭帮 en 知味观 y 河坊街 antes de coger el AVE de vuelta.",
+      "stops": [
+        { "itemId": "hz-lingyin", "time": "08:30", "durationMin": 150, "transport": "AVE 上海虹桥 → 杭州东 (~45 min) + metro L1 + bus/taxi ~25 min", "note": "Reserva obligatoria en el mini-program; llegar a la apertura" },
+        { "itemId": "hz-louwailou", "time": "11:30", "durationMin": 90, "transport": "Taxi ~25 min al 孤山路", "note": "Comida: 西湖醋鱼 + 龙井虾仁; llegar pronto o reservar" },
+        { "itemId": "hz-west-lake", "time": "13:15", "durationMin": 150, "transport": "A pie", "note": "Paseo por 白堤 y barco a 三潭印月 (~55 CNY)" },
+        { "itemId": "hz-leifeng-pagoda", "time": "16:00", "durationMin": 60, "transport": "Bus o taxi ~10 min", "note": "Última subida antes del cierre (17:30); luz dorada sobre el lago" },
+        { "itemId": "hz-pianerchuan", "time": "17:30", "durationMin": 45, "transport": "Taxi ~15 min a 解放路", "note": "Merienda-cena de 片儿川 en 奎元馆 (o pasar directo a 知味观)" },
+        { "itemId": "hz-hefang-street", "time": "18:30", "durationMin": 90, "transport": "A pie ~10 min", "note": "Tiendas (王星记, 张小泉) y ambiente nocturno" },
+        { "itemId": "hz-zhiweiguan", "time": "20:00", "durationMin": 60, "transport": "A pie", "note": "Cena 杭帮 si aún hay hambre; tras la cena, taxi/metro a 杭州东 para el AVE (último ~22:30, verificar)" }
+      ]
+    }
+  ]
 }

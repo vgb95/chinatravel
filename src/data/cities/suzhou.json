@@ -5,8 +5,8 @@
   "pinyin": "Sūzhōu",
   "emoji": "🎋",
   "type": "daytrip",
-  "tagline": "Pendiente de investigación",
-  "intro": "Contenido pendiente de investigación.",
+  "tagline": "Jardines clásicos, canales y seda a 25 minutos de Shanghái",
+  "intro": "Excursión de un día (vie 6 nov) desde Shanghái: AVE hasta 苏州站 y un día entre jardines UNESCO, callejones de agua, 昆曲 y gastronomía de temporada (松鼠鳜鱼, fideos 苏式汤面, 大闸蟹).",
   "stay": {
     "from": "2026-11-06",
     "to": "2026-11-06",
@@ -14,14 +14,522 @@
     "base": "Excursión desde Shanghai"
   },
   "practical": {
-    "tips": []
+    "summary": "Un día completo (vie 6 nov): jardines y museo por la mañana, canales y 网师园 por la tarde y 山塘街 al anochecer, junto a 苏州站 para volver.",
+    "metro": "Metro de Suzhou (2-7 CNY); L2 y L4 conectan 苏州站, 山塘街, 观前街 y 北寺塔. Pago con Alipay/WeChat.",
+    "transport": "AVE 上海虹桥/上海站 → 苏州站: ~25-30 min, salidas cada 10-20 min (reservar en 12306). Evitar 苏州北 (a ~20 min en metro del centro).",
+    "tips": [
+      "Temporada baja (noviembre, precios oficiales 2025-2026): 拙政园 70 CNY, 虎丘 60, 留园 45, 狮子林 30, 网师园 30; 夜花园 ~120.",
+      "Reservas: 拙政园 (obligatoria; WeChat 苏州园林 / 苏周到) y 苏州博物馆 (mini-program, 7 días antes, gratis).",
+      "Último AVE de vuelta a Shanghái ~21:30-22:00 (verificar ese día en 12306).",
+      "网师园夜花园 (~120 CNY, 昆曲/评弹): solo en temporada y ciertos días; verificar calendario nov 2026 antes de contar con él.",
+      "Plan B lluvia: 苏州博物馆 + 丝绸博物馆 + 昆曲博物馆 (todo cubierto y cerca)."
+    ]
   },
   "sections": {
-    "must": [],
-    "areas": [],
-    "food": [],
-    "shops": [],
-    "extra": []
+    "must": [
+      {
+        "id": "su-humble-administrator",
+        "name": "Jardín del Administrador Humilde",
+        "nameZh": "拙政园",
+        "pinyin": "Zhuōzhèng Yuán",
+        "emoji": "🌿",
+        "must": true,
+        "tags": ["imprescindible", "naturaleza", "historia", "fotografia"],
+        "desc": "El jardín clásico más famoso de China (UNESCO, s. XVI): pabellones sobre estanques de loto, puentes en zigzag y rincones compuestos para recorrerse despacio.",
+        "tips": [
+          "Reserva obligatoria en temporada (WeChat 苏州园林 / 苏周到); elegir la primera franja.",
+          "Horario nov: 07:30-17:00, última entrada 16:30 (verificar).",
+          "70 CNY (temporada baja, nov).",
+          "El 苏州博物馆 está justo enfrente: encadenar reservas (p. ej. 9:30 y 11:30)."
+        ],
+        "hours": "07:30-17:00 (última entrada 16:30)",
+        "price": "~70 CNY (nov)",
+        "metro": "L4 北寺塔 + 15 min a pie / taxi 10 min desde 苏州站",
+        "addressZh": "苏州市姑苏区东北街178号",
+        "lat": 31.32612,
+        "lng": 120.62945,
+        "durationMin": 90,
+        "bestTime": "Primera hora",
+        "booking": "Obligatoria (WeChat 苏州园林 / 苏周到)"
+      },
+      {
+        "id": "su-museum",
+        "name": "Museo de Suzhou (本馆)",
+        "nameZh": "苏州博物馆",
+        "pinyin": "Sūzhōu Bówùguǎn",
+        "emoji": "🏛️",
+        "must": true,
+        "tags": ["imprescindible", "museo", "arte", "gratis"],
+        "desc": "La joya de I. M. Pei (贝聿铭): geometría blanca entre jardines de bambú, con tesoros de la región y su célebre colección de porcelana 秘色瓷.",
+        "tips": [
+          "Cierra lunes; horario 09:00-17:00.",
+          "Reserva con 7 días de antelación en el mini-program 苏州博物馆全预约 (se agota).",
+          "Reservar 拙政园 justo antes o después: están a 2 min a pie."
+        ],
+        "hours": "09:00-17:00 (lunes cerrado)",
+        "price": "Gratis (reserva obligatoria)",
+        "metro": "L4 北寺塔 + 12 min a pie",
+        "addressZh": "苏州市姑苏区东北街204号",
+        "lat": 31.3245,
+        "lng": 120.62855,
+        "durationMin": 90,
+        "booking": "Obligatoria: mini-program 苏州博物馆全预约 (7 días antes)"
+      },
+      {
+        "id": "su-lingering-garden",
+        "name": "Jardín de la Permanencia",
+        "nameZh": "留园",
+        "pinyin": "Liú Yuán",
+        "emoji": "🪷",
+        "must": true,
+        "tags": ["imprescindible", "naturaleza", "historia", "fotografia"],
+        "desc": "El más arquitectónico de los jardines: corredores laberínticos, ventanas caladas y la imponente rocalla 冠云峰. Menos masificado que 拙政园.",
+        "tips": [
+          "Nov: ~45 CNY, ~07:30-17:00 (verificar).",
+          "Combinar con 山塘街 (taxi ~10 min) o con 西园寺, al lado.",
+          "Ir por la tarde y acabar el día junto al canal."
+        ],
+        "hours": "~07:30-17:00 (verificar)",
+        "price": "~45 CNY (nov)",
+        "metro": "L2 石路 + 15 min a pie (verificar)",
+        "addressZh": "苏州市姑苏区留园路338号",
+        "lat": 31.31812,
+        "lng": 120.59684,
+        "durationMin": 75
+      },
+      {
+        "id": "su-pingjiang-road",
+        "name": "Calle Pingjiang",
+        "nameZh": "平江路",
+        "pinyin": "Píngjiāng Lù",
+        "emoji": "🛶",
+        "must": true,
+        "tags": ["imprescindible", "barrio", "rio", "fotografia"],
+        "desc": "Calle de piedra junto al canal, con casas Ming y Qing, casas de té, tiendas de abanicos y pequeños teatros. El paseo más bonito de la ciudad vieja.",
+        "tips": [
+          "Mejor de 15:00 al anochecer, con las luces encendidas.",
+          "En algunas casas de té hay 评弹 (canción narrativa) en directo, a menudo gratis con consumición.",
+          "Los barquitos turísticos del canal salen cerca del cruce con 白塔东路 (~40-60 CNY, verificar)."
+        ],
+        "hours": "24 h (tiendas ~10:00-21:00)",
+        "price": "Gratis",
+        "metro": "L1 相门 + 10 min a pie (verificar)",
+        "addressZh": "苏州市姑苏区平江路",
+        "lat": 31.3189,
+        "lng": 120.6322,
+        "durationMin": 75,
+        "bestTime": "Tarde-noche"
+      },
+      {
+        "id": "su-shantang-street",
+        "name": "Canal Siete Li Shantang",
+        "nameZh": "山塘街",
+        "pinyin": "Shāntáng Jiē",
+        "emoji": "🏮",
+        "must": true,
+        "tags": ["imprescindible", "nocturno", "rio", "barco"],
+        "desc": "Calle-canal del s. IX restaurada, con farolillos rojos y barcos al caer la noche. El tramo junto a 广济路 (cerca de 苏州站) es el más animado.",
+        "tips": [
+          "Ir al anochecer (~17:30-18:00) para el encendido de luces.",
+          "A ~15 min a pie de 苏州站: perfecto para cerrar el día antes del tren.",
+          "Barcos turísticos por el canal (~45-90 CNY, verificar) y puestos de comida."
+        ],
+        "hours": "24 h (tiendas ~09:00-21:30)",
+        "price": "Gratis",
+        "metro": "L2 山塘街",
+        "addressZh": "苏州市姑苏区山塘街（广济路入口）",
+        "lat": 31.3199,
+        "lng": 120.6028,
+        "durationMin": 90,
+        "bestTime": "Anochecer"
+      },
+      {
+        "id": "su-master-of-nets",
+        "name": "Jardín del Maestro de las Redes",
+        "nameZh": "网师园",
+        "pinyin": "Wǎngshī Yuán",
+        "emoji": "🏯",
+        "must": true,
+        "tags": ["imprescindible", "naturaleza", "historia", "espectaculo"],
+        "desc": "El jardín más pequeño y refinado (s. XII), con el pabellón 殿春簃 que inspiró el jardín chino del MET de Nueva York. Famoso por sus noches de 昆曲.",
+        "tips": [
+          "Nov: ~30 CNY de día; 夜花园 (música y teatro en los pabellones) ~120 CNY (verificar días de función).",
+          "Horario diurno ~07:30-17:30 (verificar).",
+          "El 夜花园 empieza ~19:30; si no hay función ese día, volver al tren con margen."
+        ],
+        "hours": "~07:30-17:30 (verificar); 夜花园 ~19:30 (días rotan)",
+        "price": "~30 CNY (noche ~120 CNY, verificar)",
+        "metro": "L4 三元坊 + 10 min a pie (verificar)",
+        "addressZh": "苏州市姑苏区带城桥路阔家头巷11号",
+        "lat": 31.3008,
+        "lng": 120.6308,
+        "durationMin": 60,
+        "bestTime": "Tarde o noche (昆曲)",
+        "booking": "夜花园: entrada aparte (verificar calendario)"
+      }
+    ],
+    "areas": [
+      {
+        "id": "su-lion-grove",
+        "name": "Jardín del Bosque de Leones",
+        "nameZh": "狮子林",
+        "pinyin": "Shīzi Lín",
+        "emoji": "🦁",
+        "tags": ["naturaleza", "historia", "familia"],
+        "desc": "Famoso por su laberinto de rocallas de Taihu: un parque de piedras para perderse. El favorito de los niños y buena alternativa si 拙政园 está lleno.",
+        "tips": [
+          "Nov: ~30 CNY, ~07:30-17:00 (verificar).",
+          "A 5 min a pie de 拙政园 y 苏博.",
+          "Las rocas resbalan con lluvia: cuidado."
+        ],
+        "hours": "~07:30-17:00 (verificar)",
+        "price": "~30 CNY (nov)",
+        "metro": "L4 北寺塔 + 15 min a pie",
+        "addressZh": "苏州市姑苏区园林路23号",
+        "lat": 31.32336,
+        "lng": 120.62693,
+        "durationMin": 60
+      },
+      {
+        "id": "su-tiger-hill",
+        "name": "Colina del Tigre",
+        "nameZh": "虎丘",
+        "pinyin": "Hǔqiū",
+        "emoji": "🗼",
+        "tags": ["naturaleza", "historia", "mirador"],
+        "desc": "Colina con la pagoda inclinada de 961 (la 'Torre de Pisa de China') y jardines históricos. El refrán local: quien visita Suzhou y no sube 虎丘, se lo pierde.",
+        "tips": [
+          "Nov: ~60 CNY, ~07:30-17:30 (verificar).",
+          "Metro L6 虎丘站 (salida 3) + 10 min a pie.",
+          "Subir a primera hora; a mediodía se llena.",
+          "Se puede bajar andando hasta 山塘街 (~30 min) o en taxi."
+        ],
+        "hours": "~07:30-17:30 (verificar)",
+        "price": "~60 CNY (nov)",
+        "metro": "L6 虎丘站 (salida 3)",
+        "addressZh": "苏州市姑苏区虎丘山门内8号",
+        "lat": 31.3366,
+        "lng": 120.5725,
+        "durationMin": 120,
+        "bestTime": "Mañana"
+      },
+      {
+        "id": "su-panmen",
+        "name": "Puerta Panmen y muralla del agua",
+        "nameZh": "盘门",
+        "pinyin": "Pánmén",
+        "emoji": "🏯",
+        "tags": ["historia", "rio", "mirador"],
+        "desc": "Única puerta de agua y tierra conservada de la muralla de Suzhou, con el puente 吴门桥 y la pagoda 瑞光塔. Zona tranquila y muy fotogénica.",
+        "tips": [
+          "Entrada ~40 CNY (verificar).",
+          "Ir por la mañana o antes del atardecer; poca gente.",
+          "Metro L4 hasta 南门 + taxi corto (verificar)."
+        ],
+        "hours": "~08:00-17:00 (verificar)",
+        "price": "~40 CNY (verificar)",
+        "metro": "L4 南门 + taxi 5 min (verificar)",
+        "addressZh": "苏州市姑苏区东大街49号",
+        "lat": 31.29253,
+        "lng": 120.61882,
+        "durationMin": 75
+      },
+      {
+        "id": "su-guanqian-street",
+        "name": "Calle Guanqian",
+        "nameZh": "观前街",
+        "pinyin": "Guānqián Jiē",
+        "emoji": "🍜",
+        "tags": ["compras", "gastronomia", "tipico"],
+        "desc": "La calle comercial histórica de Suzhou, alrededor del templo taoísta 玄妙观: casas de dulces, fideos y tiendas de seda. Centro práctico para comer entre visitas.",
+        "tips": [
+          "Metro L4 察院场: sale justo en la calle.",
+          "Aquí están 松鹤楼 (松鼠鳜鱼) y 采芝斋 (dulces): planificar el almuerzo.",
+          "Ir de 11:30 a 13:00 o de 17:00 a 19:00; a otras horas hay menos ambiente."
+        ],
+        "hours": "24 h (tiendas ~09:30-21:30)",
+        "price": "Gratis",
+        "metro": "L4 察院场",
+        "addressZh": "苏州市姑苏区观前街",
+        "lat": 31.3122,
+        "lng": 120.623,
+        "durationMin": 60
+      },
+      {
+        "id": "su-silk-museum",
+        "name": "Museo de la Seda",
+        "nameZh": "苏州丝绸博物馆",
+        "pinyin": "Sūzhōu Sīchóu Bówùguǎn",
+        "emoji": "🧵",
+        "tags": ["museo", "historia", "compras"],
+        "desc": "Museo dedicado al oficio que hizo rica a Suzhou: telares históricos, trajes y demostraciones. Entrada gratuita (verificar) y tienda de seda de calidad.",
+        "tips": [
+          "~09:00-17:00, lunes cerrado (verificar).",
+          "A 5 min a pie de 北寺塔 (L4).",
+          "Buen sitio para comprar seda sin el circo turístico de las calles principales."
+        ],
+        "hours": "~09:00-17:00 (lunes cerrado; verificar)",
+        "price": "Gratis (verificar)",
+        "metro": "L4 北寺塔",
+        "addressZh": "苏州市姑苏区人民路2001号",
+        "lat": 31.3203,
+        "lng": 120.6173,
+        "durationMin": 75
+      }
+    ],
+    "food": [
+      {
+        "id": "su-songshulou",
+        "name": "松鹤楼 (Songhelou)",
+        "nameZh": "松鹤楼",
+        "pinyin": "Sōnghèlóu",
+        "emoji": "🐟",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Casa histórica (1757) en 观前街, la referencia para el 松鼠鳜鱼: lubina en salsa agridulce presentada como una ardilla. Uno de los platos icónicos de la cocina 苏帮.",
+        "tips": [
+          "松鼠鳜鱼 ~128-188 CNY según tamaño; comida 11:00-14:00 y 17:00-21:00 (verificar).",
+          "Reservar mesa o llegar a las 11:00 en punto.",
+          "Probar también 响油鳝糊 y 蟹粉豆腐 si es temporada."
+        ],
+        "hours": "~11:00-14:00 / 17:00-21:00 (verificar)",
+        "price": "~100-180 CNY/persona",
+        "metro": "L4 察院场",
+        "addressZh": "苏州市姑苏区观前街太监弄72号",
+        "lat": 31.3119,
+        "lng": 120.6217,
+        "durationMin": 75
+      },
+      {
+        "id": "su-deyuelou",
+        "name": "得月楼 (Deyuelou)",
+        "nameZh": "得月楼",
+        "pinyin": "Déyuèlóu",
+        "emoji": "🍽️",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Clásico desde 1583 en 太监弄, rival histórico de 松鹤楼: 松鼠鳜鱼, 蟹粉 y cocina 苏帮 tradicional en un edificio con encanto.",
+        "tips": [
+          "Comida 11:00-14:00 y 17:00-21:00 (verificar).",
+          "En noviembre, probar 蟹粉 (cangrejo desmenuzado) y 大闸蟹 si hay.",
+          "Está al lado de 松鹤楼: elegir uno de los dos para el almuerzo."
+        ],
+        "hours": "~11:00-14:00 / 17:00-21:00 (verificar)",
+        "price": "~100-180 CNY/persona",
+        "metro": "L4 察院场",
+        "addressZh": "苏州市姑苏区太监弄27号",
+        "lat": 31.3121,
+        "lng": 120.6219,
+        "durationMin": 75
+      },
+      {
+        "id": "su-tongdexing",
+        "name": "同得兴 (fideos 苏式汤面)",
+        "nameZh": "同得兴",
+        "pinyin": "Tóngdéxīng",
+        "emoji": "🍜",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Casa de fideos con estrella Michelin: caldo claro o rojo y toppings clásicos. En invierno, el 红汤炆肉面 (cerdo estofado) es obligatorio.",
+        "tips": [
+          "Horario ~07:00-13:30 y 16:30-19:00 (verificar); desayunar aquí a la llegada.",
+          "Ubicaciones: 嘉余坊6号 y 十全街624号.",
+          "Fideos ~20-45 CNY; pedir el topping aparte si quieres compartir."
+        ],
+        "hours": "~07:00-13:30 / 16:30-19:00 (verificar)",
+        "price": "~20-45 CNY",
+        "metro": "L4 察院场 / 三元坊",
+        "addressZh": "苏州市姑苏区嘉余坊6号（同得兴）",
+        "lat": 31.3092,
+        "lng": 120.6237,
+        "durationMin": 45
+      },
+      {
+        "id": "su-yaba-shengjian",
+        "name": "哑巴生煎 (Yaba)",
+        "nameZh": "哑巴生煎",
+        "pinyin": "Yǎba Shēngjiān",
+        "emoji": "🥟",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Los shengjian más famosos de Suzhou: base crujiente, relleno jugoso y cola permanente. Un clásico de 临顿路 desde hace décadas.",
+        "tips": [
+          "Ración de 4-8 uds, ~10-20 CNY; comer al momento.",
+          "Ir a media mañana o media tarde para evitar la cola del almuerzo.",
+          "Dirección exacta del local de 临顿路: verificar en el móvil."
+        ],
+        "hours": "~07:00-20:00 (verificar)",
+        "price": "~10-20 CNY",
+        "metro": "L4 察院场 / 乐桥, a pie",
+        "addressZh": "苏州市姑苏区临顿路（温家岸附近；número verificar）",
+        "lat": 31.3139,
+        "lng": 120.6279,
+        "durationMin": 30
+      },
+      {
+        "id": "su-xianrou-yuebing",
+        "name": "鲜肉月饼 (pastel de carne)",
+        "nameZh": "鲜肉月饼",
+        "pinyin": "Xiānròu Yuèbǐng",
+        "emoji": "🥮",
+        "tags": ["gastronomia", "postres", "tipico"],
+        "desc": "Pastel de hojaldre relleno de carne de cerdo, servido caliente. Aunque se llame 'pastel de luna', en Suzhou se come todo el año como merienda.",
+        "tips": [
+          "Los más famosos: 长发西饼 (varias tiendas; verificar la más cercana).",
+          "~5-10 CNY/pieza; comer recién hecho.",
+          "También en 采芝斋 (观前街 si la tienda los tiene)."
+        ],
+        "price": "~5-10 CNY/pieza",
+        "metro": "L4 察院场",
+        "addressZh": "苏州市姑苏区观前街（长发西饼；número verificar）",
+        "lat": 31.3122,
+        "lng": 120.623,
+        "durationMin": 20
+      },
+      {
+        "id": "su-crab-season",
+        "name": "蟹粉 y 大闸蟹 (temporada)",
+        "nameZh": "蟹粉·大闸蟹",
+        "pinyin": "Xièfěn · Dàzháxiè",
+        "emoji": "🦀",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Noviembre es plena temporada de cangrejo de río: 大闸蟹 al vapor o su carne desmenuzada (蟹粉) en tofu, fideos o xiaolongbao. Manjar de otoño en el delta del Yangtsé.",
+        "tips": [
+          "Pedirlo en 得月楼 o 松鹤楼 (太监弄) con la comida.",
+          "蟹粉豆腐/蟹粉面 ~60-120 CNY; 大闸蟹 entero según tamaño (verificar precio del día).",
+          "Si sobra tiempo, el mercado 葑门横街 vende cangrejo vivo (mañana)."
+        ],
+        "price": "~60-120 CNY (蟹粉) / variable (大闸蟹)",
+        "metro": "L4 察院场",
+        "addressZh": "苏州市姑苏区太监弄（得月楼、松鹤楼）",
+        "lat": 31.312,
+        "lng": 120.6218,
+        "durationMin": 75,
+        "bestTime": "Temporada oct-dic"
+      }
+    ],
+    "shops": [
+      {
+        "id": "su-caizhizhai",
+        "name": "采芝斋 (dulces tradicionales)",
+        "nameZh": "采芝斋",
+        "pinyin": "Cǎizhīzhāi",
+        "emoji": "🍬",
+        "tags": ["compras", "gastronomia", "tipico"],
+        "desc": "Confitería histórica (1870) en 观前街: caramelos de jengibre, 粽子糖, pastas de sésamo y dulces 苏式 a granel. El souvenir comestible clásico de Suzhou.",
+        "tips": [
+          "~08:30-21:00 (verificar); número exacto en 观前街, verificar en el móvil.",
+          "Comprar al peso; empaquetan para viaje.",
+          "Comparar con 第一食品 de Shanghái si se busca variedad."
+        ],
+        "hours": "~08:30-21:00 (verificar)",
+        "price": "Gratis (compras aparte)",
+        "metro": "L4 察院场",
+        "addressZh": "苏州市姑苏区观前街（采芝斋；número verificar）",
+        "lat": 31.3121,
+        "lng": 120.6228,
+        "durationMin": 30
+      },
+      {
+        "id": "su-qiantai-xiang",
+        "name": "乾泰祥 (seda y 苏绣)",
+        "nameZh": "乾泰祥",
+        "pinyin": "Qiántàixiáng",
+        "emoji": "🧣",
+        "tags": ["compras", "tipico"],
+        "desc": "Casa de tejidos histórica de 观前街: seda al metro, bufandas, sábanas y piezas de 苏绣. Compra de calidad sin precios de boutique.",
+        "tips": [
+          "Número exacto en 观前街: verificar; cerca de 采芝斋.",
+          "Regatear es limitado: precios más bien fijos, pero comparar calidades.",
+          "Para 苏绣 artesanal de verdad, mirar los talleres de 平江路 antes de comprar."
+        ],
+        "hours": "~09:30-21:00 (verificar)",
+        "price": "Gratis (compras aparte)",
+        "metro": "L4 察院场",
+        "addressZh": "苏州市姑苏区观前街（乾泰祥；número verificar）",
+        "lat": 31.3123,
+        "lng": 120.6232,
+        "durationMin": 30
+      },
+      {
+        "id": "su-pingjiang-crafts",
+        "name": "Artesanía en 平江路 (苏绣, abanicos)",
+        "nameZh": "平江路（苏绣·扇子）",
+        "pinyin": "Píngjiāng Lù Shānzi",
+        "emoji": "🪭",
+        "tags": ["compras", "regateo", "tipico"],
+        "desc": "Las tiendas pequeñas de la calle-oficina venden abanicos de sándalo, 苏绣 enmarcado, sellos y cuadernos de caligrafía. Zona ideal para regalos con carácter.",
+        "tips": [
+          "Regatear suave (10-20%) en tiendas pequeñas; en talleres con autor, precio fijo.",
+          "Los abanicos de seda buenos: ~50-150 CNY; 苏绣 pequeño, ~100-300 CNY.",
+          "Comprobar que la etiqueta de 苏绣 indique hecho a mano (手工) si importa."
+        ],
+        "hours": "~10:00-21:00",
+        "price": "Gratis (compras aparte)",
+        "metro": "L1 相门 + 10 min a pie",
+        "addressZh": "苏州市姑苏区平江路（tiendas de artesanía）",
+        "lat": 31.3189,
+        "lng": 120.6322,
+        "durationMin": 45
+      }
+    ],
+    "extra": [
+      {
+        "id": "su-kunqu-museum",
+        "name": "Museo del Kunqu",
+        "nameZh": "中国昆曲博物馆",
+        "pinyin": "Zhōngguó Kūnqǔ Bówùguǎn",
+        "emoji": "🎭",
+        "tags": ["museo", "espectaculo", "historia", "gratis"],
+        "desc": "En un antiguo teatro de 平江路: trajes, instrumentos y documentos del 昆曲, la ópera más antigua de China (UNESCO). A veces hay funciones breves (verificar).",
+        "tips": [
+          "~09:00-17:00, lunes cerrado (verificar); gratis.",
+          "A 5 min a pie desde el centro de 平江路 (张家巷14号).",
+          "Si hay función de 昆曲 ese día: 30-60 min, entradas baratas (verificar)."
+        ],
+        "hours": "~09:00-17:00 (lunes cerrado; verificar)",
+        "price": "Gratis (funciones aparte)",
+        "metro": "L1 相门 + 10 min a pie",
+        "addressZh": "苏州市姑苏区张家巷14号",
+        "lat": 31.3172,
+        "lng": 120.6306,
+        "durationMin": 60
+      },
+      {
+        "id": "su-canal-boat",
+        "name": "Barco por los canales (火车站码头)",
+        "nameZh": "苏州火车站游船",
+        "pinyin": "Sūzhōu Huǒchēzhàn Yóuchuán",
+        "emoji": "⛵",
+        "tags": ["barco", "rio"],
+        "desc": "Pequeño barco-omnibus por los canales desde el embarcadero de la estación (南广场) hacia 齐门 y 山塘街: forma original de moverse y ver la ciudad desde el agua.",
+        "tips": [
+          "Salidas ~10:00-16:00, cada hora (verificar); billete barato (~5-15 CNY, verificar).",
+          "Se puede usar como transporte hacia 山塘街 al final del día.",
+          "Alternativa turística más larga por el canal-madre (~100 CNY, verificar)."
+        ],
+        "hours": "~10:00-16:00 (salidas horarias; verificar)",
+        "price": "~5-15 CNY (verificar)",
+        "metro": "L2/L4 苏州站",
+        "addressZh": "苏州市姑苏区苏州火车站南广场游船码头",
+        "lat": 31.3255,
+        "lng": 120.6108,
+        "durationMin": 45
+      }
+    ]
   },
-  "routes": []
+  "routes": [
+    {
+      "id": "su-day",
+      "name": "Suzhou en un día: jardines, canales y 昆曲",
+      "date": "2026-11-06",
+      "dayLabel": "Vie 6 nov",
+      "summary": "Jardines y museo por la mañana en 东北街, almuerzo 苏帮 en 观前街, callejones de agua por la tarde y 山塘街 al anochecer, junto a 苏州站.",
+      "stops": [
+        { "itemId": "su-tongdexing", "time": "08:30", "durationMin": 45, "transport": "AVE 上海虹桥/上海站 → 苏州站 (~25-30 min) + metro L2/L4", "note": "Desayuno de fideos 苏式汤面 al llegar" },
+        { "itemId": "su-humble-administrator", "time": "09:45", "durationMin": 90, "transport": "Taxi ~10 min desde 苏州站", "note": "Reserva previa obligatoria; entrar en la primera franja" },
+        { "itemId": "su-museum", "time": "11:30", "durationMin": 90, "transport": "A pie 2 min", "note": "Reservar con 7 días de antelación (gratis)" },
+        { "itemId": "su-songshulou", "time": "13:30", "durationMin": 75, "transport": "Taxi ~10 min a 观前街", "note": "Almuerzo: 松鼠鳜鱼 (alternativa: 得月楼 al lado)" },
+        { "itemId": "su-guanqian-street", "time": "15:00", "durationMin": 45, "transport": "A pie", "note": "Compras: 采芝斋, 乾泰祥" },
+        { "itemId": "su-master-of-nets", "time": "16:15", "durationMin": 75, "transport": "Taxi ~10 min", "note": "Si hay 夜花园 (~120 CNY, 昆曲) quedarse; si no, seguir al canal" },
+        { "itemId": "su-shantang-street", "time": "18:15", "durationMin": 90, "transport": "Taxi ~15 min", "note": "Luces del canal encendidas; cena rápida en la zona. Vuelta: 苏州站 a 15 min a pie (último AVE ~21:30-22:00, verificar)" }
+      ]
+    }
+  ]
 }

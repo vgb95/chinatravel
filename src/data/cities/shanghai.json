@@ -5,8 +5,8 @@
   "pinyin": "Shànghǎi",
   "emoji": "🌃",
   "type": "city",
-  "tagline": "Pendiente de investigación",
-  "intro": "Contenido pendiente de investigación.",
+  "tagline": "La vitrina futurista de China: skyline, dumplings y barrios con encanto",
+  "intro": "Seis noches de base (4-10 nov) en la ciudad más cosmopolita de China: el Bund y el skyline de Pudong, jardines clásicos, barrios de shikumen y la mejor escena gastronómica del viaje. Con excursiones de un día a Suzhou y Hangzhou.",
   "stay": {
     "from": "2026-11-04",
     "to": "2026-11-10",
@@ -14,14 +14,764 @@
     "base": "Shanghai"
   },
   "practical": {
-    "tips": []
+    "summary": "Días completos en la ciudad el 5, 7 y 8 de noviembre; excursiones a Suzhou (vie 6) y Hangzhou (lun 9); mañana libre el 10 antes del vuelo de las 13:15 a Chongqing.",
+    "metro": "Metro extenso y barato (3-7 CNY); pago con Alipay/WeChat 乘车码. Evitar horas punta (08:00-09:30, 17:30-19:00).",
+    "transport": "Taxi con DiDi (app en inglés; pagar con Alipay/WeChat). Desde 浦东机场 ~60 min; desde 虹桥 ~35 min (metro L2 o taxi).",
+    "tips": [
+      "Vuelo del 10 nov a las 13:15: confirmar si sale de 浦东 (~60 min) o 虹桥 (~35 min); salir con 3 h de margen desde 浦东.",
+      "Reservar con antelación: 上海博物馆 (sede 人民广场), 上海科技馆 (7 días antes a las 10:00, mini-program 上海科技馆自然博物馆天文馆门票) y 豫园 en fin de semana.",
+      "Muchos museos y galerías cierran los lunes (上博人民广场, 上海科技馆, M50); planificar en consecuencia.",
+      "No hay visitas públicas verificadas a fábricas de robots/coches (Tesla Giga Shanghai, DJI, BYD...) a fecha de redacción (verificar); las experiencias tech verificadas están en la sección Otros.",
+      "Excursión corta opcional: 朱家角 (L17, ~1 h) — pueblo de canales para medio día."
+    ]
   },
   "sections": {
-    "must": [],
-    "areas": [],
-    "food": [],
-    "shops": [],
-    "extra": []
+    "must": [
+      {
+        "id": "sh-bund",
+        "name": "El Bund (paseo del río)",
+        "nameZh": "外滩",
+        "pinyin": "Wàitān",
+        "emoji": "🏙️",
+        "must": true,
+        "tags": ["imprescindible", "historia", "fotografia", "nocturno"],
+        "desc": "El malecón histórico frente al río Huangpu: edificios coloniales a un lado y el skyline futurista de Pudong al otro. El contraste es la postal clásica de Shanghái.",
+        "tips": [
+          "Ir al atardecer (~17:00 en noviembre) para ver la ciudad de día, el sunset y luego el skyline iluminado.",
+          "Recorrer 中山东一路 a pie y cruzar al final por el puente 外白渡桥.",
+          "Evitar el sábado noche: masificación en la zona del mirador."
+        ],
+        "hours": "24 h",
+        "price": "Gratis",
+        "metro": "南京东路 (L2, L10)",
+        "addressZh": "上海市黄浦区中山东一路（延安东路以北）",
+        "lat": 31.23955,
+        "lng": 121.49041,
+        "durationMin": 90,
+        "bestTime": "Atardecer y noche"
+      },
+      {
+        "id": "sh-yu-garden",
+        "name": "Jardín Yuyuan",
+        "nameZh": "豫园",
+        "pinyin": "Yù Yuán",
+        "emoji": "🏯",
+        "must": true,
+        "tags": ["imprescindible", "historia", "naturaleza"],
+        "desc": "Jardín clásico ming (s. XVI) en plena ciudad vieja: pabellones, estanques y rocallas en un espacio compacto y muy fotogénico.",
+        "tips": [
+          "Cierra los lunes; la entrada se corta a las 16:00 aunque el jardín cierre a las 16:30.",
+          "~40 CNY en temporada sep-nov; en fin de semana reservar en el WeChat oficial '豫园'.",
+          "Al lado está 南翔馒头店 y el bazar 豫园商城: encadenar la visita con la comida."
+        ],
+        "hours": "09:00-16:30 (última entrada 16:00; lunes cerrado)",
+        "price": "~40 CNY (sep-nov)",
+        "metro": "豫园 (L10, L14)",
+        "addressZh": "上海市黄浦区福佑路168号（北门）",
+        "lat": 31.2272,
+        "lng": 121.49215,
+        "durationMin": 75,
+        "bestTime": "Mañana temprano",
+        "booking": "WeChat oficial '豫园' (fines de semana)"
+      },
+      {
+        "id": "sh-nanjing-road",
+        "name": "Nanjing Road peatonal",
+        "nameZh": "南京路步行街",
+        "pinyin": "Nánjīng Lù Bùxíngjiē",
+        "emoji": "🛍️",
+        "must": true,
+        "tags": ["imprescindible", "compras", "nocturno"],
+        "desc": "La arteria comercial más famosa de China: 1,2 km peatonales entre 人民广场 y el Bund, con grandes almacenes históricos y neones.",
+        "tips": [
+          "Recorrerla de oeste a este y terminar en el Bund al atardecer.",
+          "De día para compras; de noche para el ambiente de neones."
+        ],
+        "hours": "24 h (tiendas ~10:00-22:00)",
+        "price": "Gratis",
+        "metro": "人民广场 (L1, L2, L8) / 南京东路 (L2, L10)",
+        "addressZh": "上海市黄浦区南京东路步行街",
+        "lat": 31.23756,
+        "lng": 121.48051,
+        "durationMin": 60,
+        "bestTime": "Tarde-noche"
+      },
+      {
+        "id": "sh-shanghai-tower",
+        "name": "Torre de Shanghái (mirador 118F)",
+        "nameZh": "上海中心大厦",
+        "pinyin": "Shànghǎi Zhōngxīn Dàshà",
+        "emoji": "🗼",
+        "must": true,
+        "tags": ["imprescindible", "mirador", "vistas"],
+        "desc": "632 m, el edificio más alto de China: mirador de 360° en la planta 118. En días claros se ve hasta el mar.",
+        "tips": [
+          "Comprar online con franja horaria; la taquilla tiene colas largas.",
+          "Subir ~1 h antes del atardecer para ver día y noche en la misma visita.",
+          "Opción con más vértigo: combo 125/126F (~268 CNY)."
+        ],
+        "hours": "08:30-22:00 (última subida 21:30)",
+        "price": "~180 CNY (118F)",
+        "metro": "陆家嘴 (L2, L14)",
+        "addressZh": "上海市浦东新区银城中路501号",
+        "lat": 31.23363,
+        "lng": 121.50566,
+        "durationMin": 90,
+        "bestTime": "Atardecer",
+        "booking": "Online recomendado (franja horaria)"
+      },
+      {
+        "id": "sh-shanghai-museum",
+        "name": "Museo de Shanghái (sede Este)",
+        "nameZh": "上海博物馆东馆",
+        "pinyin": "Shànghǎi Bówùguǎn Dōngguǎn",
+        "emoji": "🏛️",
+        "must": true,
+        "tags": ["imprescindible", "museo", "historia", "arte"],
+        "desc": "La sede nueva (2024) del gran museo de arte chino: bronces, cerámica y pintura en un edificio monumental. Gratis y con menos colas que la sede histórica.",
+        "tips": [
+          "Cierra martes; 10:00-18:00 (última entrada 17:00).",
+          "La sede de 人民广场 alberga solo la expo temporal 'On Top of the World Tree' (civilizaciones de América, hasta 14-nov-2027) y exige reserva.",
+          "Ir a primera hora o a partir de las 15:00."
+        ],
+        "hours": "10:00-18:00 (martes cerrado)",
+        "price": "Gratis",
+        "metro": "上海科技馆 (L2) + ~8 min a pie",
+        "addressZh": "上海市浦东新区世纪大道1952号",
+        "lat": 31.2199,
+        "lng": 121.54005,
+        "durationMin": 150,
+        "bestTime": "Mañana o final de tarde"
+      },
+      {
+        "id": "sh-science-tech-museum",
+        "name": "Museo de Ciencia y Tecnología",
+        "nameZh": "上海科技馆",
+        "pinyin": "Shànghǎi Kējì Guǎn",
+        "emoji": "🤖",
+        "must": true,
+        "tags": ["imprescindible", "tecnologia", "robotica", "familia"],
+        "desc": "El museo interactivo más grande de la ciudad, reabierto en feb 2026 tras una reforma integral. La sala 明日行者 (robots, IA y drones) es su gran gancho tecnológico.",
+        "tips": [
+          "Cierra lunes; última entrada 16:00. Adultos ~45 CNY.",
+          "Reservar 7 días antes a las 10:00 en el mini-program 上海科技馆自然博物馆天文馆门票.",
+          "Dentro se reservan experiencias a las 08:30 y 12:30 (mostrador/WeChat).",
+          "Hay una máquina de café robot en la 3ª planta."
+        ],
+        "hours": "09:00-17:00 (lunes cerrado; última entrada 16:00)",
+        "price": "~45 CNY",
+        "metro": "上海科技馆 (L2)",
+        "addressZh": "上海市浦东新区世纪大道2000号",
+        "lat": 31.21968,
+        "lng": 121.5379,
+        "durationMin": 180,
+        "bestTime": "Mañana",
+        "booking": "Obligatoria: mini-program WeChat, 7 días antes a las 10:00"
+      },
+      {
+        "id": "sh-wukang-road",
+        "name": "Calle Wukang y 武康大楼",
+        "nameZh": "武康路",
+        "pinyin": "Wǔkāng Lù",
+        "emoji": "🌳",
+        "must": true,
+        "tags": ["imprescindible", "barrio", "fotografia", "cafe"],
+        "desc": "Avenida de plátanos y villas del antiguo barrio francés, con la fachada de proa del 武康大楼 (1924) como icono. Paseo tranquilo entre cafés y casas históricas.",
+        "tips": [
+          "Empezar en 武康大楼 (淮海中路1836号) y seguir hacia 复兴西路.",
+          "Entre semana por la mañana está mucho más tranquila.",
+          "Muchas villas no son visitables por dentro; el atractivo es el paseo."
+        ],
+        "hours": "24 h (cafés ~10:00-22:00)",
+        "price": "Gratis",
+        "metro": "交通大学 (L10, L11) / 上海图书馆 (L10)",
+        "addressZh": "上海市徐汇区武康路（武康大楼：淮海中路1836号）",
+        "lat": 31.20793,
+        "lng": 121.43585,
+        "durationMin": 90,
+        "bestTime": "Mañana entre semana"
+      },
+      {
+        "id": "sh-tianzifang",
+        "name": "Tianzifang",
+        "nameZh": "田子坊",
+        "pinyin": "Tiánzǐfāng",
+        "emoji": "🎨",
+        "must": true,
+        "tags": ["imprescindible", "barrio", "arte", "compras"],
+        "desc": "Laberinto de callejones shikumen reconvertidos en galerías, talleres y tiendas pequeñas. Turístico pero con encanto, sobre todo al atardecer.",
+        "tips": [
+          "Tiendas ~10:00-22:00; mejor a partir de las 17:00, con menos grupos.",
+          "Los souvenirs pequeños se pueden regatear; comparar antes.",
+          "A 20 min a pie de 新天地, para encadenar la noche."
+        ],
+        "hours": "~10:00-22:00 (tiendas)",
+        "price": "Gratis (compras aparte)",
+        "metro": "打浦桥 (L9)",
+        "addressZh": "上海市黄浦区泰康路210弄",
+        "lat": 31.20847,
+        "lng": 121.46872,
+        "durationMin": 75,
+        "bestTime": "Tarde"
+      }
+    ],
+    "areas": [
+      {
+        "id": "sh-xintiandi",
+        "name": "Xintiandi",
+        "nameZh": "新天地",
+        "pinyin": "Xīntiāndì",
+        "emoji": "🥂",
+        "tags": ["barrio", "compras", "cafe", "gastronomia"],
+        "desc": "Barrio de shikumen restaurados con tiendas de diseño, terrazas y restaurantes. Zona elegante para pasear y cenar.",
+        "tips": [
+          "Más caro que el resto de la ciudad; vale por el ambiente y la arquitectura.",
+          "El Museo del I Congreso del PCCh (中共一大纪念馆) está al lado, gratis y cerrado lunes."
+        ],
+        "hours": "Tiendas ~10:00-22:00",
+        "price": "Gratis (consumiciones aparte)",
+        "metro": "新天地 (L10, L13)",
+        "addressZh": "上海市黄浦区太仓路181弄（新天地）",
+        "lat": 31.21915,
+        "lng": 121.4749,
+        "durationMin": 75,
+        "bestTime": "Tarde-noche"
+      },
+      {
+        "id": "sh-jingan-temple",
+        "name": "Templo Jing'an",
+        "nameZh": "静安寺",
+        "pinyin": "Jìng'ān Sì",
+        "emoji": "🛕",
+        "tags": ["templo", "religioso", "historia", "fotografia"],
+        "desc": "Templo budista dorado en medio de los rascacielos de 南京西路. Contraste brutal entre espiritualidad y consumismo.",
+        "tips": [
+          "Entrada ~50 CNY (verificar tarifa vigente).",
+          "Horario ~07:30-17:00.",
+          "Combinar con 张园 (5 min a pie) y las compras de 南京西路."
+        ],
+        "hours": "~07:30-17:00",
+        "price": "~50 CNY (verificar)",
+        "metro": "静安寺 (L2, L7, L14)",
+        "addressZh": "上海市静安区南京西路1686号",
+        "lat": 31.22391,
+        "lng": 121.4453,
+        "durationMin": 45
+      },
+      {
+        "id": "sh-yufo-temple",
+        "name": "Templo del Buda de Jade",
+        "nameZh": "玉佛禅寺",
+        "pinyin": "Yùfó Chán Sì",
+        "emoji": "🪷",
+        "tags": ["templo", "religioso", "historia"],
+        "desc": "Templo activo del s. XIX famoso por sus dos budas de jade traídos de Birmania (uno sentado y otro reclinado). Ambiente devocional auténtico.",
+        "tips": [
+          "Entrada ~20 CNY (verificar); se visita en ~1 h.",
+          "Ir por la mañana: menos grupos.",
+          "Cerca está 佳家汤包 (黄河路, 15 min a pie) para el desayuno."
+        ],
+        "hours": "~08:00-16:30",
+        "price": "~20 CNY (verificar)",
+        "metro": "江宁路 (L13) / 长寿路 (L7, L13)",
+        "addressZh": "上海市普陀区安远路170号",
+        "lat": 31.24216,
+        "lng": 121.44063,
+        "durationMin": 60
+      },
+      {
+        "id": "sh-m50",
+        "name": "M50 Creative Park",
+        "nameZh": "M50创意园",
+        "pinyin": "M50 Chuàngyì Yuán",
+        "emoji": "🖼️",
+        "tags": ["arte", "gratis", "fotografia"],
+        "desc": "Antiguo complejo textil junto al canal Suzhou convertido en el mayor cluster de galerías de arte contemporáneo de la ciudad. Entrada libre.",
+        "tips": [
+          "Galerías ~10:00-18:00; muchas cierran lunes.",
+          "Se ve en 1-2 h; combinar con 玉佛寺 (taxi 10 min).",
+          "El museo 上海纺织博物馆 está en el mismo recinto (verificar horario)."
+        ],
+        "hours": "Recinto 24 h; galerías ~10:00-18:00 (varias cierran lunes)",
+        "price": "Gratis",
+        "metro": "江宁路 (L13) + 10 min a pie",
+        "addressZh": "上海市普陀区莫干山路50号",
+        "lat": 31.24735,
+        "lng": 121.44025,
+        "durationMin": 90
+      },
+      {
+        "id": "sh-zhujiajiao",
+        "name": "Ciudad de agua de Zhujiajiao",
+        "nameZh": "朱家角",
+        "pinyin": "Zhūjiājiǎo",
+        "emoji": "🛶",
+        "tags": ["rio", "barco", "historia", "accesible-dia"],
+        "desc": "Pueblo de canales del s. XVII a 50 km del centro: puentes de piedra, callejones con tiendas y el jardín 课植园. La excursión corta clásica, alternativa a Suzhou.",
+        "tips": [
+          "Metro L17 hasta 朱家角站 (~1 h desde 虹桥) + 10 min a pie o bus.",
+          "El pueblo es gratis; los combos con jardines/atracciones cuestan ~40-80 CNY (verificar).",
+          "Barco eléctrico ~40 CNY desde el embarcadero (negociable con poca gente).",
+          "Ir entre semana: los fines de semana se masifica."
+        ],
+        "hours": "Pueblo 24 h (atracciones ~08:30-16:30)",
+        "price": "Gratis (combos ~40-80 CNY, verificar)",
+        "metro": "朱家角 (L17)",
+        "addressZh": "上海市青浦区朱家角镇课植园路555号（游客中心）",
+        "lat": 31.10965,
+        "lng": 121.05413,
+        "durationMin": 300,
+        "bestTime": "Mañana entre semana"
+      },
+      {
+        "id": "sh-waibaidu",
+        "name": "Puente Waibaidu",
+        "nameZh": "外白渡桥",
+        "pinyin": "Wàibáidù Qiáo",
+        "emoji": "🌉",
+        "tags": ["mirador", "fotografia", "historia", "gratis"],
+        "desc": "Puente de acero de 1907 sobre el Suzhou Creek, en el extremo norte del Bund. Postal nocturna con los edificios de 外滩 al fondo.",
+        "tips": [
+          "Mejor al atardecer o de noche, cuando se ilumina.",
+          "Desde aquí se puede bajar por 北苏州路 junto al canal."
+        ],
+        "hours": "24 h",
+        "price": "Gratis",
+        "metro": "南京东路 (L2, L10) + 10 min a pie",
+        "addressZh": "上海市黄浦区中山东一路北端（苏州河）",
+        "lat": 31.24455,
+        "lng": 121.48865,
+        "durationMin": 30
+      },
+      {
+        "id": "sh-anfu-road",
+        "name": "Calle Anfu",
+        "nameZh": "安福路",
+        "pinyin": "Ānfú Lù",
+        "emoji": "☕",
+        "tags": ["barrio", "cafe", "compras"],
+        "desc": "Calle corta y arbolada con teatros, tiendas de diseño chino y terrazas de café. Epicentro del estilo joven shanghainés.",
+        "tips": [
+          "Recorrerla al mediodía y comer por la zona.",
+          "Combinar con 武康路, a 15 min a pie."
+        ],
+        "hours": "Tiendas/cafés ~10:00-22:00",
+        "price": "Gratis (consumiciones aparte)",
+        "metro": "常熟路 (L1, L7) / 上海图书馆 (L10)",
+        "addressZh": "上海市徐汇区安福路",
+        "lat": 31.2134,
+        "lng": 121.4446,
+        "durationMin": 60
+      }
+    ],
+    "food": [
+      {
+        "id": "sh-xiaolongbao",
+        "name": "Xiaolongbao (小笼包)",
+        "nameZh": "小笼包",
+        "pinyin": "Xiǎolóngbāo",
+        "emoji": "🥟",
+        "tags": ["gastronomia", "dim-sum", "tipico"],
+        "desc": "Bocaditos de masa fina rellenos de carne y caldo: el plato símbolo de Shanghái. Los de cangrejo (蟹粉小笼) son la versión premium otoñal.",
+        "tips": [
+          "Morder la punta y sorber el caldo antes de comérselo (quema mucho).",
+          "Los clásicos de cerdo, ~15-25 CNY/ración; los de cangrejo, ~50+ CNY.",
+          "Para probarlos bien: 佳家汤包 (local) o 南翔馒头店 (clásico turístico)."
+        ],
+        "price": "~15-50 CNY/ración",
+        "addressZh": "上海市黄浦区豫园路85号（南翔馒头店）",
+        "lat": 31.22733,
+        "lng": 121.49208,
+        "durationMin": 45
+      },
+      {
+        "id": "sh-jiajia-tangbao",
+        "name": "佳家汤包 (Jiajia)",
+        "nameZh": "佳家汤包",
+        "pinyin": "Jiājiā Tāngbāo",
+        "emoji": "🥟",
+        "tags": ["gastronomia", "dim-sum", "tipico"],
+        "desc": "Pequeño local famoso por sus xiaolongbao de cerdo puro, hechos al momento a la vista. Relación calidad-precio imbatible.",
+        "tips": [
+          "Abre 07:30-20:30; cola a mediodía — llegar antes de las 12:00.",
+          "La ración de cerdo cuesta ~22 CNY; también hay de cangrejo.",
+          "A 10 min a pie de 人民广场: perfecto antes de 南京路 o 豫园."
+        ],
+        "hours": "07:30-20:30",
+        "price": "~22-40 CNY",
+        "metro": "人民广场 (L1, L2, L8)",
+        "addressZh": "上海市黄浦区黄河路90号",
+        "lat": 31.2353,
+        "lng": 121.46755,
+        "durationMin": 45
+      },
+      {
+        "id": "sh-nanxiang-mantou",
+        "name": "南翔馒头店",
+        "nameZh": "南翔馒头店",
+        "pinyin": "Nánxiáng Mántou Diàn",
+        "emoji": "🥟",
+        "tags": ["gastronomia", "dim-sum", "tipico"],
+        "desc": "Institución de 1900 junto al Jardín Yuyuan; sus xiaolongbao de cangrejo son los más famosos de la ciudad (y los más caros de la zona turística).",
+        "tips": [
+          "Las colas del piso inferior son enormes: usar la planta superior a la carta si hay prisa.",
+          "Horario ~08:30-20:30 (verificar).",
+          "Alternativa más barata y cercana: 佳家汤包."
+        ],
+        "hours": "~08:30-20:30 (verificar)",
+        "price": "~30-60 CNY (cangrejo ~50+)",
+        "metro": "豫园 (L10, L14)",
+        "addressZh": "上海市黄浦区豫园路85号",
+        "lat": 31.22733,
+        "lng": 121.49208,
+        "durationMin": 45
+      },
+      {
+        "id": "sh-shengjian-mantou",
+        "name": "Shengjian (生煎馒头)",
+        "nameZh": "生煎馒头",
+        "pinyin": "Shēngjiān Mántou",
+        "emoji": "🥟",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Empanadillas fritas con base crujiente y jugo hirviendo dentro: el desayuno callejero favorito de los locales.",
+        "tips": [
+          "Los clásicos: 大壶春 (云南南路, masa más gruesa) y 小杨生煎 (cadena, más jugosos).",
+          "Comer con cuidado: el relleno quema.",
+          "Ración de 4 uds, ~10-15 CNY."
+        ],
+        "price": "~10-15 CNY (4 uds)",
+        "addressZh": "上海市黄浦区云南南路（大壶春；número verificar）",
+        "lat": 31.23079,
+        "lng": 121.47916,
+        "durationMin": 30
+      },
+      {
+        "id": "sh-yangs-shengjian",
+        "name": "小杨生煎 (Yang's)",
+        "nameZh": "小杨生煎",
+        "pinyin": "Xiǎoyáng Shēngjiān",
+        "emoji": "🥟",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "La cadena de shengjian más popular, nacida en 吴江路 en 1994. Piel fina, mucho caldo y precios de barrio en pleno centro.",
+        "tips": [
+          "Varias sucursales por el centro (宁波路 junto a 南京东路, 吴江路...); dirección exacta verificar en el móvil.",
+          "Menú básico ~13-23 CNY; probar también los de gamba.",
+          "Aperitivo rápido entre compras, no una comida completa."
+        ],
+        "hours": "~07:00-21:00 (verificar)",
+        "price": "~13-23 CNY",
+        "metro": "南京东路 (L2, L10)",
+        "addressZh": "上海市黄浦区宁波路（南京东路商圈；sucursal y número verificar）",
+        "lat": 31.2379,
+        "lng": 121.4843,
+        "durationMin": 30
+      },
+      {
+        "id": "sh-hongshaorou",
+        "name": "Cerdo estofado 红烧肉 (老吉士)",
+        "nameZh": "红烧肉",
+        "pinyin": "Hóngshāo Ròu",
+        "emoji": "🍖",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Cerdo caramelizado con soja y azúcar, estofado lentamente hasta fundirse. En 老吉士 (Jesse) lo sirven en su versión clásica shanghainesa.",
+        "tips": [
+          "老吉士: 天平路41号, ~11:00-14:00 y 17:00-22:00 (verificar).",
+          "Reservar mesa los fines de semana; el local es pequeño.",
+          "Ración ~80-110 CNY para compartir."
+        ],
+        "hours": "~11:00-14:00 / 17:00-22:00 (verificar)",
+        "price": "~80-110 CNY",
+        "metro": "徐家汇 (L1, L9, L11) + 10 min a pie",
+        "addressZh": "上海市徐汇区天平路41号（老吉士）",
+        "lat": 31.20413,
+        "lng": 121.43988,
+        "durationMin": 75
+      },
+      {
+        "id": "sh-wangjiasha",
+        "name": "王家沙点心店",
+        "nameZh": "王家沙点心店",
+        "pinyin": "Wángjiāshā Diǎnxīn Diàn",
+        "emoji": "🥐",
+        "tags": ["gastronomia", "dim-sum", "postres", "tipico"],
+        "desc": "Casa de dumplings y pastas desde 1945, famosa por el 蟹壳黄 (pastel de hojaldre con sésamo) y los fideos 两面黄. Muy popular entre locales.",
+        "tips": [
+          "Ir a media mañana o media tarde para evitar colas.",
+          "Probar 蟹壳黄, 蟹粉小笼 y 两面黄; ~30-80 CNY.",
+          "Está en 南京西路, camino entre 静安寺 y el centro."
+        ],
+        "hours": "~07:00-21:00 (verificar)",
+        "price": "~30-80 CNY",
+        "metro": "南京西路 (L2, L12, L13)",
+        "addressZh": "上海市静安区南京西路805号",
+        "lat": 31.22866,
+        "lng": 121.46263,
+        "durationMin": 60
+      },
+      {
+        "id": "sh-hairy-crab",
+        "name": "Cangrejo de Shanghái (大闸蟹)",
+        "nameZh": "大闸蟹",
+        "pinyin": "Dàzháxiè",
+        "emoji": "🦀",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "El manjar otoñal: cangrejo de río del lago Yangcheng al vapor con jengibre y vinagre. Noviembre es plena temporada.",
+        "tips": [
+          "王宝和酒家 (福州路603号) es la casa histórica del cangrejo; reservar mesa.",
+          "Precio según tamaño: ~100-300 CNY por pieza (verificar).",
+          "También en versión 蟹粉 (desmenuzado) en 松鹤楼/得月楼 de Suzhou."
+        ],
+        "hours": "王宝和: ~11:00-14:00 / 17:00-21:00 (verificar)",
+        "price": "~100-300 CNY/pieza (verificar)",
+        "metro": "人民广场 (L1, L2, L8)",
+        "addressZh": "上海市黄浦区福州路603号（王宝和酒家）",
+        "lat": 31.23359,
+        "lng": 121.47798,
+        "durationMin": 90,
+        "bestTime": "Temporada nov-dic"
+      }
+    ],
+    "shops": [
+      {
+        "id": "sh-huawei-flagship",
+        "name": "Huawei Global Flagship Store",
+        "nameZh": "华为全球旗舰店",
+        "pinyin": "Huáwéi Quánqiú Qíjiàndiàn",
+        "emoji": "📱",
+        "tags": ["tecnologia-shopping", "compras", "tecnologia"],
+        "desc": "El flagship de Huawei en 南京东路: varias plantas de producto, coche eléctrico y demos de IA. Para tocar la tecnología china actual.",
+        "tips": [
+          "Abre 10:00-22:00; entre semana por la mañana está tranquilo.",
+          "Se pueden probar wearables, móviles y el coche 问界 (AITO).",
+          "Buen sitio para comparar precios China vs España."
+        ],
+        "hours": "10:00-22:00",
+        "price": "Gratis (compras aparte)",
+        "metro": "南京东路 (L2, L10)",
+        "addressZh": "上海市黄浦区南京东路233号",
+        "lat": 31.23898,
+        "lng": 121.4851,
+        "durationMin": 45
+      },
+      {
+        "id": "sh-first-food",
+        "name": "第一食品商店 (First Foodmall)",
+        "nameZh": "第一食品商店",
+        "pinyin": "Dìyī Shípǐn Shāngdiàn",
+        "emoji": "🍬",
+        "tags": ["compras", "gastronomia", "tipico"],
+        "desc": "Almacén histórico de alimentación (1954): dulces, salsas, tés y especialidades regionales a granel. Ideal para souvenirs comestibles.",
+        "tips": [
+          "Planta baja para snacks clásicos (粽子糖, 大白兔...).",
+          "Precios fijos; aceptan Alipay/WeChat.",
+          "Buen sitio para comprar té y salsas para llevar a casa."
+        ],
+        "hours": "~09:30-21:30 (verificar)",
+        "price": "Gratis (compras aparte)",
+        "metro": "南京东路 (L2, L10) / 人民广场",
+        "addressZh": "上海市黄浦区南京东路720号",
+        "lat": 31.23661,
+        "lng": 121.47739,
+        "durationMin": 45
+      },
+      {
+        "id": "sh-yu-garden-mall",
+        "name": "豫园商城 (Ciudad Vieja)",
+        "nameZh": "豫园商城",
+        "pinyin": "Yùyuán Shāngchéng",
+        "emoji": "🏮",
+        "tags": ["compras", "tipico", "gastronomia"],
+        "desc": "El bazar de la ciudad vieja junto al jardín: sedas, abanicos, sellos, té y comida callejera en un laberinto de pabellones. Turístico pero útil para regalos de una vez.",
+        "tips": [
+          "Regatear suave en puestos pequeños; en tiendas oficiales, precio fijo.",
+          "Comer en la zona de puestos de 豫园老街 (南翔馒头店 incluido).",
+          "Combinar con el jardín (mañana) y el espectáculo nocturno (vie-dom)."
+        ],
+        "hours": "~10:00-21:00 (verificar)",
+        "price": "Gratis (compras aparte)",
+        "metro": "豫园 (L10, L14)",
+        "addressZh": "上海市黄浦区豫园老街（豫园商城）",
+        "lat": 31.2278,
+        "lng": 121.4912,
+        "durationMin": 90
+      },
+      {
+        "id": "sh-zhangyuan",
+        "name": "张园 (Zhang Yuan)",
+        "nameZh": "张园",
+        "pinyin": "Zhāng Yuán",
+        "emoji": "🏘️",
+        "tags": ["barrio", "compras", "historia"],
+        "desc": "Conjunto de shikumen de 1882 restaurado como espacio de lujo: casas de moda, cafés y exposiciones entre muros de ladrillo. Punto de moda desde 2022.",
+        "tips": [
+          "Entrada libre; tiendas ~10:00-22:00 (verificar).",
+          "A 5 min a pie de 静安寺 y 南京西路: buena combinación.",
+          "Hay exposiciones temporales y puestos de comida en el patio."
+        ],
+        "hours": "~10:00-22:00 (verificar)",
+        "price": "Gratis",
+        "metro": "南京西路 (L2, L12, L13)",
+        "addressZh": "上海市静安区威海路590弄",
+        "lat": 31.22955,
+        "lng": 121.4609,
+        "durationMin": 60
+      }
+    ],
+    "extra": [
+      {
+        "id": "sh-zhangjiang-ai",
+        "name": "张江 AI Store (创新小镇)",
+        "nameZh": "张江AI应用商店",
+        "pinyin": "Zhāngjiāng AI Yìngyòng Shāngdiàn",
+        "emoji": "🤖",
+        "tags": ["robotica", "tecnologia", "compras", "familia"],
+        "desc": "El 'bazar de la IA' abierto en mayo de 2026 en Zhangjiang: ~2.000 m² con más de 500 productos de IA y demos de robots. Entrada libre sin cita (verificar horario).",
+        "tips": [
+          "Está en el nuevo 张江人工智能创新小镇; metro L13 中科路 + ~10 min a pie (verificar).",
+          "Las demos de robots varían según el día; preguntar el calendario en recepción.",
+          "Combinar con 上海科技馆 (taxi ~15 min) el mismo día."
+        ],
+        "hours": "(verificar) ~10:00-18:00",
+        "price": "Gratis",
+        "metro": "中科路 (L13)",
+        "addressZh": "上海市浦东新区张江人工智能创新小镇（中科路附近；ubicación exacta verificar）",
+        "lat": 31.20362,
+        "lng": 121.60947,
+        "durationMin": 90,
+        "booking": "No necesaria (walk-in; verificar)"
+      },
+      {
+        "id": "sh-cofe-plus",
+        "name": "COFE+ (café robot)",
+        "nameZh": "COFE+ 机器人咖啡",
+        "pinyin": "COFE+ Jīqìrén Kāfēi",
+        "emoji": "☕",
+        "tags": ["robotica", "cafe", "tecnologia"],
+        "desc": "Café servido por un brazo robótico en quioscos inteligentes con pago móvil. Tecnología china ya exportada a medio mundo.",
+        "tips": [
+          "Sede en 武夷路351号 (长宁), pero los quioscos rotan por centros comerciales y el Bund (verificar ubicaciones activas).",
+          "La bebida sale a ~10-20 CNY; preparación en ~40 s.",
+          "Confirmar ubicación el mismo día en su web/WeChat oficial."
+        ],
+        "hours": "Según quiosco (verificar)",
+        "price": "~10-20 CNY",
+        "metro": "Varios (según quiosco)",
+        "addressZh": "上海市长宁区武夷路351号（sede COFE+；quioscos en otras ubicaciones, verificar）",
+        "lat": 31.21805,
+        "lng": 121.42025,
+        "durationMin": 20
+      },
+      {
+        "id": "sh-yuyuan-night",
+        "name": "Espectáculo nocturno del Jardín Yuyuan",
+        "nameZh": "豫享山林",
+        "pinyin": "Yù Xiǎng Shānlín",
+        "emoji": "🏮",
+        "tags": ["nocturno", "espectaculo", "fotografia"],
+        "desc": "Visita nocturna teatralizada del Jardín Yuyuan con iluminación y escenas culturales. En noviembre, viernes-domingo de 18:00 a 21:20 (entrada hasta 20:30).",
+        "tips": [
+          "Entradas ~150-218 CNY según fecha (verificar); comprar en el WeChat oficial del jardín.",
+          "Ir justo a las 18:00-18:30 para verlo con poca gente.",
+          "Si se agota: paseo nocturno por 豫园商城 y 外滩 como alternativa."
+        ],
+        "hours": "18:00-21:20 (vie-dom; entrada hasta 20:30)",
+        "price": "~150-218 CNY (verificar)",
+        "metro": "豫园 (L10, L14)",
+        "addressZh": "上海市黄浦区福佑路168号（豫园北门）",
+        "lat": 31.2272,
+        "lng": 121.49215,
+        "durationMin": 120,
+        "bestTime": "Vie-dom noche",
+        "booking": "WeChat oficial del Jardín Yuyuan"
+      },
+      {
+        "id": "sh-huangpu-cruise",
+        "name": "Crucero por el río Huangpu",
+        "nameZh": "黄浦江游船",
+        "pinyin": "Huángpǔ Jiāng Yóuchuán",
+        "emoji": "🚢",
+        "tags": ["barco", "nocturno", "vistas", "fotografia"],
+        "desc": "Paseo en barco (45-60 min) entre el Bund y Lujiazui con los dos skylines iluminados. La mejor forma de ver la ciudad de noche desde el agua.",
+        "tips": [
+          "Salidas cada ~30-60 min entre ~18:30 y 21:30 desde 十六铺码头 (中山东二路481号) (verificar).",
+          "Entradas ~120-150 CNY; hay barcos con cena (más caros).",
+          "Coger el primero tras el atardecer para pillar luz diurna y nocturna."
+        ],
+        "hours": "~18:30-21:30 (salidas periódicas; verificar)",
+        "price": "~120-150 CNY (verificar)",
+        "metro": "豫园 (L10) / 小南门 (L9) + taxi",
+        "addressZh": "上海市黄浦区中山东二路481号（十六铺码头）",
+        "lat": 31.22398,
+        "lng": 121.49365,
+        "durationMin": 90,
+        "booking": "Online o en taquilla"
+      }
+    ]
   },
-  "routes": []
+  "routes": [
+    {
+      "id": "sh-route-arrival",
+      "name": "Día 1: Nanjing Road, Bund y skyline nocturno",
+      "date": "2026-11-04",
+      "dayLabel": "Mié 4 nov",
+      "summary": "Llegada a Shanghái: paseo por el centro histórico al atardecer y primera visión del skyline iluminado desde la Torre de Shanghái.",
+      "stops": [
+        { "itemId": "sh-nanjing-road", "time": "16:30", "durationMin": 60, "transport": "Metro a 人民广场 (L1/L2/L8)", "note": "De 人民广场 hacia el este, en dirección al Bund" },
+        { "itemId": "sh-bund", "time": "17:45", "durationMin": 75, "transport": "A pie ~15 min", "note": "El sol se pone ~17:15 en noviembre: atardecer + luces" },
+        { "itemId": "sh-shanghai-tower", "time": "19:30", "durationMin": 90, "transport": "Metro L2 南京东路 → 陆家嘴 (~10 min)", "note": "Reservar franja online; subir de noche" }
+      ]
+    },
+    {
+      "id": "sh-route-oldtown",
+      "name": "Día 2: Yuyuan, museo y barrios de moda",
+      "date": "2026-11-05",
+      "dayLabel": "Jue 5 nov",
+      "summary": "Ciudad vieja por la mañana, el gran museo por la tarde y los barrios de compras hasta la noche.",
+      "stops": [
+        { "itemId": "sh-yu-garden", "time": "09:00", "durationMin": 75, "transport": "Metro L10 a 豫园", "note": "Entrar a las 9:00 evita los grupos" },
+        { "itemId": "sh-nanxiang-mantou", "time": "11:00", "durationMin": 45, "transport": "A pie", "note": "Almuerzo temprano de xiaolongbao; cola menor antes de las 12:00" },
+        { "itemId": "sh-shanghai-museum", "time": "13:30", "durationMin": 150, "transport": "Taxi ~20 min (túnel)", "note": "Sede Este, cierra a las 18:00" },
+        { "itemId": "sh-tianzifang", "time": "16:45", "durationMin": 75, "transport": "Taxi ~20 min", "note": "Callejeo y compras pequeñas" },
+        { "itemId": "sh-xintiandi", "time": "18:30", "durationMin": 90, "transport": "A pie ~20 min", "note": "Cena y ambiente de terrazas" }
+      ]
+    },
+    {
+      "id": "sh-route-future",
+      "name": "Día 3: ciencia, IA y noche en Yuyuan",
+      "date": "2026-11-07",
+      "dayLabel": "Sáb 7 nov",
+      "summary": "Pudong tecnológico: Museo de Ciencia y Tecnología y la AI Store de Zhangjiang; por la noche, el espectáculo del Jardín Yuyuan (vie-dom).",
+      "stops": [
+        { "itemId": "sh-science-tech-museum", "time": "09:00", "durationMin": 180, "transport": "Metro L2 a 上海科技馆", "note": "Reservar 7 días antes; sala de robots 明日行者" },
+        { "itemId": "sh-zhangjiang-ai", "time": "13:30", "durationMin": 90, "transport": "Taxi ~15 min desde el museo", "note": "Demos de robots; verificar horario" },
+        { "itemId": "sh-yuyuan-night", "time": "18:30", "durationMin": 120, "transport": "Metro L2 + L10 a 豫园 (~40 min)", "note": "Entradas vie-dom; comprar en el WeChat oficial" }
+      ]
+    },
+    {
+      "id": "sh-route-strolls",
+      "name": "Día 4: barrios con encanto y crucero nocturno",
+      "date": "2026-11-08",
+      "dayLabel": "Dom 8 nov",
+      "summary": "Paseo por 武康路 y 安福路, comida shanghainesa, templo Jing'an y crucero por el Huangpu de noche.",
+      "stops": [
+        { "itemId": "sh-wukang-road", "time": "10:00", "durationMin": 90, "transport": "Metro L10 a 上海图书馆", "note": "Empezar por 武康大楼" },
+        { "itemId": "sh-anfu-road", "time": "11:45", "durationMin": 60, "transport": "A pie ~15 min", "note": "Aperitivo o café por la zona" },
+        { "itemId": "sh-wangjiasha", "time": "13:15", "durationMin": 60, "transport": "Taxi ~15 min", "note": "Comida: 蟹壳黄, 蟹粉小笼, 两面黄" },
+        { "itemId": "sh-jingan-temple", "time": "15:00", "durationMin": 45, "transport": "A pie ~10 min", "note": "Entrada opcional (~50 CNY)" },
+        { "itemId": "sh-waibaidu", "time": "17:15", "durationMin": 30, "transport": "Taxi ~15 min", "note": "Atardecer junto al canal" },
+        { "itemId": "sh-huangpu-cruise", "time": "19:00", "durationMin": 90, "transport": "Taxi ~10 min a 十六铺码头", "note": "Barco nocturno; entrada online o en taquilla" }
+      ]
+    },
+    {
+      "id": "sh-route-departure",
+      "name": "Día 5: desayuno clásico y salida",
+      "date": "2026-11-10",
+      "dayLabel": "Mar 10 nov",
+      "summary": "Mañana corta antes del vuelo de las 13:15: tangbao de desayuno y visita exprés al Templo del Buda de Jade. Confirmar aeropuerto (浦东/虹桥).",
+      "stops": [
+        { "itemId": "sh-jiajia-tangbao", "time": "07:30", "durationMin": 45, "transport": "Taxi/metro a 黄河路", "note": "Abre a las 07:30; desayuno de 汤包" },
+        { "itemId": "sh-yufo-temple", "time": "08:45", "durationMin": 60, "transport": "Taxi ~15 min", "note": "Visita rápida; de vuelta al hotel ~10:15 para ir al aeropuerto (浦东 ~60 min / 虹桥 ~35 min)" }
+      ]
+    }
+  ]
 }
