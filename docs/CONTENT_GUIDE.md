@@ -5,7 +5,7 @@ El esquema formal está en `src/data/schema.ts` (Zod). **Los ficheros se validan
 
 ## Contexto del viaje
 
-- Viajeros: Valentín y su pareja (dos perfiles con checks independientes).
+- Viajeros: vg y n (dos perfiles con checks independientes).
 - Fechas: 26 oct – 10 nov 2026. Español como idioma del contenido; los nombres de sitios deben incluir **nombre en chino (中文) y pinyin con tonos**.
 - Temática especial: **robótica, drones y tecnología** (la estancia en Shenzhen con base en Nanshan es el núcleo, pero se valoran toques tech en todas las ciudades).
 - La app se usará **offline en China**: el contenido debe ser autosuficiente (direcciones en chino, horarios, precios, metro, avisos).

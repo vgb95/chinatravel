@@ -3,7 +3,7 @@
   "subtitle": "Guangzhou · Shenzhen · Hong Kong · Yangshuo · Guilin · Shanghai · Suzhou · Hangzhou · Chongqing",
   "start": "2026-10-26",
   "end": "2026-11-10",
-  "travelers": ["Valentín", "Pareja"],
+  "travelers": ["vg", "n"],
   "cityOrder": [
     "guangzhou",
     "shenzhen",
@@ -75,7 +75,7 @@
       "toZh": "桂林市区",
       "mode": "Bus / AVE",
       "duration": "～1 h 30 min",
-      "note": "Bus directo 阳朔→桂林 (~1h30, frecuente) o AVE 阳朔→桂林北 (~30 min, pocos trenes). Guardar maletas en el hotel si el bus sale más tarde."
+      "note": "Bus directo 阳朔→桂林 (～1h30, frecuente) o AVE 阳朔→桂林站 (～30 min, pocos trenes; evitad 桂林西, está a las afueras). Guardar maletas en el hotel si el bus sale más tarde."
     },
     {
       "id": "leg-gl-sh",

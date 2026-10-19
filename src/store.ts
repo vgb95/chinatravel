@@ -34,7 +34,7 @@ function withValue<T>(map: Record<string, T>, key: string, value: T | null): Rec
   return next
 }
 
-const DEFAULT_NAMES: Record<ProfileId, string> = { v: 'Valentín', p: 'Pareja' }
+const DEFAULT_NAMES: Record<ProfileId, string> = { v: 'vg', p: 'n' }
 
 export const useStore = create<StoreState>()(
   persist(

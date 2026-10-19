@@ -48,8 +48,8 @@
       "name": "Esta app (offline)",
       "emoji": "🧭",
       "items": [
-        { "id": "install-a", "text": "Instalar la PWA en el iPhone de Valentín (Compartir → Añadir a pantalla de inicio)", "critical": true },
-        { "id": "install-b", "text": "Instalar la PWA en el iPhone de la pareja", "critical": true },
+        { "id": "install-a", "text": "Instalar la PWA en el iPhone de vg (Compartir → Añadir a pantalla de inicio)", "critical": true },
+        { "id": "install-b", "text": "Instalar la PWA en el iPhone de n", "critical": true },
         { "id": "preload", "text": "Abrir TODAS las secciones en cada iPhone con wifi para precargar el contenido", "critical": true },
         { "id": "airplane-test", "text": "Probar en modo avión: todo debe funcionar sin conexión", "critical": true },
         { "id": "backup-progress", "text": "Exportar el progreso (Ajustes → Exportar) y guardarlo en Notas/Fotos", "detail": "Los checks viven en el móvil. Si se reinstala la app, se puede importar el JSON exportado." },

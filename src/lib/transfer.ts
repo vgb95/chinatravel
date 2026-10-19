@@ -142,7 +142,7 @@ export function importProgress(text: string): ImportResult {
   return {
     ok: true,
     data: {
-      names: { v: obj.n?.v || 'Valentín', p: obj.n?.p || 'Pareja' },
+      names: { v: obj.n?.v || 'vg', p: obj.n?.p || 'n' },
       status,
       stars,
       notes,
