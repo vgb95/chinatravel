@@ -5,7 +5,7 @@
   "pinyin": "Shēnzhèn",
   "emoji": "🤖",
   "type": "city",
-  "tagline": "La fábrica del futuro: drones, robots y hardware… con playa urbana",
+  "tagline": "La fábrica del futuro: drones, robots, hardware y playa urbana",
   "intro": "Cuatro noches de base en 南山 para exprimir la capital mundial del hardware. La ruta robótica va de 天空之城 (la sede de DJI firmada por Foster + Partners) a la flagship de 欢乐海岸, con robotaxis sin conductor, reparto de comida por dron y el mercado infinito de 华强北. El resto: la costa de 深圳湾, comida cantonesa y un día entero en Disneyland Hong Kong. 深圳 no es 'bonita' a la manera clásica — es la ciudad-laboratorio de China, y ahí está su encanto.",
   "stay": {
     "from": "2026-10-28",
@@ -816,7 +816,7 @@
     "extra": [
       {
         "id": "sz-hk-border",
-        "name": "Cruzar a Hong Kong (ida y vuelta)",
+        "name": "Cruce a Hong Kong",
         "nameZh": "深圳→香港 口岸",
         "pinyin": "Kǒu'àn",
         "emoji": "🚦",
@@ -1069,14 +1069,16 @@
           "time": "07:00",
           "durationMin": 120,
           "transport": "Taxi/DiDi desde 南山 al 深圳湾口岸 (～25 min, ～35-45 CNY) o metro L13 al puerto (salidas B/C). Cruzad y coged el B3X (HK$16.5) a 屯门 + MTR (屯马线→南昌→东涌线→欣澳→迪士尼线, tarifa fija HK$7).",
-          "note": "Ida por 深圳湾: desde 南山 es la vía más directa (no hace falta ir a 福田). Comprad agua antes de cruzar."
+          "note": "Ida por 深圳湾: desde 南山 es la vía más directa (no hace falta ir a 福田). Comprad agua antes de cruzar.",
+          "label": "Ida"
         },
         {
           "itemId": "sz-hk-border",
           "time": "22:15",
           "durationMin": 90,
           "transport": "Vuelta: MTR hasta 屯门 + B3X al 深圳湾口岸 (último ～22:50 desde 屯门市中心; estad en la parada a las ～22:30).",
-          "note": "Plan B 24 h: minibús 44B/44B1/N44B desde 屯门 a 皇岗口岸. Desde 深圳湾, DiDi ～30 min a 南山."
+          "note": "Vuelta: plan B 24 h (minibús 44B/44B1/N44B desde 屯门 a 皇岗口岸). Desde 深圳湾, DiDi ～30 min a 南山.",
+          "label": "Vuelta"
         }
       ]
     },

@@ -53,8 +53,13 @@ export function RouteCard({ city, route, progress, defaultOpen = false, onOpenIt
                       onClick={() => onOpenItem?.(item.id)}
                       className="min-w-0 flex-1 text-left"
                     >
-                      <div className="flex items-baseline gap-1.5">
+                      <div className="flex flex-wrap items-baseline gap-x-1.5">
                         {stop.time && <span className="text-xs font-bold text-brand-600">{stop.time}</span>}
+                        {stop.label && (
+                          <span className="shrink-0 rounded-full bg-brand-50 px-1.5 py-px text-[10px] font-bold text-brand-600">
+                            {stop.label}
+                          </span>
+                        )}
                         <span className="text-sm font-semibold">
                           {item.emoji} {item.name}
                         </span>

@@ -35,6 +35,8 @@ export const RouteStopSchema = z.strictObject({
   durationMin: z.number().optional(),
   transport: z.string().optional(),
   note: z.string().optional(),
+  /** etiqueta corta para desambiguar paradas repetidas ("Ida", "Vuelta", "Parada 1/2"...) */
+  label: z.string().optional(),
 })
 
 export const RouteSchema = z.strictObject({

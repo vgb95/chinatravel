@@ -23,18 +23,20 @@ export function CityCard({ city, compact = false }: { city: City; compact?: bool
           {city.emoji}
         </div>
         <div className="min-w-0 flex-1">
-          <div className="flex items-center gap-1.5">
-            <span className="truncate text-[15px] font-bold">{city.name}</span>
+          <div className="flex flex-wrap items-baseline gap-x-1.5">
+            <span className="text-[15px] leading-tight font-bold">{city.name}</span>
             <span className="zh shrink-0 text-[13px] text-ink-faint">{city.nameZh}</span>
+          </div>
+          <div className="mt-0.5 flex flex-wrap items-center gap-x-1.5 gap-y-1 text-[12px] text-ink-faint">
+            <span>
+              {formatEsShort(city.stay.from)}
+              {city.stay.to !== city.stay.from && <> – {formatEsShort(city.stay.to)}</>}
+              {city.stay.nights > 0 && <> · {city.stay.nights} noches</>}
+              {mustTotal > 0 && <> · {mustTotal} ⭐</>}
+            </span>
             {TYPE_LABEL[city.type] && (
               <span className="chip bg-sky-100 text-sky-700">{TYPE_LABEL[city.type]}</span>
             )}
-          </div>
-          <div className="mt-0.5 text-[12px] text-ink-faint">
-            {formatEsShort(city.stay.from)}
-            {city.stay.to !== city.stay.from && <> – {formatEsShort(city.stay.to)}</>}
-            {city.stay.nights > 0 && <> · {city.stay.nights} noches</>}
-            {mustTotal > 0 && <> · {mustTotal} ⭐</>}
           </div>
         </div>
         <div className="shrink-0 text-right">
