@@ -5,8 +5,8 @@
   "pinyin": "Yángshuò",
   "emoji": "⛰️",
   "type": "city",
-  "tagline": "Pendiente de investigación",
-  "intro": "Contenido pendiente de investigación.",
+  "tagline": "Kárstico, bambú y bici junto al río Yulong",
+  "intro": "El corazón kárstico del viaje: montañas de postal, arrozales, los ríos Yulong y Li, y un pueblo (阳朔镇) fácil de recorrer a pie o en e-bike. Llegáis en AVE a la estación 阳朔站, que está en 兴坪镇 (a ~27 km del pueblo): aprovechad el paso por Xingping y su paisaje del billete de 20 yuanes. Noviembre es temporada ideal (~13-24 °C, poca lluvia y nieblas matinales que hacen las fotos icónicas). Dos noches dan para balsa por el Yulong, bici entre arrozales, balsa por el Li, 月亮山 y 印象·刘三姐; si os queda energía, añadid escalada o una clase de cocina.",
   "stay": {
     "from": "2026-11-01",
     "to": "2026-11-03",
@@ -14,14 +14,657 @@
     "base": "Yangshuo"
   },
   "practical": {
-    "tips": []
+    "summary": "Base: pueblo de 阳朔, lo más cómodo cerca de 西街. Los imprescindibles (遇龙河, 十里画廊, 月亮山) están a 10-30 min en e-bike o taxi corto. OJO: la estación de AVE (阳朔站) está en 兴坪镇, a ~27 km del pueblo; no está en Yangshuo. Noviembre: ~13-24 °C, amanece ~07:00 y anochece ~18:00; poca lluvia y mañanas con niebla (madrugad para los miradores).",
+    "metro": "No hay metro en Yangshuo (ni en Guilin). En el pueblo os moveréis a pie, en e-bike (30-60 CNY/día) o en taxi/DiDi corto (10-20 CNY). Los buses locales a 兴坪 salen del 阳朔汽车客运站 (阳朔镇千古情大道2号), cada ~20 min.",
+    "transport": "Desde 阳朔站 (en 兴坪): lanzadera oficial 高铁专线 a 兴坪 ~5 CNY / 10-15 min; a 阳朔县城 (西街) ~20 CNY / 50-60 min; taxi al pueblo ~100-150 CNY / 40-50 min. Del pueblo a 兴坪: bus desde 阳朔汽车客运站 cada ~20 min (~15 CNY, ~40 min; últimos sobre las 18:00, verificar). A Guilin el 3 nov: bus a 桂林汽车南站 (cada 30 min, ~35 CNY, 1 h 30) o a 桂林汽车北站 (cada 20 min, ~40 CNY, 1 h 30); hay AVE (阳朔站→桂林, ~30 min, ~30 CNY) pero pocos trenes y solo van a 桂林站/桂林西 (evitad 桂林西, está a 15 km). En el pueblo: taxi 10-20 CNY, DiDi funciona de día pero hay menos coches de madrugada; para el amanecer en 相公山, mejor tour con recogida o taxi pactado la noche antes.",
+    "tips": [
+      "⚠️ 阳朔站 está en 兴坪镇, no en Yangshuo: contad 50-60 min de lanzadera al pueblo. No aceptéis 'taxis' que os aborden en la estación: usad la lanzadera oficial o DiDi.",
+      "Balsas del 遇龙河: venta SOLO en el mini-programa oficial de WeChat '遇龙河景区' (o 'i游阳朔'), a las 20:00 del día anterior; los tramos populares se agotan. No compréis a vendedores ambulantes.",
+      "Trampas típicas: 'fotos gratis' y fotógrafos sueltos (en 兴坪 y 遇龙河) que luego cobran; decid que no o pactad precio antes. En 十里画廊 también inflan precios de balsas/guías.",
+      "E-bike: ~30-50 CNY/día (temporada alta 80-100); negociad, revisad batería/frenos y haced fotos de los arañazos. Casco puesto; no subáis por la autopista.",
+      "Llevad Alipay/WeChat Pay y algo de efectivo: los buses pequeños no siempre aceptan tarjeta.",
+      "Amanecer en 相公山 (~06:50): salid 04:30-05:00; reservad tour con recogida (~90-150 CNY con entrada) o pactad taxi la noche anterior."
+    ]
   },
   "sections": {
-    "must": [],
-    "areas": [],
-    "food": [],
-    "shops": [],
-    "extra": []
+    "must": [
+      {
+        "id": "ys-lijiang-raft",
+        "name": "Balsa eléctrica por el río Li (兴坪–九马画山)",
+        "nameZh": "漓江竹筏（兴坪朝板山码头—九马画山）",
+        "pinyin": "Líjiāng zhúfá",
+        "emoji": "🚤",
+        "must": true,
+        "tags": ["barco", "rio", "naturaleza", "fotografia"],
+        "desc": "La postal del billete de 20 yuanes, en balsa eléctrica de 4 plazas. Sale del 朝板山码头 (junto a 兴坪) y va y vuelve a 九马画山, entre los picos más famosos del río Li. Ida y vuelta ~1-1,5 h; por la mañana hay menos colas y mejor luz.",
+        "tips": [
+          "Taquilla oficial: 漓江景区兴坪售票处 (junto al 兴坪汽车站); horario ~08:20-16:30, últimas salidas sobre las 16:00. No hagáis caso a los 'captadores' del pueblo.",
+          "Precio 2025: ~120-160 CNY/persona en balsa compartida; si vais solos (2 pax), se completa con el 'suplemento de asiento vacío' (~25-45 CNY/plaza). Verificad en taquilla.",
+          "Coged la primera fila: la balsa es eléctrica y silenciosa; no hace falta poncho salvo con lluvia.",
+          "Se combina perfecto con 兴坪古镇 y el mirador del billete de 20 yuanes (a pie, 10-15 min)."
+        ],
+        "hours": "~08:20-16:30 (últimas salidas ~16:00)",
+        "price": "~120-160 CNY/persona (balsa compartida); 包筏 ~255 CNY (verificar)",
+        "addressZh": "桂林市阳朔县兴坪镇 朝板山码头（漓江景区兴坪售票处）",
+        "lat": 24.92571,
+        "lng": 110.51564,
+        "durationMin": 90,
+        "bestTime": "Mañana (menos gente y mejor luz)"
+      },
+      {
+        "id": "ys-yulong-raft",
+        "name": "Balsa de bambú por el río Yulong",
+        "nameZh": "遇龙河竹筏",
+        "pinyin": "Yùlónghé zhúfá",
+        "emoji": "🛶",
+        "must": true,
+        "tags": ["barco", "rio", "naturaleza", "reserva-recomendada"],
+        "desc": "El río más bonito de Yangshuo: balsa de bambú empujada a pértiga entre arrozales y picos kársticos, con pequeños azudes que dan emoción. Tramos de ~40-90 min; los favoritos son 金龙桥→旧县 (6 km, 9 azudes) y 骥马→工农桥 (90 min, junto a 十里画廊).",
+        "tips": [
+          "Entradas SOLO por el mini-programa oficial de WeChat '遇龙河景区' (o 'i游阳朔'): se liberan a las 20:00 del día anterior; inscribid antes los pasaportes y tenedlo listo a esa hora.",
+          "Precio 2025 en tramos largos: 320 CNY/balsa (2 personas); tramos cortos como 旧县→骥马 desde ~160 CNY (verificar).",
+          "No compréis a revendedores: la foto que os ofrecen en el río es opcional y se paga aparte (30-60 CNY).",
+          "En los azudes os mojaréis los pies: chanclas o funda impermeable para el móvil; el resto de la balsa va seco."
+        ],
+        "hours": "~08:00-17:30 (verificar temporada)",
+        "price": "~320 CNY/balsa (2 pax, tramo largo ~90 min); tramos cortos ~160 CNY",
+        "addressZh": "桂林市阳朔县白沙镇 遇龙河景区金龙桥码头（también 骥马码头）",
+        "lat": 24.8191,
+        "lng": 110.38891,
+        "durationMin": 90,
+        "bestTime": "Mañana temprano"
+      },
+      {
+        "id": "ys-xianggongshan",
+        "name": "Colina de Xianggong (amanecer)",
+        "nameZh": "相公山",
+        "pinyin": "Xiànggōng Shān",
+        "emoji": "🌄",
+        "must": true,
+        "tags": ["mirador", "naturaleza", "fotografia", "senderismo"],
+        "desc": "El gran mirador del río Li: desde sus 5 plataformas se domina la 'primera curva' del río con los picos en fila; al amanecer, con niebla, es LA foto del viaje. Está en 兴坪镇 (orilla oeste), a ~40-50 min del pueblo de Yangshuo. Subida de escaleras de ~20-30 min.",
+        "tips": [
+          "En noviembre amanece ~06:50: salid de Yangshuo a las 04:30-05:00. Reservad tour con recogida en el hotel (~90-150 CNY/persona con entrada) o pactad taxi la noche antes (~150-200 CNY ida y vuelta; verificar).",
+          "Entrada ~60 CNY (verificar; a veces ~50 con shuttle incluido). Llevad linterna/frontal y una capa: arriba hace fresco y corre viento.",
+          "Mejor justo después de un día de lluvia (niebla baja). Si no queréis madrugar, el atardecer también es espectacular.",
+          "Encaja de paso el 3 nov: de 相公山 al 阳朔站 (en 兴坪) hay ~20 min y podéis seguir a Guilin en AVE."
+        ],
+        "hours": "Acceso al amanecer desde ~04:30; horario normal ~06:00-18:00",
+        "price": "~60 CNY (verificar); tour amanecer con recogida ~90-150 CNY",
+        "addressZh": "桂林市阳朔县兴坪镇 相公山景区（漓江西岸）",
+        "lat": 24.92583,
+        "lng": 110.47904,
+        "durationMin": 60,
+        "bestTime": "Amanecer (o atardecer)"
+      },
+      {
+        "id": "ys-moon-hill",
+        "name": "Montaña de la Luna",
+        "nameZh": "月亮山",
+        "pinyin": "Yuèliàng Shān",
+        "emoji": "🌙",
+        "must": true,
+        "tags": ["montana", "senderismo", "naturaleza", "mirador"],
+        "desc": "Montaña con un arco natural que cambia de forma según te acercas: el símbolo del sur de Yangshuo, al final de 十里画廊 (G321). Se puede ver gratis desde la carretera, pero subir (~800 escalones, 30-45 min) regala vistas de 360° sobre los picos y el valle del Yulong.",
+        "tips": [
+          "Entrada ~15-26 CNY (verificar en taquilla). Aparcad la bici en la base: algunos restaurantes de enfrente intentan cobrar 'aparcamiento'; preguntad antes.",
+          "Subid a primera hora o antes del atardecer; las escaleras resbalan después de llover.",
+          "En bici/e-bike queda perfecto en la ruta de 十里画廊 (ida por la G321).",
+          "Combinadla con 银子岩 o el 大榕树 de la zona si os sobra tiempo."
+        ],
+        "hours": "~07:00-18:30",
+        "price": "~15-26 CNY (verificar)",
+        "addressZh": "桂林市阳朔县高田镇 月亮山景区（G321, final de 十里画廊）",
+        "lat": 24.7281,
+        "lng": 110.46773,
+        "durationMin": 60,
+        "bestTime": "Mañana o última hora"
+      },
+      {
+        "id": "ys-west-street",
+        "name": "Calle del Oeste (西街)",
+        "nameZh": "西街",
+        "pinyin": "Xī Jiē",
+        "emoji": "🏮",
+        "must": true,
+        "tags": ["barrio", "nocturno", "compras", "gastronomia"],
+        "desc": "La calle histórica (1400 años, casas estilo Ming-Qing) y centro de la vida turística: restaurantes, bares, tiendas de artesanía y música hasta tarde. De día es tranquila; desde las 20:00 es una fiesta con ambiente chino y extranjero (por eso la llaman '洋人街').",
+        "tips": [
+          "Cenad pronto (18:30-19:00) si queréis mesa: de 19:30 en adelante hay colas en los restaurantes grandes.",
+          "En los bares, pactad el precio antes de pedir y revisad la cuenta.",
+          "Souvenirs: regatead (ofreced ~60-70% del precio inicial en los puestos).",
+          "Si dormís en la calle principal, pedid habitación al fondo: hay ruido hasta la madrugada."
+        ],
+        "hours": "Abierta 24 h; mejor ambiente 19:00-00:00",
+        "price": "Gratis (consumiciones aparte)",
+        "addressZh": "桂林市阳朔县阳朔镇 西街（步行街）",
+        "lat": 24.77817,
+        "lng": 110.49046,
+        "durationMin": 120,
+        "bestTime": "Noche"
+      },
+      {
+        "id": "ys-xingping",
+        "name": "Pueblo antiguo de Xingping + mirador de los 20 yuanes",
+        "nameZh": "兴坪古镇",
+        "pinyin": "Xīngpíng gǔzhèn",
+        "emoji": "💴",
+        "must": true,
+        "tags": ["barrio", "historia", "rio", "fotografia", "gratis"],
+        "desc": "Pueblo ribereño de callejuelas de piedra donde está el paisaje del billete de 20 CNY (mirador gratuito a 10-15 min a pie). Aquí para la lanzadera desde 阳朔站 (10-15 min), así que es la parada perfecta al llegar. Junto al muelle está 老寨山, la colina del atardecer.",
+        "tips": [
+          "El mirador del billete de 20 yuanes es GRATIS; los que ofrecen 'la foto oficial con marco' cobran y no hace falta.",
+          "老寨山 (gratis): subida de ~30-40 min por un sendero sin mantenimiento y fácil de perder (entrada junto al muelle); solo con tiempo seco y buen calzado, ideal al atardecer.",
+          "Si venís con maletas, en los puestos del pueblo suelen guardarlas por ~10-20 CNY (preguntad); si no, id primero al hotel de 阳朔.",
+          "Comed algo en las callejuelas antes de la balsa: hay menos cola que en 西街."
+        ],
+        "hours": "Pueblo abierto siempre; mirador gratuito",
+        "price": "Gratis",
+        "addressZh": "桂林市阳朔县兴坪镇老街（漓江边, junto al 兴坪码头）",
+        "lat": 24.91912,
+        "lng": 110.52361,
+        "durationMin": 90,
+        "bestTime": "Tarde (atardecer en 老寨山)"
+      },
+      {
+        "id": "ys-impression",
+        "name": "Espectáculo «Impresión Liu Sanjie»",
+        "nameZh": "印象·刘三姐",
+        "pinyin": "Yìnxiàng Liúsānjiě",
+        "emoji": "🎭",
+        "must": true,
+        "tags": ["espectaculo", "nocturno", "familia", "reserva-recomendada"],
+        "desc": "El primer gran show de Zhang Yimou al aire libre: cientos de actores, 12 picos como decorado y las aguas del Li como escenario (阳朔县田园路39号). ~70 min de canciones, balsas iluminadas y coreografías; sigue en cartel (pausa técnica solo en enero).",
+        "tips": [
+          "Pases habituales ~19:45 y ~21:20 (varían por temporada: verificad el día). Llegad 30-40 min antes; el acceso tiene cola.",
+          "Precios 2025-26: desde ~238 CNY (zona B2) hasta ~328+ (A2/presidente); en Trip/Klook suele salir algo más barato que en taquilla.",
+          "Si llueve, el show continúa y os dan poncho; en noviembre llevad una capa, que a orillas del río refresca.",
+          "Transporte: taxi/DiDi desde 西街 ~10-15 min (~15-25 CNY). Pactad la vuelta o pedid DiDi al acabar."
+        ],
+        "hours": "Pases ~19:45 y ~21:20 (verificar el día); función ~70 min",
+        "price": "~238-330 CNY según zona",
+        "addressZh": "桂林市阳朔县田园路39号 中国漓江山水剧场",
+        "lat": 24.76997,
+        "lng": 110.50359,
+        "durationMin": 70,
+        "bestTime": "Noche",
+        "booking": "Trip.com/Klook o taquilla oficial; 1-2 días antes en fin de semana"
+      }
+    ],
+    "areas": [
+      {
+        "id": "ys-shilihualang",
+        "name": "Ruta panorámica de los Diez Li (十里画廊)",
+        "nameZh": "十里画廊",
+        "pinyin": "Shílǐ Huàláng",
+        "emoji": "🚲",
+        "tags": ["bici", "naturaleza", "mirador", "gratis"],
+        "desc": "El tramo escénico de la G321 al sur del pueblo (~8 km, de 凤鸣 a 高田): picos kársticos a ambos lados, arrozales y pequeñas atracciones (蝴蝶泉, 大榕树 y 月亮山 al final). La carretera es gratis; se recorre en e-bike o bici.",
+        "tips": [
+          "E-bike: ~30-50 CNY/día (temporada alta hasta 80-100; negociad y revisad batería). Casco y fotos del estado de la moto al alquilar.",
+          "Id a primera hora o a partir de las 16:00: menos autobuses y mejor luz.",
+          "Las atracciones del camino (cuevas, tirolinas) cobran aparte: elegid solo si os apetece; la ruta no necesita entradas.",
+          "En 工农桥 enlaza con la ruta del 遇龙河: es la combinación clásica del día completo."
+        ],
+        "hours": "Carretera siempre; atracciones ~08:00-18:00",
+        "price": "Gratis (atracciones aparte)",
+        "addressZh": "桂林市阳朔县 G321 国道 十里画廊（阳朔县城以南）",
+        "lat": 24.73699,
+        "lng": 110.48605,
+        "durationMin": 120,
+        "bestTime": "Mañana o tarde"
+      },
+      {
+        "id": "ys-yulong-valley",
+        "name": "Valle del Yulong en bicicleta",
+        "nameZh": "遇龙河畔（骑行）",
+        "pinyin": "Yùlónghé pàn",
+        "emoji": "🌾",
+        "tags": ["bici", "naturaleza", "rio", "fotografia"],
+        "desc": "La mejor ruta en bici de Yangshuo: caminos de aldea entre arrozales y karst, siguiendo el 遇龙河 por sus puentes y muelles (工农桥, 骥马, 旧县, 遇龙桥, 金龙桥). ~25-30 km fáciles, con parada en cada puente y opción de acabar en una balsa.",
+        "tips": [
+          "Ruta clásica: 西街→工农桥→骥马→旧县 (almuerzo)→遇龙桥→金龙桥 y vuelta por 白沙/阳朔. Empezad antes de las 09:30.",
+          "Llevad agua y protector solar; preguntad la autonomía real del e-bike (~50-60 km).",
+          "Los caminos son estrechos y compartidos con turistas y carros: manteneos a la derecha y tocad el timbre en las curvas.",
+          "Mirad qué tramo de balsa os encaja antes de alquilar la bici: devolverla en otro punto no siempre es posible."
+        ],
+        "hours": "Siempre abierta; mejor con luz del día",
+        "price": "Gratis (bici/e-bike aparte: ~30-50 CNY/día)",
+        "addressZh": "桂林市阳朔县 遇龙河景区一带（工农桥—旧县—金龙桥, hacia 白沙镇）",
+        "lat": 24.78367,
+        "lng": 110.42259,
+        "durationMin": 180,
+        "bestTime": "Mañana"
+      },
+      {
+        "id": "ys-jiuxian",
+        "name": "Aldea de Jiuxian",
+        "nameZh": "旧县村",
+        "pinyin": "Jiùxiàn cūn",
+        "emoji": "🏡",
+        "tags": ["historia", "barrio", "bici", "naturaleza"],
+        "desc": "Aldea con casas de piedra Ming-Qing y patios (fue sede del antiguo distrito), a orillas del Yulong entre 旧县码头 y 骥马. Parada clásica de la ruta en bici: tranquilidad, huertos y alojamientos con encanto (p. ej. 秘密花园, junto al puente 仙桂桥).",
+        "tips": [
+          "Pasear es gratis; entrad solo en patios abiertos al público y pedid permiso para fotos de interior.",
+          "Hay pequeños restaurantes de 农家菜 (cocina de aldea): buena parada de almuerzo del día en bici.",
+          "El muelle de 旧县 es donde terminan las balsas que salen de 金龙桥: si vais en balsa, dejad la bici en este punto o pedalad primero hasta 金龙桥."
+        ],
+        "hours": "Siempre abierta (respetad a los vecinos)",
+        "price": "Gratis",
+        "addressZh": "桂林市阳朔县白沙镇 旧县村（遇龙河畔, junto al 旧县码头）",
+        "lat": 24.78828,
+        "lng": 110.4275,
+        "durationMin": 45,
+        "bestTime": "Mediodía"
+      },
+      {
+        "id": "ys-silver-cave",
+        "name": "Cueva de la Plata (银子岩)",
+        "nameZh": "银子岩",
+        "pinyin": "Yínzi Yán",
+        "emoji": "💎",
+        "tags": ["naturaleza", "lluvia", "familia", "fotografia"],
+        "desc": "La cueva kárstica más espectacular de los alrededores (荔浦市马岭镇, ~40 min al sur): 2 km de galerías con estalactitas iluminadas y espejos de agua. Plan perfecto si llueve o si os sobra una tarde. 'Si visitas 银子岩, nunca te faltará dinero', dicen.",
+        "tips": [
+          "Entrada ~65 CNY (online ~58; verificar). Abre ~08:30-17:30; id a primera hora, que los grupos llegan a media mañana.",
+          "Dentro hace calor y el suelo resbala: calzado con agarre y una capa ligera.",
+          "Está a ~20 min de 月亮山: combinadla en la misma ruta si vais justos de tiempo.",
+          "Los fotógrafos 'oficiales' del recorrido venden la foto aparte; decid que no si no os interesa."
+        ],
+        "hours": "~08:30-17:30 (verificar)",
+        "price": "~65 CNY (online ~58)",
+        "addressZh": "桂林市荔浦市马岭镇 银子岩景区（G321, a ~40 min de 阳朔）",
+        "lat": 24.64459,
+        "lng": 110.4341,
+        "durationMin": 90,
+        "bestTime": "Cualquier hora (ideal si llueve)"
+      },
+      {
+        "id": "ys-yangshuo-park",
+        "name": "Parque de Yangshuo",
+        "nameZh": "阳朔公园",
+        "pinyin": "Yángshuò Gōngyuán",
+        "emoji": "🌳",
+        "tags": ["parque", "gratis", "familia", "senderismo"],
+        "desc": "Parque gratuito en pleno centro (a 5 min de 西街), con colinas, pabellones y senderos; los locales vienen a bailar y hacer taichí al amanecer. También es punto de salida de algunas lanzaderas a 兴坪 y de alquileres de bici.",
+        "tips": [
+          "Subid a la colina del parque (20-30 min) para una panorámica sencilla del pueblo al atardecer.",
+          "Aquí y en la cercana 蟠桃路 comparad precios de alquiler de bici/e-bike antes de decidir.",
+          "La lanzadera a 兴坪 también sale del 阳朔汽车客运站 (cada ~20 min)."
+        ],
+        "hours": "Siempre abierto (mejor con luz)",
+        "price": "Gratis",
+        "addressZh": "桂林市阳朔县叠翠路 阳朔公园（junto a 西街）",
+        "lat": 24.77898,
+        "lng": 110.48458,
+        "durationMin": 60,
+        "bestTime": "Amanecer o atardecer"
+      }
+    ],
+    "food": [
+      {
+        "id": "ys-beer-fish",
+        "name": "Pescado a la cerveza (啤酒鱼)",
+        "nameZh": "啤酒鱼",
+        "pinyin": "Píjiǔ yú",
+        "emoji": "🐟",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "El plato estrella de Yangshuo: pescado de río (毛骨鱼 o 剑骨鱼, con pocas espinas) frito con piel y estofado con cerveza, tomate, jengibre y chile suave. Se paga por 'jin' (500 g) según el pez elegido.",
+        "tips": [
+          "Precio orientativo 2025: 鲤鱼 ~58-68 CNY/jin; 毛骨鱼 ~120-150; 剑骨鱼 ~150-170. Confirmad SIEMPRE el precio por jin y el peso de la pieza antes de que la cocinen.",
+          "Truco habitual: serviros 毛骨鱼 y cobrarla como 剑骨鱼; si dudáis, pedid ver el pescado vivo y su peso en la báscula.",
+          "Para 2 personas basta un pez de 1-1,5 jin + una verdura (total ~150-250 CNY según pez).",
+          "Lo sirven casi todos los restaurantes de 西街; acompañad con 田螺酿 o 竹筒饭."
+        ],
+        "price": "~58-170 CNY/jin según pez",
+        "addressZh": "桂林市阳朔县阳朔镇 西街一带（casi todos los restaurantes de pescado）",
+        "lat": 24.77817,
+        "lng": 110.49046,
+        "bestTime": "Cena"
+      },
+      {
+        "id": "ys-xiesanjie",
+        "name": "Xie Sanjie, pescado a la cerveza",
+        "nameZh": "谢三姐金奖啤酒鱼",
+        "pinyin": "Xièsānjiě jīnjiǎng píjiǔyú",
+        "emoji": "🥘",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "El clásico de Yangshuo para el 啤酒鱼 (premio ciudadano al mejor plato, desde 1998): 老店 en 碧莲巷80号 y 总店 en el cruce de 西街 con 蟠桃路. Cocina de Guilin sin florituras, muy popular entre locales y visitantes.",
+        "tips": [
+          "Pedid 啤酒鱼 de 毛骨鱼 (1-1,5 jin) + 田螺酿 + una verdura; preguntad el precio por jin antes.",
+          "De 19:00 a 20:30 hay cola: id sobre las 18:00 o reservad.",
+          "Alternativas igual de buenas: 大师傅啤酒鱼 (varias sucursales) y 谢大姐啤酒鱼."
+        ],
+        "hours": "~10:30-22:00",
+        "price": "~60-100 CNY/persona",
+        "addressZh": "桂林市阳朔县阳朔镇碧莲巷80号（老店, junto a 西街；总店 en 西街口）",
+        "durationMin": 75,
+        "bestTime": "Cena"
+      },
+      {
+        "id": "ys-dashifu",
+        "name": "Dashifu, pescado a la cerveza",
+        "nameZh": "大师傅金奖啤酒鱼",
+        "pinyin": "Dàshīfu jīnjiǎng píjiǔyú",
+        "emoji": "🍚",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "La cadena más famosa de Yangshuo (5-6 locales, todos céntricos): 啤酒鱼 en varias versiones, 田螺酿, 竹筒饭 y 竹筒鸡. Ambiente animado y raciones generosas; el local del 西街口 es el más grande.",
+        "tips": [
+          "Buen sitio para probar varios platos: pedid media ración de 竹筒鸡 y compartid.",
+          "Mismos cuidados con el precio del pescado por jin; aquí la carta tiene precios claros, usadla.",
+          "Se paga con móvil; en hora punta pedid número y esperad (rotan rápido)."
+        ],
+        "hours": "~10:30-22:30",
+        "price": "~60-100 CNY/persona",
+        "addressZh": "桂林市阳朔县西街口（蟠桃路与西街交叉口; varias sucursales en el centro）",
+        "durationMin": 75,
+        "bestTime": "Comida o cena"
+      },
+      {
+        "id": "ys-slim-mifen",
+        "name": "Fideos de arroz Shouzi",
+        "nameZh": "瘦子桂林米粉",
+        "pinyin": "Shòuzi Guìlín mǐfěn",
+        "emoji": "🍜",
+        "must": true,
+        "tags": ["gastronomia", "tipico"],
+        "desc": "La mejor forma de desayunar como un local: 桂林米粉 estilo 卤菜粉, con su salsa de carne y toppings gratis (cacahuetes, encurtidos, chile). Llevan décadas en 城中路, a un paso de 西街; abre muy temprano y cierra a media tarde.",
+        "tips": [
+          "Pedid '二两卤菜粉' (~5-8 CNY): primero se come sin caldo (干拌) y al final se añade la sopa del termo.",
+          "Llegad antes de las 09:00: es el desayuno de los locales y se llena.",
+          "Se paga en la caja al entrar; decid 'bù là' si no queréis picante fuerte."
+        ],
+        "hours": "06:30-17:30",
+        "price": "~5-15 CNY",
+        "addressZh": "桂林市阳朔县阳朔镇城中路22号（junto a 叠翠路/西街）",
+        "durationMin": 30,
+        "bestTime": "Desayuno"
+      },
+      {
+        "id": "ys-tianluo-niang",
+        "name": "Caracoles rellenos y los '18 niang'",
+        "nameZh": "田螺酿",
+        "pinyin": "Tiánluó niàng",
+        "emoji": "🐌",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Especialidad de Yangshuo: caracol de río relleno de carne picada, menta y 紫苏, cocinado con su salsa; forma parte de los '18 niang' (18 rellenos típicos). Aperitivo obligado en cualquier mesa con 啤酒鱼.",
+        "tips": [
+          "Se come con palillo: sacad el relleno, dadle la vuelta y chupad la salsa (así lo hacen los locales).",
+          "Ración ~30-60 CNY en los restaurantes de pescado de 西街 y 兴坪.",
+          "Si os gusta, probad también el 辣椒酿 (pimiento relleno) y el 苦瓜酿 (melón amargo relleno)."
+        ],
+        "price": "~30-60 CNY",
+        "addressZh": "桂林市阳朔县阳朔镇 西街一带（en los restaurantes de 啤酒鱼）",
+        "lat": 24.77817,
+        "lng": 110.49046,
+        "bestTime": "Cena"
+      },
+      {
+        "id": "ys-zhutong-fan",
+        "name": "Arroz y pollo en caña de bambú",
+        "nameZh": "竹筒饭 / 竹筒鸡",
+        "pinyin": "Zhútǒng fàn / zhútǒng jī",
+        "emoji": "🎋",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Arroz glutinoso (y a veces pollo) cocinado dentro de un tronco de bambú: humo, aroma vegetal y una presentación que triunfa. Plato típico de la mesa de Yangshuo junto al 啤酒鱼 (en 大师傅 y similares).",
+        "tips": [
+          "Pedidlo para compartir: es contundente; media ración de 竹筒鸡 da para dos si hay más platos.",
+          "Lo abren delante de vosotros con machete: cuidado con el vapor al abrir.",
+          "También se encuentra en los puestos de las aldeas del 遇龙河 durante la ruta en bici."
+        ],
+        "price": "~25-60 CNY",
+        "addressZh": "桂林市阳朔县阳朔镇 西街一带（restaurantes de cocina local）",
+        "lat": 24.77817,
+        "lng": 110.49046,
+        "bestTime": "Comida o cena"
+      }
+    ],
+    "shops": [
+      {
+        "id": "ys-west-street-shops",
+        "name": "Tiendas de la calle 西街",
+        "nameZh": "西街购物（蜡染/纪念品/茶叶）",
+        "pinyin": "Xījiē gòuwù",
+        "emoji": "🎁",
+        "tags": ["compras", "regateo"],
+        "desc": "西街 concentra las tiendas de souvenirs de Yangshuo: batik (蜡染) del sur de China, sellos con nombre tallados, abanicos, tés y camisetas. Ambiente turístico y precios negociables.",
+        "tips": [
+          "Los sellos con vuestro nombre en chino (~30-80 CNY) son el souvenir estrella: preguntad por 印章 y elegid el carácter.",
+          "Regatead con calma (60-70% del precio inicial en los puestos); pagar con WeChat/Alipay suele mejorar el precio.",
+          "Cuidado con el 'jade barato' y las 'antigüedades': casi todo es souvenir moderno."
+        ],
+        "hours": "~10:00-23:00",
+        "price": "Souvenirs desde ~10 CNY",
+        "addressZh": "桂林市阳朔县阳朔镇 西街",
+        "lat": 24.77817,
+        "lng": 110.49046,
+        "bestTime": "Tarde/noche"
+      },
+      {
+        "id": "ys-local-specialties",
+        "name": "Especialidades de Guilin: 桂花糕, 罗汉果 y 三花酒",
+        "nameZh": "桂林特产（桂花糕/罗汉果/三花酒）",
+        "pinyin": "Guìlín tèchǎn",
+        "emoji": "🍯",
+        "tags": ["compras", "postres", "tipico"],
+        "desc": "En las tiendas de 特产 de 西街 y 兴坪 encontraréis lo típico para llevar: 桂花糕 (pastel de osmanto, ~15-40 CNY/caja), 罗汉果 (fruta dulce para infusiones) y 桂林三花酒 (aguardiente de arroz). Son los mismos productos que venderán en Guilin, así que comparad precios.",
+        "tips": [
+          "Probad antes de comprar cajas grandes; el 桂花糕 aguanta bien el viaje y es el regalo más socorrido.",
+          "En supermercados y tiendas no turísticas el mismo producto cuesta bastante menos que en primera línea de 西街.",
+          "Si compráis líquidos (三花酒, salsa de chile), facturadlos: en cabina no pasan."
+        ],
+        "hours": "~10:00-22:00",
+        "price": "桂花糕 ~15-40 CNY; 罗汉果 ~15-30/bolsa; 三花酒 desde ~30",
+        "addressZh": "桂林市阳朔县阳朔镇 西街 y 兴坪古镇一带（tiendas de 特产）",
+        "lat": 24.77817,
+        "lng": 110.49046,
+        "bestTime": "Tarde"
+      },
+      {
+        "id": "ys-ebike-rental",
+        "name": "Alquiler de e-bikes",
+        "nameZh": "电动车出租（阳朔县城）",
+        "pinyin": "Diàndòngchē chūzū",
+        "emoji": "🛵",
+        "tags": ["bici", "regateo"],
+        "desc": "Decenas de tiendas y guesthouses alquilan scooters eléctricos por día en el centro (蟠桃路, 叠翠路, 西街) y también en la entrada de 十里画廊. Es el mejor transporte para el día del 遇龙河.",
+        "tips": [
+          "Precio típico ~30-60 CNY/día (temporada alta 80-100); depósito ~100-200 CNY o pasaporte (procurad no dejar el pasaporte).",
+          "Revisad frenos, espejos y batería (pedid una cargada al 100%); haced fotos del estado inicial.",
+          "Se alquila sin carné por calles locales; casco y precaución: el tráfico en 阳朔 es caótico en horas punta.",
+          "Preguntad si permiten devolver la moto en otro punto (algunas lo hacen por un extra)."
+        ],
+        "hours": "~08:00-20:00 (varía por tienda)",
+        "price": "~30-60 CNY/día (verificar depósito)",
+        "addressZh": "桂林市阳朔县阳朔镇蟠桃路/叠翠路一带（varias tiendas de alquiler）",
+        "lat": 24.77692,
+        "lng": 110.48544,
+        "bestTime": "Mañana"
+      }
+    ],
+    "extra": [
+      {
+        "id": "ys-cooking-class",
+        "name": "Clase de cocina china",
+        "nameZh": "阳朔烹饪课",
+        "pinyin": "Yángshuò pēngrèn kè",
+        "emoji": "👩🍳",
+        "tags": ["gastronomia", "familia", "reserva-recomendada"],
+        "desc": "Medio día (3-4 h) aprendiendo cocina local: visita al mercado, técnicas de cuchillo y 4 platos, a menudo con el 啤酒鱼 como estrella. Escuelas veteranas como 阳朔烹饪学校 (en el campo, a las afueras) dan clases diarias en inglés para principiantes.",
+        "tips": [
+          "Reservad 1-2 días antes; muchas escuelas incluyen recogida en el hotel.",
+          "Precio orientativo ~300-500 CNY/persona según escuela y si incluye mercado (verificar).",
+          "Avisad de alergias o vegetarianismo: se adaptan con facilidad.",
+          "Plan ideal para la mañana del día en que no os apetezca bici, o si llueve."
+        ],
+        "hours": "Clases ~08:30 y ~14:30 (verificar)",
+        "price": "~300-500 CNY/persona (verificar)",
+        "addressZh": "桂林市阳朔县（las escuelas recogen en el hotel; preguntad la dirección exacta al reservar）",
+        "durationMin": 210,
+        "bestTime": "Mañana o tarde",
+        "booking": "Trip/Klook o directo con la escuela por WeChat"
+      },
+      {
+        "id": "ys-climbing",
+        "name": "Escalada en roca para principiantes",
+        "nameZh": "阳朔攀岩",
+        "pinyin": "Yángshuò pānyán",
+        "emoji": "🧗",
+        "tags": ["naturaleza", "montana", "reserva-recomendada"],
+        "desc": "Yangshuo es la capital china de la escalada: caliza kárstica con miles de vías (月亮山 tuvo la primera vía deportiva del país, 1990; 白山 supera las 75 rutas). Media jornada con instructor y equipo para empezar desde cero.",
+        "tips": [
+          "Clubs con guías en inglés: 蓝天攀岩 (Blue Sky) o 山姆攀岩; media jornada ~400-500 CNY con equipo y traslado (verificar).",
+          "Pases típicos 08:30 y 14:30, con recogida en hoteles del centro.",
+          "No hace falta experiencia: se escala con cuerda montada desde arriba (top rope).",
+          "Noviembre es perfecto (seco y fresco); en verano se escala a primera o última hora."
+        ],
+        "hours": "Salidas ~08:30 y ~14:30 (3-4 h)",
+        "price": "~400-500 CNY/persona (verificar)",
+        "addressZh": "桂林市阳朔县 白山攀岩区（recogida en hoteles del centro de 阳朔）",
+        "durationMin": 210,
+        "bestTime": "Todo el año; otoño ideal",
+        "booking": "1 día antes (Trip/Klook o clubes locales)"
+      },
+      {
+        "id": "ys-guqinqing",
+        "name": "Espectáculo «Amor de mil años» (alternativa)",
+        "nameZh": "桂林千古情",
+        "pinyin": "Guìlín qiāngǔqíng",
+        "emoji": "🎪",
+        "tags": ["espectaculo", "familia", "reserva-recomendada"],
+        "desc": "Gran show de interior con parque temático (en 千古情大道, ~5 km del centro): acrobacias, efectos y la historia de Guilin en ~1 h. Alternativa a 印象·刘三姐 cuando llueve fuerte o si preferís butaca cubierta.",
+        "tips": [
+          "Pases típicos ~16:00 y ~19:30 (verificar); entrad ~1 h antes para recorrer el parque.",
+          "Entradas ~270-320 CNY según asiento (贵宾/尊宾); online suele haber descuento.",
+          "Menos épico que 刘三姐 (no hay río), pero más cómodo con lluvia o cansancio."
+        ],
+        "hours": "Parque ~14:00-21:00; funciones 16:00 y 19:30 (verificar)",
+        "price": "~270-320 CNY",
+        "addressZh": "桂林市阳朔县阳朔镇千古情大道 桂林千古情景区",
+        "lat": 24.7738,
+        "lng": 110.46388,
+        "durationMin": 120,
+        "bestTime": "Tarde/noche"
+      }
+    ]
   },
-  "routes": []
+  "routes": [
+    {
+      "id": "ys-ruta-dia1",
+      "name": "Día 1: Xingping, balsa por el Li y 西街",
+      "date": "2026-11-01",
+      "dayLabel": "Dom 1 nov",
+      "summary": "Llegada en AVE a 阳朔站 (en 兴坪) a mediodía. Truco: haced 兴坪 + balsa del Li antes de ir al hotel de 阳朔, aprovechando que estáis al lado (válido si vais ligeros de equipaje). Si vais cargados: lanzadera directa al pueblo (20 CNY, ~1 h), check-in y tarde tranquila en 西街 con cena de 啤酒鱼.",
+      "stops": [
+        {
+          "itemId": "ys-xingping",
+          "time": "13:30",
+          "durationMin": 60,
+          "transport": "AVE Shenzhen→阳朔站 (llegada ~12:05) + 高铁专线 a 兴坪 (~5 CNY, 10-15 min)",
+          "note": "Mirador del billete de 20 yuanes a pie (10-15 min). Si hay tiempo y ganas: 老寨山 al atardecer."
+        },
+        {
+          "itemId": "ys-lijiang-raft",
+          "time": "14:45",
+          "durationMin": 90,
+          "transport": "A pie al 朝板山码头 (10-15 min desde el pueblo y la taquilla)",
+          "note": "Últimas salidas ~16:00-16:30; comprad en la taquilla oficial (兴坪售票处)."
+        },
+        {
+          "itemId": "ys-west-street",
+          "time": "18:30",
+          "transport": "Bus 兴坪→阳朔 (desde 兴坪汽车站, cada ~20 min, ~15 CNY, 40 min; últimos sobre las 18:00 → verificar) o taxi/DiDi ~120-150 CNY",
+          "note": "Check-in en el hotel y paseo por 西街."
+        },
+        {
+          "itemId": "ys-xiesanjie",
+          "time": "19:15",
+          "durationMin": 75,
+          "transport": "A pie",
+          "note": "Cena de 啤酒鱼; si está lleno, 大师傅 al lado."
+        }
+      ]
+    },
+    {
+      "id": "ys-ruta-dia2",
+      "name": "Día 2: Yulong en bici, balsa y 月亮山",
+      "date": "2026-11-02",
+      "dayLabel": "Lun 2 nov",
+      "summary": "Día completo kárstico: balsa del 遇龙河 + ruta en e-bike entre arrozales + 十里画廊 + 月亮山, y por la noche el show de 刘三姐. El amanecer en 相公山 es opcional hoy (o dejadlo para el día 3).",
+      "stops": [
+        {
+          "itemId": "ys-xianggongshan",
+          "time": "05:15",
+          "durationMin": 150,
+          "transport": "Tour con recogida en el hotel o taxi pactado (~40-50 min)",
+          "note": "OPCIONAL: amanece ~06:50. Si lo hacéis hoy, empezad el día en bici algo más tarde."
+        },
+        {
+          "itemId": "ys-yulong-raft",
+          "time": "09:30",
+          "durationMin": 90,
+          "transport": "E-bike/taxi al puerto elegido (金龙桥 o 骥马)",
+          "note": "Reservado la noche antes (20:00, mini-programa oficial). Tramo estrella: 金龙桥→旧县 (320 CNY/balsa)."
+        },
+        {
+          "itemId": "ys-jiuxian",
+          "time": "11:30",
+          "durationMin": 45,
+          "transport": "A pie/bici desde 旧县码头",
+          "note": "Almuerzo de 农家菜 en la aldea."
+        },
+        {
+          "itemId": "ys-yulong-valley",
+          "time": "13:00",
+          "durationMin": 120,
+          "transport": "En bici: 旧县→骥马→工农桥",
+          "note": "Entre puentes de piedra y arrozales; parada en 遇龙桥."
+        },
+        {
+          "itemId": "ys-shilihualang",
+          "time": "15:30",
+          "durationMin": 60,
+          "transport": "En 工农桥 enlazáis con la G321 (十里画廊)",
+          "note": "Hacia el sur, en dirección 月亮山."
+        },
+        {
+          "itemId": "ys-moon-hill",
+          "time": "16:45",
+          "durationMin": 60,
+          "transport": "Bici (~15 min desde 工农桥)",
+          "note": "Subid antes del atardecer (~18:00)."
+        },
+        {
+          "itemId": "ys-impression",
+          "time": "19:20",
+          "durationMin": 70,
+          "transport": "Bici de vuelta al pueblo + taxi al teatro (~15 min); cena ligera en 西街 sobre las 18:00",
+          "note": "Show ~19:45; entrad 30-40 min antes."
+        }
+      ]
+    },
+    {
+      "id": "ys-ruta-dia3",
+      "name": "Día 3: desayuno, amanecer opcional y traslado a Guilin",
+      "date": "2026-11-03",
+      "dayLabel": "Mar 3 nov",
+      "summary": "Mañana de traslado. Si ayer no subisteis a 相公山, hacedlo hoy al amanecer (os pilla de camino a 兴坪). Después, desayuno de 桂林米粉 y a Guilin: Plan A (recomendado) bus directo desde 阳朔汽车客运站 (阳朔镇千古情大道2号) al 桂林汽车南站, cada 30 min de 08:00 a 17:30, ~35 CNY, ~1 h 30; Plan B AVE desde 阳朔站 (en 兴坪, ~27 km del pueblo: taxi ~100 CNY/50 min), pero solo sale ~1-2 trenes por la mañana (30 CNY, 30-40 min). En Guilin, check-in y tarde de ciudad.",
+      "stops": [
+        {
+          "itemId": "ys-xianggongshan",
+          "time": "05:15",
+          "durationMin": 150,
+          "transport": "OPCIONAL: tour con recogida en el hotel o taxi pactado (~40-50 min)",
+          "note": "Solo si no lo hicisteis el día 2. Al bajar, 阳朔站 (兴坪) os queda al lado."
+        },
+        {
+          "itemId": "ys-slim-mifen",
+          "time": "08:45",
+          "durationMin": 45,
+          "transport": "A pie/taxi corto en el pueblo",
+          "note": "Desayuno de 桂林米粉 antes de coger el bus; abren desde primera hora."
+        }
+      ]
+    }
+  ]
 }

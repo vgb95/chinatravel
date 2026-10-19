@@ -5,8 +5,8 @@
   "pinyin": "Guìlín",
   "emoji": "🐘",
   "type": "city",
-  "tagline": "Pendiente de investigación",
-  "intro": "Contenido pendiente de investigación.",
+  "tagline": "Lagos iluminados, cuevas kársticas y la postal del 象鼻山",
+  "intro": "Una noche de parada (3-4 nov) en la ciudad que da nombre al paisaje kárstico. El casco histórico es pequeño y andable —象鼻山, los lagos 杉湖/榕湖, pagodas y callejones— y la noche se corona con el crucero por los 两江四湖. Llegáis desde Yangshuo el 3 nov al mediodía y al día siguiente voláis desde 两江国际机场. Dato friki-tech: en el 七星区 está la sede de 智云 (Zhiyun), fabricante de estabilizadores de cámara (铁山工业园黄桐路9号) — no hay visitas públicas verificadas, pero mola saberlo.",
   "stay": {
     "from": "2026-11-03",
     "to": "2026-11-04",
@@ -14,14 +14,538 @@
     "base": "Guilin"
   },
   "practical": {
-    "tips": []
+    "summary": "Parada de una noche (3-4 nov): llegada desde Yangshuo al mediodía y vuelo al día siguiente desde 两江国际机场. El casco histórico es compacto y andable (todo a 10-15 min): 象鼻山, 东西巷, 正阳步行街, 日月双塔 y los lagos 杉湖/榕湖. Plan redondo: tarde de 象鼻山 y barrio viejo, cena guilinesa, crucero nocturno 两江四湖 y mañana con 米粉. Noviembre: ~13-23 °C.",
+    "metro": "Guilin NO tiene metro. En el centro todo es andando; taxi/DiDi urbanos 8-15 CNY. Buses 1-2 CNY (213 al 芦笛岩; 10/16 al 訾洲 — verificar). Del 桂林站 al aeropuerto hay bus desde las ~09:10 cada 30 min (~50 min).",
+    "transport": "Llegada desde Yangshuo (3 nov): bus desde 阳朔汽车客运站 (千古情大道2号) al 桂林汽车南站 (08:00-17:30 cada 30 min, ~35 CNY, 1 h 30) o al 汽车北站 (~40 CNY); AVE desde 阳朔站 al 桂林站 (~30 CNY, 30-40 min — pero solo ~2 trenes/día, verificar). ⚠️ Evitad 桂林西 (15 km, en 灵川县). Al aeropuerto (4 nov): 两江国际机场 (KWL) a ~30 km → taxi/DiDi 80-100 CNY / 40-50 min; bus 民航大厦→机场 20 CNY / ~60 min (07:00-09:00 cada hora, 09:30-17:30 cada 30 min — verificar); bus desde 桂林站 desde 09:10 cada 30 min. Facturad con 2 h de margen.",
+    "tips": [
+      "⚠️ Vuelo del 4 (~09:00 provisional): el primer bus al aeropuerto sale a las 07:00 — NO llega para un vuelo de 09:00. Salid a las ~05:45 en taxi/DiDi (80-100 CNY, 40-50 min); pedid el taxi en recepción la noche anterior (de madrugada hay pocos coches).",
+      "象鼻山: gratis, pero la reserva por WeChat (公众号 '桂林市象山景区') es obligatoria: elegid franja y añadid los pasaportes. Llevad el pasaporte físico.",
+      "Crucero 两江四湖: comprad con antelación (Trip.com/Klook o taquilla) e id 15 min antes al muelle. Alternativa gratis: paseo a pie por 杉湖/榕湖 iluminados (luces hasta ~22:00).",
+      "Traslado 阳朔→桂林: mejor bus (frecuente y flexible) que AVE (solo ~2 trenes/día); pero si vais a 兴坪/相公山, el AVE encaja porque 阳朔站 está en 兴坪.",
+      "En los 米粉店: se paga en caja al entrar, se recoge en barra y los toppings se sirven uno mismo. '二两' = ración estándar (~5-8 CNY); tened WeChat Pay o efectivo pequeño.",
+      "En zonas turísticas, cerrad precio de taxis/guías antes de subir y usad DiDi; los 'paquetes' de balsas o tours vendidos en la calle suelen inflar precios."
+    ]
   },
   "sections": {
-    "must": [],
-    "areas": [],
-    "food": [],
-    "shops": [],
-    "extra": []
+    "must": [
+      {
+        "id": "gl-elephant",
+        "name": "Monte del Elefante",
+        "nameZh": "象鼻山",
+        "pinyin": "Xiàngbí Shān",
+        "emoji": "🐘",
+        "must": true,
+        "tags": ["naturaleza", "rio", "fotografia", "gratis", "imprescindible"],
+        "desc": "El símbolo de Guilin: un pico kárstico con un arco natural que se hunde en el río Li y parece un elefante bebiendo. El hueco (水月洞) se refleja en el agua y forma un círculo casi perfecto; de noche se ilumina. Gratis desde 2022, pero la reserva previa por WeChat es obligatoria.",
+        "tips": [
+          "Reservad franja por WeChat: 公众号 '桂林市象山景区' (día + hora + pasaportes). Sin reserva no se entra.",
+          "Entrada por el 3号门, junto al 象山渔人码头 (滨江路1号); el parque abre 07:00-21:30 (última entrada ~21:00 — verificar).",
+          "Mejor al atardecer: el elefante a contraluz y luego las luces de colores sobre el río.",
+          "Para la foto frontal completa del elefante, cruzad al 訾洲公园 (enfrente, al otro lado del río)."
+        ],
+        "hours": "07:00-21:30 (entrada hasta ~21:00 — verificar)",
+        "price": "Gratis (reserva obligatoria por WeChat)",
+        "addressZh": "桂林市象山区滨江路1号 象鼻山景区（3号门：象山渔人码头旁）",
+        "lat": 25.27007,
+        "lng": 110.29151,
+        "durationMin": 75,
+        "bestTime": "Atardecer (o primera hora)",
+        "booking": "WeChat 公众号 '桂林市象山景区': franja horaria + pasaporte"
+      },
+      {
+        "id": "gl-liangjiang-sihu",
+        "name": "Crucero nocturno por los dos ríos y cuatro lagos",
+        "nameZh": "两江四湖夜游",
+        "pinyin": "Liǎngjiāng sìhú yèyóu",
+        "emoji": "🛥️",
+        "must": true,
+        "tags": ["barco", "nocturno", "lago", "vistas", "imprescindible", "reserva-recomendada"],
+        "desc": "Circuito en barco de ~90 min por los ríos Li y Taohua y los cuatro lagos del centro (杉湖, 榕湖, 桂湖, 木龙湖): puentes iluminados, el 日月双塔 reflejado y el casco histórico de noche. Es la postal nocturna de Guilin.",
+        "tips": [
+          "Salidas ~18:00-22:00 (las más demandadas 20:00-21:00) desde 文昌桥码头 o 象山渔人码头; taquilla o Trip.com/Klook. ~155 CNY barco normal, ~210 CNY 豪华 (verificar).",
+          "Id 15-20 min antes para embarcar; los asientos de cubierta exterior son los mejores para fotos.",
+          "En noviembre anochece ~18:00: el paseo de las 19:30 permite cenar antes tranquilamente.",
+          "Plan barato: el paseo a pie por la orilla de 杉湖 y 榕湖 es gratis y muy bonito (luces hasta ~22:00)."
+        ],
+        "hours": "Salidas ~18:00-22:00 (verificar)",
+        "price": "~155 CNY normal · ~210 CNY 豪华 (90 min)",
+        "addressZh": "桂林市象山区 文昌桥码头（两江四湖游船）· también 象山渔人码头",
+        "lat": 25.27065,
+        "lng": 110.28858,
+        "durationMin": 90,
+        "bestTime": "Noche (salidas 19:30-21:00)",
+        "booking": "Trip.com/Klook o taquilla del muelle",
+        "web": "https://www.glljsh.com"
+      },
+      {
+        "id": "gl-ludiyan",
+        "name": "Cueva de la Flauta de Caña",
+        "nameZh": "芦笛岩",
+        "pinyin": "Lúdí Yán",
+        "emoji": "🪨",
+        "must": true,
+        "tags": ["naturaleza", "montana", "fotografia", "familia"],
+        "desc": "La cueva más famosa de Guilin: galerías de estalactitas, cortinas de piedra y lagos subterráneos iluminados de colores, apodada el 'palacio de las artes naturales'. Se visita en grupos con guía (~1 h) y está a ~5 km del centro, al pie del 光明山.",
+        "tips": [
+          "Entrada ~90 CNY en taquilla, ~80 online (verificar); incluye guía del recinto en grupos (en chino).",
+          "Horario ~07:30-18:00; por la mañana hay menos grupos. Bus 213 desde el centro (~30 min) o taxi ~30 CNY.",
+          "Dentro hay ~20 °C todo el año y el suelo está resbaladizo en tramos: calzado con agarre.",
+          "⚠️ Con el vuelo del 4 a las ~09:00 no da tiempo; solo encaja si el vuelo se confirma de tarde (mañana del 4)."
+        ],
+        "hours": "~07:30-18:00 (verificar)",
+        "price": "~90 CNY (online ~80)",
+        "metro": "Bus 213 desde el centro (~30 min)",
+        "addressZh": "桂林市秀峰区芦笛路1号 芦笛岩景区",
+        "lat": 25.31186,
+        "lng": 110.26706,
+        "durationMin": 90,
+        "bestTime": "Mañana"
+      },
+      {
+        "id": "gl-sun-moon",
+        "name": "Pagodas del Sol y de la Luna",
+        "nameZh": "日月双塔",
+        "pinyin": "Rìyuè Shuāngtǎ",
+        "emoji": "🗼",
+        "must": true,
+        "tags": ["nocturno", "lago", "fotografia", "vistas"],
+        "desc": "Las pagodas gemelas de 杉湖: una dorada (日塔, forrada de cobre y considerada la pagoda de cobre más alta del mundo) y otra plateada (月塔, de cerámica vidriada), unidas por un túnel bajo el agua. Iluminadas y reflejadas en el lago son la foto más bonita del centro.",
+        "tips": [
+          "Están en 杉湖, a 5-10 min a pie de 象鼻山, 正阳步行街 y el embarcadero del crucero: perfectas para cerrar la tarde.",
+          "Luces ~18:00-22:00; verlas desde la orilla es gratis. Subir a las torres cuesta ~28-35 CNY (verificar).",
+          "Para la mejor foto buscad el ángulo del reflejo completo desde el paseo de la orilla; con trípode, aún mejor.",
+          "Los barcos del 两江四湖 pasan por delante: si hacéis el crucero nocturno, también las veréis desde el agua."
+        ],
+        "hours": "Luces ~18:00-22:00 (verificar)",
+        "price": "Verlas: gratis · subir a las torres ~28-35 CNY (verificar)",
+        "addressZh": "桂林市象山区杉湖 日月双塔（杉湖景区）",
+        "lat": 25.27406,
+        "lng": 110.29017,
+        "durationMin": 45,
+        "bestTime": "Noche (iluminadas)"
+      },
+      {
+        "id": "gl-dongxixiang",
+        "name": "Barrio histórico 东西巷",
+        "nameZh": "东西巷",
+        "pinyin": "Dōngxī Xiàng",
+        "emoji": "🏮",
+        "must": true,
+        "tags": ["barrio", "historia", "compras", "gastronomia", "gratis"],
+        "desc": "El barrio antiguo restaurado de Guilin: dos callejones (东巷 y 西巷) de casas de ladrillo gris y tejados curvos al pie del 靖江王城, con tiendas, cafés, puestos de 米粉 y recuerdos. El sitio perfecto para pasear al atardecer y probar snacks.",
+        "tips": [
+          "A 5-10 min andando de la 正阳步行街 y del 独秀峰·王城: combínalos en el mismo paseo.",
+          "Aquí están las tiendas de 特产 (金顺昌, 桂花糕): buen momento para los souvenirs.",
+          "A partir de ~18:30 se ilumina y se llena; los callejones laterales son más tranquilos.",
+          "En los puestos más turísticos, comparad precios antes de comprar artesanía o 'té'."
+        ],
+        "hours": "Tiendas ~10:00-22:00 (callejones abiertos siempre)",
+        "price": "Gratis",
+        "addressZh": "桂林市秀峰区 东西巷历史文化街区（靖江王城旁）",
+        "lat": 25.28164,
+        "lng": 110.29446,
+        "durationMin": 60,
+        "bestTime": "Atardecer/noche"
+      }
+    ],
+    "areas": [
+      {
+        "id": "gl-zhengyang",
+        "name": "Calle peatonal 正阳步行街",
+        "nameZh": "正阳步行街",
+        "pinyin": "Zhèngyáng bùxíngjiē",
+        "emoji": "🛍️",
+        "tags": ["compras", "barrio", "nocturno", "gastronomia"],
+        "desc": "La calle peatonal clásica de Guilin, entre el 中心广场 y los lagos: tiendas de marcas, snacks de calle, heladerías y alguna 老字号. Ideal para un paseo nocturno y para picar algo entre visitas.",
+        "tips": [
+          "A 5 min de 东西巷 y 杉湖: se recorre en una hora con paradas incluidas.",
+          "Para sentarse a comer mejor, tirad de restaurantes cercanos (阿甘酒家 解西店, 崇善米粉 en 依仁路) que de los puestos.",
+          "Los souvenirs aquí son algo más caros que en los callejones interiores: comparad y regatead con simpatía."
+        ],
+        "hours": "~10:00-22:30",
+        "price": "Gratis",
+        "addressZh": "桂林市秀峰区正阳步行街（中心广场—杉湖之间）",
+        "lat": 25.27661,
+        "lng": 110.29287,
+        "durationMin": 45,
+        "bestTime": "Tarde/noche"
+      },
+      {
+        "id": "gl-fubo",
+        "name": "Colina Fubo",
+        "nameZh": "伏波山",
+        "pinyin": "Fúbō Shān",
+        "emoji": "🏞️",
+        "tags": ["naturaleza", "montana", "historia", "rio"],
+        "desc": "Pico kárstico a la orilla del río Li, con el 还珠洞 (cueva con tallas budistas y el 试剑石, una roca 'cortada' de leyenda) y vistas del río y la ciudad desde la cima. Pequeña y tranquila: buena pareja con 叠彩山.",
+        "tips": [
+          "Entrada ~20-25 CNY; existe combo 伏波山+叠彩山+象鼻山 ~43 CNY (verificar en taquilla).",
+          "Subida ~20-30 min por escaleras; al atardecer la luz sobre el río es la mejor.",
+          "Se llega andando desde 东西巷 (~15 min) bordeando el río Li."
+        ],
+        "hours": "~06:30-18:30 (verificar)",
+        "price": "~20-25 CNY (verificar)",
+        "addressZh": "桂林市叠彩区滨江路 伏波山公园",
+        "lat": 25.28656,
+        "lng": 110.29937,
+        "durationMin": 60,
+        "bestTime": "Atardecer"
+      },
+      {
+        "id": "gl-diecai",
+        "name": "Colina Diecai (el mirador del centro)",
+        "nameZh": "叠彩山",
+        "pinyin": "Diécǎi Shān",
+        "emoji": "🌄",
+        "tags": ["mirador", "montana", "naturaleza", "senderismo"],
+        "desc": "La mejor panorámica del centro: desde el 明月峰 se domina Guilin entera, el río Li serpenteando y los picos kársticos del horizonte. En el recinto hay cuevas con tallas y un 风洞 que atraviesa la montaña y sopla fresco.",
+        "tips": [
+          "Entrada ~25 CNY; el tobogán de descenso (滑道) se paga aparte (~35 CNY — verificar).",
+          "Subida ~30-40 min por escaleras; llevad agua. La hora dorada (17:00-18:00 en noviembre) es la mejor.",
+          "Si vais justos de tiempo y presupuesto, elegid esta colina para las vistas y ved la muralla del 王城 desde fuera."
+        ],
+        "hours": "~06:30-18:30 (verificar)",
+        "price": "~25 CNY (滑道 ~35 CNY aparte, verificar)",
+        "addressZh": "桂林市叠彩区龙珠路 叠彩山公园",
+        "lat": 25.29267,
+        "lng": 110.29626,
+        "durationMin": 90,
+        "bestTime": "Hora dorada / atardecer"
+      },
+      {
+        "id": "gl-duxiufeng",
+        "name": "Palacio de Jingjiang y pico Duxiu",
+        "nameZh": "独秀峰·王城",
+        "pinyin": "Dúxiù Fēng · Wángchéng",
+        "emoji": "🏯",
+        "tags": ["historia", "montana", "mirador"],
+        "desc": "El recinto del 靖江王城, antiguo palacio principesco Ming (siglo XIV) con murallas completas en plena ciudad, y dentro el pico 独秀峰 ('南天一柱'), el 'primer pico del sur'. La visita incluye guía y la subida a la cima regala vistas de 360° sobre Guilin.",
+        "tips": [
+          "Entrada ~95-100 CNY (verificar); la visita se hace en grupos con guía del recinto (en chino).",
+          "Está a 5 min a pie de 东西巷 y del 正阳步行街: encaja entre ambos paseos.",
+          "La subida al pico (~15-20 min de escaleras empinadas) tiene fama de traer suerte... o al menos las mejores vistas del casco antiguo."
+        ],
+        "hours": "~07:30-18:30 (verificar)",
+        "price": "~95-100 CNY (verificar)",
+        "addressZh": "桂林市秀峰区王城路1号 独秀峰·王城景区",
+        "lat": 25.28505,
+        "lng": 110.29465,
+        "durationMin": 120,
+        "bestTime": "Mañana o media tarde"
+      },
+      {
+        "id": "gl-zizhou",
+        "name": "Parque de Zizhou",
+        "nameZh": "訾洲公园",
+        "pinyin": "Zīzhōu Gōngyuán",
+        "emoji": "🌳",
+        "tags": ["parque", "rio", "fotografia", "naturaleza"],
+        "desc": "Isla-parque frente al 象鼻山, al otro lado del río Li: desde aquí se ve la silueta completa del elefante con el río por delante — la foto 'de postal'. Paseos de bambú junto al agua y fama por sus vistas brumosas (烟雨訾洲).",
+        "tips": [
+          "Entrada ~40 CNY (verificar); horario ~08:00-17:30.",
+          "Se llega en bus (líneas 10/16 — verificar) o en taxi ~10 min desde el centro.",
+          "Si solo queréis la foto del 象鼻山, desde la orilla de 滨江路 también se ve (más de lado); el 訾洲 da el frente completo."
+        ],
+        "hours": "~08:00-17:30 (verificar)",
+        "price": "~40 CNY (verificar)",
+        "metro": "Bus 10/16 (verificar)",
+        "addressZh": "桂林市七星区 訾洲公园（漓江畔，frente al 象鼻山）",
+        "lat": 25.27139,
+        "lng": 110.29508,
+        "durationMin": 60,
+        "bestTime": "Mañana (niebla) o tarde"
+      }
+    ],
+    "food": [
+      {
+        "id": "gl-mifen",
+        "name": "桂林米粉 (el desayuno local)",
+        "nameZh": "桂林米粉",
+        "pinyin": "Guìlín mǐfěn",
+        "emoji": "🍜",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "El desayuno de Guilin: fideos de arroz suaves con salsa 卤 (caldo oscuro de especias), 锅烧 (cerdo crujiente) o 卤牛肉, cacahuetes, cebollino y encurtidos. Se pide '二两' (ración normal) y se come primero casi en seco, añadiendo luego el caldo caliente del termo.",
+        "tips": [
+          "Cómo pedir: elegid en barra (卤菜粉, 牛腩粉...), pagad en caja y servíos vosotros los toppings: 酸笋, 酸豆角, chile, cilantro.",
+          "'二两' cuesta ~5-8 CNY: el desayuno más barato y local que encontraréis.",
+          "El 酸笋 (bambú fermentado) tiene un olor potente: probadlo antes de echar una cucharada entera.",
+          "La salsa 卤 no pica salvo que añadáis el aceite de chile de la mesa."
+        ],
+        "hours": "Desayuno (muchos locales ~06:30-14:00; 崇善 07:00-22:00)",
+        "price": "二两 ~5-8 CNY",
+        "addressZh": "桂林市各街巷 米粉店（p.ej. 崇善米粉, 依仁路5号; 石记米粉, 解放西路）",
+        "durationMin": 30,
+        "bestTime": "Desayuno"
+      },
+      {
+        "id": "gl-chongshan",
+        "name": "崇善米粉 (vieja gloria del 米粉)",
+        "nameZh": "崇善米粉",
+        "pinyin": "Chóngshàn mǐfěn",
+        "emoji": "🥢",
+        "must": true,
+        "tags": ["gastronomia", "tipico", "imprescindible"],
+        "desc": "Una de las casas de 米粉 más queridas de Guilin, con cola de vecinos desde primera hora: 卤菜粉 y 牛腩粉 memorables, local sencillo y precio de barrio. Está en 依仁路, al lado de la 正阳步行街.",
+        "tips": [
+          "Pedid 卤菜粉 二两 + 锅烧 (crujiente) y coronadlo con el caldo caliente del termo.",
+          "Id a desayunar (07:00-09:00) o a mediodía; la cola avanza rápido y merece la pena.",
+          "A 2 min de 正阳步行街 y 5 min de 东西巷: perfecto antes de un paseo matutino.",
+          "Se paga en la caja al entrar: tened WeChat Pay o efectivo pequeño."
+        ],
+        "hours": "07:00-22:00",
+        "price": "米粉 二两 ~5-8 CNY",
+        "addressZh": "桂林市秀峰区依仁路步行街5号 崇善米粉",
+        "lat": 25.27865,
+        "lng": 110.29194,
+        "durationMin": 30,
+        "bestTime": "Desayuno"
+      },
+      {
+        "id": "gl-shiji",
+        "name": "石记米粉",
+        "nameZh": "石记米粉",
+        "pinyin": "Shíjì mǐfěn",
+        "emoji": "🍲",
+        "tags": ["gastronomia", "tipico"],
+        "desc": "Otro clásico guilinés de toda la vida, con local en 解放西路 frente al 微笑堂 — a dos pasos del 阿甘酒家 解西店. Mismo ritual: 卤菜粉, 锅烧 y caldo por cuenta propia; cada casa tiene su punto exacto de salsa 卤 (el debate local).",
+        "tips": [
+          "Buena opción de desayuno si dormís por el centro antes del traslado.",
+          "Suele tener menos cola que 崇善 a la misma hora (horario ~06:30-21:00 — verificar).",
+          "Si os gusta, comparad con 崇善: el 卤 de cada uno es distinto y los locales tienen su favorito."
+        ],
+        "hours": "~06:30-21:00 (verificar)",
+        "price": "米粉 二两 ~5-8 CNY",
+        "addressZh": "桂林市秀峰区解放西路 石记米粉（微笑堂对面）",
+        "durationMin": 30,
+        "bestTime": "Desayuno"
+      },
+      {
+        "id": "gl-agan",
+        "name": "阿甘酒家（荔浦芋扣肉）",
+        "nameZh": "阿甘酒家",
+        "pinyin": "Āgān jiǔjiā",
+        "emoji": "🍖",
+        "must": true,
+        "tags": ["gastronomia", "tipico", "imprescindible", "reserva-recomendada"],
+        "desc": "Restaurante popular de cocina guilinesa, famoso por el 荔浦芋扣肉: capas de panceta braseada y taro de 荔浦 al vapor, dulzón y mantecoso — el plato estrella de Guilin. También bordan el 旱蒸剑骨鱼 (pescado al vapor) y las verduras de temporada. Dos locales: 解西店 (解放西路16号) e 依仁路.",
+        "tips": [
+          "Pedid el 荔浦芋扣肉 sí o sí; con 2-3 platos y arroz comen dos (~50-90 CNY/persona).",
+          "Id antes de las 19:00 o reservad: se llena, sobre todo el fin de semana.",
+          "El 解西店 está a 5-10 min andando de 正阳步行街 y 杉湖; el otro local, en 依仁路3号 (junto a 崇善).",
+          "El taro es contundente: compartid platos para no acabar empachados."
+        ],
+        "hours": "08:30-21:30",
+        "price": "~50-90 CNY/persona",
+        "addressZh": "桂林市秀峰区解放西路16号三欣大厦2楼（微笑堂对面） 阿甘酒家 解西店",
+        "durationMin": 75,
+        "bestTime": "Cena (antes de las 19:00)"
+      },
+      {
+        "id": "gl-sanbao",
+        "name": "桂林三宝 (三花酒 + 豆腐乳 + 辣椒酱)",
+        "nameZh": "桂林三宝",
+        "pinyin": "Guìlín sānbǎo",
+        "emoji": "🎁",
+        "tags": ["gastronomia", "compras", "tipico"],
+        "desc": "El triplete clásico de despensa de Guilin: 三花酒 (licor de arroz aromático, la bebida emblema de Guangxi), 豆腐乳 (tofu fermentado en tarro, perfecto con arroz o verduras) y 辣椒酱 (salsa de chile local). Se encuentra en supermercados y tiendas de 特产.",
+        "tips": [
+          "Para regalo, los packs con las tres cosas (~30-60 CNY) son el souvenir clásico; el precio varía poco entre tiendas.",
+          "El 三花酒 tiene versiones de ~28° a ~55°: las botellitas pequeñas son ideales para regalar y viajar.",
+          "El aeropuerto también vende, pero más caro: comprad en el centro (东西巷, 正阳步行街)."
+        ],
+        "hours": "Tiendas ~10:00-22:00",
+        "price": "~15-50 CNY por producto; packs ~30-60 CNY",
+        "addressZh": "桂林市各 特产店/超市（东西巷、正阳步行街一带）",
+        "durationMin": 30
+      },
+      {
+        "id": "gl-youcha",
+        "name": "恭城油茶 (infusión salada)",
+        "nameZh": "恭城油茶",
+        "pinyin": "Gōngchéng yóuchá",
+        "emoji": "🍵",
+        "tags": ["gastronomia", "tipico", "historia"],
+        "desc": "Infusión salada originaria de 恭城 (condado de Guilin): té machacado con jengibre y ajo en el '油茶锅', servido caliente con 炒米, cacahuetes y 米花. Está en la lista nacional de patrimonio inmaterial desde 2008 y es reconstituyente: saber salado que sorprende.",
+        "tips": [
+          "Buscad un local de '恭城油茶' en la 正阳步行街/中心广场 o preguntad en el hotel (los hay por el centro).",
+          "Se toma caliente y a sorbos, acompañado de 炒米 y cacahuetes; ideal como merienda en un día de lluvia.",
+          "Precio ~15-30 CNY/persona: barato para probar algo genuinamente local."
+        ],
+        "hours": "~09:00-21:00 (locales; verificar)",
+        "price": "~15-30 CNY/persona",
+        "addressZh": "桂林市秀峰区 正阳步行街·中心广场一带（buscar '恭城油茶'; dirección exacta por verificar）",
+        "durationMin": 45
+      }
+    ],
+    "shops": [
+      {
+        "id": "gl-jinshunchang",
+        "name": "金顺昌 (桂花糕 y 伴手礼)",
+        "nameZh": "金顺昌",
+        "pinyin": "Jīnshùnchāng",
+        "emoji": "🌸",
+        "must": true,
+        "tags": ["compras", "postres", "tipico", "imprescindible"],
+        "desc": "La casa de 桂花糕 (pastel de osmanto) más popular de Guilin, con varias tiendas en 东西巷 y 正阳步行街: pasteles, tés, 桂花酒 y cajas-regalo cuidadas. El osmanto (桂花) es la flor emblema de la ciudad y en otoño es su temporada.",
+        "tips": [
+          "Mejor para regalos que las tiendas genéricas: empaques bonitos y producto fresco (~15-40 CNY).",
+          "La tienda principal está en 东西巷 (C105-106号); hay más sucursales en 正阳步行街 (7 tiendas en total — verificar cuál os pilla mejor).",
+          "Si lo lleváis al final del viaje, revisad la fecha de caducidad (los pasteles frescos aguantan pocos días).",
+          "En la misma tienda hay 桂花茶 y 罗汉果: se resuelven varios souvenirs de una vez."
+        ],
+        "hours": "~10:00-22:00",
+        "price": "桂花糕 ~15-40 CNY; cajas-regalo ~50-100 CNY",
+        "addressZh": "桂林市秀峰区 东西巷历史文化街区 C105-106号 金顺昌（más sucursales en 正阳步行街）",
+        "durationMin": 30
+      },
+      {
+        "id": "gl-sanhua-jiu",
+        "name": "三花酒 (licor de Guilin)",
+        "nameZh": "桂林三花酒",
+        "pinyin": "Guìlín sānhuā jiǔ",
+        "emoji": "🍶",
+        "tags": ["compras", "gastronomia", "tipico"],
+        "desc": "El licor de arroz más famoso de Guangxi, destilado en Guilin desde hace siglos: aromático, suave y con versiones desde ~28° hasta ~55°. La empresa 桂林三花股份有限公司 tiene su sede-fábrica en la ciudad (上海路19号); el producto se vende en supermercados y tiendas de 特产.",
+        "tips": [
+          "La botella clásica cuesta ~15-50 CNY según graduación: protegedla bien en la maleta facturada (es cristal).",
+          "No hace falta ir a la fábrica: comprad en supermercados del centro o tiendas de 特产 (上海路19号 es la sede; tienda pública por verificar).",
+          "Para probarlo sin comprar botella, algunos restaurantes lo sirven por copas."
+        ],
+        "hours": "Tiendas ~10:00-22:00",
+        "price": "Botella ~15-50 CNY (según graduación)",
+        "addressZh": "桂林市象山区上海路19号 桂林三花股份有限公司（sede; venta en supermercados y tiendas de 特产）",
+        "durationMin": 20
+      },
+      {
+        "id": "gl-luohanguo",
+        "name": "罗汉果 (fruta del monje)",
+        "nameZh": "罗汉果",
+        "pinyin": "Luóhàn guǒ",
+        "emoji": "🫖",
+        "tags": ["compras", "tipico"],
+        "desc": "Fruta seca de 永福 (condado de Guilin) que endulza de forma natural, sin calorías: se parte y se infusiona en agua caliente — reconfortante para la garganta y el gran souvenir 'de salud' de la región. Se vende a granel o en cajas en tiendas de 特产.",
+        "tips": [
+          "Precio ~15-30 CNY la bolsa (o ~2-5 CNY la unidad); comparad entre tiendas del centro.",
+          "Producto vegetal seco: sin problema para llevar en cabina.",
+          "Combinado con 桂花茶 o té, endulza sin azúcar: práctico también para el resto del viaje."
+        ],
+        "hours": "Tiendas ~10:00-22:00",
+        "price": "~15-30 CNY/bolsa",
+        "addressZh": "桂林市各 特产店/超市（p.ej. 东西巷, 正阳步行街; 罗汉果 de 永福）",
+        "durationMin": 20
+      }
+    ],
+    "extra": [
+      {
+        "id": "gl-qixing",
+        "name": "Parque de las Siete Estrellas",
+        "nameZh": "七星公园",
+        "pinyin": "Qīxīng Gōngyuán",
+        "emoji": "🐫",
+        "must": false,
+        "tags": ["parque", "naturaleza", "cueva"],
+        "desc": "El parque más grande del centro: el 骆驼山 (Camel Hill) asomando entre jardines, el 花桥 (puente florido) sobre el 小东江 y la cueva 七星岩 (de pago). Paseo agradable de 1-2 h; plan perfecto si el vuelo del 4 nov se confirma de tarde.",
+        "tips": [
+          "Entrada al parque ～55 CNY; la cueva 七星岩 se paga aparte (～60 CNY — verificar en taquilla).",
+          "Taxi corto desde el centro (～10 min) o a pie desde 訾洲 (～20 min).",
+          "Id a primera hora: es el parque favorito de los locales para taichí."
+        ],
+        "hours": "～06:00-21:30 (verificar)",
+        "price": "～55 CNY (cueva aparte)",
+        "addressZh": "桂林市七星区七星路1号 七星公园",
+        "durationMin": 90,
+        "bestTime": "Mañana"
+      },
+      {
+        "id": "gl-airport",
+        "name": "Aeropuerto 两江国际机场 (KWL)",
+        "nameZh": "桂林两江国际机场",
+        "pinyin": "Liǎngjiāng Guójì Jīchǎng",
+        "emoji": "✈️",
+        "must": false,
+        "tags": ["transporte", "vuelo", "logistica"],
+        "desc": "El aeropuerto de Guilin, a ～30 km del centro: el 4 nov voláis de aquí a Shanghai (～09:00 provisional). Taxi/DiDi ～80-100 CNY y 40-50 min; el bus urbano (desde 民航大厦, ～20 CNY) arranca a las 07:00 y no vale para un vuelo de 09:00. Facturad con 2 h de margen.",
+        "tips": [
+          "Pedid el taxi en recepción la noche anterior: de 05:00-06:00 hay pocos coches y DiDi puede tardar.",
+          "El primer bus sale ～07:00 desde 民航大厦 — NO llega para el 09:00; no contéis con él salvo cambio de vuelo.",
+          "Ojo: en Guilin hay dos estaciones de tren (桂林站 y 桂林北); no os confundáis con el aeropuerto.",
+          "Si el vuelo se confirma de tarde: mañana para 芦笛岩 y 七星公园."
+        ],
+        "hours": "—",
+        "price": "Taxi ～80-100 CNY; bus ～20 CNY",
+        "addressZh": "桂林市临桂区两江镇 桂林两江国际机场",
+        "durationMin": 60,
+        "bestTime": "Mañana del 4 nov"
+      }
+    ]
   },
-  "routes": []
+  "routes": [
+    {
+      "id": "gl-d1-llegada",
+      "name": "Día 1 (3 nov): llegada desde 阳朔 y Guilin nocturna",
+      "date": "2026-11-03",
+      "dayLabel": "Mar 3 nov",
+      "summary": "Bus desde 阳朔 por la mañana (salida ～09:00-09:30, ～1 h 30) y tarde redonda por el centro: 象鼻山, 东西巷, cena guilinesa con 荔浦芋扣肉, crucero nocturno por los 两江四湖 y paseo final por 杉湖 con las pagodas iluminadas. Todo a pie o en taxi corto.",
+      "stops": [
+        {
+          "itemId": "gl-chongshan",
+          "time": "12:45",
+          "durationMin": 40,
+          "transport": "Bus 阳朔→桂林汽车南站 (～1 h 30, frecuente) + DiDi ～15 min al hotel del centro",
+          "note": "Comida ligera al llegar (米粉 二两) y check-in. Si el bus os deja con maletas, dejadlas en el hotel antes de salir."
+        },
+        {
+          "itemId": "gl-elephant",
+          "time": "14:30",
+          "durationMin": 75,
+          "transport": "A pie o DiDi corto al 3号门 (象山渔人码头, 滨江路1号)",
+          "note": "Reservad franja por WeChat (公众号 '桂林市象山景区') con antelación; pasaporte en mano."
+        },
+        {
+          "itemId": "gl-dongxixiang",
+          "time": "16:30",
+          "durationMin": 60,
+          "transport": "A pie ～15 min bordeando el río o por el centro",
+          "note": "Callejones + tiendas de 特产 (金顺昌). Al lado: 正阳步行街 y 独秀峰·王城."
+        },
+        {
+          "itemId": "gl-agan",
+          "time": "18:00",
+          "durationMin": 75,
+          "transport": "A pie (解西店, 解放西路16号) o DiDi corto",
+          "note": "Cenad antes de las 19:00: pedid 荔浦芋扣肉 y 旱蒸剑骨鱼."
+        },
+        {
+          "itemId": "gl-liangjiang-sihu",
+          "time": "19:45",
+          "durationMin": 90,
+          "transport": "Taxi corto al 文昌桥码头 (id 15 min antes)",
+          "note": "Crucero reservado (Trip.com/Klook o taquilla). Plan gratis: paseo a pie por 杉湖 y 榕湖."
+        },
+        {
+          "itemId": "gl-sun-moon",
+          "time": "21:30",
+          "durationMin": 30,
+          "transport": "A pie desde el embarcadero hasta 杉湖",
+          "note": "Foto del reflejo de las pagodas (luces hasta ～22:00). Vuelta al hotel andando."
+        }
+      ]
+    },
+    {
+      "id": "gl-d2-vuelo",
+      "name": "Día 2 (4 nov): salida al aeropuerto 两江",
+      "date": "2026-11-04",
+      "dayLabel": "Mié 4 nov",
+      "summary": "Vuelo ～09:00 a Shanghai (provisional). El primer bus al aeropuerto sale a las 07:00 y NO llega: salid ～05:45 en taxi/DiDi (～80-100 CNY, 40-50 min) y facturad con 2 h de margen. 芦笛岩 y 七星公园 solo encajan si el vuelo se confirma de tarde.",
+      "stops": [
+        {
+          "itemId": "gl-airport",
+          "time": "05:45",
+          "durationMin": 60,
+          "transport": "Taxi/DiDi del hotel a KWL (～40-50 min). Pedid el taxi en recepción la noche anterior.",
+          "note": "Desayuno: snacks en el aeropuerto o lo que os prepare el hotel. Pasaporte y reserva del vuelo a mano."
+        }
+      ]
+    }
+  ]
 }
