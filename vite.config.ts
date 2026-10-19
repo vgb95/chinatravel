@@ -6,7 +6,7 @@ import { viteSingleFile } from 'vite-plugin-singlefile'
 
 // Modo "singlefile": genera un único index.html autocontenido (respaldo offline),
 // sin service worker. El modo normal despliega la PWA en GitHub Pages.
-export default defineConfig(({ command, mode }) => {
+export default defineConfig(({ command, mode, isPreview }) => {
   const singlefile = mode === 'singlefile'
 
   const plugins: PluginOption[] = [react(), tailwindcss()]
@@ -55,7 +55,8 @@ export default defineConfig(({ command, mode }) => {
   }
 
   return {
-    base: singlefile ? './' : command === 'build' ? '/chinatravel/' : '/',
+    // En preview mantenemos el base de producción para poder probar la PWA tal cual se despliega.
+    base: singlefile ? './' : command === 'build' || isPreview ? '/chinatravel/' : '/',
     define: {
       __BUILD_TIME__: JSON.stringify(new Date().toISOString()),
     },
