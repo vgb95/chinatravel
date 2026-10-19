@@ -36,6 +36,16 @@ function withValue<T>(map: Record<string, T>, key: string, value: T | null): Rec
 
 const DEFAULT_NAMES: Record<ProfileId, string> = { v: 'vg', p: 'n' }
 
+/** Nombres heredados de la primera versión de la app: se renombran al migrar. */
+const LEGACY_NAMES: Record<string, string> = {
+  'Valentín': 'vg',
+  Valentin: 'vg',
+  valentin: 'vg',
+  Valentina: 'vg',
+  Pareja: 'n',
+  pareja: 'n',
+}
+
 export const useStore = create<StoreState>()(
   persist(
     (set, get) => ({
@@ -95,7 +105,21 @@ export const useStore = create<StoreState>()(
           prep: {},
         }),
     }),
-    { name: 'chinatrip-v1', version: 1 },
+    {
+      name: 'chinatrip-v1',
+      version: 2,
+      // v1 → v2: los perfiles "Valentín"/"Pareja" pasan a llamarse "vg"/"n".
+      migrate: (persisted, version) => {
+        const state = (persisted ?? {}) as Partial<StoreState>
+        if (version < 2 && state.names) {
+          state.names = {
+            v: LEGACY_NAMES[state.names.v] ?? state.names.v ?? DEFAULT_NAMES.v,
+            p: LEGACY_NAMES[state.names.p] ?? state.names.p ?? DEFAULT_NAMES.p,
+          }
+        }
+        return state as StoreState
+      },
+    },
   ),
 )
 
